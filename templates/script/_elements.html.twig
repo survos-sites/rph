@@ -1,0 +1,18 @@
+{% for element in elements %}
+    {% if element.type.value == 'dialogue' %}
+        <div class="mx-auto mb-3 {{ character is defined and element.character and element.character.id == character.id ? 'border-start border-primary border-4 ps-3' }}" style="max-width: 32rem">
+            <div class="text-center text-uppercase fw-bold">{{ element.character.name|default('') }}</div>
+            <div style="white-space: pre-line">{{ element.text }}</div>
+        </div>
+    {% elseif element.type.value == 'parenthetical' %}
+        <div class="mx-auto text-secondary" style="max-width: 24rem">{{ element.text }}</div>
+    {% elseif element.type.value == 'transition' %}
+        <div class="text-end text-uppercase my-3">{{ element.text }}</div>
+    {% elseif element.type.value == 'section' %}
+        <h3>{{ element.text }}</h3>
+    {% elseif element.type.value == 'synopsis' %}
+        <div class="text-secondary fst-italic">{{ element.text }}</div>
+    {% else %}
+        <p style="white-space: pre-line">{{ element.text }}</p>
+    {% endif %}
+{% endfor %}

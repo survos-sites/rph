@@ -1,0 +1,16 @@
+survos_tabler:
+    routes:
+        home: script_index
+    app:
+        code: rph
+        title: Role Playhouse
+        description: Import, read, cast, and rehearse Fountain scripts.
+        abbr: '<b>RPH</b>'
+        homepage_route: script_index
+        links:
+            github: https://github.com/survos-sites/rph
+        header:
+            auth:
+                enabled: false
+    favicon:
+        text: R

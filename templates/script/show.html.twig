@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ script.title }}{% endblock %}
+
+{% block body %}
+    <div class="page-header d-print-none">
+        <div class="container-xl d-flex align-items-center">
+            <div>
+                <h1>{{ script.title }}</h1>
+                {% if script.author %}<div class="text-secondary">by {{ script.author }}</div>{% endif %}
+            </div>
+            <div class="ms-auto"><a class="btn btn-primary" href="{{ path('script_source', script.rp) }}">Download Fountain</a></div>
+        </div>
+    </div>
+    <div class="page-body">
+        <div class="container-xl">
+            <div class="row g-4">
+                <aside class="col-lg-3 d-print-none">
+                    <div class="card">
+                        <div class="card-header"><h2 class="card-title">Characters</h2></div>
+                        <div class="list-group list-group-flush">
+                            {% for character in script.characters %}
+                                <div class="list-group-item">{{ character.name }}</div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </aside>
+                <main class="col-lg-9">
+                    {% for scene in script.scenes %}
+                        <section class="card mb-4" id="scene-{{ scene.sequence }}">
+                            <div class="card-header"><h2 class="card-title text-uppercase">{{ scene.heading }}</h2></div>
+                            <div class="card-body font-monospace" style="max-width: 52rem">
+                                {% for element in scene.elements %}
+                                    {% if element.type.value == 'dialogue' %}
+                                        <div class="mx-auto mb-3" style="max-width: 32rem">
+                                            <div class="text-center text-uppercase fw-bold">{{ element.character.name }}</div>
+                                            <div style="white-space: pre-line">{{ element.text }}</div>
+                                        </div>
+                                    {% elseif element.type.value == 'parenthetical' %}
+                                        <div class="mx-auto text-secondary" style="max-width: 24rem">{{ element.text }}</div>
+                                    {% elseif element.type.value == 'transition' %}
+                                        <div class="text-end text-uppercase my-3">{{ element.text }}</div>
+                                    {% elseif element.type.value == 'section' %}
+                                        <h3>{{ element.text }}</h3>
+                                    {% elseif element.type.value == 'synopsis' %}
+                                        <div class="text-secondary fst-italic">{{ element.text }}</div>
+                                    {% else %}
+                                        <p style="white-space: pre-line">{{ element.text }}</p>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </section>
+                    {% endfor %}
+                </main>
+            </div>
+        </div>
+    </div>
+{% endblock %}
