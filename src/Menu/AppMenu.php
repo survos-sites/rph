@@ -45,6 +45,9 @@ final class AppMenu
         $this->add($menu, 'script_show', $script, 'Full script', icon: 'tabler:book');
         $this->add($menu, 'script_scenes', $script, 'Scenes', icon: 'tabler:movie');
         $this->add($menu, 'script_characters', $script, 'Characters', icon: 'tabler:masks-theater');
+        if ($script->projectMetadata) {
+            $this->add($menu, 'script_production', $script, 'Production', icon: 'tabler:clipboard-list');
+        }
         $this->add($menu, 'script_prompter', $script, 'Prompter', icon: 'tabler:presentation');
     }
 

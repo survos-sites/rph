@@ -9,7 +9,7 @@
                 <h1>{{ script.title }}</h1>
                 {% if script.author %}<div class="text-secondary">by {{ script.author }}</div>{% endif %}
             </div>
-            <div class="ms-auto"><a class="btn btn-primary" href="{{ path('script_source', script.rp) }}">Download Fountain</a></div>
+            <div class="ms-auto">{% if script.projectMetadata %}<a class="btn btn-outline-primary" href="{{ path('script_production', script.rp) }}">Celtx production</a>{% endif %} <a class="btn btn-primary" href="{{ path('script_source', script.rp) }}">Download Fountain</a></div>
         </div>
     </div>
     <div class="page-body">

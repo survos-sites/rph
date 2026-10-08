@@ -26,6 +26,7 @@ final class AppService
         private readonly ScriptRepository $scripts,
         private readonly FountainParser $parser,
         private readonly CeltxParser $celtxParser,
+        private readonly CeltxAssetStore $celtxAssets,
         #[Autowire('%kernel.project_dir%')] private readonly string $projectDir,
     ) {}
 
@@ -61,6 +62,7 @@ final class AppService
         $id = $slugger->slug(pathinfo($filename, PATHINFO_FILENAME))->lower()->toString();
         $isCeltx = 'celtx' === strtolower(pathinfo($filename, PATHINFO_EXTENSION));
         $parsed = $isCeltx ? $this->celtxParser->parseFile($filename) : $this->parser->parse($content, pathinfo($filename, PATHINFO_FILENAME));
+        if ($parsed->projectMetadata) { $parsed->projectMetadata = $this->celtxAssets->store($filename, $parsed->projectMetadata); }
         if ($isCeltx) {
             // Keep readable script text in the existing content column, never ZIP bytes.
             $content = 'Title: '.$parsed->title."\n\n";
@@ -79,11 +81,20 @@ final class AppService
         }
 
         $script = new Script($id, $parsed->title, basename($filename), $content, $parsed->credit, $parsed->author, $parsed->source);
+        $script->projectMetadata = $parsed->projectMetadata;
         $this->em->persist($script);
         $characters = [];
 
         foreach ($parsed->scenes as $parsedScene) {
             $scene = new Scene($id.'-'.$parsedScene->sequence, $script, $parsedScene->sequence, $parsedScene->heading);
+            if ($script->projectMetadata) {
+                foreach ($script->projectMetadata['scenes'] as $sourceScene) {
+                    if ($parsedScene->sourceId && ($sourceScene['fields']['sceneid'] ?? null) === $parsedScene->sourceId) {
+                        $script->projectMetadata['sceneBindings'][$scene->id] = $sourceScene['id'];
+                        break;
+                    }
+                }
+            }
             $script->scenes->add($scene);
             $this->em->persist($scene);
 
@@ -99,6 +110,13 @@ final class AppService
                             $characterId .= '-'.substr(hash('sha256', $characterKey), 0, 8);
                         }
                         $character = new Character((string) $characterId, $script, $parsedElement->speaker);
+                        if ($script->projectMetadata) {
+                            foreach ($script->projectMetadata['characters'] as $role) {
+                                if (mb_strtoupper($role['fields']['title'] ?? '') === mb_strtoupper($character->name)) {
+                                    $script->projectMetadata['characterBindings'][$character->id] = $role['id'];
+                                }
+                            }
+                        }
                         $characters[$characterKey] = $character;
                         $script->characters->add($character);
                         $this->em->persist($character);
@@ -115,6 +133,9 @@ final class AppService
                     $parsedElement->text,
                 );
                 $scene->elements->add($element);
+                if ($script->projectMetadata && $parsedElement->sourceId) {
+                    $script->projectMetadata['elementBindings'][$element->id] = $parsedElement->sourceId;
+                }
                 $this->em->persist($element);
             }
         }

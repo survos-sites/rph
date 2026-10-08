@@ -1,7 +1,7 @@
 import { Controller } from '@hotwired/stimulus';
 
 export default class extends Controller {
-    static targets = ['role', 'speaker', 'text', 'direction', 'counter', 'kind', 'play', 'voice', 'status', 'block', 'audio', 'shot', 'placeholder', 'framing'];
+    static targets = ['role', 'speaker', 'text', 'direction', 'counter', 'kind', 'play', 'voice', 'status', 'block', 'audio', 'shot', 'placeholder', 'framing', 'shotSelect'];
     static values = { payload: Object, shotlist: Boolean };
 
     connect() {
@@ -35,9 +35,16 @@ export default class extends Controller {
         this.speakerTarget.textContent = item.speaker || (item.type === 'parenthetical' ? 'Delivery' : 'Stage direction');
         this.textTarget.textContent = item.text;
         this.kindTarget.textContent = item.type.charAt(0).toUpperCase() + item.type.slice(1);
+        if (this.hasShotSelectTarget) this.shotSelectTarget.value = String(this.index);
         this.counterTarget.textContent = `${this.index + 1} / ${this.payloadValue.elements.length}`;
         const before = this.payloadValue.elements.slice(0, this.index).reverse().find(e => ['action', 'parenthetical'].includes(e.type));
         this.directionTarget.textContent = item.type === 'dialogue' && before ? before.text : '';
+        if (this.shotlistValue) {
+            const dialogue = item.type === 'dialogue';
+            this.textTarget.hidden = !dialogue;
+            this.speakerTarget.hidden = !dialogue;
+            if (!dialogue) this.directionTarget.textContent = item.text;
+        }
         this.roleTargets.forEach(role => {
             const active = item.characterId === role.dataset.roleId;
             role.classList.toggle('is-active', active);
@@ -85,6 +92,14 @@ export default class extends Controller {
         }
         this.index++;
         this.playBlock();
+    }
+    chooseShot(event) { this.select(Number(event.currentTarget.value)); }
+    navigate(event) {
+        if (!this.shotlistValue || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+        if (event.target instanceof Element && event.target.closest('input, textarea, select, [contenteditable="true"], [role="combobox"]')) return;
+        if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+        event.preventDefault();
+        this.select(this.index + (event.key === 'ArrowRight' ? 1 : -1));
     }
     previous() { this.select(this.index - 1); }
     next() { this.select(this.index + 1); }

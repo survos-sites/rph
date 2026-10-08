@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ script.title }} — Production{% endblock %}
+{% block body %}
+<div class="container-xl py-4">
+    <h1>{{ script.title }} — Celtx production</h1>
+    <p>Authored storyboard, character profiles and breakdown records from the original project. These shots have no original film timestamps.</p>
+    <a class="btn btn-outline-primary mb-4" href="{{ path('script_production_json', script.rp) }}">Production JSON</a>
+    {% for board in project.storyboards %}
+        <section class="mb-4"><h2>{{ board.title }}</h2>
+        <div class="row g-3">
+        {% for shot in board.shots %}
+            <article class="col-md-4"><div class="card h-100">
+                {% if project.media[shot.mediaId]|default(null) %}<img class="card-img-top" style="aspect-ratio:4/3;object-fit:contain;background:#eee" src="{{ project.media[shot.mediaId].url }}" alt="{{ shot.title }}">{% endif %}
+                <div class="card-body"><h3 class="card-title">{{ shot.sequence }} · {{ shot.size|default(shot.shotType) }}</h3><p>{{ shot.title }}</p>
+                {% if shot.setupId and project.media[shot.setupId]|default(null) %}<a href="#layout-{{ loop.index }}-{{ board.id }}">Camera layout below</a>{% endif %}</div>
+            </div></article>
+        {% else %}<p>No authored shots in this scene.</p>{% endfor %}
+        </div></section>
+    {% endfor %}
+    <h2>Characters</h2><div class="row g-3 mb-4">
+    {% for role in project.characters %}
+        <article class="col-md-6"><div class="card h-100"><div class="card-body"><h3>{{ role.fields.title|default('Character') }}</h3>
+        {% for id in role.mediaIds %}{% if project.media[id].key matches '/\.(jpg|jpeg|png|webp)$/' %}<img src="{{ project.media[id].url }}" alt="{{ role.fields.title|default('Character') }}" style="max-height:150px;max-width:100%">{% endif %}{% endfor %}
+        <dl>{% for name, value in role.fields %}{% if name != 'title' and value %}<dt>{{ name|replace({'-':' ', '_':' '}) }}</dt><dd>{{ value }}</dd>{% endif %}{% endfor %}</dl>
+        </div></div></article>
+    {% endfor %}</div>
+    <h2>Props, production locations and sounds</h2>
+    <p class="text-secondary">A production location is distinct from a fictional scene setting.</p>
+    <div class="row g-3 mb-4">{% for item in project.breakdown %}
+    <article class="col-md-4"><div class="card h-100"><div class="card-body"><h3>{{ item.fields.title|default('Breakdown item') }}</h3><p>{{ item.types|join(', ') }}</p>
+    {% for name, value in item.fields %}{% if name != 'title' and value %}<p><strong>{{ name }}</strong> {{ value }}</p>{% endif %}{% endfor %}
+    {% for id in item.mediaIds %}{% if project.media[id].key matches '/\.(jpg|jpeg|png|webp)$/' %}<img src="{{ project.media[id].url }}" alt="{{ item.fields.title|default('') }}" style="max-width:100%;max-height:220px">{% elseif project.media[id].key matches '/\.(mp3|wav)$/' %}<audio controls preload="none" src="{{ project.media[id].url }}"></audio>{% endif %}{% endfor %}
+    </div></div></article>{% endfor %}</div>
+    <h2>Camera layout drawings</h2>
+    <p>Coordinates are SVG drawing units. Character/camera symbol assignments and scale need review before placement in Unity.</p>
+    {% for board in project.storyboards %}{% for shot in board.shots %}{% if shot.setupId and project.layouts[shot.setupId]|default(null) %}
+    <section class="card mb-3" id="layout-{{ loop.index }}-{{ board.id }}"><div class="card-body"><h3>Shot {{ shot.sequence }} · {{ shot.title }}</h3>
+    <img src="{{ project.media[shot.setupId].url }}" alt="Camera layout for shot {{ shot.sequence }}" style="width:100%;max-height:500px;background:white">
+    <p>{{ project.layouts[shot.setupId].objects|length }} drawing objects preserved; no inferred actor placement.</p></div></section>
+    {% endif %}{% endfor %}{% endfor %}
+    {% if not script.projectMetadata %}<p>This script has no imported Celtx project data.</p>{% endif %}
+</div>
+{% endblock %}

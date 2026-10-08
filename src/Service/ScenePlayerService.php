@@ -15,6 +15,7 @@ final class ScenePlayerService
     public function __construct(
         private readonly UrlGeneratorInterface $urls,
         #[Autowire('%kernel.project_dir%')] private readonly string $projectDir,
+        private readonly ProductionDataService $production,
     ) {}
 
     /** @return array<string, mixed> */
@@ -67,7 +68,8 @@ final class ScenePlayerService
         return ['schemaVersion' => 'rph.scene/1', 'script' => ['id' => $script->id, 'title' => $script->title,
             'author' => $script->author, 'source' => $script->source], 'scene' => ['id' => $scene->id,
             'sequence' => $scene->sequence, 'heading' => $scene->heading], 'scenes' => $scenes,
-            'cast' => array_values($cast), 'elements' => $elements];
+            'cast' => array_values($cast), 'elements' => $elements,
+            'production' => $this->production->payload($script)];
     }
 
     /** @return array<string, array<string, mixed>> */

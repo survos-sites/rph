@@ -8,6 +8,7 @@ use App\Enum\ElementType;
 
 final class ParsedScript
 {
+    public ?array $projectMetadata = null;
     /** @param list<ParsedScene> $scenes */
     public function __construct(
         public string $title,
@@ -20,6 +21,7 @@ final class ParsedScript
 
 final class ParsedScene
 {
+    public ?string $sourceId = null;
     /** @param list<ParsedElement> $elements */
     public function __construct(
         public int $sequence,
@@ -30,6 +32,7 @@ final class ParsedScene
 
 final class ParsedElement
 {
+    public ?string $sourceId = null;
     public function __construct(
         public int $sequence,
         public ElementType $type,

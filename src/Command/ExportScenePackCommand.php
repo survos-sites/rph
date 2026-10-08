@@ -7,6 +7,7 @@ namespace App\Command;
 use App\Enum\ElementType;
 use App\Repository\ScriptRepository;
 use App\Service\ScenePlayerService;
+use App\Service\ProductionDataService;
 use Symfony\Component\Console\Attribute\Argument;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -21,6 +22,7 @@ final class ExportScenePackCommand
     public function __construct(
         private readonly ScriptRepository $scripts,
         private readonly ScenePlayerService $player,
+        private readonly ProductionDataService $production,
         #[Autowire('%kernel.project_dir%')] private readonly string $projectDir,
     ) {}
 
@@ -81,7 +83,8 @@ final class ExportScenePackCommand
         }
         $pack = ['schemaVersion' => 'survos.scene-pack/1', 'title' => $script->title,
             'sourceFile' => $script->sourceFilename, 'sourceSha256' => $directions['sourceSha256'] ?? null,
-            'parser' => 'RPH CeltxParser / ordered typed paragraphs', 'cast' => $cast, 'scenes' => $scenes];
+            'parser' => 'RPH CeltxParser / ordered typed paragraphs', 'cast' => $cast, 'scenes' => $scenes,
+            'production' => $this->production->payload($script)];
         (new Filesystem())->dumpFile($output, json_encode($pack, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR)."\n");
         $io->success(sprintf('Exported %d scenes to %s.', count($scenes), $output));
 

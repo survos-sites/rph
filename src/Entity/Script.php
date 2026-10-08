@@ -23,6 +23,10 @@ final class Script implements RouteParametersInterface
 {
     use RouteIdentityTrait;
 
+    /** Source project graph, storyboard and layout data; absent for Fountain imports. */
+    #[ORM\Column(type: 'json', nullable: true)]
+    public ?array $projectMetadata = null;
+
     /** @var Collection<int, Scene> */
     #[ORM\OneToMany(targetEntity: Scene::class, mappedBy: 'script', cascade: ['persist'], orphanRemoval: true)]
     #[ORM\OrderBy(['sequence' => 'ASC'])]

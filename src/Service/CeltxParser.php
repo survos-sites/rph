@@ -12,6 +12,7 @@ use App\Model\ParsedScript;
 /** Imports ordered screenplay paragraphs, rather than a deduplicated breakdown. */
 final class CeltxParser
 {
+    public function __construct(private readonly CeltxProjectParser $projectParser = new CeltxProjectParser()) {}
     private const MAX_DOCUMENT_BYTES = 8_000_000;
     private const CX = 'http://celtx.com/NS/v1/';
     private const RDF = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#';
@@ -26,7 +27,9 @@ final class CeltxParser
             $member = $this->screenplayMember($zip);
             $html = $this->readMember($zip, $member);
 
-            return $this->parseHtml($html, pathinfo($filename, PATHINFO_FILENAME));
+            $parsed = $this->parseHtml($html, pathinfo($filename, PATHINFO_FILENAME));
+            $parsed->projectMetadata = $this->projectParser->parse($zip, $member);
+            return $parsed;
         } finally {
             $zip->close();
         }
@@ -66,6 +69,7 @@ final class CeltxParser
             $kind = $classes[0] ?: 'action';
             if ('sceneheading' === $kind) {
                 $scene = new ParsedScene(count($parsed->scenes) + 1, $text);
+                $scene->sourceId = $paragraph->getAttribute('id') ?: null;
                 $parsed->scenes[] = $scene;
                 $speaker = null;
                 continue;
@@ -94,7 +98,9 @@ final class CeltxParser
                 $parsed->scenes[] = $scene;
             }
             $elementSpeaker = in_array($type, [ElementType::Dialogue, ElementType::Parenthetical], true) ? $speaker : null;
-            $scene->elements[] = new ParsedElement(count($scene->elements) + 1, $type, $text, $elementSpeaker);
+            $element = new ParsedElement(count($scene->elements) + 1, $type, $text, $elementSpeaker);
+            $element->sourceId = $paragraph->getAttribute('id') ?: null;
+            $scene->elements[] = $element;
             if (!in_array($type, [ElementType::Dialogue, ElementType::Parenthetical], true)) {
                 $speaker = null;
             }
