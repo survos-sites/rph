@@ -24,3 +24,6 @@
 
 # Locally generated voice cache; reproduce with app:voices.
 /public/media/voices/
+
+# Downloaded PSL research annotation originals.
+/data/psl/

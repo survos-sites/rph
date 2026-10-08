@@ -1,0 +1,35 @@
+{
+  "sourcePage": "https://team.inria.fr/anima/prose-storyboard-language/",
+  "description": "Research annotations, not dialogue subtitle tracks; cue counts are not shot counts.",
+  "license": "No explicit reuse license verified on the accompanying-material page; original downloads kept out of Git.",
+  "items": [
+    {
+      "id": "rope",
+      "sourceUrl": "https://files.inria.fr/imagine/PSLV3/Rope_subtitles.srt",
+      "localPath": "data/psl/rope.srt",
+      "sha256": "ca613e277c1518bf07a653cecdf28ed6e9e9a13375567fc97cfe41f90f74a272",
+      "cueCount": 23
+    },
+    {
+      "id": "back-to-the-future",
+      "sourceUrl": "https://files.inria.fr/imagine/PSLV3/BackToTheFuture_subtitles.srt",
+      "localPath": "data/psl/back-to-the-future.srt",
+      "sha256": "22fd6129533783a7aeb1dd0a71797a53d5807e758ab7e26b7a82d46d4c335b2d",
+      "cueCount": 56
+    },
+    {
+      "id": "touch-of-evil",
+      "sourceUrl": "https://files.inria.fr/imagine/PSLV3/TouchOfEvil_subtitles.srt",
+      "localPath": "data/psl/touch-of-evil.srt",
+      "sha256": "7924adbb225e40c79b711b0f9339dcffc3898c785e32314f909e9aae82245efb",
+      "cueCount": 47
+    },
+    {
+      "id": "north-by-northwest",
+      "sourceUrl": "https://files.inria.fr/imagine/PSLV3/NorthByNorthwest_subtitles.srt",
+      "localPath": "data/psl/north-by-northwest.srt",
+      "sha256": "b5696a1b2a32e870d07f2f2f7a4e4a6a18d1589e517d43c6c9ae49aa749dc3c6",
+      "cueCount": 175
+    }
+  ]
+}

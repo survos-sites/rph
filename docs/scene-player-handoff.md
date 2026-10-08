@@ -92,7 +92,7 @@ Use the static viewer to compare proposed and reviewed sequences, correct cut po
 
 ## Existing languages and datasets
 
-[PSL 2.0](https://diglib.eg.org/bitstream/handle/10.2312/wiced20221048/013-027.pdf) is a useful formal vocabulary: a PEG grammar and temporal semantics describe shots, subjects, and concurrent action. The paper describes a Python Parsimonious reference parser and timecoded SRT annotations, with worked film excerpts. [Parsimonious](https://github.com/erikrose/parsimonious) is available; automated access to the [reference PSL repository](https://gitlab.inria.fr/vmurukut/psl) was blocked by its access challenge. We have not verified a maintained downloadable parser or a broad public PSL corpus. Treat PSL as an optional import/export vocabulary rather than a mandatory dependency.
+[PSL 2.0](https://diglib.eg.org/bitstream/handle/10.2312/wiced20221048/013-027.pdf) is a useful formal vocabulary: a PEG grammar and temporal semantics describe shots, subjects, and concurrent action. The paper describes a Python Parsimonious reference parser and timecoded SRT annotations, with worked film excerpts. [Parsimonious](https://github.com/erikrose/parsimonious) is available; automated access to the [reference PSL repository](https://gitlab.inria.fr/vmurukut/psl) was blocked by its access challenge. The [authors' accompanying-material page](https://team.inria.fr/anima/prose-storyboard-language/) has now been located and four timed SRT annotation inputs verified. A maintained downloadable reference parser remains unverified. See [model and rehearsal clarification](script-model-and-rehearsal.md) for corpus details and a timeline approach. Treat PSL as an optional import/export vocabulary rather than a mandatory dependency.
 
 Earlier approaches are relevant because they encode directing conventions: [DCCL](https://grail.cs.washington.edu/wp-content/uploads/2015/08/dccl-aaai96.pdf) formalizes Arijon-inspired idioms; [The Virtual Cinematographer](https://grail.cs.washington.edu/wp-content/uploads/2015/08/he-1996-tvc.pdf) uses hierarchical state machines; [Expressive Cinematography Patterns](https://cinematography.inria.fr/files/2017/08/paper1004_CRC.pdf) describes patterns across shots. These complement Cine-AI's technique selection and offer constraints/context that raw frequencies lack.
 
@@ -170,3 +170,6 @@ The repository README adds an important qualification absent from the developer 
 On return, begin with `git status` in both repositories and read this handoff. RPH's `php bin/console list app` exposes current commands. Unity's `tools/sync-from-rph.py` updates demo inputs; `tools/render-videos.py` is the existing rendering utility. The batch build entry point is `Survos.Oz.Editor.RolePlayhouseBuild.BuildMac`. Consult each command's current arguments before running it.
 
 The work can pause here: existing viewers and the Unity release remain available, while the next implementation starts from **Cine-AI plus a richer Symfony-owned shot corpus**.
+
+
+For the confirmed PSL annotation corpus, model boundaries and unported ScriptAssistant speech feedback, see [script model and rehearsal](script-model-and-rehearsal.md).

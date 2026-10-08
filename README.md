@@ -31,3 +31,5 @@ Recovered demo inputs and their provenance are maintained separately; imported d
 ## Data and media
 
 See [data and media storage](docs/data-and-media.md) for current import locations, the Big Fish sample, explicit seeding recommendations, and a text-first live deployment. Seeding is not hooked into Composer installation.
+
+See [script model and rehearsal status](docs/script-model-and-rehearsal.md) for the verified PSL annotation inputs, layered interchange design and historical speech-matching components.
