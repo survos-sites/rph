@@ -1,0 +1,72 @@
+{
+  "DOROTHY": {
+    "portrait": "/media/cast/oz/dorothy.svg",
+    "voice": "Samantha",
+    "color": "#418cb3",
+    "description": "Dorothy is a small town girl from Kansas. She is an orphan living on a farm with her Aunt Em and Uncle Henry. After a tornado, Dorothy arrives in the Land of Oz. When she finds herself in the Land of Oz, she has a real problem. How does she get home to Kansas and escape from the Wicked Witch of the West? ",
+    "nonSpeaking": false,
+    "avatar": {
+      "archetype": "dorothy",
+      "height": 1.5,
+      "skin": "#DFB387",
+      "clothing": "#3B8BB2",
+      "hair": "#774832"
+    }
+  },
+  "TIN MAN": {
+    "portrait": "/media/cast/oz/tin-man.svg",
+    "voice": "Ralph",
+    "color": "#91a4ad",
+    "description": "The Tin Man is made of iron and he lacks a heart. He believes that his lack of heart makes him incapable of love and thus, happiness.  He is rusty and in need of a good oiling for his joints. He carries an axe which comes in handy during Dorothy's struggle with the Wicked Witch of the West.  ",
+    "nonSpeaking": false,
+    "avatar": {
+      "archetype": "tin",
+      "height": 1.85,
+      "skin": "#8C9DA5",
+      "clothing": "#94A9B1",
+      "hair": "#72838C"
+    }
+  },
+  "SCARECROW": {
+    "portrait": "/media/cast/oz/scarecrow.svg",
+    "voice": "Fred",
+    "color": "#7a9958",
+    "description": "The Scarecrow is a strawman in a literal sense. He doesn't have a brain. He believes that if he had a brain, he would be as good as any man. He illustrates the tension between knowledge and wisdom. He is not a very good scarecrow because he likes crows and doesn't scare them. ",
+    "nonSpeaking": false,
+    "avatar": {
+      "archetype": "scarecrow",
+      "height": 1.8,
+      "skin": "#D0B478",
+      "clothing": "#6B8751",
+      "hair": "#926C37"
+    }
+  },
+  "LION": {
+    "portrait": "/media/cast/oz/lion.svg",
+    "voice": "Daniel",
+    "color": "#b9792f",
+    "description": "The Cowardly Lion is the last of the three principal characters Dorothy meets on her way to the Emerald City.  His wish is to have courage. The Lion's introduction to the group is a violent one. While passing through the forest, Dorothy and her new friends are attacked by the Lion.",
+    "nonSpeaking": false,
+    "avatar": {
+      "archetype": "lion",
+      "height": 1.85,
+      "skin": "#BC7F35",
+      "clothing": "#BD863B",
+      "hair": "#74471F"
+    }
+  },
+  "TOTO": {
+    "portrait": "/media/cast/oz/toto.svg",
+    "voice": null,
+    "color": "#655a50",
+    "description": "Dorothy\u2019s nonspeaking dog.",
+    "nonSpeaking": true,
+    "avatar": {
+      "archetype": "dog",
+      "height": 0.45,
+      "skin": "#655746",
+      "clothing": "#655746",
+      "hair": "#362E27"
+    }
+  }
+}

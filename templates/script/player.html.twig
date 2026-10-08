@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ script.title }} · Scene {{ scene.sequence }}{% endblock %}
+{% block body %}
+<div class="page-body rph-player" data-controller="scene-player" data-scene-player-payload-value="{{ payload|json_encode }}">
+    <main class="container-xl">
+        <header class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
+            <div><a class="text-secondary" href="{{ path('script_overview', script.rp) }}">← {{ script.title }}</a><h1 class="mt-2 mb-1">Scene {{ scene.sequence }}</h1><p class="text-secondary mb-0">{{ scene.heading }}</p></div>
+            <div class="d-flex gap-2 align-items-center"><label for="scene-select" class="visually-hidden">Scene</label><select id="scene-select" class="form-select" data-action="change->scene-player#changeScene">{% for item in payload.scenes %}<option value="{{ item.url }}" {{ item.id == scene.id ? 'selected' }}>{{ item.sequence }} · {{ item.heading }}</option>{% endfor %}</select><a class="btn" href="{{ path('scene_show', script.rp|merge(scene.rp)) }}">Read script</a></div>
+        </header>
+        <div class="row row-cards">
+            <aside class="col-lg-4"><div class="card h-100"><div class="card-header"><h2 class="card-title">Cast</h2></div><div class="card-body"><div class="rph-cast-grid">
+                {% for role in payload.cast %}<div class="rph-role" data-scene-player-target="role" data-role-id="{{ role.id }}">
+                    {% if role.portrait %}<img class="rph-portrait" src="{{ role.portrait }}" alt="Illustration of {{ role.name }}" width="112" height="128">{% else %}<div class="rph-portrait rph-initials" aria-hidden="true">{{ role.name|slice(0, 2) }}</div>{% endif %}
+                    <strong>{{ role.name }}</strong><span class="rph-role-state" data-role-state>Listening</span>
+                </div>{% endfor %}
+            </div><p class="text-secondary small mt-3 mb-0">Simple character sketches. Directions stay visible; dialogue has free local voices.</p></div></div></aside>
+            <section class="col-lg-8"><div class="card rph-dialogue-card"><div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-4"><span class="badge bg-blue-lt" data-scene-player-target="kind">{{ payload.elements[0].type|default('Scene')|capitalize }}</span><span class="text-secondary small" data-scene-player-target="counter">1 / {{ payload.elements|length }}</span></div>
+                <h2 class="rph-speaker" data-scene-player-target="speaker">{{ payload.elements[0].speaker|default('Stage direction') }}</h2>
+                <p class="rph-dialogue" data-scene-player-target="text">{{ payload.elements[0].text|default('This scene has no dialogue.') }}</p>
+                <div class="rph-direction text-secondary" data-scene-player-target="direction"></div>
+            </div><audio data-scene-player-target="audio" preload="none" hidden></audio><div class="card-footer"><div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+                <div class="btn-list"><button class="btn" data-action="scene-player#previous" aria-label="Previous script block">← Back</button><button class="btn btn-primary" data-action="scene-player#toggle" data-scene-player-target="play">Play scene</button><button class="btn" data-action="scene-player#next" aria-label="Next script block">Next →</button><button class="btn btn-ghost-secondary" data-action="scene-player#restart">Restart</button></div>
+                <label class="form-check form-switch mb-0"><input class="form-check-input" type="checkbox" checked data-scene-player-target="voice" data-action="change->scene-player#voiceChanged"><span class="form-check-label">Voice</span></label>
+            </div><p class="small text-secondary mt-3 mb-0" data-scene-player-target="status" role="status">Ready to play.</p></div></div></section>
+        </div>
+        <details class="card mt-4"><summary class="card-header">Scene script · {{ payload.elements|length }} blocks</summary><ol class="list-group list-group-flush list-unstyled mb-0">
+            {% for item in payload.elements %}<li class="list-group-item rph-script-block" data-scene-player-target="block"><button class="rph-block-button" data-action="scene-player#jump" data-index="{{ loop.index0 }}"><span class="text-secondary small">{{ item.sequence }} · {{ item.type|capitalize }}</span>{% if item.speaker %}<strong class="d-block">{{ item.speaker }}</strong>{% endif %}<span class="d-block">{{ item.text }}</span></button></li>{% endfor %}
+        </ol></details>
+        <p class="text-secondary small mt-3">{{ script.source }}{% if script.author %} · {{ script.author }}{% endif %}</p>
+    </main>
+</div>
+{% endblock %}

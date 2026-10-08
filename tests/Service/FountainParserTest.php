@@ -37,4 +37,13 @@ FOUNTAIN);
         self::assertSame(ElementType::Parenthetical, $parsed->scenes[0]->elements[2]->type);
         self::assertSame('FRANCISCO', $parsed->scenes[0]->elements[3]->speaker);
     }
+    public function testStandaloneUppercaseParentheticalDoesNotCreateAnonymousDialogue(): void
+    {
+        $parsed = (new FountainParser())->parse(".Forest\n\n(MUSIC CUE)\nMusic plays.\n\nDOROTHY\n(quietly)\nHello.");
+        self::assertSame(ElementType::Action, $parsed->scenes[0]->elements[0]->type);
+        self::assertNull($parsed->scenes[0]->elements[0]->speaker);
+        self::assertSame('DOROTHY', $parsed->scenes[0]->elements[1]->speaker);
+        self::assertSame('DOROTHY', $parsed->scenes[0]->elements[2]->speaker);
+    }
+
 }

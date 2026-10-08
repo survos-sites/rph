@@ -64,7 +64,7 @@ final class FountainParser
                 ElementType::Transition => trim($line, '> '),
                 default => $line,
             };
-            $elementSpeaker = ElementType::Dialogue === $type ? $speaker : null;
+            $elementSpeaker = in_array($type, [ElementType::Dialogue, ElementType::Parenthetical], true) ? $speaker : null;
             $last = [] === $scene->elements ? null : $scene->elements[array_key_last($scene->elements)];
 
             if ($last && $last->type === $type && $last->speaker === $elementSpeaker && !$blankBefore) {
@@ -113,7 +113,8 @@ final class FountainParser
         return '' !== trim($nextLine)
             && mb_strtoupper($line) === $line
             && 1 === preg_match('/^[\p{L}\p{N} ._()\-\'\^]+$/u', $line)
-            && !str_ends_with($line, ':');
+            && !str_ends_with($line, ':')
+            && '' !== $this->normalizeSpeaker($line);
     }
 
     private function normalizeSpeaker(string $line): string

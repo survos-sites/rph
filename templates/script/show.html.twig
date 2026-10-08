@@ -33,7 +33,7 @@
                                 {% for element in scene.elements %}
                                     {% if element.type.value == 'dialogue' %}
                                         <div class="mx-auto mb-3" style="max-width: 32rem">
-                                            <div class="text-center text-uppercase fw-bold">{{ element.character.name }}</div>
+                                            <div class="text-center text-uppercase fw-bold">{{ element.character.name|default('') }}</div>
                                             <div style="white-space: pre-line">{{ element.text }}</div>
                                         </div>
                                     {% elseif element.type.value == 'parenthetical' %}

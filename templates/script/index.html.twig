@@ -6,7 +6,7 @@
     <div class="page-header d-print-none">
         <div class="container-xl">
             <h1>Role Playhouse</h1>
-            <p class="text-secondary">Import, read, cast, and rehearse Fountain scripts.</p>
+            <p class="text-secondary">Import, read, cast, and rehearse Fountain and Celtx scripts.</p>
         </div>
     </div>
     <div class="page-body">
@@ -20,6 +20,7 @@
                                 {% if script.author %}<p class="text-secondary">by {{ script.author }}</p>{% endif %}
                                 <div class="text-secondary">{{ script.scenes.count }} scenes · {{ script.characters.count }} characters</div>
                                 <div class="btn-list mt-3">
+                                    {% if script.scenes|length %}<a class="btn btn-sm btn-primary" href="{{ path('scene_player', script.rp|merge(script.scenes.first.rp)) }}">Play scenes</a>{% endif %}
                                     <a class="btn btn-sm" href="{{ path('script_show', script.rp) }}">Read</a>
                                     <a class="btn btn-sm btn-primary" href="{{ path('script_characters', script.rp) }}">Rehearse</a>
                                 </div>

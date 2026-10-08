@@ -25,16 +25,17 @@ final class AppService
         private readonly EntityManagerInterface $em,
         private readonly ScriptRepository $scripts,
         private readonly FountainParser $parser,
+        private readonly CeltxParser $celtxParser,
         #[Autowire('%kernel.project_dir%')] private readonly string $projectDir,
     ) {}
 
-    #[AsCommand('app:load', 'import one Fountain file or every Fountain file in a directory')]
-    public function load(SymfonyStyle $io, #[Argument('Fountain file or directory')] string $path = 'data/scripts'): int
+    #[AsCommand('app:load', 'import one Fountain/Celtx file or every supported file in a directory')]
+    public function load(SymfonyStyle $io, #[Argument('Fountain/Celtx file or directory')] string $path = 'data/scripts'): int
     {
         $path = Path::isAbsolute($path) ? $path : Path::join($this->projectDir, $path);
         $files = $this->findScripts($path);
         if ([] === $files) {
-            $io->error("No .fountain or .fount files found at $path");
+            $io->error("No .fountain, .fount or .celtx files found at $path");
 
             return Command::FAILURE;
         }
@@ -58,7 +59,19 @@ final class AppService
 
         $slugger = new AsciiSlugger();
         $id = $slugger->slug(pathinfo($filename, PATHINFO_FILENAME))->lower()->toString();
-        $parsed = $this->parser->parse($content, pathinfo($filename, PATHINFO_FILENAME));
+        $isCeltx = 'celtx' === strtolower(pathinfo($filename, PATHINFO_EXTENSION));
+        $parsed = $isCeltx ? $this->celtxParser->parseFile($filename) : $this->parser->parse($content, pathinfo($filename, PATHINFO_FILENAME));
+        if ($isCeltx) {
+            // Keep readable script text in the existing content column, never ZIP bytes.
+            $content = 'Title: '.$parsed->title."\n\n";
+            foreach ($parsed->scenes as $scene) {
+                $content .= '.'.$scene->heading."\n\n";
+                foreach ($scene->elements as $element) {
+                    $prefix = $element->speaker ? $element->speaker."\n" : "XXX\n";
+                    $content .= $prefix.$element->text."\n\n";
+                }
+            }
+        }
 
         if ($existing = $this->scripts->find($id)) {
             $this->em->remove($existing);
@@ -80,6 +93,11 @@ final class AppService
                     $characterKey = mb_strtolower($parsedElement->speaker);
                     if (!isset($characters[$characterKey])) {
                         $characterId = $id.':'.$slugger->slug($parsedElement->speaker)->lower();
+                        // Distinct names can share a slug (punctuation/diacritics).
+                        $usedIds = array_map(static fn (Character $role) => $role->id, $characters);
+                        if (in_array((string) $characterId, $usedIds, true)) {
+                            $characterId .= '-'.substr(hash('sha256', $characterKey), 0, 8);
+                        }
                         $character = new Character((string) $characterId, $script, $parsedElement->speaker);
                         $characters[$characterKey] = $character;
                         $script->characters->add($character);
@@ -115,7 +133,7 @@ final class AppService
         }
 
         $files = [];
-        foreach ((new Finder())->files()->in($path)->name(['*.fountain', '*.fount'])->sortByName() as $file) {
+        foreach ((new Finder())->files()->in($path)->name(['*.fountain', '*.fount', '*.celtx'])->sortByName() as $file) {
             $files[] = $file->getRealPath();
         }
 

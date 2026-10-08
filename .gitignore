@@ -21,3 +21,6 @@
 
 # Imported scripts are local inputs, never repository source.
 /data/scripts/
+
+# Locally generated voice cache; reproduce with app:voices.
+/public/media/voices/

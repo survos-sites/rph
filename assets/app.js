@@ -9,3 +9,5 @@ import './styles/app.css';
 
 import '@tabler/core';
 import '@tabler/core/dist/css/tabler.min.css';
+
+import './styles/scene-player.css';

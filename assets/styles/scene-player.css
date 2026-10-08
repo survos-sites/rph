@@ -1,0 +1,18 @@
+.rph-player .rph-cast-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.rph-player .rph-role { display: flex; flex-direction: column; align-items: center; gap: .35rem; border: 2px solid transparent; border-radius: .75rem; padding: .5rem .25rem; background: var(--tblr-bg-surface-secondary); transition: border-color .15s; }
+.rph-player .rph-role.is-active { border-color: var(--tblr-primary); background: var(--tblr-primary-lt); }
+.rph-player .rph-role-state { font-size: .75rem; color: var(--tblr-secondary); }
+.rph-player .rph-portrait { width: 80px; height: 96px; object-fit: contain; }
+.rph-player .rph-initials { display: grid; place-items: center; font-size: 2rem; background: var(--tblr-bg-surface); border-radius: 50%; }
+.rph-player .rph-dialogue-card { min-height: 100%; }
+.rph-player .rph-dialogue-card .card-body { padding: 2rem; min-height: 18rem; }
+.rph-player .rph-speaker { font-size: 1.1rem; letter-spacing: .06em; color: var(--tblr-secondary); }
+.rph-player .rph-dialogue { font-size: clamp(1.25rem, 2.4vw, 1.85rem); line-height: 1.55; white-space: pre-line; }
+.rph-player .rph-direction { border-top: 1px solid var(--tblr-border-color); padding-top: 1rem; margin-top: 1.5rem; line-height: 1.5; }
+.rph-player .rph-direction:empty { display: none; }
+.rph-player .rph-block-button { display: block; width: 100%; text-align: left; border: 0; padding: .25rem; background: transparent; color: inherit; line-height: 1.6; }
+.rph-player .rph-script-block.is-current { background: var(--tblr-primary-lt); border-left: 3px solid var(--tblr-primary); }
+.rph-player .rph-role.is-speaking .rph-portrait { animation: rph-talking .45s ease-in-out infinite alternate; }
+@keyframes rph-talking { to { transform: translateY(-3px) rotate(1deg); } }
+@media (prefers-reduced-motion: reduce) { .rph-player .rph-role.is-speaking .rph-portrait { animation: none; } }
+@media (max-width: 991px) { .rph-player .rph-cast-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .25rem; } .rph-player .rph-portrait { max-width: 100%; height: 80px; } .rph-player .rph-role strong { font-size: .65rem; text-align: center; } .rph-player .rph-role-state { font-size: .6rem; } }

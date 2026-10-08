@@ -1,0 +1,448 @@
+{
+  "sourceSha256": "d25a72cb0645ffabfed4bbebc760cca3febc3aee45416ba954a47928858c9a51",
+  "note": "Authored coarse prototype choreography; source dialogue remains unchanged. Not full natural-language animation understanding.",
+  "settings": {
+    "1": "forest",
+    "2": "camp",
+    "3": "brook",
+    "4": "ditch"
+  },
+  "beats": {
+    "1:1": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "walk",
+          "move": true,
+          "x": -0.7,
+          "z": 0.2
+        },
+        {
+          "actor": "the-wizard-of-oz:scarecrow",
+          "gesture": "walk",
+          "move": true,
+          "x": -1.7,
+          "z": 0.1
+        },
+        {
+          "actor": "the-wizard-of-oz:tin-man",
+          "gesture": "walk",
+          "move": true,
+          "x": 0.65,
+          "z": 0.2
+        },
+        {
+          "actor": "extra:TOTO",
+          "gesture": "walk",
+          "move": true,
+          "x": -0.65,
+          "z": 1
+        }
+      ],
+      "minimumDuration": 8
+    },
+    "1:3": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "fear"
+        },
+        {
+          "actor": "the-wizard-of-oz:scarecrow",
+          "gesture": "fear"
+        },
+        {
+          "actor": "the-wizard-of-oz:tin-man",
+          "gesture": "fear"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "1:6": {
+      "cues": [
+        {
+          "actor": "extra:TOTO",
+          "gesture": "alert"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "1:10": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "jump",
+          "move": true,
+          "x": 1.8,
+          "z": 0,
+          "begin": 0,
+          "end": 0.28
+        },
+        {
+          "actor": "extra:TOTO",
+          "gesture": "shake",
+          "attach": "the-wizard-of-oz:lion",
+          "begin": 0.28,
+          "end": 0.55
+        },
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "slap",
+          "target": "the-wizard-of-oz:lion",
+          "begin": 0.55,
+          "end": 0.75
+        },
+        {
+          "actor": "extra:TOTO",
+          "gesture": "drop",
+          "begin": 0.75,
+          "end": 1
+        }
+      ],
+      "minimumDuration": 12
+    },
+    "1:14": {
+      "cues": [
+        {
+          "actor": "extra:TOTO",
+          "gesture": "hold",
+          "attach": "the-wizard-of-oz:dorothy"
+        }
+      ],
+      "minimumDuration": 3
+    },
+    "1:17": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "sad"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "1:19": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "sad"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "1:21": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "sad"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "1:26": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "nod"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "1:31": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "pet",
+          "target": "extra:TOTO",
+          "begin": 0,
+          "end": 0.4
+        },
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "walk",
+          "move": true,
+          "x": -0.7,
+          "z": 1.6,
+          "begin": 0.4,
+          "end": 1
+        },
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "walk",
+          "move": true,
+          "x": 1.2,
+          "z": 1.6,
+          "begin": 0.4,
+          "end": 1
+        },
+        {
+          "actor": "the-wizard-of-oz:tin-man",
+          "gesture": "walk",
+          "move": true,
+          "x": 0.3,
+          "z": 2.2,
+          "begin": 0.4,
+          "end": 1
+        },
+        {
+          "actor": "the-wizard-of-oz:scarecrow",
+          "gesture": "walk",
+          "move": true,
+          "x": -1.7,
+          "z": 2.2,
+          "begin": 0.4,
+          "end": 1
+        },
+        {
+          "actor": "extra:TOTO",
+          "gesture": "walk",
+          "move": true,
+          "x": -0.65,
+          "z": 2.35,
+          "begin": 0.4,
+          "end": 1
+        }
+      ],
+      "minimumDuration": 8
+    },
+    "2:1": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:tin-man",
+          "gesture": "chop"
+        },
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "build-fire"
+        },
+        {
+          "actor": "extra:TOTO",
+          "gesture": "eat"
+        }
+      ],
+      "minimumDuration": 8
+    },
+    "2:5": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "walk",
+          "move": true,
+          "x": 4,
+          "z": 3
+        },
+        {
+          "actor": "the-wizard-of-oz:scarecrow",
+          "gesture": "gather",
+          "move": true,
+          "x": -3,
+          "z": 1
+        }
+      ],
+      "minimumDuration": 8
+    },
+    "3:1": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "wash"
+        },
+        {
+          "actor": "extra:TOTO",
+          "gesture": "shake"
+        },
+        {
+          "actor": "the-wizard-of-oz:tin-man",
+          "gesture": "fear"
+        }
+      ],
+      "minimumDuration": 7
+    },
+    "3:3": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "nod"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "3:5": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "walk",
+          "move": true,
+          "x": -0.7,
+          "z": 2
+        },
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "walk",
+          "move": true,
+          "x": 1.5,
+          "z": 2
+        },
+        {
+          "actor": "the-wizard-of-oz:tin-man",
+          "gesture": "walk",
+          "move": true,
+          "x": 0.6,
+          "z": 2
+        },
+        {
+          "actor": "the-wizard-of-oz:scarecrow",
+          "gesture": "walk",
+          "move": true,
+          "x": -1.7,
+          "z": 2
+        },
+        {
+          "actor": "extra:TOTO",
+          "gesture": "walk",
+          "move": true,
+          "x": -0.65,
+          "z": 2
+        }
+      ],
+      "minimumDuration": 6
+    },
+    "4:1": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "look-down"
+        },
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "look-down"
+        },
+        {
+          "actor": "the-wizard-of-oz:tin-man",
+          "gesture": "look-down"
+        },
+        {
+          "actor": "the-wizard-of-oz:scarecrow",
+          "gesture": "look-down"
+        }
+      ],
+      "minimumDuration": 6
+    },
+    "4:6": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "sad"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "4:11": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "look-down"
+        }
+      ],
+      "minimumDuration": 0
+    },
+    "4:17": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:scarecrow",
+          "gesture": "ride",
+          "attach": "the-wizard-of-oz:lion"
+        },
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "crouch"
+        }
+      ],
+      "minimumDuration": 5
+    },
+    "4:20": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "jump",
+          "move": true,
+          "x": 1.5,
+          "z": 4.3
+        }
+      ],
+      "minimumDuration": 5
+    },
+    "4:22": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "walk",
+          "move": true,
+          "x": 1.5,
+          "z": 0,
+          "begin": 0,
+          "end": 0.3
+        },
+        {
+          "actor": "the-wizard-of-oz:dorothy",
+          "gesture": "ride",
+          "attach": "the-wizard-of-oz:lion",
+          "begin": 0.3,
+          "end": 1
+        },
+        {
+          "actor": "extra:TOTO",
+          "gesture": "hold",
+          "attach": "the-wizard-of-oz:dorothy",
+          "begin": 0.3,
+          "end": 1
+        },
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "jump",
+          "move": true,
+          "x": 1.5,
+          "z": 4.3,
+          "begin": 0.4,
+          "end": 1
+        }
+      ],
+      "minimumDuration": 8
+    },
+    "4:23": {
+      "cues": [
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "walk",
+          "move": true,
+          "x": 1.5,
+          "z": 0,
+          "begin": 0,
+          "end": 0.3
+        },
+        {
+          "actor": "the-wizard-of-oz:tin-man",
+          "gesture": "ride",
+          "attach": "the-wizard-of-oz:lion",
+          "begin": 0.3,
+          "end": 0.8
+        },
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "jump",
+          "move": true,
+          "x": 1.5,
+          "z": 4.3,
+          "begin": 0.4,
+          "end": 0.8
+        },
+        {
+          "actor": "the-wizard-of-oz:lion",
+          "gesture": "crouch",
+          "begin": 0.8,
+          "end": 1
+        }
+      ],
+      "minimumDuration": 10
+    }
+  }
+}
