@@ -63,3 +63,22 @@ Oz already exists in the local RPH database. To reproduce its import elsewhere, 
 [IMSDb](https://imsdb.com/) supplies screenplay pages in HTML, not native Fountain. A converter would need to isolate the screenplay, preserve whitespace/context, distinguish dialogue from action, strip page furniture, and review output against the original. Its [disclaimer](https://imsdb.com/disclaimer.html) does not grant a general reuse license. Defer bulk conversion: more unreviewed scripts do not supply the shot annotations we need for Cine-AI. If a particular authorized script becomes useful, convert it as a private source input with provenance and regression fixtures.
 
 For a publicly reusable Oz demonstration, [Baum's original novel](https://www.gutenberg.org/ebooks/55) is listed by Project Gutenberg as public domain in the USA. A short adaptation authored from that text could supply a better curated demo scene and explicit directing annotations. This status concerns the novel, not the 1939 movie screenplay, its performances/designs, or every asset packaged in the Celtx sample. No new adaptation or IMSDb converter has been implemented.
+
+## Existing public-domain and short-form tooling inventory
+
+Local code inventory, 8 October 2026. A Gutenberg/Gutendex/RDF catalog client was not found in the searched Symfony repos, Survos/package locations, or restored archives. This is a bounded search result, not proof that no historical copy exists elsewhere.
+
+The closest modern implementation is **Bard**, using Open Source Shakespeare rather than Gutenberg:
+
+- `~/sites/bard/src/Service/OssArchive.php`: `app:download`, downloads/validates `oss-textdb.zip` using the shared FetchBundle downloader and reads four corpus tables directly via ZIP streams.
+- `~/sites/bard/src/Service/AppService.php`: `app:load`, persists works, chapters/scenes, characters and paragraphs, with batched loading and explicit force/refresh options.
+- `~/sites/bard/src/Service/FountainFormatter.php`: exports structured scenes to Fountain, including speakers and stage directions.
+- `~/sites/bard/src/Service/VectorService.php`: scene-level document formatting and vector indexing with structured metadata; useful later for finding small exchanges, not required for initial imports.
+
+A legacy **knock-knock joke application** survives at `~/Documents/Codex/2026-10-02/a-long-time-ago-i-bought/work/smokescreen/tobacco/tffa/voxeo/knock/`. Its `knock.txt` stores setup/punchline pairs separated by a colon; `knock.php` chooses a pair and runs a VoiceXML conversation. Text-to-speech and prerecorded-audio variants exist. This is historical code/data, not a modern integrated service or an established public-domain source.
+
+`~/sandesa/scenea/text_to_tei.php` also contains an old screenplay-text to TEI converter: paragraph/indentation heuristics identify scenes, characters and dialogue. It is not a Gutenberg client, and should be treated as reference logic rather than a ready current importer.
+
+For new short-form exploration, inspect [Merry's Book of Puzzles, Gutenberg 53847](https://www.gutenberg.org/ebooks/53847) and [English Jests and Anecdotes, Gutenberg 49370](https://www.gutenberg.org/ebooks/49370). Both catalog pages list public-domain status in the USA. Review individual items for suitability: these are historic collections, not automatically good contemporary demo material.
+
+Recommended first slice: select a handful of suitable question/answer or setup/punchline items, retain ebook/item identifiers and untouched original text, then separately author two-character Fountain scenes and shot timing. Speaker assignments, gestures, pauses and reaction shots are our adaptation. RPH already imports the resulting Fountain; Bard supplies reusable structured-export patterns. A Gutenberg downloader/item extractor, reviewed selection workflow and new imported joke/riddle corpus have not yet been implemented.
