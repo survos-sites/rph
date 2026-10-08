@@ -5,7 +5,7 @@
     <main class="container-xl">
         <header class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
             <div><a class="text-secondary" href="{{ path('script_overview', script.rp) }}">← {{ script.title }}</a><h1 class="mt-2 mb-1">Scene {{ scene.sequence }}</h1><p class="text-secondary mb-0">{{ scene.heading }}</p></div>
-            <div class="d-flex gap-2 align-items-center"><label for="scene-select" class="visually-hidden">Scene</label><select id="scene-select" class="form-select" data-action="change->scene-player#changeScene">{% for item in payload.scenes %}<option value="{{ item.url }}" {{ item.id == scene.id ? 'selected' }}>{{ item.sequence }} · {{ item.heading }}</option>{% endfor %}</select><a class="btn" href="{{ path('scene_show', script.rp|merge(scene.rp)) }}">Read script</a></div>
+            <div class="d-flex gap-2 align-items-center"><label for="scene-select" class="visually-hidden">Scene</label><select id="scene-select" class="form-select" data-action="change->scene-player#changeScene">{% for item in payload.scenes %}<option value="{{ item.url }}" {{ item.id == scene.id ? 'selected' }}>{{ item.sequence }} · {{ item.heading }}</option>{% endfor %}</select><a class="btn" href="{{ path('scene_shotlist', script.rp|merge(scene.rp)) }}">Shotlist</a><a class="btn" href="{{ path('scene_show', script.rp|merge(scene.rp)) }}">Read script</a></div>
         </header>
         <div class="row row-cards">
             <aside class="col-lg-4"><div class="card h-100"><div class="card-header"><h2 class="card-title">Cast</h2></div><div class="card-body"><div class="rph-cast-grid">

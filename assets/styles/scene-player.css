@@ -16,3 +16,12 @@
 @keyframes rph-talking { to { transform: translateY(-3px) rotate(1deg); } }
 @media (prefers-reduced-motion: reduce) { .rph-player .rph-role.is-speaking .rph-portrait { animation: none; } }
 @media (max-width: 991px) { .rph-player .rph-cast-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .25rem; } .rph-player .rph-portrait { max-width: 100%; height: 80px; } .rph-player .rph-role strong { font-size: .65rem; text-align: center; } .rph-player .rph-role-state { font-size: .6rem; } }
+
+.rph-shot-stage { position: relative; background: #18242b; aspect-ratio: 16 / 9; overflow: hidden; border-radius: .5rem .5rem 0 0; }
+.rph-shot-image { width: 100%; height: 100%; object-fit: contain; }
+.rph-shot-subtitles { position: absolute; bottom: 0; left: 0; right: 0; padding: 1rem 1.5rem; color: white; background: rgba(10, 18, 24, .9); max-height: 50%; overflow: auto; font-size: clamp(1rem, 2vw, 1.4rem); }
+.rph-shot-placeholder { padding: 2rem; color: #d8e2e8; }
+.rph-shot-row { display: flex; gap: 1rem; align-items: flex-start; }
+.rph-shot-row img, .rph-shot-empty { flex-shrink: 0; width: 160px; height: 90px; object-fit: cover; border-radius: .25rem; }
+.rph-shot-empty { display: grid; place-items: center; background: #e8edf0; }
+@media (max-width: 600px) { .rph-shot-row img, .rph-shot-empty { width: 96px; height: 54px; } .rph-shot-subtitles { padding: .5rem .75rem; max-height: 65%; } }

@@ -1,8 +1,8 @@
 import { Controller } from '@hotwired/stimulus';
 
 export default class extends Controller {
-    static targets = ['role', 'speaker', 'text', 'direction', 'counter', 'kind', 'play', 'voice', 'status', 'block', 'audio'];
-    static values = { payload: Object };
+    static targets = ['role', 'speaker', 'text', 'direction', 'counter', 'kind', 'play', 'voice', 'status', 'block', 'audio', 'shot', 'placeholder', 'framing'];
+    static values = { payload: Object, shotlist: Boolean };
 
     connect() {
         this.index = 0;
@@ -19,12 +19,19 @@ export default class extends Controller {
         this.audio?.pause();
         this.audio?.removeAttribute('src');
         if (this.audio) { this.audio.onended = null; this.audio.onerror = null; }
-        this.playTarget.textContent = 'Play scene';
+        this.playTarget.textContent = this.shotlistValue ? 'Slideshow' : 'Play scene';
         this.roleTargets.forEach(role => role.classList.remove('is-speaking'));
     }
     render() {
         const item = this.payloadValue.elements[this.index];
         if (!item) { this.textTarget.textContent = 'This scene has no script blocks.'; return; }
+        if (this.hasShotTarget) {
+            const hasImage = Boolean(item.shot);
+            this.shotTarget.hidden = !hasImage;
+            if (hasImage) { this.shotTarget.src = item.shot; this.shotTarget.alt = `${item.speaker || 'Stage'} · ${item.text}`; }
+            if (this.hasPlaceholderTarget) this.placeholderTarget.hidden = hasImage;
+            if (this.hasFramingTarget) this.framingTarget.textContent = item.type === 'dialogue' ? 'Over the shoulder · speaker' : 'Wide / action reference';
+        }
         this.speakerTarget.textContent = item.speaker || (item.type === 'parenthetical' ? 'Delivery' : 'Stage direction');
         this.textTarget.textContent = item.text;
         this.kindTarget.textContent = item.type.charAt(0).toUpperCase() + item.type.slice(1);

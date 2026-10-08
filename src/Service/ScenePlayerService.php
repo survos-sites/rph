@@ -21,6 +21,7 @@ final class ScenePlayerService
     public function payload(Script $script, Scene $scene): array
     {
         $profiles = $this->profiles($script->id);
+        $shots = $this->shots($script->id);
         $cast = [];
         $elements = [];
         foreach ($scene->elements as $element) {
@@ -45,6 +46,7 @@ final class ScenePlayerService
                 'text' => $element->text,
                 'characterId' => $role?->id,
                 'speaker' => $role?->name,
+                'shot' => $shots[$element->id] ?? null,
                 'audio' => ElementType::Dialogue === $element->type && is_file($this->projectDir.'/public'.$audioPath) ? $audioPath : null,
             ];
         }
@@ -58,6 +60,7 @@ final class ScenePlayerService
         $scenes = [];
         foreach ($script->scenes as $s) {
             $scenes[] = ['id' => $s->id, 'sequence' => $s->sequence, 'heading' => $s->heading,
+                'shotlistUrl' => $this->urls->generate('scene_shotlist', ['scriptId' => $script->id, 'sceneId' => $s->id]),
                 'url' => $this->urls->generate('scene_player', ['scriptId' => $script->id, 'sceneId' => $s->id])];
         }
 
@@ -78,6 +81,16 @@ final class ScenePlayerService
         }
 
         return json_decode((string) file_get_contents($path), true, flags: JSON_THROW_ON_ERROR);
+    }
+
+    /** @return array<string, string> */
+    private function shots(string $scriptId): array
+    {
+        $safeId = preg_replace('/[^a-z0-9-]/', '', $scriptId);
+        $path = $this->projectDir.'/data/shots/'.$safeId.'.json';
+        if (!is_file($path)) { return []; }
+        $manifest = json_decode((string) file_get_contents($path), true, flags: JSON_THROW_ON_ERROR);
+        return $manifest['elements'] ?? [];
     }
 
     public function voiceKey(string $text, string $voice): string
