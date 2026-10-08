@@ -151,7 +151,7 @@ The old Smokescreen/Sandesa material was expanded into `~/smokescreen` and `~/sa
 
 ## Before further Fountain work
 
-Read the official [Fountain developer resources](https://fountain.io/developers/), especially **FountainRegexes**, and the linked [reference implementation](https://github.com/nyousefi/Fountain). This is a required research starting point for future importer/exporter changes, not a parser replacement performed now.
+Use the [Fountain reference implementation](https://github.com/nyousefi/Fountain), especially its default **FastFountainParser**, as the primary reference before future importer/exporter changes. Read its line-by-line parsing behavior, sample files and tests first. The [developer resources](https://fountain.io/developers/) and legacy **FountainRegexes** are secondary references for terminology and portable expressions. No parser replacement has been performed now.
 
 The MIT reference includes reading/writing, an element model, regex definitions, sample files and tests. Preserve inline styling markup through parsing and handle its display separately. When adapting expressions to PHP/PCRE, verify dialect differences and contextual screenplay rules against the syntax specification and fixtures.
 
