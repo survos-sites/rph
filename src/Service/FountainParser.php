@@ -89,18 +89,25 @@ final class FountainParser
     private function readTitlePage(array $lines): array
     {
         $metadata = [];
-        $index = 0;
+        $currentKey = null;
         foreach ($lines as $index => $line) {
             if ('' === trim($line)) {
                 return [$metadata, $index + 1];
             }
-            if (!preg_match('/^([A-Za-z]+):\s*(.+)$/', trim($line), $matches)) {
-                return [[], 0];
+            if (preg_match('/^([A-Za-z][A-Za-z ]*):[ \t]*(.*)$/', $line, $matches)) {
+                $currentKey = strtolower(trim($matches[1]));
+                $metadata[$currentKey] = trim($matches[2]);
+                continue;
             }
-            $metadata[strtolower($matches[1])] = trim($matches[2]);
+            if (null !== $currentKey && preg_match('/^(?: {3,}|\t)/', $line)) {
+                $metadata[$currentKey] = trim($metadata[$currentKey]."\n".trim($line));
+                continue;
+            }
+
+            return [[], 0];
         }
 
-        return [$metadata, $index];
+        return [$metadata, count($lines)];
     }
 
     private function isSceneHeading(string $line): bool

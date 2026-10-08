@@ -1,0 +1,12 @@
+{
+  "id": "big-fish",
+  "title": "Big Fish",
+  "author": "John August",
+  "sourceUrl": "https://fountain.io/_downloads/Big-Fish.fountain",
+  "referencePage": "https://fountain.io/",
+  "localPath": "data/scripts/Big-Fish.fountain",
+  "sha256": "43f2dc38285f8ffabfbcf12ac2b14df1425c44a66a1d8e50264df9ac044f4fc2",
+  "downloadedAt": "2026-10-08T10:10:51.590564+00:00",
+  "copyright": "2003 Columbia Pictures, as stated in the source title page",
+  "distribution": "Official publicly downloadable sample; original stored as a private local input, not vendored in this repository."
+}

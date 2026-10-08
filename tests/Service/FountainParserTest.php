@@ -46,4 +46,14 @@ FOUNTAIN);
         self::assertSame('DOROTHY', $parsed->scenes[0]->elements[2]->speaker);
     }
 
+    public function testMultilineTitlePageDoesNotBecomeScreenplayAction(): void
+    {
+        $parsed = (new FountainParser())->parse("Title: Big Fish\nCredit: written by\nAuthor: John August\nNotes:\n\tProduction draft\n\tIncludes omitted scenes\nDraft date: 2003\n\nINT. ROOM - DAY\n\nSomeone enters.");
+        self::assertSame('Big Fish', $parsed->title);
+        self::assertSame('John August', $parsed->author);
+        self::assertSame('INT. ROOM - DAY', $parsed->scenes[0]->heading);
+        self::assertCount(1, $parsed->scenes[0]->elements);
+        self::assertSame('Someone enters.', $parsed->scenes[0]->elements[0]->text);
+    }
+
 }

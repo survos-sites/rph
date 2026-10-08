@@ -27,3 +27,7 @@ Recovered demo inputs and their provenance are maintained separately; imported d
 - a teleprompter/rehearsal mode using small AssetMapper controllers;
 - import from Final Draft XML;
 - Bard integration without duplicating the Shakespeare corpus.
+
+## Data and media
+
+See [data and media storage](docs/data-and-media.md) for current import locations, the Big Fish sample, explicit seeding recommendations, and a text-first live deployment. Seeding is not hooked into Composer installation.
