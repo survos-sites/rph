@@ -1,0 +1,12 @@
+{
+  "id": "the-wizard-of-oz",
+  "title": "The Wonderful Wizard of Oz (Celtx sample)",
+  "sourceUrl": "https://raw.githubusercontent.com/n8willis/celtx/755bb095d82817222fbf64fe4c8b6669bfe5beff/mozilla/celtx/app/profile/CeltxSamples/1_TheWizard.celtx",
+  "sourceRepository": "n8willis/celtx",
+  "sourceCommit": "755bb095d82817222fbf64fe4c8b6669bfe5beff",
+  "sourcePath": "mozilla/celtx/app/profile/CeltxSamples/1_TheWizard.celtx",
+  "localPath": "data/scripts/the-wizard-of-oz.celtx",
+  "sha256": "d25a72cb0645ffabfed4bbebc760cca3febc3aee45416ba954a47928858c9a51",
+  "description": "Four-scene desktop Celtx sample with production assets; not the 1939 film screenplay.",
+  "distribution": "Source downloaded on explicit request; sample asset licenses are not inferred from the public-domain status of the underlying Baum novel."
+}
