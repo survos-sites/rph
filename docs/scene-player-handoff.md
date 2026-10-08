@@ -149,6 +149,14 @@ Scenea's original aim was detecting sharp visual frame breaks, reconstructing a 
 
 The old Smokescreen/Sandesa material was expanded into `~/smokescreen` and `~/sandesa`. Confirmed successors can retain stubs rather than duplicate old implementations. RPH has been modernized independently; Bard's presence in that archive was not established. Do not infer missing historic projects or publish the archive wholesale from this handoff. Remaining legacy publication/organization choices are separate work.
 
+## Before further Fountain work
+
+Read the official [Fountain developer resources](https://fountain.io/developers/), especially **FountainRegexes**, and the linked [reference implementation](https://github.com/nyousefi/Fountain). This is a required research starting point for future importer/exporter changes, not a parser replacement performed now.
+
+The MIT reference includes reading/writing, an element model, regex definitions, sample files and tests. Preserve inline styling markup through parsing and handle its display separately. When adapting expressions to PHP/PCRE, verify dialect differences and contextual screenplay rules against the syntax specification and fixtures.
+
+The repository README adds an important qualification absent from the developer page: its default is the line-by-line `FastFountainParser`; the older regex parser is retained for portability/legacy use, and its regexes are not fully compliant with the tests. Consult both implementations and the fixtures before borrowing expressions. Do not assume regex matching alone provides complete Fountain conformance.
+
 ## Resume plan
 
 1. Reopen RPH and confirm scripts, Oz production boards, and keyboard-controlled shotlist. Keep the four-scene prototype as a regression fixture.
