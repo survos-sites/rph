@@ -11,11 +11,12 @@ The repository does contain Oz cast/direction/shot JSON, SVG character portraits
 The official [Fountain homepage](https://fountain.io/) provides [Big Fish as a Fountain sample](https://fountain.io/_downloads/Big-Fish.fountain). Its title page credits John August and identifies Columbia Pictures copyright. The original is stored locally at `data/scripts/Big-Fish.fountain`, not vendored into Git. The committed `data/sources/big-fish.json` records URL, provenance and SHA-256 so the same input can be retrieved and checked.
 
 ```bash
-curl --fail --location https://fountain.io/_downloads/Big-Fish.fountain --output data/scripts/Big-Fish.fountain
-php bin/console app:load data/scripts/Big-Fish.fountain
+tools/import-big-fish.sh
+# Download and verify without touching the database:
+tools/import-big-fish.sh --download-only
 ```
 
-Create `data/scripts/` first on a fresh installation. Verify the download against the recorded SHA-256 before importing. The current parser imports 198 scene records (including its opening segment) and 53 character records. These are parser output counts, not an independently verified authoritative breakdown. Big Fish exercises more Fountain features than our initial fixtures; this import does not establish full format conformance. Its multiline title-page notes are now handled correctly.
+The script creates the input directory, downloads with curl, verifies the committed SHA-256, and invokes `app:load`. It is an explicit operation, not a Composer install hook. Reimporting replaces the existing Big Fish record; do not use it blindly over edited production data. The current parser imports 198 scene records (including its opening segment) and 53 character records. These are parser output counts, not an independently verified authoritative breakdown. Big Fish exercises more Fountain features than our initial fixtures; this import does not establish full format conformance. Its multiline title-page notes are now handled correctly.
 
 ## Seeding recommendation
 
@@ -40,3 +41,17 @@ Keep Symfony and provider credentials on the server. A Unity worker receives a v
 For the first live milestone, use a small curated script set and a few prepared images/clips. Defer bulk regeneration, storage-provider selection and automatic seed integration until that set and storage policy are agreed. The macOS `say` baseline is not available on a typical Linux production server; pre-generated audio or another backend is required there.
 
 No live database or deployment was changed by this addition. Big Fish was imported into the local database only.
+
+## Where the earlier examples came from
+
+The five earlier examples were recovered from the old [survos/rph](https://github.com/survos/rph/tree/7780d8ab5037293d820da0fd446b22b7212a3f65) at commit `7780d8ab5037293d820da0fd446b22b7212a3f65`. They were selected to recover the examples requested during the revival, not as a polished public demonstration set:
+
+| Imported example | Original location |
+| --- | --- |
+| Talented Clementine | `data/paul/talented-clementine.fountain` (an FDX copy also survived) |
+| Left-handed joke | `data/tac/lefthanded.fount` |
+| Politician joke | `data/tac/politician.fount` |
+| Job interview | `data/job-interview.font` |
+| Bob and Sandy | A `defaultContent` heredoc inside `src/Controller/ScriptController.php`, rather than a standalone authored script file |
+
+They were normalized into Fountain for the current importer. Local recovery manifests record original blobs and changes. The Wizard of Oz came separately from the desktop Celtx sample in `n8willis/celtx`; it is a small tutorial adaptation with production assets. Big Fish is the official Fountain sample and is a stronger full-screenplay parser exercise. Keep the old snippets as optional regression/recovery inputs rather than assuming they should populate the public demo site.
