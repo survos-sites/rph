@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" data-dev3-artifact-template="v1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RPH Oz scene prototype</title>
+  <link data-dev3-vendor="choices.js@11.2.3" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/choices.js/11.2.3/choices.min.css" referrerpolicy="no-referrer">
+  <link data-dev3-vendor="nouislider@15.8.1" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.8.1/nouislider.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="app.css" data-dev3-artifact-shell>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand">
+        <img src="dev3-icon.png" alt="dev3 logo">
+        <div>
+          <div class="eyebrow">DEV3 ARTIFACT · PROTOTYPE</div>
+          <h1>RPH Oz scene prototype</h1>
+          <div class="muted">Symfony first · free local voices · four recovered Celtx scenes</div>
+        </div>
+      </div>
+      <div class="actions">
+        <span class="status"><span class="dot"></span>Verified local prototype</span>
+        <div class="segmented text-size" role="group" aria-label="Text size">
+          <button type="button" data-font-step="-1" title="Smaller text" aria-label="Smaller text">A−</button>
+          <button class="text-size-value" id="fontScaleValue" type="button" data-font-step="0" title="Reset text size to 100%" aria-label="Reset text size">100%</button>
+          <button type="button" data-font-step="1" title="Larger text" aria-label="Larger text">A+</button>
+        </div>
+        <button class="ghost" id="artifactTheme" type="button" title="Theme: Follow host">◐ Auto</button>
+      </div>
+    </header>
+
+<section class="card section"><div class="section-head"><h2 class="section-title">Chosen direction: Cine-AI with more data</h2></div><p class="prose">Symfony owns scripts, shot annotations, character recipes and review. Cine-AI supplies a starting architecture for camera technique selection and storyboard playback. First make authored decisions useful in the static shotlist; later realize them in Unity.</p><p class="prose"><a href="scene-player-handoff.md">Read the full detailed handoff</a>: source audit, proposed data model, Unity tools, local/paid voices, dataset limitations, and seven-step resume plan.</p></section>
+<section class="card section"><div class="section-head"><h2 class="section-title">What more data means</h2></div><p class="prose">Store shot sequences linked to script beats, subject and foreground actors, blocking, gaze, camera side, framing, motion, timing, dramatic purpose and review provenance. Preserve source examples, then derive versioned context-aware style profiles. Start with a reviewed English conversation: master, alternating OTS, reaction close-up and insert.</p></section>
+<section class="card section"><div class="section-head"><h2 class="section-title">Cine-AI source audit</h2></div><p class="prose"><a href="https://github.com/inanevin/Cine-AI">MIT upstream</a> targets Unity 2020.2.2f1. Its two published director JSON files are aggregate technique profiles, not a large aligned screenplay/shot corpus. Runtime playback uses precomputed camera decisions; planning lives in editor code. Port a small runtime-safe subset to Unity 6, use stable actor IDs and review numerical probability handling. No integration or upstream build was performed.</p></section>
+<section class="card section"><div class="section-head"><h2 class="section-title">Data and tools</h2></div><p class="prose">PROSE has 68 paired episodes, but inspected samples mix Chinese directions with English content. Preserve originals and reviewed translations if imported. PSL 2 supplies a formal vocabulary; its reference repository remains unverified behind an access challenge.</p><p class="prose">UMA is the leading runtime avatar candidate; Genies is a second option requiring ecosystem/terms review. Cinemachine, Playables and Animation Rigging can realize shots, timing and gaze. SALSA is a paid lip-sync candidate. Kokoro/Piper are local voice leads; ElevenLabs is a paid lead; confirm AssemblyAI's scripted synthesis suitability. None has been installed for this research.</p></section>
+<section class="card section"><div class="section-head"><h2 class="section-title">Preserved baseline and restart point</h2></div><p class="prose">RPH has the keyboard-controlled static shotlist, four Oz scenes, 41 cached voices and Celtx production boards/layouts. The independent Unity repository and release preserve the working coarse-character player. Resume with the richer shot schema and one reviewed English scene in Symfony. Film-cut recovery through Scenea remains deferred.</p><p class="prose"><a href="https://rph.wip/scripts/the-wizard-of-oz/scenes/the-wizard-of-oz-1/shotlist">Open local shotlist</a> · <a href="https://github.com/SeriousUnity/role-playhouse/releases/tag/v0.1.0-oz-prototype">Unity release</a></p></section>
+    <footer class="dev3-footer"><span><strong>Built with dev3 Artifacts</strong> · research that travels with the task</span><span>Sources linked beside claims · 8 October 2026</span></footer>
+  </main>
+  <script src="app.js" data-dev3-artifact-shell></script>
+  <script src="report.js"></script>
+</body></html>

@@ -1,6 +1,8 @@
 # Role Playhouse
 
-A Symfony 8.1 application for importing, reading, casting, and rehearsing scripts. The first vertical slice imports Fountain files into a structured script, scene, character, and element graph and renders them with Tabler.
+A Symfony 8.1 application for importing, reading, casting, and rehearsing scripts. It imports Fountain and desktop Celtx projects, preserves production metadata, and presents a static shotlist with keyboard controls, action overlays, and dialogue subtitles.
+
+The next direction is **Cine-AI with a richer Symfony-owned shot corpus**, followed by data-driven Unity playback and avatar creation. Read the detailed [scene-player handoff](docs/scene-player-handoff.md) before resuming.
 
 ## Local setup
 
@@ -16,7 +18,7 @@ symfony server:start -d
 
 You can also place local `.fountain` or `.fount` files in the ignored `data/scripts/` directory and run `php bin/console app:load`.
 
-No scripts or imported data are committed. The legacy Symfony 5 implementation remains in `~/sites/rph-5` as behavioral reference.
+Recovered demo inputs and their provenance are maintained separately; imported database records and generated audio are not reconstructed by a source checkout alone. The legacy Symfony 5 implementation remains in `~/sites/rph-5` as behavioral reference.
 
 ## Next candidates
 

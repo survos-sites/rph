@@ -41,3 +41,8 @@ Compare four short voice clips in Symfony: neutral, whispered, interrupted and s
 [AssemblyAI's voice catalog](https://www.assemblyai.com/docs/voice-agents/voice-agent-api/voices) exposes voices through its Voice Agent API. This is documented as a conversational interface: verify exact-text offline generation before treating it as a batch TTS replacement. Transcription for rehearsal or film alignment is a separate possible use.
 
 [UMA](https://github.com/umasteeringgroup/UMA) is free and supports character creation/customization. [Current releases](https://github.com/umasteeringgroup/UMA/releases) include runtime avatar presets and wardrobe workflows. Test one humanoid, built through C# from an RPH recipe containing race, DNA, colors, wardrobe and expression references. Cache resulting stills for Symfony and regenerate when the recipe changes. Measure generation time and expression quality. Tin Man, Scarecrow, Lion and Toto may need specialized meshes; UMA is not automatically suitable for every Oz character. No package was installed for this experiment.
+
+
+## Pause-point decision
+
+Cine-AI is the selected architectural lead, backed by a richer Symfony-owned shot corpus. See the [detailed handoff](scene-player-handoff.md) for the source audit, Unity tools, voice options, PROSE language limitations, and resume plan.
