@@ -29,6 +29,14 @@ final class ScenePlayerController extends AbstractController
         return $this->render('script/shotlist.html.twig', ['script' => $script, 'scene' => $scene, 'payload' => $player->payload($script, $scene)]);
     }
 
+    #[Route('/scripts/{scriptId}/scenes/{sceneId}/stage', name: 'scene_stage')]
+    public function stage(Script $script, Scene $scene, ScenePlayerService $player): Response
+    {
+        $this->checkScene($script, $scene);
+
+        return $this->render('script/stage.html.twig', ['script' => $script, 'scene' => $scene, 'payload' => $player->payload($script, $scene)]);
+    }
+
     #[Route('/scripts/{scriptId}/scenes/{sceneId}/play.json', name: 'scene_player_json')]
     public function data(Script $script, Scene $scene, ScenePlayerService $player): JsonResponse
     {

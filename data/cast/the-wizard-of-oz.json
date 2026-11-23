@@ -11,6 +11,12 @@
       "skin": "#DFB387",
       "clothing": "#3B8BB2",
       "hair": "#774832"
+    },
+    "voicestudio": {
+      "voice": "expr-voice-2-f"
+    },
+    "vrm": {
+      "model": "/media/vrm/VRM1_Constraint_Twist_Sample.vrm"
     }
   },
   "TIN MAN": {
@@ -25,6 +31,13 @@
       "skin": "#8C9DA5",
       "clothing": "#94A9B1",
       "hair": "#72838C"
+    },
+    "voicestudio": {
+      "voice": "expr-voice-3-m"
+    },
+    "vrm": {
+      "model": "/media/vrm/Seed-san.vrm",
+      "tint": true
     }
   },
   "SCARECROW": {
@@ -39,6 +52,13 @@
       "skin": "#D0B478",
       "clothing": "#6B8751",
       "hair": "#926C37"
+    },
+    "voicestudio": {
+      "voice": "expr-voice-4-m"
+    },
+    "vrm": {
+      "model": "/media/vrm/Seed-san.vrm",
+      "tint": true
     }
   },
   "LION": {
@@ -53,13 +73,20 @@
       "skin": "#BC7F35",
       "clothing": "#BD863B",
       "hair": "#74471F"
+    },
+    "voicestudio": {
+      "voice": "expr-voice-5-m"
+    },
+    "vrm": {
+      "model": "/media/vrm/Seed-san.vrm",
+      "tint": true
     }
   },
   "TOTO": {
     "portrait": "/media/cast/oz/toto.svg",
     "voice": null,
     "color": "#655a50",
-    "description": "Dorothy\u2019s nonspeaking dog.",
+    "description": "Dorothy’s nonspeaking dog.",
     "nonSpeaking": true,
     "avatar": {
       "archetype": "dog",

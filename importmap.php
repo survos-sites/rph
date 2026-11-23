@@ -35,4 +35,7 @@ return [
     '@floating-ui/utils' => ['version' => '0.2.12'],
     '@floating-ui/utils/dom' => ['version' => '0.2.12'],
     'marked' => ['version' => '18.0.14'],
+    'three' => ['version' => '0.187.0'],
+    '@pixiv/three-vrm' => ['version' => '3.5.5'],
+    'three/addons/loaders/GLTFLoader.js' => ['version' => '0.187.0'],
 ];

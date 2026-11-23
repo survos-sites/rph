@@ -38,6 +38,7 @@ final class ScenePlayerService
                     'description' => $profile['description'] ?? '',
                     'voice' => $this->voices->resolve($profile)->voice,
                     'color' => $profile['color'] ?? '#527c96',
+                    'vrm' => $profile['vrm'] ?? null,
                 ];
             }
             $voiceKey = $this->voices->resolve($profiles[$role?->name ?? ''] ?? [])->key($element->text);
