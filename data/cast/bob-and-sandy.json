@@ -1,0 +1,6 @@
+{
+  "BOB": { "voice": "Fred", "color": "#527c96", "voicestudio": { "voice": "expr-voice-2-m" } },
+  "BRANDY": { "voice": "Samantha", "color": "#b35a41", "voicestudio": { "voice": "expr-voice-3-f" } },
+  "WHISKEY": { "voice": "Ralph", "color": "#8a6d3b", "voicestudio": { "voice": "expr-voice-4-m" } },
+  "SANDY": { "voice": "Victoria", "color": "#418cb3", "voicestudio": { "voice": "expr-voice-5-f" } }
+}

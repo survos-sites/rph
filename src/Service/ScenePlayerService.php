@@ -7,6 +7,7 @@ namespace App\Service;
 use App\Entity\Scene;
 use App\Entity\Script;
 use App\Enum\ElementType;
+use App\Voice\VoiceResolver;
 use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
@@ -16,6 +17,7 @@ final class ScenePlayerService
         private readonly UrlGeneratorInterface $urls,
         #[Autowire('%kernel.project_dir%')] private readonly string $projectDir,
         private readonly ProductionDataService $production,
+        private readonly VoiceResolver $voices,
     ) {}
 
     /** @return array<string, mixed> */
@@ -34,11 +36,11 @@ final class ScenePlayerService
                     'name' => $role->name,
                     'portrait' => $profile['portrait'] ?? null,
                     'description' => $profile['description'] ?? '',
-                    'voice' => $profile['voice'] ?? 'Samantha',
+                    'voice' => $this->voices->resolve($profile)->voice,
                     'color' => $profile['color'] ?? '#527c96',
                 ];
             }
-            $voiceKey = $this->voiceKey($element->text, $profiles[$role?->name ?? '']['voice'] ?? 'Samantha');
+            $voiceKey = $this->voices->resolve($profiles[$role?->name ?? ''] ?? [])->key($element->text);
             $audioPath = '/media/voices/'.$voiceKey.'.mp3';
             $elements[] = [
                 'id' => $element->id,
@@ -95,8 +97,4 @@ final class ScenePlayerService
         return $manifest['elements'] ?? [];
     }
 
-    public function voiceKey(string $text, string $voice): string
-    {
-        return hash('sha256', 'macos-say/v1:165:'.$voice.':'.$text);
-    }
 }

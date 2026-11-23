@@ -8,6 +8,7 @@ use App\Enum\ElementType;
 use App\Repository\ScriptRepository;
 use App\Service\ScenePlayerService;
 use App\Service\ProductionDataService;
+use App\Voice\VoiceResolver;
 use Symfony\Component\Console\Attribute\Argument;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -23,6 +24,7 @@ final class ExportScenePackCommand
         private readonly ScriptRepository $scripts,
         private readonly ScenePlayerService $player,
         private readonly ProductionDataService $production,
+        private readonly VoiceResolver $voices,
         #[Autowire('%kernel.project_dir%')] private readonly string $projectDir,
     ) {}
 
@@ -40,7 +42,7 @@ final class ExportScenePackCommand
         $cast = [];
         foreach ($script->characters as $role) {
             $profile = $profiles[$role->name] ?? [];
-            $cast[] = ['id' => $role->id, 'name' => $role->name, 'voice' => $profile['voice'] ?? 'Samantha'] + ($profile['avatar'] ?? []);
+            $cast[] = ['id' => $role->id, 'name' => $role->name, 'voice' => $this->voices->resolve($profile)->voice] + ($profile['avatar'] ?? []);
         }
         foreach ($profiles as $name => $profile) {
             if (!empty($profile['nonSpeaking'])) {
@@ -52,8 +54,7 @@ final class ExportScenePackCommand
             $time = 0.0;
             $beats = [];
             foreach ($scene->elements as $element) {
-                $voice = $profiles[$element->character?->name ?? '']['voice'] ?? 'Samantha';
-                $key = $this->player->voiceKey($element->text, $voice);
+                $key = $this->voices->resolve($profiles[$element->character?->name ?? ''] ?? [])->key($element->text);
                 $audio = null;
                 $duration = max(2.0, min(10.0, str_word_count($element->text) / 4));
                 if (ElementType::Dialogue === $element->type) {
