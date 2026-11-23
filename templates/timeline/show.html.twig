@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ script.title }} · Timeline{% endblock %}
+{% block body %}
+<div class="page-body">
+    <main class="container-xl">
+        <header class="mb-3">
+            <a class="text-secondary" href="{{ path('script_show', script.rp) }}">← {{ script.title }}</a>
+            <h1 class="mt-2 mb-1">{{ script.title }}</h1>
+            <p class="text-secondary mb-0">The whole script as one timeline, compiled from its annotated Fountain.</p>
+        </header>
+        <div class="card">
+            <div class="card-body p-0" style="background:#000">
+                <div data-controller="otio-player" data-otio-player-url-value="{{ path('script_timeline_json', script.rp) }}" style="aspect-ratio:16/9">
+                    <div class="text-secondary p-4">{{ ready ? 'Loading the timeline…' : 'No timeline yet. Run php bin/console app:timeline ' ~ script.id }}</div>
+                </div>
+            </div>
+            <div class="card-footer d-flex flex-wrap gap-3 justify-content-between small text-secondary">
+                <span>Pictures and sounds without media yet show as labeled placeholders or are left out.</span>
+                <span><a href="{{ path('script_timeline_otio', script.rp) }}">OTIO</a> · <a href="{{ path('script_timeline_json', script.rp) }}">Playback data</a></span>
+            </div>
+        </div>
+    </main>
+</div>
+{% endblock %}

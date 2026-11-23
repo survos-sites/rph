@@ -12,13 +12,13 @@ Vocabulary: rph-annotations/1
 
 [[def mus:tannenbaum kind=diegetic "Community brass band playing O Tannenbaum. Record fresh; the composition is public domain."]]
 
-[[def char:JESS "Late 20s. Bright, articulate, slightly breathless. Speeds up when defensive, slows down when honest. Audition A, armored: speed as armor. Audition B, frayed: warm, tired, funny through exhaustion."]]
+[[def char:JESS look="woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles, slim charcoal wool city coat" "Late 20s. Bright, articulate, slightly breathless. Speeds up when defensive, slows down when honest. Audition A, armored: speed as armor. Audition B, frayed: warm, tired, funny through exhaustion."]]
 
-[[def char:BEN "About 30. Low-to-mid voice, unhurried, dry. Never pushes a joke; wins by waiting. Audition A, amused: enjoying her. Audition B, guarded: the humor covers a sting."]]
+[[def char:BEN look="man about 30, short sandy-brown hair, a few days of stubble, kind tired eyes, navy work jacket over a flannel shirt" "About 30. Low-to-mid voice, unhurried, dry. Never pushes a joke; wins by waiting. Audition A, amused: enjoying her. Audition B, guarded: the humor covers a sting."]]
 
-[[def char:LINDA "Late 50s. Central Pennsylvania warmth, light regional cadence, no caricature. Unflappable, cheerful; delivers bombshells like a weather report and never sounds hurt."]]
+[[def char:LINDA look="woman of 58, short silver-blonde bob, reading glasses on a beaded chain, red cardigan" "Late 50s. Central Pennsylvania warmth, light regional cadence, no caricature. Unflappable, cheerful; delivers bombshells like a weather report and never sounds hurt."]]
 
-[[def char:DOT "70s. Gravel and deadpan. Appraises; never complains."]]
+[[def char:DOT look="woman in her mid-seventies, weathered face, blaze-orange hunting cap, brown canvas barn coat" "70s. Gravel and deadpan. Appraises; never complains."]]
 
 [[def char:PA-VOLUNTEER "Small-town civic dad, mic too close."]]
 
@@ -272,11 +272,11 @@ Dot, the car's been ready since Tuesday.[[id=13b to=DOT emo=mischievous:2 act=co
 (beat)
 Oh, she knows.[[id=13c to=DOT emo=mischievous:3,pleased:2 act=reveal vol=soft pace=slow pre=0.6]]
 
-.LIGHTS #14#[[at=1:08 dur=3]]
+.LIGHTS #14#[[at=1:08 dur=3.5]]
 
 = The lighting we were denied, and the theme's fifth note.
 
-The heavy clunk of the tree lights switching on. The crowd goes "Ohhh!" and cheers. Sleigh bells.[[id=14a shot=BLACK sfx=electric.relay-clunk,crowd.cheer-ooh,bells.sleigh mus=theme:resolve]]
+The heavy clunk of the tree lights switching on. The crowd goes "Ohhh!" and cheers. Sleigh bells.[[id=14a shot=BLACK dur=0.6 sfx=electric.relay-clunk,crowd.cheer-ooh,bells.sleigh mus=theme:resolve]]
 
 Black blooms into warm, out-of-focus tree lights. We never see the tree or the couple.[[id=14b shot=ECU(lights) move=pull-out/slow img=tree-bokeh]]
 

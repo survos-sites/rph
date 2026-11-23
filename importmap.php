@@ -38,4 +38,5 @@ return [
     'three' => ['version' => '0.187.0'],
     '@pixiv/three-vrm' => ['version' => '3.5.5'],
     'three/addons/loaders/GLTFLoader.js' => ['version' => '0.187.0'],
+    '@survos/otio-bundle/player' => ['path' => './vendor/survos/otio-bundle/assets/dist/player.js'],
 ];

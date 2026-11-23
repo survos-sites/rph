@@ -21,6 +21,31 @@ final class FountainAnnotations
         $this->vocabulary = json_decode((string) file_get_contents($file), true, flags: \JSON_THROW_ON_ERROR);
     }
 
+    /** @return array<string, mixed> mappings to playback targets (VRM expressions, OTIO motion) */
+    public function compileTargets(): array
+    {
+        return $this->vocabulary['compile'] ?? [];
+    }
+
+    /**
+     * Attributes of every plain note (not `def`) merged in order.
+     *
+     * @param list<string> $notes
+     * @return array<string, string>
+     */
+    public function attributes(array $notes): array
+    {
+        $attributes = [];
+        foreach ($notes as $note) {
+            $parsed = $this->parse($note);
+            if (null === $parsed['directive']) {
+                $attributes = [...$attributes, ...$parsed['attributes']];
+            }
+        }
+
+        return $attributes;
+    }
+
     /**
      * @return array{directive: ?string, subject: ?string, text: ?string, attributes: array<string, string>}
      */

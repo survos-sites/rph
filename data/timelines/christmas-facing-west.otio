@@ -1,0 +1,4508 @@
+{
+    "OTIO_SCHEMA": "Timeline.1",
+    "name": "Christmas, Facing West",
+    "global_start_time": null,
+    "metadata": {
+        "survos": {
+            "version": 1,
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "fadeOutSeconds": 0.5
+        },
+        "rph": {
+            "script": "christmas-facing-west",
+            "source": "data/originals/christmas-facing-west.fountain",
+            "vocabulary": "rph-annotations/1"
+        }
+    },
+    "tracks": {
+        "OTIO_SCHEMA": "Stack.1",
+        "name": "tracks",
+        "source_range": null,
+        "metadata": [],
+        "effects": [],
+        "markers": [],
+        "children": [
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "name": "Pictures",
+                "kind": "Video",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "metadata": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "black",
+                                "element": "01a",
+                                "shot": "BLACK"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 60,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:black",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "fromScale": 1,
+                                    "toScale": 1.08,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "office-airshaft",
+                                "element": "01b",
+                                "shot": "MS(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 312,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:office-airshaft",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "fromScale": 1,
+                                    "toScale": 1.08,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "tesla-422-sleet",
+                                "element": "02a",
+                                "shot": "MCU(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 120,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:tesla-422-sleet",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "ANNVILLE, PENNSYLVANIA",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "fromScale": 1.1,
+                                    "toScale": 1.1,
+                                    "fromX": 47,
+                                    "toX": 53,
+                                    "fromY": 50,
+                                    "toY": 50
+                                },
+                                "layout": "lower-third"
+                            },
+                            "rph": {
+                                "img": "annville-main-street",
+                                "element": "03a",
+                                "shot": "ELS"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 50,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:annville-main-street",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "yard-snowman-ladder",
+                                "element": "03c",
+                                "shot": "LS"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 50,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:yard-snowman-ladder",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "linda-recliner",
+                                "element": "03d",
+                                "shot": "MS(LINDA)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 50,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:linda-recliner",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "fromScale": 1,
+                                    "toScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "hand-on-cheek",
+                                "element": "03h",
+                                "shot": "TWO(JESS,LINDA,size=MCU)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 60,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:hand-on-cheek",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "turkey-hill-dawn",
+                                "element": "04a",
+                                "shot": "LS"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 29,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:turkey-hill-dawn",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "jess-backing-out",
+                                "element": "04b",
+                                "shot": "MS(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 28,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:jess-backing-out",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "bumper-plow",
+                                "element": "04d",
+                                "shot": "INSERT(bumper)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 30,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:bumper-plow",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "dot-blaze-cap",
+                                "element": "04f",
+                                "shot": "MS(DOT)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 93,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:dot-blaze-cap",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "garage-boots",
+                                "element": "05a",
+                                "shot": "LS"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 65,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:garage-boots",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "jess-thin-coat",
+                                "element": "05d",
+                                "shot": "MCU(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 50,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:jess-thin-coat",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "ben-wiping-hands",
+                                "element": "05f",
+                                "shot": "MCU(BEN)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 221,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:ben-wiping-hands",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "cracked-sensor",
+                                "element": "06a",
+                                "shot": "INSERT(sensor)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 289,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:cracked-sensor",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "bag-on-bed",
+                                "element": "06g",
+                                "shot": "MS"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 30,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:bag-on-bed",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "doorway-1",
+                                "element": "07a",
+                                "shot": "MS(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 30,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:doorway-1",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "doorway-2",
+                                "element": "07a",
+                                "shot": "MS(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 30,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:doorway-2",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "doorway-3",
+                                "element": "07a",
+                                "shot": "MS(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 30,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:doorway-3",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "fromScale": 1,
+                                    "toScale": 1.08,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "truck-rear-window",
+                                "element": "08a",
+                                "shot": "TWO(BEN,JESS,size=MS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 107,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:truck-rear-window",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "fromScale": 1,
+                                    "toScale": 1.08,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "jess-profile-sunset",
+                                "element": "08b",
+                                "shot": "CU(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 107,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:jess-profile-sunset",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "phone-tyler",
+                                "element": "08d",
+                                "shot": "INSERT(phone)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 67,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:phone-tyler",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "jess-coffee-tray",
+                                "element": "09a",
+                                "shot": "MS(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 101,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:jess-coffee-tray",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "jess-tray-crunch",
+                                "element": "09c",
+                                "shot": "CU(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 53,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:jess-tray-crunch",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "ben-caught",
+                                "element": "09e",
+                                "shot": "MCU(BEN)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 60,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:ben-caught",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "square-crowd",
+                                "element": "10a",
+                                "shot": "ELS"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 41,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:square-crowd",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "jess-in-crowd",
+                                "element": "10b",
+                                "shot": "MS(JESS)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 41,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:jess-in-crowd",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "truck-empty",
+                                "element": "10c",
+                                "shot": "LS"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 42,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:truck-empty",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "black",
+                                "element": "11a",
+                                "shot": "BLACK"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 36,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:black",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "CHRISTMAS, FACING WEST",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "fromScale": 1,
+                                    "toScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                },
+                                "layout": "title"
+                            },
+                            "rph": {
+                                "img": "field-last-light",
+                                "element": "12a",
+                                "shot": "ELS"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 90,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:field-last-light",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "linda-pie-phone",
+                                "element": "13a",
+                                "shot": "MS(LINDA)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 150,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:linda-pie-phone",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "toScale": 1.04,
+                                    "fromScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                }
+                            },
+                            "rph": {
+                                "img": "black",
+                                "element": "14a",
+                                "shot": "BLACK"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 18,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:black",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "COMING THIS CHRISTMAS",
+                        "metadata": {
+                            "survos": {
+                                "motion": {
+                                    "fromScale": 1.08,
+                                    "toScale": 1,
+                                    "fromX": 50,
+                                    "toX": 50,
+                                    "fromY": 50,
+                                    "toY": 50
+                                },
+                                "layout": "title"
+                            },
+                            "rph": {
+                                "img": "tree-bokeh",
+                                "element": "14b",
+                                "shot": "ECU(lights)"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 87,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "img:tree-bokeh",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    }
+                ]
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "name": "Dialogue",
+                "kind": "Audio",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "metadata": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 60,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Mom, I can't do Christmas this year. If I leave, a guy named Tyler gets my accounts.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "01c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 133,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:5a560a75391882331c41f1a95cd6bfc06f20d7157701557f90cd54b57fd69df5",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: No, I know. I know.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "01d"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 47,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:e3457b441cea313562ff09eaedb63b54e8ea65ea68d1ebf91a5c64fac6c4e3b8:phone",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 25,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: ...What is that?",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "01f"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 14,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 33,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:0c64d00b9574410ded6ae52b6d9d28d65777ef067245e2e720ba084a931d7d26",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: Hm? Oh. That's for me.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "01g"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 51,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:99672955f236c57bf35b73900f57df195c753c0a7151bf1abe1f3e4fab2822a1:phone",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 14,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Two days. Tyler doesn't touch anything.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "02c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 65,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:c4aff50ce2aa0f6a94b58f4a4c16bce45bf380fe37f10e38938a31af6408de4d",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 55,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: You came!",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "03e"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 39,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:8b658e46a976c1870ece8071c235ed68fba074c85a3513ac2fea20a8a37b5515",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: You were in an ambulance.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "03f"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 47,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:f70f9b7c1132acea2624e6211a4aaeb21e457060d784366bdf535991809e0208",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 8,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: They offered.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "03g"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 42,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:2b1152ba9a8db7f17d97742d24ef4a0da3a513eae4f76c3ff800754874e86588",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 67,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Mom's fine. I'm back by noon--",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "04c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 50,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:0011e3fd265355a702f627b4f2e19d9b3d21e568148955b4346df9d4adab21b6",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 46,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "DOT: ...Well. That's a Tesla.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "04g"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 60,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:5fa6b4622a14864b566db1c8e5a048afc5e1ccfdeb93c6fed73bcfc496cd0be6",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 36,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: ...Hey, Jess.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "05c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 46,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:b1181b066380b5e77a7d9712f7f5e6dcf05bb2efac94c2ec2b58992b6d8343c2",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Hi! Hi. Sorry--do I...?",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "05e"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 43,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:8784dbc8f63878912dcf0acece4173c002de7f82d277f082c10e83a018246d9e",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 37,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: Chemistry. You sat behind me.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "05g"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 49,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:49b9ce7d85961743a5f2fe7ab79ead9658965b2bdeb7a7e7fb83deff7b768ef8",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: ...Ben.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "05h"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 40,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:6b0e607bf6c81f4521723665ebec35ce764a76cf8c9573adb5f6a4151782da7a",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 8,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: You said \"do I\" like it was a real question.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "05i"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 74,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:0072a903b475223d05d654f8a13a4f82306c0f5f7f25b586187923563ae5e052",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 13,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: Sensor's cracked. Comes from Tesla.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "06b"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 62,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:a2aef8eaf093eff8c157fab45b22c3bc3593c9374d23ad38976de56d393b1023",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 8,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: When?",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "06c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 32,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:23c9377e5f9384e3807fd436838822a84af36c353dbbada797de9faca2e6cad6",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: Twenty-sixth.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "06d"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 37,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:21e34424b8f1bd267978ab87c948ed5f89858b3a66eb8531b6cb314000fed03c",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 8,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Of December?",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "06e"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 36,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:04e16102d07a9a08cdeab7e22108a8d9d4433fd29e536dce645ccf0f94899588",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 32,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: ...That's the next one.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "06f"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 59,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:14d05f4cfbe596db68c5cc20816947e266821267ed6f37131823aeedcdeb351d",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 38,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Part?",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "07b"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 10,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 24,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:30af19fd1ee93efb9539da1fccaf53fdce3755c9b3dfcc6ab9bc7e11823756f6",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: Nope.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "07c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 21,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:687160bd33e949c40739e7a98cdf177c9d2ca706ae2e79a7cda4c7ab4dc59b7d",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 38,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: In the city, the sun goes behind a building at four. It doesn't set. It's just... over.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "08c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 162,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:7892bd92fa8145728be28b800fbce344ddf89601b5d09aaeb2dc8edf05b00750",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 82,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: Give it a minute.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "08f"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 24,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:a441ad8ced373187ed29a970ade01a7a7798f919156c8918fa6e4bbcce168b47",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 13,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: Looks great. Costs a fortune. Gets cold, shuts down.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "09b"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 93,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:f2bec8dcebf7c268ec2be361b038c1d0aea2871d5848ce0f8153282b37eb6b81",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 8,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Shuts down.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "09d"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 46,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:a64332573f865e7b940b372634c15e2633f1194af5fa66645b2575679db0e585",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 22,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: ...The car.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "09f"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 15,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 32,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:2d76b6d65255bfd4b738795adc8440626f15c2f705deed8a2bbc1b5c781fb7c2",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 13,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "PA VOLUNTEER: Okay, folks--couples up front!",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "10d"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 51,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:39d1de3250c7017060fbddb5f4acea275f2801fb327ccd4668b7d1c10ba6d30b:pa",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 8,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "CROWD: Five! Four! Three! Two--",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "10e"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 51,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:4fc47b602fa917fcc95e69e539af68c3ec0212a69ffe79f21cde9b8b6357de47",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 140,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: Dot, the car's been ready since Tuesday.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "13b"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 5,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 67,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:7de42786a128931266ab45a67bb64a11f30e28218ade4391b69269779a90b90a",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 26,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: Oh, she knows.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "13c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 6,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 44,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:0ba2d513eba19659e729cdded81ae5878535dbebb35ae7422917215e063f33eb",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    }
+                ]
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "name": "Effects 1",
+                "kind": "Audio",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "metadata": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 249,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "sfx:vehicle.siren-approach",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.8,
+                                "fadeInSeconds": 0,
+                                "fadeOutSeconds": 1
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 120,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "sfx:vehicle.siren-approach",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 333,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "sfx:door.store-chime",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.8
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 22,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "sfx:door.store-chime",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 35,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "sfx:impact.bumper-plow",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.8
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 24,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "sfx:impact.bumper-plow",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 1058,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "sfx:phone.vibrate-dash",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.8
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 72,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "sfx:phone.vibrate-dash",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 609,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "sfx:electric.relay-clunk",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.8
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 30,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "sfx:electric.relay-clunk",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    }
+                ]
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "name": "Effects 2",
+                "kind": "Audio",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "metadata": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2522,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "sfx:crowd.cheer-ooh",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.8,
+                                "fadeInSeconds": 0,
+                                "fadeOutSeconds": 1
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 90,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "sfx:crowd.cheer-ooh",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    }
+                ]
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "name": "Ambience",
+                "kind": "Audio",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "metadata": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 60,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "amb:keyboard",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.3,
+                                "fadeInSeconds": 0.5,
+                                "fadeOutSeconds": 0.5
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 1542,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "amb:keyboard",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 239,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "amb:wind-field",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.3,
+                                "fadeInSeconds": 0.5,
+                                "fadeOutSeconds": 0.5
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 567,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "amb:wind-field",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    }
+                ]
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "name": "Music 1",
+                "kind": "Audio",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "metadata": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 366,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:theme-in",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 108,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:theme-in",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 168,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:theme-play",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 108,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:theme-play",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 132,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:comedy",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45,
+                                "fadeInSeconds": 0.5,
+                                "fadeOutSeconds": 0.5
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 510,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:comedy",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 115,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:comedy-resolve",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 36,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:comedy-resolve",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 84,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:theme-drop",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 180,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:theme-drop",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 95,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:theme-play",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 108,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:theme-play",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 112,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:tannenbaum",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45,
+                                "fadeInSeconds": 0.5,
+                                "fadeOutSeconds": 0.5
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 505,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:tannenbaum",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    }
+                ]
+            },
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "name": "Music 2",
+                "kind": "Audio",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "metadata": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 372,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:theme-play",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 108,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:theme-play",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 222,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:store-carol",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45,
+                                "fadeInSeconds": 0.5,
+                                "fadeOutSeconds": 0.5
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 180,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:store-carol",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 655,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:comedy-sting",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 27,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:comedy-sting",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 718,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:theme-hold",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 90,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:theme-hold",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 150,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "mus:theme-resolve",
+                        "metadata": {
+                            "survos": {
+                                "gain": 0.45
+                            },
+                            "rph": []
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 105,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "mus:theme-resolve",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    }
+                ]
+            }
+        ]
+    }
+}

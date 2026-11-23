@@ -28,3 +28,6 @@
 # Downloaded PSL research annotation originals.
 /data/psl/
 /public/media/vrm/
+
+# Generated pictures, sound and processed voices; data/media/<script>.json records them.
+/public/media/generated/

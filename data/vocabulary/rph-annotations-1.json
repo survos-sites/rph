@@ -241,32 +241,32 @@
         "slow": {
           "fromScale": 1.1,
           "toScale": 1.1,
-          "fromX": 3,
-          "toX": -3
+          "fromX": 53,
+          "toX": 47
         }
       },
       "pan-right": {
         "slow": {
           "fromScale": 1.1,
           "toScale": 1.1,
-          "fromX": -3,
-          "toX": 3
+          "fromX": 47,
+          "toX": 53
         }
       },
       "tilt-up": {
         "slow": {
           "fromScale": 1.1,
           "toScale": 1.1,
-          "fromY": 3,
-          "toY": -3
+          "fromY": 53,
+          "toY": 47
         }
       },
       "tilt-down": {
         "slow": {
           "fromScale": 1.1,
           "toScale": 1.1,
-          "fromY": -3,
-          "toY": 3
+          "fromY": 47,
+          "toY": 53
         }
       }
     },
@@ -274,6 +274,7 @@
       "title": "title",
       "lower-third": "lower-third",
       "credits": "credits"
-    }
+    },
+    "otioMotionNote": "Positions are absolute percentages of the frame (50 is centered), as survos/otio-bundle expects; omitted positions default to 50."
   }
 }

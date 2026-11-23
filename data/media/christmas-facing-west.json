@@ -1,0 +1,218 @@
+{
+  "script": "christmas-facing-west",
+  "note": "Media for data/timelines/christmas-facing-west.otio. Files live under public/media/generated/ (not committed); this manifest records what each ID points to and where it came from.",
+  "images": {
+    "ref-jess": {
+      "file": "/media/generated/christmas-facing-west/img/ref-jess.png",
+      "credit": "Generated \u00b7 HeyGen nano-banana-2",
+      "source": "heygen",
+      "role": "character reference portrait"
+    },
+    "ref-ben": {
+      "file": "/media/generated/christmas-facing-west/img/ref-ben.png",
+      "credit": "Generated \u00b7 HeyGen nano-banana-2",
+      "source": "heygen",
+      "role": "character reference portrait"
+    },
+    "ref-linda": {
+      "file": "/media/generated/christmas-facing-west/img/ref-linda.png",
+      "credit": "Generated \u00b7 HeyGen nano-banana-2",
+      "source": "heygen",
+      "role": "character reference portrait"
+    },
+    "jess-thin-coat": {
+      "file": "/media/generated/christmas-facing-west/img/ref-jess.png",
+      "credit": "Generated \u00b7 HeyGen nano-banana-2",
+      "source": "heygen",
+      "role": "character reference portrait",
+      "standIn": "Character portrait ref-jess until this shot is generated"
+    },
+    "ben-wiping-hands": {
+      "file": "/media/generated/christmas-facing-west/img/ref-ben.png",
+      "credit": "Generated \u00b7 HeyGen nano-banana-2",
+      "source": "heygen",
+      "role": "character reference portrait",
+      "standIn": "Character portrait ref-ben until this shot is generated"
+    },
+    "ben-caught": {
+      "file": "/media/generated/christmas-facing-west/img/ref-ben.png",
+      "credit": "Generated \u00b7 HeyGen nano-banana-2",
+      "source": "heygen",
+      "role": "character reference portrait",
+      "standIn": "Character portrait ref-ben until this shot is generated"
+    },
+    "linda-recliner": {
+      "file": "/media/generated/christmas-facing-west/img/ref-linda.png",
+      "credit": "Generated \u00b7 HeyGen nano-banana-2",
+      "source": "heygen",
+      "role": "character reference portrait",
+      "standIn": "Character portrait ref-linda until this shot is generated"
+    },
+    "linda-pie-phone": {
+      "file": "/media/generated/christmas-facing-west/img/ref-linda.png",
+      "credit": "Generated \u00b7 HeyGen nano-banana-2",
+      "source": "heygen",
+      "role": "character reference portrait",
+      "standIn": "Character portrait ref-linda until this shot is generated"
+    }
+  },
+  "audio": {
+    "sfx:vehicle.siren-approach": {
+      "file": "/media/generated/christmas-facing-west/catalog/sfx-vehicle.siren-approach.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "4e132c824c1ca256",
+      "name": "Emergency vehicle siren",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+      "maxSeconds": 4.0
+    },
+    "sfx:door.store-chime": {
+      "file": "/media/generated/christmas-facing-west/catalog/sfx-door.store-chime.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "54b0e998c19e209e",
+      "name": "Two tone chime",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+    },
+    "sfx:impact.bumper-plow": {
+      "file": "/media/generated/christmas-facing-west/catalog/sfx-impact.bumper-plow.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "b78a76050afa53b8",
+      "name": "Metallic Clunk Scrape",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+    },
+    "sfx:electric.relay-clunk": {
+      "file": "/media/generated/christmas-facing-west/catalog/sfx-electric.relay-clunk.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "cb87077cb49ffe34",
+      "name": "Heavy mechanical click",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+    },
+    "sfx:crowd.cheer-ooh": {
+      "file": "/media/generated/christmas-facing-west/catalog/sfx-crowd.cheer-ooh.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "70894df777ac4a9c",
+      "name": "Crowd cheer",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+      "maxSeconds": 3.0
+    },
+    "amb:keyboard": {
+      "file": "/media/generated/christmas-facing-west/catalog/amb-keyboard.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "0c447abf8c87d552",
+      "name": "Keyboard typing",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+    },
+    "amb:wind-field": {
+      "file": "/media/generated/christmas-facing-west/catalog/amb-wind-field.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "dcc590846602e641",
+      "name": "Howling wind",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+    },
+    "mus:comedy": {
+      "file": "/media/generated/christmas-facing-west/catalog/mus-comedy.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "428b7f1822cc4d3384b561daf212cf66",
+      "name": "Playful quirky jazz, light comedic pizzicato",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+    },
+    "mus:store-carol": {
+      "file": "/media/generated/christmas-facing-west/catalog/mus-store-carol.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "6a453748e92c442581a39e7f7b76abac",
+      "name": "Upbeat cheerful Christmas music, festive bells",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+      "note": "Filtered to sound like a small store speaker."
+    },
+    "mus:tannenbaum": {
+      "file": "/media/generated/christmas-facing-west/catalog/mus-tannenbaum.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "sourceId": "5b95a8fedff54bdf9d61eaf6f718d444",
+      "name": "Christmas swing, big band brass and jazz piano",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+      "note": "Stand-in for a community brass band playing O Tannenbaum."
+    },
+    "mus:theme-in": {
+      "file": "/media/generated/christmas-facing-west/score/theme-in.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    },
+    "mus:theme-play": {
+      "file": "/media/generated/christmas-facing-west/score/theme-play.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    },
+    "mus:theme-hold": {
+      "file": "/media/generated/christmas-facing-west/score/theme-hold.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    },
+    "mus:theme-drop": {
+      "file": "/media/generated/christmas-facing-west/score/theme-drop.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    },
+    "mus:theme-swell": {
+      "file": "/media/generated/christmas-facing-west/score/theme-swell.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    },
+    "mus:theme-resolve": {
+      "file": "/media/generated/christmas-facing-west/score/theme-resolve.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    },
+    "mus:comedy-sting": {
+      "file": "/media/generated/christmas-facing-west/score/comedy-sting.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    },
+    "mus:comedy-resolve": {
+      "file": "/media/generated/christmas-facing-west/score/comedy-resolve.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    },
+    "sfx:phone.vibrate-dash": {
+      "file": "/media/generated/christmas-facing-west/score/phone-vibrate.mp3",
+      "kind": "audio",
+      "source": "tools/synth-cues.sh",
+      "credit": "Original placeholder cue",
+      "license": "Original; synthesized"
+    }
+  }
+}

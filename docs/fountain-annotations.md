@@ -98,7 +98,19 @@ Sound IDs are our own for now. The [Universal Category System](https://universal
 | `card` | — | — | Clip with `metadata.survos.layout` |
 | `sfx`, `amb`, `mus` | — | — | Clips on sound-effects, ambience and music tracks |
 
-Mappings for VRM expressions and OTIO motion are in the vocabulary JSON under `compile`. The compiler from Fountain to OTIO is not written yet.
+Mappings for VRM expressions and OTIO motion are in the vocabulary JSON under `compile`.
+
+## Timeline (OTIO)
+
+`php bin/console app:timeline <script>` compiles `data/originals/<script>.fountain` into `data/timelines/<script>.otio`, checks that the player can play it, and lists annotations that have no media yet. `/scripts/<script>/timeline` plays it with the survos/otio-bundle player; `.otio` and `.json` beside it serve the document and the playback data.
+
+- Each beat lasts its planned `dur`, or longer when its dialogue needs it. Dialogue uses the cached voices (`app:voices`), trimmed of engine padding; `pre`, `post` and `ovl` shift it; `fx` uses a filtered copy.
+- A picture starts where its action line falls and holds until the next one; pictures with no time between them share the beat. A card (`>TEXT<` with `card=`) captions the picture before it.
+- `sfx` are one-shots. `amb` and `mus` beds run from `:in` to `:out` or `:stop`. A music action with its own asset (`mus:theme-play`) is a one-shot.
+- Clip media references are stable IDs (`img:<slug>`, `sfx:<id>`, `voice:<key>`). [`data/media/<script>.json`](../data/media/christmas-facing-west.json) maps them to files under `public/media/generated/` (not committed) and records provenance. Changing media changes the manifest, not the OTIO. A picture without a file gets a labeled placeholder; audio without a file is left out.
+- `tools/synth-cues.sh` makes the original placeholder score (the theme, stings, phone buzz).
+
+The OTIO player needs two fixes made in `~/sites/mono/bu/otio-bundle` (sizing Remotion's shared audio tags to the timeline, and short title cards); until they are released, `vendor/survos/otio-bundle` must point at mono.
 
 ## Parser support
 
