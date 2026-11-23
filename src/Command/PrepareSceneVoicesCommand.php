@@ -7,6 +7,7 @@ namespace App\Command;
 use App\Enum\ElementType;
 use App\Repository\ScriptRepository;
 use App\Service\ScenePlayerService;
+use App\Voice\LineVoice;
 use App\Voice\SpeechSynthesizer;
 use App\Voice\VoiceResolver;
 use Symfony\Component\Console\Attribute\Argument;
@@ -26,6 +27,7 @@ final class PrepareSceneVoicesCommand
         private readonly ScriptRepository $scripts,
         private readonly ScenePlayerService $player,
         private readonly VoiceResolver $voices,
+        private readonly LineVoice $lines,
         #[AutowireIterator('rph.speech_synthesizer')] private readonly iterable $synthesizers,
         #[Autowire('%kernel.project_dir%')] private readonly string $projectDir,
     ) {}
@@ -51,11 +53,13 @@ final class PrepareSceneVoicesCommand
         $checked = [];
         $count = $created = 0;
         foreach ($script->scenes as $scene) {
+            $previous = null;
             foreach ($scene->elements as $element) {
+                [$previous, $before] = [$element, $previous];
                 if (ElementType::Dialogue !== $element->type) {
                     continue;
                 }
-                $voice = $this->voices->resolve($profiles[$element->character?->name ?? ''] ?? []);
+                $voice = $this->lines->forElement($profiles[$element->character?->name ?? ''] ?? [], $element, $before);
                 $synthesizer = $engines[$voice->engine] ?? throw new \LogicException('No synthesizer for '.$voice->engine);
                 if (!array_key_exists($voice->engine, $checked) && null !== ($checked[$voice->engine] = $synthesizer->unavailableReason())) {
                     $io->error($checked[$voice->engine].' The reader still works without speech.');
@@ -64,6 +68,9 @@ final class PrepareSceneVoicesCommand
                 }
                 $target = $directory.'/'.$voice->key($element->text).'.mp3';
                 if ($force || !is_file($target)) {
+                    if ($io->isVerbose()) {
+                        $io->writeln(sprintf('<info>%s</info> %s <comment>%s</comment>', $element->character?->name, $element->text, $voice->instructions ?? ''));
+                    }
                     $synthesizer->synthesize($element->text, $voice, $target);
                     ++$created;
                 }

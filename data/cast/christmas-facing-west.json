@@ -1,0 +1,32 @@
+{
+  "JESS": {
+    "voice": "Samantha", "color": "#b35a41",
+    "description": "Late 20s. Bright, articulate, slightly breathless. Speeds up when defensive, slows down when honest.",
+    "voicestudio": {"model": "omnivoice", "voice": "default", "design": "female, young adult, moderate pitch, american accent", "seed": 1201}
+  },
+  "BEN": {
+    "voice": "Alex", "color": "#527c96",
+    "description": "About 30. Low-to-mid voice, unhurried, dry. Never pushes a joke; wins by waiting.",
+    "voicestudio": {"model": "omnivoice", "voice": "default", "design": "male, young adult, low pitch, american accent", "seed": 1202}
+  },
+  "LINDA": {
+    "voice": "Victoria", "color": "#8a6d3b",
+    "description": "Late 50s. Warm, unflappable; delivers bombshells like a weather report.",
+    "voicestudio": {"model": "omnivoice", "voice": "default", "design": "female, middle-aged, moderate pitch, american accent", "seed": 1203}
+  },
+  "DOT": {
+    "voice": "Kathy", "color": "#c26a1b",
+    "description": "70s. Gravel and deadpan.",
+    "voicestudio": {"model": "omnivoice", "voice": "default", "design": "female, elderly, low pitch, american accent", "seed": 1204}
+  },
+  "PA VOLUNTEER": {
+    "voice": "Fred", "color": "#5b7f3a",
+    "description": "Small-town civic dad, mic too close.",
+    "voicestudio": {"model": "omnivoice", "voice": "default", "design": "male, middle-aged, moderate pitch, american accent", "seed": 1205}
+  },
+  "CROWD": {
+    "voice": "Ralph", "color": "#777777",
+    "description": "Placeholder: one voice standing in for a recorded crowd countdown.",
+    "voicestudio": {"model": "omnivoice", "voice": "default", "design": "male, middle-aged, moderate pitch, american accent", "seed": 1206}
+  }
+}

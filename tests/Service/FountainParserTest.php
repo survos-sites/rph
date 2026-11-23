@@ -56,4 +56,40 @@ FOUNTAIN);
         self::assertSame('Someone enters.', $parsed->scenes[0]->elements[0]->text);
     }
 
+    public function testNotesBoneyardSceneNumbersAndCenteredText(): void
+    {
+        $parsed = (new FountainParser())->parse(<<<'FOUNTAIN'
+Title: Notes
+Vocabulary: rph-annotations/1
+
+[[def mus:theme kind=score "Motif."]]
+
+INT. GARAGE - DAY #05#[[at=0:26 dur=8]]
+
+>ANNVILLE<[[id=05a card=lower-third]]
+
+/* Cut this:
+BEN
+Gone.
+*/
+
+DOT
+...Well. That's a Tesla.[[id=05b emo=interested:1 pace=slow]]
+(beat)
+Oh, she knows.
+FOUNTAIN);
+
+        $scene = $parsed->scenes[0];
+        self::assertSame(['def mus:theme kind=score "Motif."'], $parsed->notes);
+        self::assertSame('INT. GARAGE - DAY', $scene->heading);
+        self::assertSame('05', $scene->sourceId);
+        self::assertSame(['at=0:26 dur=8'], $scene->notes);
+        self::assertSame(ElementType::Action, $scene->elements[0]->type);
+        self::assertSame('ANNVILLE', $scene->elements[0]->text);
+        self::assertSame(['id=05a card=lower-third'], $scene->elements[0]->notes);
+        self::assertSame('DOT', $scene->elements[1]->speaker);
+        self::assertSame("...Well. That's a Tesla.", $scene->elements[1]->text);
+        self::assertSame(['id=05b emo=interested:1 pace=slow'], $scene->elements[1]->notes);
+        self::assertCount(4, $scene->elements, 'Boneyard dialogue is dropped; "...Well." is not a forced heading.');
+    }
 }

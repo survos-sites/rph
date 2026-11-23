@@ -1,0 +1,279 @@
+{
+  "id": "rph-annotations/1",
+  "description": "Closed vocabulary for [[key=value]] Fountain notes. Performance nuance stays in natural-language parentheticals; these keys keep the machine-readable signals consistent. See docs/fountain-annotations.md.",
+  "sources": {
+    "emotion": "https://www.w3.org/TR/emotion-voc/ (EmotionML everyday-categories, Cowie et al. 1999)",
+    "shot": "Prose Storyboard Language shot sizes; aliases as proposed in docs/production-and-shot-language.md",
+    "fountain": "https://fountain.io/syntax/",
+    "prosody": "https://www.w3.org/TR/speech-synthesis11/ (SSML 1.1 prosody rate/volume, break time)"
+  },
+  "keys": {
+    "id": {
+      "pattern": "^\\d{2}[a-z]$"
+    },
+    "at": {
+      "pattern": "^\\d+:\\d{2}(\\.\\d+)?$"
+    },
+    "dur": {
+      "type": "seconds"
+    },
+    "pre": {
+      "type": "seconds"
+    },
+    "post": {
+      "type": "seconds"
+    },
+    "ovl": {
+      "type": "seconds"
+    },
+    "to": {
+      "pattern": "^[A-Z][A-Z .'-]*$"
+    },
+    "emo": {
+      "type": "emotions"
+    },
+    "act": {
+      "pattern": "^[a-z][a-z-]*$"
+    },
+    "vol": {
+      "enum": [
+        "x-soft",
+        "soft",
+        "medium",
+        "loud",
+        "x-loud"
+      ],
+      "source": "SSML prosody volume"
+    },
+    "pace": {
+      "enum": [
+        "x-slow",
+        "slow",
+        "medium",
+        "fast",
+        "x-fast"
+      ],
+      "source": "SSML prosody rate"
+    },
+    "end": {
+      "enum": [
+        "full",
+        "trail",
+        "cutoff"
+      ]
+    },
+    "stress": {
+      "pattern": "^[\\w'-]+(,[\\w'-]+)*$"
+    },
+    "fx": {
+      "enum": [
+        "none",
+        "phone",
+        "car-speaker",
+        "pa",
+        "radio"
+      ]
+    },
+    "say": {
+      "type": "text"
+    },
+    "take": {
+      "pattern": "^[\\w.-]+$"
+    },
+    "shot": {
+      "pattern": "^(ECU|CU|MCU|MS|MLS|LS|ELS|TWO|OTS|INSERT|POV|BLACK)(\\([^)]*\\))?$"
+    },
+    "move": {
+      "pattern": "^(hold|push-in|pull-out|pan-left|pan-right|tilt-up|tilt-down)(/(slow|med|fast))?$"
+    },
+    "img": {
+      "type": "slugs"
+    },
+    "card": {
+      "enum": [
+        "title",
+        "lower-third",
+        "credits"
+      ]
+    },
+    "sfx": {
+      "type": "sounds"
+    },
+    "amb": {
+      "type": "beds"
+    },
+    "mus": {
+      "type": "music"
+    },
+    "bridge": {
+      "pattern": "^(sfx|mus|amb):[\\w.-]+>(sfx|mus|amb):[\\w.-]+$"
+    },
+    "cut": {
+      "enum": [
+        "hard",
+        "black",
+        "fade",
+        "crossfade"
+      ]
+    },
+    "note": {
+      "type": "text"
+    }
+  },
+  "emotions": {
+    "everyday": [
+      "affectionate",
+      "afraid",
+      "amused",
+      "angry",
+      "bored",
+      "confident",
+      "content",
+      "disappointed",
+      "excited",
+      "happy",
+      "interested",
+      "loving",
+      "pleased",
+      "relaxed",
+      "sad",
+      "satisfied",
+      "worried"
+    ],
+    "extensions": [
+      "embarrassed",
+      "guilty",
+      "hurt",
+      "incredulous",
+      "mischievous",
+      "nervous",
+      "surprised",
+      "wistful"
+    ],
+    "intensity": {
+      "1": "slight",
+      "2": "moderate",
+      "3": "strong"
+    }
+  },
+  "bedActions": [
+    "in",
+    "out"
+  ],
+  "musicActions": [
+    "in",
+    "out",
+    "play",
+    "hold",
+    "drop",
+    "swell",
+    "duck",
+    "sting",
+    "stop",
+    "resolve"
+  ],
+  "defKinds": [
+    "mus",
+    "char"
+  ],
+  "compile": {
+    "vrmExpression": {
+      "affectionate": "happy",
+      "amused": "happy",
+      "excited": "happy",
+      "happy": "happy",
+      "loving": "happy",
+      "pleased": "happy",
+      "mischievous": "happy",
+      "angry": "angry",
+      "sad": "sad",
+      "disappointed": "sad",
+      "worried": "sad",
+      "guilty": "sad",
+      "hurt": "sad",
+      "wistful": "sad",
+      "afraid": "surprised",
+      "surprised": "surprised",
+      "incredulous": "surprised",
+      "nervous": "surprised",
+      "relaxed": "relaxed",
+      "content": "relaxed",
+      "confident": "relaxed",
+      "satisfied": "relaxed",
+      "bored": "relaxed",
+      "interested": null,
+      "embarrassed": null
+    },
+    "otioMotion": {
+      "hold": {
+        "fromScale": 1,
+        "toScale": 1
+      },
+      "push-in": {
+        "slow": {
+          "fromScale": 1,
+          "toScale": 1.08
+        },
+        "med": {
+          "fromScale": 1,
+          "toScale": 1.15
+        },
+        "fast": {
+          "fromScale": 1,
+          "toScale": 1.3
+        }
+      },
+      "pull-out": {
+        "slow": {
+          "fromScale": 1.08,
+          "toScale": 1
+        },
+        "med": {
+          "fromScale": 1.15,
+          "toScale": 1
+        },
+        "fast": {
+          "fromScale": 1.3,
+          "toScale": 1
+        }
+      },
+      "pan-left": {
+        "slow": {
+          "fromScale": 1.1,
+          "toScale": 1.1,
+          "fromX": 3,
+          "toX": -3
+        }
+      },
+      "pan-right": {
+        "slow": {
+          "fromScale": 1.1,
+          "toScale": 1.1,
+          "fromX": -3,
+          "toX": 3
+        }
+      },
+      "tilt-up": {
+        "slow": {
+          "fromScale": 1.1,
+          "toScale": 1.1,
+          "fromY": 3,
+          "toY": -3
+        }
+      },
+      "tilt-down": {
+        "slow": {
+          "fromScale": 1.1,
+          "toScale": 1.1,
+          "fromY": -3,
+          "toY": 3
+        }
+      }
+    },
+    "otioLayout": {
+      "title": "title",
+      "lower-third": "lower-third",
+      "credits": "credits"
+    }
+  }
+}

@@ -14,6 +14,14 @@ final class FountainParser
     public function parse(string $content, string $fallbackTitle = 'Untitled Script'): ParsedScript
     {
         $content = str_replace(["\r\n", "\r"], "\n", trim($content));
+        // Boneyard is ignored entirely; notes are kept but never become element text.
+        $content = (string) preg_replace('#/\*.*?\*/#s', '', $content);
+        $notes = [];
+        $content = (string) preg_replace_callback('/\[\[(.*?)\]\]/s', static function (array $match) use (&$notes): string {
+            $notes[] = trim($match[1]);
+
+            return self::NOTE_OPEN.(count($notes) - 1).self::NOTE_CLOSE;
+        }, $content);
         $lines = explode("\n", $content);
         [$metadata, $start] = $this->readTitlePage($lines);
         $script = new ParsedScript(
@@ -30,7 +38,12 @@ final class FountainParser
         $blankBefore = true;
 
         for ($index = $start, $count = count($lines); $index < $count; ++$index) {
-            $line = trim($lines[$index]);
+            [$line, $lineNotes] = $this->takeNotes($lines[$index], $notes);
+            if ('' === $line && [] !== $lineNotes) {
+                // A note on its own line belongs to the script, not to a neighbouring element.
+                array_push($script->notes, ...$lineNotes);
+                continue;
+            }
             if ('' === $line) {
                 $speaker = null;
                 $blankBefore = true;
@@ -38,13 +51,22 @@ final class FountainParser
             }
 
             if ($this->isSceneHeading($line)) {
-                $heading = ltrim($line, '.');
-                if (1 === count($script->scenes) && [] === $scene->elements && 'Opening' === $scene->heading) {
+                $heading = 1 === preg_match('/^\.[\p{L}\p{N}]/u', $line) ? substr($line, 1) : $line;
+                $number = null;
+                if (preg_match('/\s*#([\w.\-]+)#$/u', $heading, $matches)) {
+                    $number = $matches[1];
+                    $heading = trim(substr($heading, 0, -strlen($matches[0])));
+                }
+                // Sections and synopses before the first heading are structure, not an "Opening" scene.
+                $onlyStructure = [] === array_filter($scene->elements, static fn (ParsedElement $element): bool => !\in_array($element->type, [ElementType::Section, ElementType::Synopsis], true));
+                if (1 === count($script->scenes) && $onlyStructure && 'Opening' === $scene->heading) {
                     $scene->heading = $heading;
                 } else {
                     $scene = new ParsedScene(count($script->scenes) + 1, $heading);
                     $script->scenes[] = $scene;
                 }
+                $scene->sourceId = $number ?? $scene->sourceId;
+                array_push($scene->notes, ...$lineNotes);
                 $speaker = null;
                 $blankBefore = true;
                 continue;
@@ -62,16 +84,19 @@ final class FountainParser
                 ElementType::Section => ltrim($line, '# '),
                 ElementType::Synopsis => ltrim($line, '= '),
                 ElementType::Transition => trim($line, '> '),
-                default => $line,
+                default => $this->centeredText($line) ?? $line,
             };
             $elementSpeaker = in_array($type, [ElementType::Dialogue, ElementType::Parenthetical], true) ? $speaker : null;
             $last = [] === $scene->elements ? null : $scene->elements[array_key_last($scene->elements)];
 
             if ($last && $last->type === $type && $last->speaker === $elementSpeaker && !$blankBefore) {
                 $last->text .= "\n".$text;
+                $target = $last;
             } else {
-                $scene->elements[] = new ParsedElement(count($scene->elements) + 1, $type, $text, $elementSpeaker);
+                $target = new ParsedElement(count($scene->elements) + 1, $type, $text, $elementSpeaker);
+                $scene->elements[] = $target;
             }
+            array_push($target->notes, ...$lineNotes);
 
             $blankBefore = false;
             if ($stageDirection) {
@@ -110,9 +135,34 @@ final class FountainParser
         return [$metadata, count($lines)];
     }
 
+    private const string NOTE_OPEN = "\u{E000}";
+    private const string NOTE_CLOSE = "\u{E001}";
+
+    /**
+     * @param list<string> $notes
+     * @return array{string, list<string>} the line without note markers, and its notes
+     */
+    private function takeNotes(string $line, array $notes): array
+    {
+        $found = [];
+        $line = (string) preg_replace_callback('/'.self::NOTE_OPEN.'(\d+)'.self::NOTE_CLOSE.'/u', static function (array $match) use ($notes, &$found): string {
+            $found[] = $notes[(int) $match[1]];
+
+            return '';
+        }, $line);
+
+        return [trim($line), $found];
+    }
+
+    private function centeredText(string $line): ?string
+    {
+        return 1 === preg_match('/^>\s*(.*?)\s*<$/u', $line, $matches) ? $matches[1] : null;
+    }
+
     private function isSceneHeading(string $line): bool
     {
-        return str_starts_with($line, '.') || 1 === preg_match('/^(INT|EXT|EST|I\/E)[.\- ]/i', $line);
+        // Fountain forces a heading with one period followed by a letter or digit, so "...Well." stays dialogue.
+        return 1 === preg_match('/^\.[\p{L}\p{N}]/u', $line) || 1 === preg_match('/^(INT|EXT|EST|I\/E)[.\- ]/i', $line);
     }
 
     private function isCharacterCue(string $line, string $nextLine): bool
@@ -148,6 +198,9 @@ final class FountainParser
         }
         if (str_starts_with($line, '=')) {
             return ElementType::Synopsis;
+        }
+        if (null !== $this->centeredText($line)) {
+            return ElementType::Action;
         }
         if (str_starts_with($line, '>') || str_ends_with($line, ' TO:')) {
             return ElementType::Transition;

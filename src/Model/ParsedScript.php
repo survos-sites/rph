@@ -9,6 +9,8 @@ use App\Enum\ElementType;
 final class ParsedScript
 {
     public ?array $projectMetadata = null;
+    /** @var list<string> Standalone Fountain notes, such as `def` declarations. */
+    public array $notes = [];
     /** @param list<ParsedScene> $scenes */
     public function __construct(
         public string $title,
@@ -22,6 +24,8 @@ final class ParsedScript
 final class ParsedScene
 {
     public ?string $sourceId = null;
+    /** @var list<string> Fountain notes on the scene heading. */
+    public array $notes = [];
     /** @param list<ParsedElement> $elements */
     public function __construct(
         public int $sequence,
@@ -33,6 +37,8 @@ final class ParsedScene
 final class ParsedElement
 {
     public ?string $sourceId = null;
+    /** @var list<string> Fountain notes on this element, never part of its text. */
+    public array $notes = [];
     public function __construct(
         public int $sequence,
         public ElementType $type,

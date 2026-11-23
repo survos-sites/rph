@@ -35,4 +35,8 @@ final class ScriptElement
         #[Field(searchable: true)]
         public string $text,
     ) {}
+
+    /** @var list<string>|null Fountain notes (`[[...]]`) on this element; see docs/fountain-annotations.md. */
+    #[ORM\Column(type: 'json', nullable: true)]
+    public ?array $notes = null;
 }

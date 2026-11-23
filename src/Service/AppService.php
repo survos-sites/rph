@@ -132,6 +132,7 @@ final class AppService
                     $parsedElement->type,
                     $parsedElement->text,
                 );
+                $element->notes = $parsedElement->notes ?: null;
                 $scene->elements->add($element);
                 if ($script->projectMetadata && $parsedElement->sourceId) {
                     $script->projectMetadata['elementBindings'][$element->id] = $parsedElement->sourceId;

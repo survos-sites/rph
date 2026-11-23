@@ -41,6 +41,12 @@ final readonly class VoiceStudioSynthesizer implements SpeechSynthesizer
         if (null !== $voice->instructions) {
             $body['instructions'] = $voice->instructions;
         }
+        if (null !== $voice->speed) {
+            $body['speed'] = $voice->speed;
+        }
+        if (null !== $voice->seed) {
+            $body['seed'] = $voice->seed;
+        }
         $response = $this->http->request('POST', $this->url('/v1/audio/speech'), ['json' => $body, 'timeout' => 300]);
         $status = $response->getStatusCode();
         if (200 !== $status) {

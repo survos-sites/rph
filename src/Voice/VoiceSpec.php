@@ -15,6 +15,10 @@ final readonly class VoiceSpec
         public string $voice,
         public ?string $model = null,
         public ?string $instructions = null,
+        /** VoiceStudio speed, 0.25 to 4.0; null leaves the engine default. */
+        public ?float $speed = null,
+        /** Pins sampling so a designed voice stays the same voice from line to line. */
+        public ?int $seed = null,
     ) {}
 
     public function key(string $text): string
@@ -22,7 +26,11 @@ final readonly class VoiceSpec
         return match ($this->engine) {
             // Unchanged from the original adapter so existing cached files stay valid.
             self::SAY => hash('sha256', 'macos-say/v1:165:'.$this->voice.':'.$text),
-            default => hash('sha256', json_encode(['voicestudio/v1', $this->model, $this->voice, $this->instructions, $text], JSON_THROW_ON_ERROR)),
+            // Speed and seed join the key only when set, so lines cached before they existed keep their keys.
+            default => hash('sha256', json_encode([
+                'voicestudio/v1', $this->model, $this->voice, $this->instructions, $text,
+                ...(null === $this->speed && null === $this->seed ? [] : [['speed' => $this->speed, 'seed' => $this->seed]]),
+            ], JSON_THROW_ON_ERROR)),
         };
     }
 }

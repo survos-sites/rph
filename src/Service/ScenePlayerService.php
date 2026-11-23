@@ -7,6 +7,7 @@ namespace App\Service;
 use App\Entity\Scene;
 use App\Entity\Script;
 use App\Enum\ElementType;
+use App\Voice\LineVoice;
 use App\Voice\VoiceResolver;
 use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
@@ -18,6 +19,7 @@ final class ScenePlayerService
         #[Autowire('%kernel.project_dir%')] private readonly string $projectDir,
         private readonly ProductionDataService $production,
         private readonly VoiceResolver $voices,
+        private readonly LineVoice $lines,
     ) {}
 
     /** @return array<string, mixed> */
@@ -27,7 +29,9 @@ final class ScenePlayerService
         $shots = $this->shots($script->id);
         $cast = [];
         $elements = [];
+        $previous = null;
         foreach ($scene->elements as $element) {
+            [$previous, $before] = [$element, $previous];
             $role = $element->character;
             if ($role && !isset($cast[$role->id])) {
                 $profile = $profiles[$role->name] ?? [];
@@ -41,7 +45,8 @@ final class ScenePlayerService
                     'vrm' => $profile['vrm'] ?? null,
                 ];
             }
-            $voiceKey = $this->voices->resolve($profiles[$role?->name ?? ''] ?? [])->key($element->text);
+            // Same per-line direction as app:voices, so the player finds the file that command cached.
+            $voiceKey = $this->lines->forElement($profiles[$role?->name ?? ''] ?? [], $element, $before)->key($element->text);
             $audioPath = '/media/voices/'.$voiceKey.'.mp3';
             $elements[] = [
                 'id' => $element->id,
