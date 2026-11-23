@@ -100,6 +100,12 @@ Sound IDs are our own for now. The [Universal Category System](https://universal
 
 Mappings for VRM expressions and OTIO motion are in the vocabulary JSON under `compile`.
 
+VoiceStudio facts, tested 2026-11-23 against `/v1/audio/speech` with OmniVoice:
+- `speed` works (the same line ran 4.4 s at 0.7, 3.3 s at 1.0 and 2.7 s at 1.4), so `pace` is a real control.
+- Free-text `instructions` are accepted, but OmniVoice keeps only its voice-design tags (gender, age, pitch, `whisper`, accent).
+- `[pause]`, `[slow]` and the other bracket tags are **read aloud** on this endpoint; they only work on VoiceStudio's own `/generate`. Don't put them in dialogue text.
+- Comma-grouped numbers are misread ("1,400" came out as "400"); spell them out before synthesis.
+
 ## Timeline (OTIO)
 
 `php bin/console app:timeline <script>` compiles `data/originals/<script>.fountain` into `data/timelines/<script>.otio`, checks that the player can play it, and lists annotations that have no media yet. `/scripts/<script>/timeline` plays it with the survos/otio-bundle player; `.otio` and `.json` beside it serve the document and the playback data.
