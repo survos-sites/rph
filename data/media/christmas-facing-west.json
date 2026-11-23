@@ -213,6 +213,153 @@
       "source": "tools/synth-cues.sh",
       "credit": "Original placeholder cue",
       "license": "Original; synthesized"
+    },
+    "amb:office-hvac": {
+      "file": "/media/generated/christmas-facing-west/sfx/amb-office-hvac.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Brown-noise room tone with a faint 120 Hz hum"
+    },
+    "amb:space-heater": {
+      "file": "/media/generated/christmas-facing-west/sfx/amb-space-heater.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Pink-noise heater hiss with mains hum"
+    },
+    "amb:heater-fan": {
+      "file": "/media/generated/christmas-facing-west/sfx/amb-heater-fan.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Truck heater fan"
+    },
+    "amb:truck-idle": {
+      "file": "/media/generated/christmas-facing-west/sfx/amb-truck-idle.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Old pickup idling: low firing pulse and rumble"
+    },
+    "amb:crows-distant": {
+      "file": "/media/generated/christmas-facing-west/sfx/amb-crows-distant.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Synthesized distant caws; rough, replace first"
+    },
+    "amb:tv-low": {
+      "file": "/media/generated/christmas-facing-west/sfx/amb-tv-low.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Generated voices, reversed and filtered",
+      "license": "Original (this project's generated voices)",
+      "name": "TV voices through a small speaker"
+    },
+    "amb:crowd-murmur": {
+      "file": "/media/generated/christmas-facing-west/sfx/amb-crowd-murmur.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Generated voices, reversed and filtered",
+      "license": "Original (this project's generated voices)",
+      "name": "Six layers of reversed voices plus outdoor air"
+    },
+    "sfx:voice.murmur-indistinct": {
+      "file": "/media/generated/christmas-facing-west/sfx/sfx-voice.murmur-indistinct.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Generated voices, reversed and filtered",
+      "license": "Original (this project's generated voices)",
+      "name": "Boss on the car speaker, indistinct"
+    },
+    "sfx:tool.impact-wrench": {
+      "file": "/media/generated/christmas-facing-west/sfx/sfx-tool.impact-wrench.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Two bursts of hammer pings over a motor whine"
+    },
+    "sfx:vehicle.engine-off": {
+      "file": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.engine-off.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Idle slows and dies"
+    },
+    "sfx:vehicle.engine-tick": {
+      "file": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.engine-tick.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Hot engine ticking"
+    },
+    "sfx:vehicle.ev-pedestrian-hum": {
+      "file": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.ev-pedestrian-hum.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "EV low-speed two-tone hum"
+    },
+    "sfx:foley.creeper-roll": {
+      "file": "/media/generated/christmas-facing-west/sfx/sfx-foley.creeper-roll.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Creeper rolling on concrete"
+    },
+    "sfx:bells.sleigh": {
+      "file": "/media/generated/christmas-facing-west/sfx/sfx-bells.sleigh.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "Synthesized placeholder",
+      "license": "Original (ffmpeg synthesis)",
+      "name": "Shaken jingle bells"
+    },
+    "amb:shop-radio": {
+      "file": "/media/generated/christmas-facing-west/sfx/amb-shop-radio.mp3",
+      "kind": "audio",
+      "source": "tools/synth-sfx.sh",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+      "name": "Store carol through a small radio (from mus:store-carol)"
+    },
+    "sfx:foley.cardboard-crunch": {
+      "file": "/media/generated/christmas-facing-west/catalog/sfx-foley.cardboard-crunch.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+      "sourceId": "25bf9c03abdc9766",
+      "name": "Paper crumple"
+    },
+    "sfx:debris.ice-fall": {
+      "file": "/media/generated/christmas-facing-west/catalog/sfx-debris.ice-fall.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+      "sourceId": "d81327f4a910a146",
+      "name": "Small Objects Shifting"
+    },
+    "sfx:door.storm-door-bang": {
+      "file": "/media/generated/christmas-facing-west/catalog/sfx-door.storm-door-bang.mp3",
+      "kind": "audio",
+      "source": "heygen-catalog",
+      "credit": "HeyGen audio catalog",
+      "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+      "sourceId": "8d4ae3b6d7018833+bd16f054e20720fb",
+      "name": "Deep Muffled Thud with Rapid dry clatter"
     }
   }
 }

@@ -1,0 +1,136 @@
+{
+  "about": "Image prompts for the trailer's pictures, one per img: slug in data/originals/christmas-facing-west.fountain. Character looks repeat the def char:* look= notes word for word so faces stay as close as text-only generation allows. No brand names or readable signage.",
+  "model": "z-image-turbo",
+  "width": 1280,
+  "height": 720,
+  "steps": 8,
+  "style": "cinematic film still from a warm Christmas romance movie, 35mm, natural skin texture, shallow depth of field, soft film grain, no text, no logos",
+  "characters": {
+    "JESS": "a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles, slim charcoal wool city coat",
+    "BEN": "a man about 30, short sandy-brown hair, a few days of stubble, kind tired eyes, navy work jacket over a flannel shirt",
+    "LINDA": "a woman of 58, short silver-blonde bob, reading glasses on a beaded chain, red cardigan",
+    "DOT": "a woman in her mid-seventies, weathered face, blaze-orange hunting cap, brown canvas barn coat"
+  },
+  "shots": {
+    "office-airshaft": {
+      "seed": 3001,
+      "prompt": "medium shot of {JESS} without the coat, white blouse, alone at a desk in a dim city office at nine at night, laptop glow on her face, the window behind her faces a brick airshaft lit by cold fluorescent light from another building, cool blue-green tones"
+    },
+    "tesla-422-sleet": {
+      "seed": 3002,
+      "prompt": "medium close-up through a car windshield at night, {JESS} gripping the steering wheel of a modern white electric car with a minimalist dashboard, still in office clothes, sleet streaking through the headlights on a dark rural highway, tense face lit by the dashboard screen"
+    },
+    "annville-main-street": {
+      "seed": 3003,
+      "prompt": "extreme long shot of a small-town Pennsylvania main street at night, two-story brick storefronts, strings of Christmas lights crossing the street overhead, light snow on the sidewalks, old-fashioned street lamps, warm and quiet"
+    },
+    "yard-snowman-ladder": {
+      "seed": 3004,
+      "prompt": "long shot of the front yard of a modest two-story Pennsylvania house at night, an inflatable snowman lying half-deflated in the snow beside a fallen aluminum ladder, a few strands of Christmas lights half hung on the gutter, porch light on, comic and a little sad"
+    },
+    "linda-recliner": {
+      "seed": 3005,
+      "prompt": "medium shot of {LINDA} sitting in a recliner in a cozy cluttered living room, one foot in a black orthopedic walking boot propped up, side tables crowded with foil-covered casserole dishes, a television glowing off screen, the storm door open behind with snow blowing in, unbothered cheerful expression"
+    },
+    "hand-on-cheek": {
+      "seed": 3006,
+      "prompt": "two-shot medium close-up in a warm living room lit by a lamp, {JESS} kneeling beside a recliner, and {LINDA} in the recliner resting her hand tenderly on her daughter's cheek, a black walking boot in the foreground, tender, eyes glistening"
+    },
+    "turkey-hill-dawn": {
+      "seed": 3007,
+      "prompt": "long shot of a small-town convenience store parking lot before dawn, orange sodium lights, gray slush, a white electric sedan parked with a roller suitcase visible on its back seat, store windows glowing, signage out of focus and unreadable"
+    },
+    "jess-backing-out": {
+      "seed": 3008,
+      "prompt": "medium shot through the driver's side window of a white electric sedan in a slushy convenience store lot before dawn, {JESS} in the driver's seat looking over her shoulder while reversing, a coffee cup in one hand and a phone pressed to her ear, distracted"
+    },
+    "bumper-plow": {
+      "seed": 3009,
+      "prompt": "close insert shot of the rear bumper of a white sedan pressed against the yellow steel snowplow blade mounted on an old rusty pickup truck, a small crack in the bumper, chunks of ice falling, slush, sodium light, before dawn"
+    },
+    "dot-blaze-cap": {
+      "seed": 3010,
+      "prompt": "medium shot of {DOT} standing beside the door of a convenience store before dawn, holding a paper coffee cup, deadpan unimpressed expression, sodium light, slush, an old pickup with a yellow plow blade behind her"
+    },
+    "garage-boots": {
+      "seed": 3011,
+      "prompt": "long shot inside a small one-bay auto repair garage in winter, a space heater glowing orange on the concrete floor, a white electric sedan raised slightly, a mechanic's work boots and legs sticking out from under the car, tools on pegboards, a radio on a shelf, warm and cluttered"
+    },
+    "jess-thin-coat": {
+      "seed": 3012,
+      "prompt": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge"
+    },
+    "ben-wiping-hands": {
+      "seed": 3013,
+      "prompt": "medium close-up of {BEN} in a small auto repair garage, wiping grease off his hands with a red shop rag, looking at someone off camera, dry and not smiling yet, space heater glow on one side of his face"
+    },
+    "cracked-sensor": {
+      "seed": 3014,
+      "prompt": "close insert shot of a man's greasy fingers holding a small round cracked car bumper parking sensor up to the light of a garage window, shallow depth of field, dust in the air"
+    },
+    "bag-on-bed": {
+      "seed": 3015,
+      "prompt": "medium shot of a modern black roller suitcase lying on a narrow childhood bed with a quilted bedspread, a faded high-school pennant on the wallpapered wall above it, small-town bedroom, a little absurd, soft lamp light"
+    },
+    "doorway-1": {
+      "seed": 3016,
+      "prompt": "medium shot of {JESS} standing in the doorway of a small auto repair garage holding one paper coffee cup, light snow on the ground outside, morning light, polite impatience"
+    },
+    "doorway-2": {
+      "seed": 3016,
+      "prompt": "medium shot of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles, in a borrowed puffy red parka instead of the city coat, standing in the doorway of a small auto repair garage holding one paper coffee cup, deeper snow on the ground outside, morning light, resigned"
+    },
+    "doorway-3": {
+      "seed": 3016,
+      "prompt": "medium shot of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles, in a borrowed puffy red parka and a knit hat, standing in the doorway of a small auto repair garage holding two paper coffee cups, snow piled high outside, morning light, a small hopeful smile"
+    },
+    "truck-rear-window": {
+      "seed": 3019,
+      "prompt": "two-shot from behind through the rear window of an old pickup truck cab, two silhouettes on the bench seat with a noticeable space between them, a wide snowy Pennsylvania farm field ahead and a low orange winter sun on the horizon, quiet and romantic"
+    },
+    "jess-profile-sunset": {
+      "seed": 3020,
+      "prompt": "close-up profile of {JESS} sitting in a pickup truck, lit warm orange by a low winter sunset through the windshield, a few snowflakes drifting past the glass, thoughtful, almost smiling"
+    },
+    "phone-tyler": {
+      "seed": 3021,
+      "prompt": "close insert shot of a smartphone lying on the dashboard of an old pickup truck, screen lit with an incoming call, a woman's hand reaching to turn it face down, orange sunset light, the contact name blurred"
+    },
+    "jess-coffee-tray": {
+      "seed": 3022,
+      "prompt": "medium shot of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles in a borrowed puffy red parka standing in the doorway of a cramped garage office, holding a cardboard tray with two coffees, hopeful, a space heater glowing orange in the corner"
+    },
+    "jess-tray-crunch": {
+      "seed": 3023,
+      "prompt": "close-up of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles in a red parka, her face falling as she overhears something, her hand crushing the cardboard coffee tray, hurt, warm office light"
+    },
+    "ben-caught": {
+      "seed": 3024,
+      "prompt": "medium close-up of {BEN} in a cramped garage office turning around from a desk with a landline phone in hand, caught, guilty and surprised, space heater glow"
+    },
+    "square-crowd": {
+      "seed": 3025,
+      "prompt": "extreme long shot of a small-town square at night packed with bundled-up people waiting for a Christmas tree lighting, breath steam in the cold air, children on their parents' shoulders, a tall evergreen tree still dark, a gazebo with a brass band, string lights"
+    },
+    "jess-in-crowd": {
+      "seed": 3026,
+      "prompt": "medium shot of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles in a red parka and knit hat standing alone in a crowd at a nighttime town square tree lighting, scanning the faces around her, breath steam, out of focus string lights behind her, hopeful and anxious"
+    },
+    "truck-empty": {
+      "seed": 3027,
+      "prompt": "long shot of an old pickup truck parked alone at the snowy edge of a small-town square at night, cab empty, door closed, string lights in the distance, lonely"
+    },
+    "field-last-light": {
+      "seed": 3028,
+      "prompt": "extreme long shot of a wide snowy Pennsylvania farm field at the last edge of sunset, horizon very low in the frame, a huge pale violet sky, a distant line of bare trees and a single farmhouse light, still and quiet"
+    },
+    "linda-pie-phone": {
+      "seed": 3029,
+      "prompt": "medium shot of {LINDA} in a recliner in a cozy living room, a beige corded landline phone at her ear with the cord twisted around one finger, eating pie with a fork straight from the aluminum pie tin, amused knowing look, walking boot propped up"
+    },
+    "tree-bokeh": {
+      "seed": 3030,
+      "prompt": "extreme close-up of warm golden Christmas tree lights completely out of focus, large soft round bokeh circles on black, glowing, no tree shape visible, no people"
+    }
+  }
+}
