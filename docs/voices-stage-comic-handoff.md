@@ -2,7 +2,7 @@
 
 ## Done
 
-- **VoiceStudio voices** (commit 291ccf1). `RPH_VOICE_ENGINE` selects `say` (default) or `voicestudio`, the local [VoiceStudio](https://voicestudio.sh) app. rph calls its OpenAI-compatible `POST /v1/audio/speech` directly with Symfony HttpClient, deliberately bypassing Symfony AI (see below). Code is in `src/Voice/`.
+- **VoiceStudio voices** (commit 291ccf1). `RPH_VOICE_ENGINE` selects `say` (default) or `voicestudio`, the local [VoiceStudio](https://voicestudio.sh) app. rph calls its OpenAI-compatible `POST /v1/audio/speech` through Symfony AI's generic platform (`app.platform.voicestudio`, built by `src/Voice/Platform/VoiceStudioPlatform.php`); only the `/health` check uses HttpClient directly. Code is in `src/Voice/`.
   - A cast profile in `data/cast/<script>.json` may carry `"voicestudio": {"voice", "model", "instructions"}`.
   - Cache keys include the engine, model, voice and instructions. `say` keys are unchanged.
   - `app:voices <script> [--force]` generates the audio.
@@ -17,7 +17,7 @@
 
 ## Waiting on
 
-- **Our upstream Symfony AI PR** for the broken OpenAI TTS. Once it's accepted, decide whether `VoiceStudioSynthesizer` should go through Symfony AI's OpenAI platform, pointed at VoiceStudio, or stay a direct HTTP client. The direct client works today and has no Symfony AI dependency.
+- **Upstream symfony/ai#3058** (text to speech in the Generic bridge). rph requires it from the fork `tacman/ai-generic-platform` (branch `generic-tts`, a `vcs` repository in composer.json). Once it's merged and released, drop the repository and require the tagged `symfony/ai-generic-platform`.
 
 ## Next
 

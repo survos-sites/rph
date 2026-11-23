@@ -28,6 +28,8 @@
         "survos/tabler-bundle": "dev-main",
         "survos/workflow-extras-bundle": "^2.42.13",
         "survos/workflow-messenger-bundle": "^2.42.13",
+        "symfony/ai-generic-platform": "dev-generic-tts as 1.0.0-BETA2",
+        "symfony/ai-platform": "dev-main as 1.0.0-BETA2",
         "symfony/asset": "^8.2",
         "symfony/asset-mapper": "^8.2",
         "symfony/console": "^8.2",
@@ -126,6 +128,10 @@
         "symfony/web-profiler-bundle": "^8.2"
     },
     "repositories": [{
+        "name": "ai-generic-platform",
+        "type": "vcs",
+        "url": "https://github.com/tacman/ai-generic-platform"
+    },{
         "name": "omc-working",
         "type": "path",
         "url": "../mono/lib/omc"
