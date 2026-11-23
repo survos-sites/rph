@@ -18,6 +18,17 @@ services:
     # this creates a service per class whose id is the fully-qualified class name
     App\:
         resource: '../src/'
+        # built by App\Voice\Platform\VoiceStudioPlatform, not services
+        exclude: '../src/Voice/Platform/'
+
+    # a local VoiceStudio (RPH_VOICE_ENGINE=voicestudio) through Symfony AI's generic platform
+    app.platform.voicestudio:
+        class: Symfony\AI\Platform\Platform
+        factory: [App\Voice\Platform\VoiceStudioPlatform, create]
+        arguments:
+            $httpClient: '@http_client'
+            $baseUrl: '%env(VOICESTUDIO_URL)%'
+            $apiKey: '%env(default::VOICESTUDIO_API_KEY)%'
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
