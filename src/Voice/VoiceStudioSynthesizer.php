@@ -4,17 +4,22 @@ declare(strict_types=1);
 
 namespace App\Voice;
 
+use Symfony\AI\Platform\Exception\ExceptionInterface as PlatformException;
+use Symfony\AI\Platform\Message\Content\Text;
+use Symfony\AI\Platform\PlatformInterface;
 use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Contracts\HttpClient\Exception\ExceptionInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 /**
- * Local VoiceStudio (voicestudio.sh) through its OpenAI-compatible POST /v1/audio/speech.
- * Called directly rather than through Symfony AI; loopback needs no API key.
+ * Local VoiceStudio (voicestudio.sh) through Symfony AI's generic (OpenAI-compatible) platform,
+ * see App\Voice\Platform\VoiceStudioPlatform. Lines are sent one at a time: VoiceStudio has a single
+ * GPU worker and refuses (429) more than one queued request.
  */
 final readonly class VoiceStudioSynthesizer implements SpeechSynthesizer
 {
     public function __construct(
+        #[Autowire(service: 'app.platform.voicestudio')] private PlatformInterface $platform,
         private HttpClientInterface $http,
         #[Autowire('%env(VOICESTUDIO_URL)%')] private string $baseUrl,
     ) {}
@@ -24,10 +29,11 @@ final readonly class VoiceStudioSynthesizer implements SpeechSynthesizer
         return VoiceSpec::VOICESTUDIO;
     }
 
+    /** /health is not a speech call, so it stays on the HTTP client. */
     public function unavailableReason(): ?string
     {
         try {
-            $status = $this->http->request('GET', $this->url('/health'), ['timeout' => 3])->getStatusCode();
+            $status = $this->http->request('GET', rtrim($this->baseUrl, '/').'/health', ['timeout' => 3])->getStatusCode();
 
             return 200 === $status ? null : sprintf('VoiceStudio at %s answered %d to /health.', $this->baseUrl, $status);
         } catch (ExceptionInterface $e) {
@@ -37,40 +43,28 @@ final readonly class VoiceStudioSynthesizer implements SpeechSynthesizer
 
     public function synthesize(string $text, VoiceSpec $voice, string $target): void
     {
-        $body = ['model' => $voice->model, 'input' => $text, 'voice' => $voice->voice, 'response_format' => 'mp3'];
+        $options = ['voice' => $voice->voice, 'response_format' => 'mp3'];
         if (null !== $voice->instructions) {
-            $body['instructions'] = $voice->instructions;
+            $options['instructions'] = $voice->instructions;
         }
         if (null !== $voice->speed) {
-            $body['speed'] = $voice->speed;
+            $options['speed'] = $voice->speed;
         }
         if (null !== $voice->seed) {
-            $body['seed'] = $voice->seed;
+            $options['seed'] = $voice->seed;
         }
         if (null !== $voice->numSteps) {
-            $body['num_step'] = $voice->numSteps;
+            $options['num_step'] = $voice->numSteps;
         }
-        $response = $this->http->request('POST', $this->url('/v1/audio/speech'), ['json' => $body, 'timeout' => 300]);
-        $status = $response->getStatusCode();
-        if (200 !== $status) {
-            $error = json_decode($response->getContent(false), true);
-            $message = $error['error']['message'] ?? (is_string($error['detail'] ?? null) ? $error['detail'] : $response->getContent(false));
-            throw new \RuntimeException(sprintf('VoiceStudio %d for voice "%s": %s', $status, $voice->voice, $message));
+        try {
+            $audio = $this->platform->invoke($voice->model ?? throw new \LogicException('A VoiceStudio voice needs a model.'), new Text($text), $options)->asBinary();
+        } catch (PlatformException|ExceptionInterface $e) {
+            throw new \RuntimeException(sprintf('VoiceStudio failed for voice "%s": %s', $voice->voice, $e->getMessage()), previous: $e);
         }
         $partial = $target.'.tmp.mp3';
-        $handle = fopen($partial, 'w') ?: throw new \RuntimeException('Unable to write '.$partial);
-        try {
-            foreach ($this->http->stream($response) as $chunk) {
-                fwrite($handle, $chunk->getContent());
-            }
-        } finally {
-            fclose($handle);
+        if (false === file_put_contents($partial, $audio)) {
+            throw new \RuntimeException('Unable to write '.$partial);
         }
         rename($partial, $target);
-    }
-
-    private function url(string $path): string
-    {
-        return rtrim($this->baseUrl, '/').$path;
     }
 }
