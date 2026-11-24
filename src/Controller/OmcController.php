@@ -56,6 +56,11 @@ final class OmcController extends AbstractController
         $data = $review->build($this->production($slug));
         return $this->render('omc/screenplay.html.twig', ['review'=>$data, 'slug'=>$slug]);
     }
+    #[Route('/productions/{slug}/widget', name:'omc_widget', requirements:['slug'=>'[a-z0-9-]+'])]
+    public function widget(string $slug, \Symfony\Component\HttpFoundation\Request $request, \App\Omc\PreviewModel $preview): Response
+    {
+        return $this->render('omc/widget.html.twig',['model'=>$preview->get($slug,$request->query->get('scene'))]);
+    }
     private function production(string $slug): Production
     {
         if (!is_file($this->data.'/'.$slug.'/project.json')) throw $this->createNotFoundException('Unknown OMC production.');

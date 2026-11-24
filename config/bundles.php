@@ -31,4 +31,5 @@ return [
     Survos\WorkflowMessengerBundle\SurvosWorkflowMessengerBundle::class => ['all' => true],
     Survos\TuiExtrasBundle\SurvosTuiExtrasBundle::class => ['all' => true],
     Survos\SupervisorBundle\SurvosSupervisorBundle::class => ['all' => true],
+    Symfony\AI\McpBundle\McpBundle::class => ['all' => true],
 ];

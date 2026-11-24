@@ -1,0 +1,15 @@
+{% extends '@Mcp/app/base.html.twig' %}
+{% block title %}RPH preview{% endblock %}
+{% block style %}body{margin:0;background:#17232b;color:#eee;font:16px system-ui}h2,p{margin:12px 16px}iframe{width:100%;height:610px;border:0}#status{color:#cbd5da}{% endblock %}
+{% block body %}<h2 id="title">RPH movie preview</h2><p id="status">Waiting for a production…</p><div id="root"></div>{% endblock %}
+{% block app_script %}
+function render(model) {
+    if(!model || !model.widgetUrl) return;
+    const url=new URL(model.widgetUrl);
+    if(url.origin!=='https://rph.wip' || !/^\/productions\/[a-z0-9-]+\/widget$/.test(url.pathname)) throw new Error('Unexpected preview URL');
+    document.getElementById('title').textContent=model.title;
+    document.getElementById('status').textContent=(model.scene ? 'Scene '+model.scene+' · '+model.heading : 'Entire movie')+' · '+model.durationSeconds.toFixed(1)+' seconds';
+    const frame=document.createElement('iframe');frame.src=url.href;frame.title='RPH live timeline player';frame.allow='fullscreen';
+    document.getElementById('root').replaceChildren(frame);
+}
+{% endblock %}

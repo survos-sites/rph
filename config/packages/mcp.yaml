@@ -1,0 +1,11 @@
+mcp:
+    servers:
+        default:
+            name: 'RPH Production Tools'
+            registry: ['App\Mcp\']
+            transports:
+                http: true
+                stdio: true
+            http:
+                path: /mcp
+                allowed_hosts: ['localhost', '127.0.0.1', 'rph.wip']

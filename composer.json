@@ -39,6 +39,7 @@
         "symfony/http-client": "^8.2",
         "symfony/intl": "^8.2",
         "symfony/mailer": "^8.2",
+        "symfony/mcp-bundle": "^0.15.0",
         "symfony/mime": "^8.2",
         "symfony/monolog-bundle": "^3.0|^4.1",
         "symfony/notifier": "^8.2",
