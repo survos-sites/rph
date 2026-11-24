@@ -1,0 +1,3109 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Composition",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "edit/main"
+      }
+    ],
+    "name": "Christmas, Facing West",
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.edit/1",
+        "value": {
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "tracks": [
+            {
+              "name": "Pictures",
+              "kind": "Video",
+              "durationFrames": 4033,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/eeae6f59bfdedff7"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 0,
+                  "durationFrames": 60,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "toScale": 1.04,
+                      "fromScale": 1,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "black",
+                        "element": "01a",
+                        "shot": "BLACK"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/0442a0b2a7beeaf7"
+                      }
+                    ]
+                  },
+                  "name": "Christmas, Facing West",
+                  "startFrame": 60,
+                  "durationFrames": 133,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 2.1,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 38,
+                      "toY": 38
+                    },
+                    "layout": "lower-third"
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "office-airshaft",
+                        "element": "01b",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/linda-phone-opening"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 193,
+                  "durationFrames": 86,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "office-airshaft",
+                        "element": "01b",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/jess-hears-siren"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 279,
+                  "durationFrames": 144,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "office-airshaft",
+                        "element": "01b",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/335619953e261dd1"
+                      }
+                    ]
+                  },
+                  "name": "Jess drives home — Annville 200 miles",
+                  "startFrame": 423,
+                  "durationFrames": 137,
+                  "sourceStartFrame": 0,
+                  "presentation": {},
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "tesla-422-sleet",
+                        "element": "02a",
+                        "shot": "MCU(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/8ad857b6c5a6287a"
+                      }
+                    ]
+                  },
+                  "name": "Annville arrival · LVC to the Christmas house",
+                  "startFrame": 560,
+                  "durationFrames": 400,
+                  "sourceStartFrame": 0,
+                  "presentation": {},
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "annville-main-street",
+                        "element": "03a",
+                        "shot": "ELS"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/8ba62523fd0f776a"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 960,
+                  "durationFrames": 219,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "linda-recliner",
+                        "element": "03d",
+                        "shot": "MS(LINDA)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/bf712fbe806a60d2"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1179,
+                  "durationFrames": 30,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "hand-on-cheek",
+                        "element": "03h",
+                        "shot": "TWO(JESS,LINDA,size=MCU)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/3d66d129cb57d157"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1209,
+                  "durationFrames": 150,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "turkey-hill-dawn",
+                        "element": "04a",
+                        "shot": "LS"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/48ce02db1577d9e8"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1359,
+                  "durationFrames": 339,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "jess-backing-out",
+                        "element": "04b",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/dashboard-warning"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1698,
+                  "durationFrames": 90,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.03,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "dot-blaze-cap",
+                        "element": "04f",
+                        "shot": "MS(DOT)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/d89c41cf8ed60ee9"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1788,
+                  "durationFrames": 210,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "dot-blaze-cap",
+                        "element": "04f",
+                        "shot": "MS(DOT)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/003bffb7e2eaf107"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1998,
+                  "durationFrames": 112,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "garage-boots",
+                        "element": "05a",
+                        "shot": "LS"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/b5951b32709ae1e4"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2110,
+                  "durationFrames": 56,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "jess-thin-coat",
+                        "element": "05d",
+                        "shot": "MCU(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/e3f6ddfeab228b58"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2166,
+                  "durationFrames": 114,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "cracked-sensor",
+                        "element": "06a",
+                        "shot": "INSERT(sensor)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/jess-how-long"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2280,
+                  "durationFrames": 39,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.03,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "jess-thin-coat",
+                        "element": "05d",
+                        "shot": "MCU(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/part-arrives-december-26"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2319,
+                  "durationFrames": 70,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.03,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "cracked-sensor",
+                        "element": "06a",
+                        "shot": "INSERT(sensor)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/jess-after-christmas"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2389,
+                  "durationFrames": 124,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.03,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "jess-thin-coat",
+                        "element": "05d",
+                        "shot": "MCU(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/ben-home-for-christmas"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2513,
+                  "durationFrames": 62,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.03,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "ben-wiping-hands",
+                        "element": "05f",
+                        "shot": "MCU(BEN)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/jess-recognizes-ben"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2575,
+                  "durationFrames": 60,
+                  "sourceStartFrame": 0,
+                  "presentation": {},
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "black",
+                        "element": "01a",
+                        "shot": "BLACK"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/ben-remembers-the-parade"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2635,
+                  "durationFrames": 101,
+                  "sourceStartFrame": 0,
+                  "presentation": {},
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "black",
+                        "element": "01a",
+                        "shot": "BLACK"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/jess-remembers"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2736,
+                  "durationFrames": 61,
+                  "sourceStartFrame": 0,
+                  "presentation": {},
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "black",
+                        "element": "01a",
+                        "shot": "BLACK"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/6f3e132791d6d578"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2797,
+                  "durationFrames": 30,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "bag-on-bed",
+                        "element": "06g",
+                        "shot": "MS"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/d235af14453f60e5"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2827,
+                  "durationFrames": 30,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "doorway-1",
+                        "element": "07a",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/e56f00ce2780e573"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2857,
+                  "durationFrames": 30,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "doorway-2",
+                        "element": "07a",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/7b2c808e7a6645a4"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2887,
+                  "durationFrames": 37,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "doorway-3",
+                        "element": "07a",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/90a89ff59b12022e"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 2924,
+                  "durationFrames": 100,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "truck-rear-window",
+                        "element": "08a",
+                        "shot": "TWO(BEN,JESS,size=MS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/ae98478fab7e2185"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3024,
+                  "durationFrames": 100,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "jess-profile-sunset",
+                        "element": "08b",
+                        "shot": "CU(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/93a8cea1907c51ba"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3124,
+                  "durationFrames": 106,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "phone-tyler",
+                        "element": "08d",
+                        "shot": "INSERT(phone)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/66bb9a3bd4615e90"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3230,
+                  "durationFrames": 115,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "jess-coffee-tray",
+                        "element": "09a",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/02b53a51b213acaa"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3345,
+                  "durationFrames": 61,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "jess-tray-crunch",
+                        "element": "09c",
+                        "shot": "CU(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/f86cb01d552ef9e1"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3406,
+                  "durationFrames": 90,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "ben-caught",
+                        "element": "09e",
+                        "shot": "MCU(BEN)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/f475321012dced89"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3496,
+                  "durationFrames": 45,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "square-crowd",
+                        "element": "10a",
+                        "shot": "ELS"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/4c7687adabc1d1d3"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3541,
+                  "durationFrames": 44,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "jess-in-crowd",
+                        "element": "10b",
+                        "shot": "MS(JESS)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/7a94590e453f1298"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3585,
+                  "durationFrames": 45,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "truck-empty",
+                        "element": "10c",
+                        "shot": "LS"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/eeae6f59bfdedff7"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3630,
+                  "durationFrames": 36,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "toScale": 1.04,
+                      "fromScale": 1,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "black",
+                        "element": "11a",
+                        "shot": "BLACK"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/d0860fa53260d712"
+                      }
+                    ]
+                  },
+                  "name": "CHRISTMAS, FACING WEST",
+                  "startFrame": 3666,
+                  "durationFrames": 90,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    },
+                    "layout": "title"
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "field-last-light",
+                        "element": "12a",
+                        "shot": "ELS"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/b314c352abc5ca8c"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3756,
+                  "durationFrames": 172,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "linda-pie-phone",
+                        "element": "13a",
+                        "shot": "MS(LINDA)"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/eeae6f59bfdedff7"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 3928,
+                  "durationFrames": 18,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "toScale": 1.04,
+                      "fromScale": 1,
+                      "fromX": 50,
+                      "toX": 50,
+                      "fromY": 50,
+                      "toY": 50
+                    }
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "black",
+                        "element": "14a",
+                        "shot": "BLACK"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/f92710bdecf12cdf"
+                      }
+                    ]
+                  },
+                  "name": "COMING THIS CHRISTMAS",
+                  "startFrame": 3946,
+                  "durationFrames": 87,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "motion": {
+                      "fromScale": 1,
+                      "toScale": 1.055,
+                      "fromX": 50,
+                      "toX": 52,
+                      "fromY": 50,
+                      "toY": 48
+                    },
+                    "layout": "title"
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "img": "tree-bokeh",
+                        "element": "14b",
+                        "shot": "ECU(lights)"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Dialogue",
+              "kind": "Audio",
+              "durationFrames": 3914,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/80101a6c7ba6526e"
+                      }
+                    ]
+                  },
+                  "name": "JESS: Mom, I'm sorry. I can't come home for Christmas this year. Work is crazy.",
+                  "startFrame": 60,
+                  "durationFrames": 125,
+                  "sourceStartFrame": 3,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "01c"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/d33f70516a178183"
+                      }
+                    ]
+                  },
+                  "name": "LINDA: Oh, honey. I understand.",
+                  "startFrame": 193,
+                  "durationFrames": 60,
+                  "sourceStartFrame": 3,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "01d"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/38d1e795aca04c7f"
+                      }
+                    ]
+                  },
+                  "name": "JESS: Mom? Is that a siren?",
+                  "startFrame": 279,
+                  "durationFrames": 48,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "01f"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/aefc7f7968edea9c"
+                      }
+                    ]
+                  },
+                  "name": "LINDA: Don't worry, sweetheart. I think it's for me.",
+                  "startFrame": 334,
+                  "durationFrames": 76,
+                  "sourceStartFrame": 4,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "01g"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/c99f3f9ffe92e535"
+                      }
+                    ]
+                  },
+                  "name": "JESS: My mom's in the hospital. Two days. I'll be back in two days, I promise.",
+                  "startFrame": 423,
+                  "durationFrames": 123,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "02c"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/02drive-a"
+                      }
+                    ]
+                  },
+                  "name": "JESS: I don't really fit here anymore. Everyone still thinks I'm seventeen.",
+                  "startFrame": 590,
+                  "durationFrames": 103,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "02drive-a"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/02drive-b"
+                      }
+                    ]
+                  },
+                  "name": "JESS: I know, but things will be better in the new year, when this project finishes. And yes, I'll be there for the New Year's Eve party.",
+                  "startFrame": 713,
+                  "durationFrames": 232,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "02drive-b"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/5cdbf48540c96352"
+                      }
+                    ]
+                  },
+                  "name": "LINDA: You came home!",
+                  "startFrame": 960,
+                  "durationFrames": 44,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "03e"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/da44920a6548b080"
+                      }
+                    ]
+                  },
+                  "name": "JESS: Mom, you were in an ambulance!",
+                  "startFrame": 1012,
+                  "durationFrames": 55,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "03f"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/a02117c2fc33c3d9"
+                      }
+                    ]
+                  },
+                  "name": "LINDA: It's just a sprain. The neighbors called an ambulance.",
+                  "startFrame": 1074,
+                  "durationFrames": 98,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "03g"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/d927443dfc51ebb8"
+                      }
+                    ]
+                  },
+                  "name": "JESS: I'm charging now. Send me the revisions. I'll look at them on the way.",
+                  "startFrame": 1459,
+                  "durationFrames": 106,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "04c"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/1c9dba59312d04a4"
+                      }
+                    ]
+                  },
+                  "name": "JESS: I'll call you back.",
+                  "startFrame": 1599,
+                  "durationFrames": 36,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "04g"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/eec2983b500da3c6"
+                      }
+                    ]
+                  },
+                  "name": "JESS: Please tell me you’re open.",
+                  "startFrame": 2018,
+                  "durationFrames": 44,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "05c"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/8d9beddd552c4787"
+                      }
+                    ]
+                  },
+                  "name": "BEN: For you, or the car?",
+                  "startFrame": 2110,
+                  "durationFrames": 48,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "05e"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/1aa741c915936bf8"
+                      }
+                    ]
+                  },
+                  "name": "BEN: The plow bent your rear suspension. You can’t drive it like this.",
+                  "startFrame": 2166,
+                  "durationFrames": 106,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "06b"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/1027ae96e6e942af"
+                      }
+                    ]
+                  },
+                  "name": "JESS: How long?",
+                  "startFrame": 2280,
+                  "durationFrames": 31,
+                  "sourceStartFrame": 9,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "06c"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/6f7ca61313e62fc3"
+                      }
+                    ]
+                  },
+                  "name": "BEN: The part gets here December twenty-ninth.",
+                  "startFrame": 2319,
+                  "durationFrames": 63,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "06d"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/fe4c2a3d01e35fe8"
+                      }
+                    ]
+                  },
+                  "name": "JESS: The twenty-ninth? I promised I'd be back for New Year's Eve.",
+                  "startFrame": 2389,
+                  "durationFrames": 92,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "06e"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/5028bbe4afa8b312"
+                      }
+                    ]
+                  },
+                  "name": "BEN: Well, you’re not going anywhere today.",
+                  "startFrame": 2513,
+                  "durationFrames": 55,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "06f"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/voice-06recognition"
+                      }
+                    ]
+                  },
+                  "name": "JESS: Wait. Do I know you?",
+                  "startFrame": 2575,
+                  "durationFrames": 52,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "06recognition"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/35c1cbb74b389323"
+                      }
+                    ]
+                  },
+                  "name": "BEN: Ben Kreider. You borrowed my truck for the homecoming parade.",
+                  "startFrame": 2635,
+                  "durationFrames": 93,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "05g"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/943cb9fc3a986ef9"
+                      }
+                    ]
+                  },
+                  "name": "JESS: Ben. Of course. Hi.",
+                  "startFrame": 2736,
+                  "durationFrames": 51,
+                  "sourceStartFrame": 5,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "05h"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/6feb5eb3e3fe6c85"
+                      }
+                    ]
+                  },
+                  "name": "JESS: Any news on the part?",
+                  "startFrame": 2827,
+                  "durationFrames": 47,
+                  "sourceStartFrame": 7,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "07b"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/c582fede4f9f6343"
+                      }
+                    ]
+                  },
+                  "name": "BEN: Not yet.",
+                  "startFrame": 2881,
+                  "durationFrames": 29,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "07c"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/34c84a40ae719f3e"
+                      }
+                    ]
+                  },
+                  "name": "JESS: In the city, I never get to see the sun go down. It's just gone by four o'clock.",
+                  "startFrame": 2924,
+                  "durationFrames": 147,
+                  "sourceStartFrame": 6,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "08c"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/1bbcfe3c7c30c20c"
+                      }
+                    ]
+                  },
+                  "name": "BEN: Stay a while. It's worth the wait.",
+                  "startFrame": 3154,
+                  "durationFrames": 63,
+                  "sourceStartFrame": 3,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "08f"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/cfb67a4a8a051465"
+                      }
+                    ]
+                  },
+                  "name": "BEN: Don't get attached. She'll be gone the minute that car is fixed.",
+                  "startFrame": 3230,
+                  "durationFrames": 107,
+                  "sourceStartFrame": 9,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "09b"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/6ad0d605cd316f73"
+                      }
+                    ]
+                  },
+                  "name": "JESS: Is that really what you think of me?",
+                  "startFrame": 3345,
+                  "durationFrames": 54,
+                  "sourceStartFrame": 17,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "09d"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/c6e188ff10efaca3"
+                      }
+                    ]
+                  },
+                  "name": "BEN: Jess, wait. That's not what I meant.",
+                  "startFrame": 3421,
+                  "durationFrames": 62,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "09f"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/428a2b30b0a0ff00"
+                      }
+                    ]
+                  },
+                  "name": "PA VOLUNTEER: Okay, folks! Let's light this tree!",
+                  "startFrame": 3496,
+                  "durationFrames": 61,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "10d"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/e2ed626e7a6887bf"
+                      }
+                    ]
+                  },
+                  "name": "CROWD: Five! Four! Three! Two--",
+                  "startFrame": 3565,
+                  "durationFrames": 51,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "10e"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/d43ffac0c26b9f80"
+                      }
+                    ]
+                  },
+                  "name": "LINDA: Dot, her car's been ready since Tuesday.",
+                  "startFrame": 3756,
+                  "durationFrames": 72,
+                  "sourceStartFrame": 2,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "13b"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/5d934b1a3157b0ff"
+                      }
+                    ]
+                  },
+                  "name": "LINDA: And she still hasn't left.",
+                  "startFrame": 3854,
+                  "durationFrames": 60,
+                  "sourceStartFrame": 3,
+                  "presentation": {
+                    "gain": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "element": "13c"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Effects 1",
+              "kind": "Audio",
+              "durationFrames": 3958,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/142cb7a6c02be3c4"
+                      }
+                    ]
+                  },
+                  "name": "sfx:vehicle.siren-approach",
+                  "startFrame": 261,
+                  "durationFrames": 120,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8,
+                    "fadeInSeconds": 0,
+                    "fadeOutSeconds": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/fea2ff0240449cfd"
+                      }
+                    ]
+                  },
+                  "name": "sfx:voice.murmur-indistinct",
+                  "startFrame": 423,
+                  "durationFrames": 137,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/15b7210741f1202c"
+                      }
+                    ]
+                  },
+                  "name": "sfx:door.store-chime",
+                  "startFrame": 1209,
+                  "durationFrames": 20,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/bd57155d53e653d6"
+                      }
+                    ]
+                  },
+                  "name": "sfx:impact.bumper-plow",
+                  "startFrame": 1569,
+                  "durationFrames": 24,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/1ecaa51caa97c234"
+                      }
+                    ]
+                  },
+                  "name": "sfx:tool.impact-wrench",
+                  "startFrame": 1998,
+                  "durationFrames": 54,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/99c21b464d970756"
+                      }
+                    ]
+                  },
+                  "name": "sfx:phone.vibrate-dash",
+                  "startFrame": 3124,
+                  "durationFrames": 72,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/59e98762c88f504c"
+                      }
+                    ]
+                  },
+                  "name": "sfx:foley.cardboard-crunch",
+                  "startFrame": 3345,
+                  "durationFrames": 36,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/ff4e8ca7cfd6944c"
+                      }
+                    ]
+                  },
+                  "name": "sfx:electric.relay-clunk",
+                  "startFrame": 3928,
+                  "durationFrames": 30,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Effects 2",
+              "kind": "Audio",
+              "durationFrames": 4018,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/d6400f4dcc7e6dcf"
+                      }
+                    ]
+                  },
+                  "name": "sfx:door.storm-door-bang",
+                  "startFrame": 960,
+                  "durationFrames": 55,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/fafe7ccd3ba6fced"
+                      }
+                    ]
+                  },
+                  "name": "sfx:vehicle.ev-pedestrian-hum",
+                  "startFrame": 1209,
+                  "durationFrames": 111,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/5b780cd64fc4c916"
+                      }
+                    ]
+                  },
+                  "name": "sfx:foley.creeper-roll",
+                  "startFrame": 1998,
+                  "durationFrames": 44,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/8780b9737582cfe1"
+                      }
+                    ]
+                  },
+                  "name": "sfx:vehicle.engine-off",
+                  "startFrame": 3124,
+                  "durationFrames": 60,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/64ee971f1a41d390"
+                      }
+                    ]
+                  },
+                  "name": "sfx:crowd.cheer-ooh",
+                  "startFrame": 3928,
+                  "durationFrames": 90,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8,
+                    "fadeInSeconds": 0,
+                    "fadeOutSeconds": 1
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Effects 3",
+              "kind": "Audio",
+              "durationFrames": 4024,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/ebb4a3a87ce0dea8"
+                      }
+                    ]
+                  },
+                  "name": "sfx:debris.ice-fall",
+                  "startFrame": 1600,
+                  "durationFrames": 40,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8,
+                    "muted": true
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/96c1572db6265975"
+                      }
+                    ]
+                  },
+                  "name": "sfx:vehicle.engine-tick",
+                  "startFrame": 3124,
+                  "durationFrames": 180,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/a0e659a46396b45b"
+                      }
+                    ]
+                  },
+                  "name": "sfx:bells.sleigh",
+                  "startFrame": 3928,
+                  "durationFrames": 96,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.8
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Ambience 1",
+              "kind": "Audio",
+              "durationFrames": 3691,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/e4e2a14d32cb4683"
+                      }
+                    ]
+                  },
+                  "name": "amb:office-hvac",
+                  "startFrame": 60,
+                  "durationFrames": 357,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/a6feb2548320938c"
+                      }
+                    ]
+                  },
+                  "name": "amb:tv-low",
+                  "startFrame": 960,
+                  "durationFrames": 1307,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/c9e8ffc306674815"
+                      }
+                    ]
+                  },
+                  "name": "amb:truck-idle",
+                  "startFrame": 2924,
+                  "durationFrames": 200,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/7355684352a4b0e6"
+                      }
+                    ]
+                  },
+                  "name": "amb:wind-field",
+                  "startFrame": 3124,
+                  "durationFrames": 567,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Ambience 2",
+              "kind": "Audio",
+              "durationFrames": 3630,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/a5ede7b987cc2e17"
+                      }
+                    ]
+                  },
+                  "name": "amb:keyboard",
+                  "startFrame": 60,
+                  "durationFrames": 219,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.12
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/3a28b9f63aaf75a6"
+                      }
+                    ]
+                  },
+                  "name": "amb:heater-fan",
+                  "startFrame": 2924,
+                  "durationFrames": 200,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/9e9c0c930d73fbd6"
+                      }
+                    ]
+                  },
+                  "name": "amb:crowd-murmur",
+                  "startFrame": 3496,
+                  "durationFrames": 134,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Ambience 3",
+              "kind": "Audio",
+              "durationFrames": 2995,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/178eb8987197cc21"
+                      }
+                    ]
+                  },
+                  "name": "amb:shop-radio",
+                  "startFrame": 1998,
+                  "durationFrames": 997,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Ambience 4",
+              "kind": "Audio",
+              "durationFrames": 2995,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/9c363118cf5eed03"
+                      }
+                    ]
+                  },
+                  "name": "amb:space-heater",
+                  "startFrame": 1998,
+                  "durationFrames": 997,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Ambience 5",
+              "kind": "Audio",
+              "durationFrames": 3824,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/2a72bcd096c012b7"
+                      }
+                    ]
+                  },
+                  "name": "amb:crows-distant",
+                  "startFrame": 2924,
+                  "durationFrames": 900,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.3,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Music 1",
+              "kind": "Audio",
+              "durationFrames": 4032,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/998bb596b2801219"
+                      }
+                    ]
+                  },
+                  "name": "mus:theme-in",
+                  "startFrame": 417,
+                  "durationFrames": 108,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/arrival-underscore"
+                      }
+                    ]
+                  },
+                  "name": "mus:arrival-underscore",
+                  "startFrame": 560,
+                  "durationFrames": 444,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.22
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/3f8470ef65cbcc60"
+                      }
+                    ]
+                  },
+                  "name": "mus:theme-play",
+                  "startFrame": 1179,
+                  "durationFrames": 99,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/050fa59797947d14"
+                      }
+                    ]
+                  },
+                  "name": "mus:comedy",
+                  "startFrame": 1998,
+                  "durationFrames": 298,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/638682e0f22cba43"
+                      }
+                    ]
+                  },
+                  "name": "mus:comedy-resolve",
+                  "startFrame": 2797,
+                  "durationFrames": 36,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/9b62b4d709b1b4cc"
+                      }
+                    ]
+                  },
+                  "name": "mus:theme-drop",
+                  "startFrame": 2924,
+                  "durationFrames": 180,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/3f8470ef65cbcc60"
+                      }
+                    ]
+                  },
+                  "name": "mus:theme-play",
+                  "startFrame": 3224,
+                  "durationFrames": 108,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/601c48ab600f35bc"
+                      }
+                    ]
+                  },
+                  "name": "mus:tannenbaum",
+                  "startFrame": 3496,
+                  "durationFrames": 536,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Music 2",
+              "kind": "Audio",
+              "durationFrames": 4033,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/3f8470ef65cbcc60"
+                      }
+                    ]
+                  },
+                  "name": "mus:theme-play",
+                  "startFrame": 423,
+                  "durationFrames": 108,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/252bbb12a4037d70"
+                      }
+                    ]
+                  },
+                  "name": "mus:store-carol",
+                  "startFrame": 1209,
+                  "durationFrames": 252,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45,
+                    "fadeInSeconds": 0.5,
+                    "fadeOutSeconds": 0.5
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/037d002cdef8c04d"
+                      }
+                    ]
+                  },
+                  "name": "mus:comedy-sting",
+                  "startFrame": 2827,
+                  "durationFrames": 27,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/283dfc82b43d94d2"
+                      }
+                    ]
+                  },
+                  "name": "mus:theme-hold",
+                  "startFrame": 3666,
+                  "durationFrames": 90,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/6d726f6d773f1331"
+                      }
+                    ]
+                  },
+                  "name": "mus:theme-resolve",
+                  "startFrame": 3928,
+                  "durationFrames": 105,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.45
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": []
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Footsteps",
+              "kind": "Audio",
+              "durationFrames": 4033,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "media/footsteps-slush"
+                      }
+                    ]
+                  },
+                  "name": "Jess walks across the forecourt",
+                  "startFrame": 1788,
+                  "durationFrames": 210,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "gain": 0.7
+                  },
+                  "extras": {}
+                }
+              ]
+            }
+          ],
+          "presentation": {
+            "version": 1,
+            "fps": 30,
+            "width": 1280,
+            "height": 720,
+            "fadeOutSeconds": 0.5
+          },
+          "extras": {
+            "sourceTimeline": "data/timelines/christmas-facing-west.otio",
+            "legacyReview": {
+              "script": "christmas-facing-west",
+              "source": "data/originals/christmas-facing-west.fountain",
+              "vocabulary": "rph-annotations/1"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

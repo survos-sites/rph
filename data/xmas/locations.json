@@ -1,0 +1,134 @@
+[
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/office"
+            }
+        ],
+        "name": "Manhattan office",
+        "description": "A late-night office with a window facing a brick airshaft; laptop glow and cold fluorescent light."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/route-422"
+            }
+        ],
+        "name": "Route 422",
+        "description": "A rural highway in sleet at night, seen through Jess’s windshield."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/main-street"
+            }
+        ],
+        "name": "Annville Main Street",
+        "description": "Pennsylvania brick storefronts, Christmas lights and snowy sidewalks."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/house-yard"
+            }
+        ],
+        "name": "Hostetter house yard",
+        "description": "Half-deflated snowman, fallen ladder and partly hung lights."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/living-room"
+            }
+        ],
+        "name": "Hostetter living room",
+        "description": "Cozy cluttered living room; recliner, casseroles, television and storm door."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/turkey-hill"
+            }
+        ],
+        "name": "Turkey Hill charging area",
+        "description": "Story setting: Turkey Hill convenience store and charging spaces on a slushy forecourt, with a parked snowplow nearby."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/garage"
+            }
+        ],
+        "name": "Kreider’s Auto",
+        "description": "Snowy forecourt, KREIDER’S AUTO sign above two service bays and warm office windows. Interior: tools, heater and workbench."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/bedroom"
+            }
+        ],
+        "name": "Jess’s childhood bedroom",
+        "description": "Narrow bed, quilted bedspread and high-school pennant."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/farm-lane"
+            }
+        ],
+        "name": "Farm lane",
+        "description": "Wide snowy field facing the low orange winter sun, seen from a pickup."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/garage-office"
+            }
+        ],
+        "name": "Garage office",
+        "description": "Cramped office with a desk and landline; warm space-heater light."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeLocation",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "location/square"
+            }
+        ],
+        "name": "Annville town square",
+        "description": "Bundled crowd, gazebo and Christmas tree, initially unlit."
+    }
+]

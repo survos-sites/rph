@@ -1,0 +1,54 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "CreativeWork",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "project"
+      }
+    ],
+    "name": "The Last Train",
+    "creativeWorkCategory": "short",
+    "creativeWorkTitle": [
+      {
+        "titleName": "The Last Train",
+        "titleType": "working"
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.project/1",
+        "value": {
+          "scriptId": "last-train",
+          "files": [
+            "characters.json",
+            "locations.json",
+            "props.json",
+            "scenes.json",
+            "shots.json",
+            "assets.json",
+            "contexts.json",
+            "edit.json"
+          ],
+          "edit": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "edit/main"
+              }
+            ]
+          },
+          "style": "StickyFig SVG animatic, bold outlines and flat colors.",
+          "extras": {
+            "sourceFountain": "data/originals/last-train.fountain",
+            "reviewNotes": [
+              "Original timings and selected media adopted from the existing edit; no media regenerated."
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

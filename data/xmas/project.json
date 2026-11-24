@@ -1,0 +1,55 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "CreativeWork",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "project"
+      }
+    ],
+    "name": "Christmas, Facing West",
+    "creativeWorkCategory": "short",
+    "creativeWorkTitle": [
+      {
+        "titleName": "Christmas, Facing West",
+        "titleType": "working"
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.project/1",
+        "value": {
+          "scriptId": "christmas-facing-west",
+          "files": [
+            "characters.json",
+            "locations.json",
+            "props.json",
+            "wardrobe.json",
+            "scenes.json",
+            "shots.json",
+            "assets.json",
+            "contexts.json",
+            "edit.json"
+          ],
+          "edit": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "edit/main"
+              }
+            ]
+          },
+          "style": "Hallmark Christmas movie still, warm golden glow, rich saturated reds and greens, twinkling string lights, cozy and romantic, soft cinematic lighting, beautiful, photorealistic, no text, no logos",
+          "extras": {
+            "sourceFountain": "data/originals/christmas-facing-west.fountain",
+            "reviewNotes": [
+              "Original timings and selected media adopted from the existing edit; no media regenerated."
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

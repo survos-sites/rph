@@ -1,0 +1,131 @@
+{
+  "title": "Sintel — Cave conversation",
+  "sourceUrl": "https://durian.blender.org/",
+  "videoUrl": "https://www.peach.themazzone.com/durian/movies/sintel-1280-surround.mp4",
+  "videoSourcePage": "https://durian.blender.org/wp-content/content/download.html",
+  "subtitlesUrl": "https://media.xiph.org/sintel/subtitles/sintel_en.srt",
+  "license": "CC-BY-3.0",
+  "licenseUrl": "https://durian.blender.org/sharing/",
+  "attribution": "© Blender Foundation | durian.blender.org",
+  "screenplay": "Esther Wouda",
+  "performers": {
+    "Sintel": "Halina Reijn",
+    "Shaman": "Thom Hoffman"
+  },
+  "start": 106.5,
+  "end": 155.8333333333,
+  "fps": 24,
+  "adaptation": "Excerpt, extracted stills and stereo audio downmix; original dialogue timing retained. Shot detection threshold 0.06; no generated voices.",
+  "sceneThreshold": 0.06,
+  "shots": [
+    {
+      "heading": "Blade and fire",
+      "description": "Detail of the blade held above the fire; a warm, shallow-focus introduction."
+    },
+    {
+      "heading": "Shaman examines the blade",
+      "description": "Medium view of the shaman holding the blade diagonally, examining its history."
+    },
+    {
+      "heading": "Over Sintel’s shoulder",
+      "description": "Reverse angle past Sintel toward the shaman and the fire between them."
+    },
+    {
+      "heading": "Sintel reacts",
+      "description": "Close-up of Sintel listening, guarded and tired."
+    },
+    {
+      "heading": "The shaman offers a bowl",
+      "description": "Over Sintel’s shoulder as the shaman reaches down with a bowl."
+    },
+    {
+      "heading": "Sintel accepts the bowl",
+      "description": "Medium close-up; Sintel reaches out and offers a restrained thanks."
+    },
+    {
+      "heading": "Wide conversation",
+      "description": "Wide view of both seated figures and the fire, establishing the shelter."
+    },
+    {
+      "heading": "Sintel searches for words",
+      "description": "Close-up of Sintel, her attention lowered toward the bowl."
+    },
+    {
+      "heading": "Bowl reflection",
+      "description": "Insert of the bowl in Sintel’s hands, her face reflected in its surface."
+    },
+    {
+      "heading": "Shaman’s warning",
+      "description": "Close-up of the shaman as he speaks about the danger of her quest."
+    },
+    {
+      "heading": "Sintel remembers",
+      "description": "Close-up of Sintel remembering, before the camera tilts away from her face."
+    },
+    {
+      "heading": "Leaving the cave",
+      "description": "The camera has tilted away from Sintel; the shelter falls into darkness before the flashback."
+    },
+    {
+      "heading": "City flashback",
+      "description": "The city emerges from darkness beneath the continuing cave conversation."
+    }
+  ],
+  "captionTiming": {
+    "basis": "Seconds relative to the extracted 106.5-second source start; local faster-whisper word alignment checked against centre-channel silence boundaries. Original subtitle text retained.",
+    "cues": [
+      {
+        "start": 0.375,
+        "end": 2.75
+      },
+      {
+        "start": 4.875,
+        "end": 7.55
+      },
+      {
+        "start": 11.05,
+        "end": 13.96
+      },
+      {
+        "start": 14.65,
+        "end": 16.45
+      },
+      {
+        "start": 18.25,
+        "end": 19.05
+      },
+      {
+        "start": 20.75,
+        "end": 21.4
+      },
+      {
+        "start": 22.45,
+        "end": 24.95
+      },
+      {
+        "start": 28.45,
+        "end": 29.9
+      },
+      {
+        "start": 31.0,
+        "end": 34.3
+      },
+      {
+        "start": 36.65,
+        "end": 37.5
+      },
+      {
+        "start": 42.35,
+        "end": 44.55
+      },
+      {
+        "start": 46.5,
+        "end": 48.65
+      }
+    ]
+  },
+  "visualBeatFrames": [
+    960,
+    1056
+  ]
+}

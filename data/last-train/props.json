@@ -1,0 +1,28 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "NarrativeObject",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "prop/ticket"
+      }
+    ],
+    "name": "Train ticket",
+    "narrativeType": "narrativeProp",
+    "description": "Ticket held in Eli’s hand; featured in an insert."
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "NarrativeObject",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "prop/bench"
+      }
+    ],
+    "name": "Platform bench",
+    "narrativeType": "narrativeProp",
+    "description": "Wooden platform bench used for the sitting pose."
+  }
+]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a9c4cf"/><stop offset="1" stop-color="#e4d9c4"/></linearGradient><linearGradient id="bay" x2="0" y2="1"><stop stop-color="#263b49"/><stop offset="1" stop-color="#59656a"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#sky)"/>
+<path d="M0 310L100 210 190 290 280 170 390 310 510 240 640 320 760 210 900 300 1050 190 1170 280 1280 230V560H0Z" fill="#819b9e" opacity=".45"/>
+<rect y="490" width="1280" height="230" fill="#e5e9e5"/>
+<path d="M210 480H1070L1230 720H50Z" fill="#9ca6a8"/>
+<path d="M285 520L190 720M995 520L1090 720" stroke="#c7cdca" stroke-width="16"/>
+<rect x="160" y="220" width="960" height="310" fill="#b68c74"/>
+<path d="M140 230V190H1140V230Z" fill="#773b3c"/>
+<path d="M125 190L145 172H1140L1160 190Z" fill="#f5f0e4"/>
+<rect x="385" y="100" width="510" height="115" rx="8" fill="#b94343" stroke="#f5ead7" stroke-width="7"/>
+<text x="640" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" letter-spacing="2" font-size="45" fill="#fff2d8">KREIDER’S AUTO</text>
+<rect x="205" y="285" width="285" height="245" fill="url(#bay)" stroke="#e1c6a3" stroke-width="12"/>
+<rect x="530" y="285" width="285" height="245" fill="#829092" stroke="#e1c6a3" stroke-width="12"/>
+<path d="M535 320H810M535 360H810M535 400H810M535 440H810M535 480H810" stroke="#b7c3c1" stroke-width="5"/>
+<path d="M220 300H475M220 320H475" stroke="#dcb66d" stroke-width="5" opacity=".7"/>
+<rect x="865" y="300" width="190" height="110" fill="#f3cf82" stroke="#765447" stroke-width="8"/>
+<path d="M960 300V410" stroke="#765447" stroke-width="6"/>
+<rect x="900" y="430" width="95" height="100" fill="#435e66" stroke="#e1c6a3" stroke-width="6"/>
+<circle cx="978" cy="480" r="5" fill="#eec982"/>
+<text x="960" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" letter-spacing="2" fill="#3d4141">SERVICE OFFICE</text>
+<path d="M165 242Q640 295 1115 242" fill="none" stroke="#56634b" stroke-width="7"/>
+<g fill="#ffe19a"><circle cx="210" cy="247" r="6"/><circle cx="310" cy="257" r="6"/><circle cx="410" cy="264" r="6"/><circle cx="510" cy="269" r="6"/><circle cx="610" cy="271" r="6"/><circle cx="710" cy="270" r="6"/><circle cx="810" cy="266" r="6"/><circle cx="910" cy="258" r="6"/><circle cx="1010" cy="249" r="6"/></g>
+<path d="M0 550Q130 505 215 545L145 580H0ZM1070 535Q1180 510 1280 540V595H1140Z" fill="#f8f5e9"/>
+<path d="M65 440V570M1190 410V560" stroke="#6b6156" stroke-width="9"/>
+<path d="M65 445L20 475H110ZM65 405L25 445H105ZM1190 420L1145 460H1235ZM1190 385L1150 425H1230Z" fill="#4b7969"/>
+</svg>

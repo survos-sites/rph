@@ -1,0 +1,142 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Character",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "character/mara"
+      }
+    ],
+    "name": "Mara Vale",
+    "characterName": {
+      "fullName": "Mara Vale",
+      "scriptName": "Mara Vale"
+    },
+    "description": "Mara Vale, 42, station supervisor. Broad face, warm brown skin, short charcoal curls, rust-orange work jacket over a cream shirt, dark trousers. Practical and quietly funny. Upright stance, one hand near her jacket pocket. Simplified graphic-novel figure with bold dark outlines, flat color, readable eyebrows and mouth; consistent proportions across expressions.",
+    "profile": {
+      "gender": {
+        "gender": "female"
+      },
+      "background": [
+        {
+          "title": "personality",
+          "text": "Practical, observant, dry humor. She hides worry by checking small details."
+        }
+      ]
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.character/1",
+        "value": {
+          "voice": {
+            "engine": "voicestudio",
+            "voicestudio": {
+              "model": "omnivoice",
+              "voice": "default",
+              "design": "female, middle-aged, moderate pitch, american accent",
+              "seed": 4201,
+              "numSteps": 32
+            }
+          },
+          "castingBrief": {
+            "name": "Mara Vale",
+            "age": 42,
+            "occupation": "Station supervisor",
+            "dramaticRole": "Practical caretaker whose concern becomes an offer of shelter and company.",
+            "performanceNotes": "Dry humor; notices details; concern beneath professional composure.",
+            "appearance": "Mara Vale, 42, station supervisor. Broad face, warm brown skin, short charcoal curls, rust-orange work jacket over a cream shirt, dark trousers. Practical and quietly funny. Upright stance, one hand near her jacket pocket.",
+            "personality": "Practical, observant, dry humor. She hides worry by checking small details.",
+            "continuity": "Keep age, face, hairstyle, clothing colors and accessories consistent across scenes.",
+            "gender": "female"
+          },
+          "appearance": {
+            "skin": "#b87552",
+            "hair": "#34314a",
+            "color": "#df8756"
+          },
+          "extras": {
+            "avatar": "RPH-mara.png",
+            "imagePrompt": "Mid-thigh-up portrait of Mara Vale, a 42-year-old station supervisor with a broad face and warm brown skin. She has short charcoal curls and wears a rust-orange work jacket over a cream shirt and dark trousers. Her expression is expressive and changes per scene, showing concern, skepticism, amusement, or anger as needed. She stands upright with one hand near her jacket pocket. The style is bold dark outlines and flat color in a hand-inked European graphic novel style with painterly gouache colors.",
+            "illustratedDescription": "Mid-thigh-up portrait of Mara Vale, a 42-year-old station supervisor with a broad face and warm brown skin. She has short charcoal curls and wears a rust-orange work jacket over a cream shirt and dark trousers. Her expression is expressive and changes per scene, showing concern, skepticism, amusement, or anger as needed. She stands upright with one hand near her jacket pocket. The style is bold dark outlines and flat color in a hand-inked European graphic novel style with painterly gouache colors.",
+            "assetPrompts": {
+              "placeholder": "Mara Vale, 42, station supervisor. Broad face, warm brown skin, short charcoal curls, rust-orange work jacket over a cream shirt, dark trousers. Practical and quietly funny. Upright stance, one hand near her jacket pocket. Simplified graphic-novel figure with bold dark outlines, flat color, readable eyebrows and mouth; consistent proportions across expressions.",
+              "illustrated": "Mid-thigh-up portrait of Mara Vale, a 42-year-old station supervisor with a broad face and warm brown skin. She has short charcoal curls and wears a rust-orange work jacket over a cream shirt and dark trousers. Her expression is expressive and changes per scene, showing concern, skepticism, amusement, or anger as needed. She stands upright with one hand near her jacket pocket. The style is bold dark outlines and flat color in a hand-inked European graphic novel style with painterly gouache colors."
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Character",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "character/eli"
+      }
+    ],
+    "name": "Eli Rowan",
+    "characterName": {
+      "fullName": "Eli Rowan",
+      "scriptName": "Eli Rowan"
+    },
+    "description": "Eli Rowan, 56, traveling piano tuner. Long face, light tan skin, swept silver hair, round dark glasses, teal coat over a navy shirt, dark trousers. Carries a small brown instrument case. Slightly stooped but animated hands. Simplified graphic-novel figure with bold dark outlines, flat color, readable eyebrows and mouth; consistent proportions across expressions.",
+    "profile": {
+      "gender": {
+        "gender": "male"
+      },
+      "background": [
+        {
+          "title": "personality",
+          "text": "Patient, gently eccentric, candid. He notices sounds before objects."
+        }
+      ]
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.character/1",
+        "value": {
+          "voice": {
+            "engine": "voicestudio",
+            "voicestudio": {
+              "model": "omnivoice",
+              "voice": "default",
+              "design": "male, middle-aged, low pitch, american accent",
+              "seed": 5602,
+              "numSteps": 32
+            }
+          },
+          "castingBrief": {
+            "name": "Eli Rowan",
+            "age": 56,
+            "occupation": "Traveling piano tuner",
+            "dramaticRole": "A visitor honoring his sister through a small promise; his humor gradually reveals grief.",
+            "performanceNotes": "Gentle wit; measured delivery; a moment of stillness when mentioning his sister.",
+            "appearance": "Eli Rowan, 56, traveling piano tuner. Long face, light tan skin, swept silver hair, round dark glasses, teal coat over a navy shirt, dark trousers. Carries a small brown instrument case. Slightly stooped but animated hands.",
+            "personality": "Patient, gently eccentric, candid. He notices sounds before objects.",
+            "continuity": "Keep age, face, hairstyle, clothing colors and accessories consistent across scenes.",
+            "gender": "male"
+          },
+          "appearance": {
+            "skin": "#edc5a1",
+            "hair": "#77788a",
+            "color": "#54aeb5"
+          },
+          "extras": {
+            "avatar": "RPH-eli.png",
+            "imagePrompt": "Mid-thigh-up portrait of Eli Rowan, a 56-year-old traveling piano tuner with a long face and light tan skin. He has swept silver hair, round dark glasses, and wears a teal coat over a navy shirt and dark trousers. He holds a small brown instrument case beside the bench. His expressions range from neutral to amused or concerned, showing his gentle eccentricity and candid nature. Drawn in a hand-inked European graphic novel style with painterly gouache colors and bold dark outlines.",
+            "illustratedDescription": "Mid-thigh-up portrait of Eli Rowan, a 56-year-old traveling piano tuner with a long face and light tan skin. He has swept silver hair, round dark glasses, and wears a teal coat over a navy shirt and dark trousers. He holds a small brown instrument case beside the bench. His expressions range from neutral to amused or concerned, showing his gentle eccentricity and candid nature. Drawn in a hand-inked European graphic novel style with painterly gouache colors and bold dark outlines.",
+            "assetPrompts": {
+              "placeholder": "Eli Rowan, 56, traveling piano tuner. Long face, light tan skin, swept silver hair, round dark glasses, teal coat over a navy shirt, dark trousers. Carries a small brown instrument case. Slightly stooped but animated hands. Simplified graphic-novel figure with bold dark outlines, flat color, readable eyebrows and mouth; consistent proportions across expressions.",
+              "illustrated": "Mid-thigh-up portrait of Eli Rowan, a 56-year-old traveling piano tuner with a long face and light tan skin. He has swept silver hair, round dark glasses, and wears a teal coat over a navy shirt and dark trousers. He holds a small brown instrument case beside the bench. His expressions range from neutral to amused or concerned, showing his gentle eccentricity and candid nature. Drawn in a hand-inked European graphic novel style with painterly gouache colors and bold dark outlines."
+            }
+          }
+        }
+      }
+    ]
+  }
+]

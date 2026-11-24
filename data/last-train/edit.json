@@ -1,0 +1,3071 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Composition",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "edit/main"
+      }
+    ],
+    "name": "The Last Train",
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.edit/1",
+        "value": {
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "tracks": [
+            {
+              "name": "Shots",
+              "kind": "Video",
+              "durationFrames": 1109,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/c8a8203723e47609"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 0,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-01",
+                        "sceneId": "shot-1",
+                        "sceneNumber": 1,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "The last train was supposed to leave eight minutes ago.",
+                        "startFrame": 0,
+                        "durationFrames": 94,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "wide",
+                        "action": "Mara checks the empty platform.",
+                        "audio": "/media/voices/1fa50e25bad58b4658c529f8cd8fa51f296743c1d3ccdb94f63c1047fdb96004.mp3",
+                        "audioDuration": 2.712,
+                        "deliveryNotes": [
+                          "Matter-of-fact, with quiet concern."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/89cb379edb986415"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1,
+                  "durationFrames": 80,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-01",
+                        "sceneId": "shot-1",
+                        "sceneNumber": 1,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "The last train was supposed to leave eight minutes ago.",
+                        "startFrame": 0,
+                        "durationFrames": 94,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "wide",
+                        "action": "Mara checks the empty platform.",
+                        "audio": "/media/voices/1fa50e25bad58b4658c529f8cd8fa51f296743c1d3ccdb94f63c1047fdb96004.mp3",
+                        "audioDuration": 2.712,
+                        "deliveryNotes": [
+                          "Matter-of-fact, with quiet concern."
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/c8a8203723e47609"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 81,
+                  "durationFrames": 13,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-01",
+                        "sceneId": "shot-1",
+                        "sceneNumber": 1,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "The last train was supposed to leave eight minutes ago.",
+                        "startFrame": 0,
+                        "durationFrames": 94,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "wide",
+                        "action": "Mara checks the empty platform.",
+                        "audio": "/media/voices/1fa50e25bad58b4658c529f8cd8fa51f296743c1d3ccdb94f63c1047fdb96004.mp3",
+                        "audioDuration": 2.712,
+                        "deliveryNotes": [
+                          "Matter-of-fact, with quiet concern."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/185c85497f7c837d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 94,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-02",
+                        "sceneId": "shot-2",
+                        "sceneNumber": 2,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then I am either very late or unexpectedly lucky.",
+                        "startFrame": 94,
+                        "durationFrames": 87,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "Eli rests his instrument case beside the bench.",
+                        "audio": "/media/voices/a1a6353a1907b4f38ef745b6d17e5a5edcb46cb3348df0b6e3eb43247e30dfbd.mp3",
+                        "audioDuration": 2.472,
+                        "deliveryNotes": [
+                          "Dry humor, lightly amused."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/2286ac030e25568f"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 95,
+                  "durationFrames": 73,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-02",
+                        "sceneId": "shot-2",
+                        "sceneNumber": 2,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then I am either very late or unexpectedly lucky.",
+                        "startFrame": 94,
+                        "durationFrames": 87,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "Eli rests his instrument case beside the bench.",
+                        "audio": "/media/voices/a1a6353a1907b4f38ef745b6d17e5a5edcb46cb3348df0b6e3eb43247e30dfbd.mp3",
+                        "audioDuration": 2.472,
+                        "deliveryNotes": [
+                          "Dry humor, lightly amused."
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/185c85497f7c837d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 168,
+                  "durationFrames": 13,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-02",
+                        "sceneId": "shot-2",
+                        "sceneNumber": 2,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then I am either very late or unexpectedly lucky.",
+                        "startFrame": 94,
+                        "durationFrames": 87,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "Eli rests his instrument case beside the bench.",
+                        "audio": "/media/voices/a1a6353a1907b4f38ef745b6d17e5a5edcb46cb3348df0b6e3eb43247e30dfbd.mp3",
+                        "audioDuration": 2.472,
+                        "deliveryNotes": [
+                          "Dry humor, lightly amused."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/97aedfa51be130c1"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 181,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-03",
+                        "sceneId": "shot-3",
+                        "sceneNumber": 3,
+                        "heading": "Insert · ticket in Eli’s hand",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "You are holding a ticket for yesterday.",
+                        "startFrame": 181,
+                        "durationFrames": 67,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "surprised"
+                        },
+                        "shot": "ticket",
+                        "action": "She points at the date, without taking the ticket.",
+                        "audio": "/media/voices/3e6ee143f1a8f91422eae9ccfd789077ac371f7f051cd869aa32932befd02c4d.mp3",
+                        "audioDuration": 1.824,
+                        "deliveryNotes": [
+                          "Pointedly, with a raised eyebrow."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/7f39b7dbb81d462e"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 182,
+                  "durationFrames": 53,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-03",
+                        "sceneId": "shot-3",
+                        "sceneNumber": 3,
+                        "heading": "Insert · ticket in Eli’s hand",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "You are holding a ticket for yesterday.",
+                        "startFrame": 181,
+                        "durationFrames": 67,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "surprised"
+                        },
+                        "shot": "ticket",
+                        "action": "She points at the date, without taking the ticket.",
+                        "audio": "/media/voices/3e6ee143f1a8f91422eae9ccfd789077ac371f7f051cd869aa32932befd02c4d.mp3",
+                        "audioDuration": 1.824,
+                        "deliveryNotes": [
+                          "Pointedly, with a raised eyebrow."
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/97aedfa51be130c1"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 235,
+                  "durationFrames": 13,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-03",
+                        "sceneId": "shot-3",
+                        "sceneNumber": 3,
+                        "heading": "Insert · ticket in Eli’s hand",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "You are holding a ticket for yesterday.",
+                        "startFrame": 181,
+                        "durationFrames": 67,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "surprised"
+                        },
+                        "shot": "ticket",
+                        "action": "She points at the date, without taking the ticket.",
+                        "audio": "/media/voices/3e6ee143f1a8f91422eae9ccfd789077ac371f7f051cd869aa32932befd02c4d.mp3",
+                        "audioDuration": 1.824,
+                        "deliveryNotes": [
+                          "Pointedly, with a raised eyebrow."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/335907aeb9179d3a"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 248,
+                  "durationFrames": 2,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-04",
+                        "sceneId": "shot-4",
+                        "sceneNumber": 4,
+                        "heading": "Wide · Eli on the bench",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "That would explain the unusually quiet carriage.",
+                        "startFrame": 248,
+                        "durationFrames": 95,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide-sitting",
+                        "action": "He turns the ticket over, then admits the joke with a smile.",
+                        "audio": "/media/voices/24750b0ad5e4fa385aca1611a4778815e29a645f431d9994a10885134f4f6cc3.mp3",
+                        "audioDuration": 2.736,
+                        "deliveryNotes": [
+                          "A gentle self-deprecating joke."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/d99681f9526f42a9"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 250,
+                  "durationFrames": 81,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-04",
+                        "sceneId": "shot-4",
+                        "sceneNumber": 4,
+                        "heading": "Wide · Eli on the bench",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "That would explain the unusually quiet carriage.",
+                        "startFrame": 248,
+                        "durationFrames": 95,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide-sitting",
+                        "action": "He turns the ticket over, then admits the joke with a smile.",
+                        "audio": "/media/voices/24750b0ad5e4fa385aca1611a4778815e29a645f431d9994a10885134f4f6cc3.mp3",
+                        "audioDuration": 2.736,
+                        "deliveryNotes": [
+                          "A gentle self-deprecating joke."
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/335907aeb9179d3a"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 331,
+                  "durationFrames": 12,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-04",
+                        "sceneId": "shot-4",
+                        "sceneNumber": 4,
+                        "heading": "Wide · Eli on the bench",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "That would explain the unusually quiet carriage.",
+                        "startFrame": 248,
+                        "durationFrames": 95,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide-sitting",
+                        "action": "He turns the ticket over, then admits the joke with a smile.",
+                        "audio": "/media/voices/24750b0ad5e4fa385aca1611a4778815e29a645f431d9994a10885134f4f6cc3.mp3",
+                        "audioDuration": 2.736,
+                        "deliveryNotes": [
+                          "A gentle self-deprecating joke."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/6012d23066ed4912"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 343,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-05",
+                        "sceneId": "shot-5",
+                        "sceneNumber": 5,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Please tell me you did not spend the night on a parked train.",
+                        "startFrame": 343,
+                        "durationFrames": 108,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Her smile fades; she studies his face.",
+                        "audio": "/media/voices/5b3ed3dd61c70e73be9b6e7c505a25b66cdb4fb85d93982cc20fe30ba069833a.mp3",
+                        "audioDuration": 3.192,
+                        "deliveryNotes": [
+                          "Concerned, speaking directly to him."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/a1668b6159d25181"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 344,
+                  "durationFrames": 95,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-05",
+                        "sceneId": "shot-5",
+                        "sceneNumber": 5,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Please tell me you did not spend the night on a parked train.",
+                        "startFrame": 343,
+                        "durationFrames": 108,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Her smile fades; she studies his face.",
+                        "audio": "/media/voices/5b3ed3dd61c70e73be9b6e7c505a25b66cdb4fb85d93982cc20fe30ba069833a.mp3",
+                        "audioDuration": 3.192,
+                        "deliveryNotes": [
+                          "Concerned, speaking directly to him."
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/6012d23066ed4912"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 439,
+                  "durationFrames": 12,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-05",
+                        "sceneId": "shot-5",
+                        "sceneNumber": 5,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Please tell me you did not spend the night on a parked train.",
+                        "startFrame": 343,
+                        "durationFrames": 108,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Her smile fades; she studies his face.",
+                        "audio": "/media/voices/5b3ed3dd61c70e73be9b6e7c505a25b66cdb4fb85d93982cc20fe30ba069833a.mp3",
+                        "audioDuration": 3.192,
+                        "deliveryNotes": [
+                          "Concerned, speaking directly to him."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f08df03791fdd46d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 451,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-06",
+                        "sceneId": "shot-6",
+                        "sceneNumber": 6,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Only the evening. I was tuning the piano in the station café.",
+                        "startFrame": 451,
+                        "durationFrames": 110,
+                        "expressions": {
+                          "mara": "surprised",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He taps the small case: tools, not luggage.",
+                        "audio": "/media/voices/69a31e721bc2e53f717871f6573681edff16bda917b242a606fc9a873a5d55b4.mp3",
+                        "audioDuration": 3.24,
+                        "deliveryNotes": [
+                          "Reassuring, unhurried."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/a9e036018d794fc9"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 452,
+                  "durationFrames": 96,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-06",
+                        "sceneId": "shot-6",
+                        "sceneNumber": 6,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Only the evening. I was tuning the piano in the station café.",
+                        "startFrame": 451,
+                        "durationFrames": 110,
+                        "expressions": {
+                          "mara": "surprised",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He taps the small case: tools, not luggage.",
+                        "audio": "/media/voices/69a31e721bc2e53f717871f6573681edff16bda917b242a606fc9a873a5d55b4.mp3",
+                        "audioDuration": 3.24,
+                        "deliveryNotes": [
+                          "Reassuring, unhurried."
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f08df03791fdd46d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 548,
+                  "durationFrames": 13,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-06",
+                        "sceneId": "shot-6",
+                        "sceneNumber": 6,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Only the evening. I was tuning the piano in the station café.",
+                        "startFrame": 451,
+                        "durationFrames": 110,
+                        "expressions": {
+                          "mara": "surprised",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He taps the small case: tools, not luggage.",
+                        "audio": "/media/voices/69a31e721bc2e53f717871f6573681edff16bda917b242a606fc9a873a5d55b4.mp3",
+                        "audioDuration": 3.24,
+                        "deliveryNotes": [
+                          "Reassuring, unhurried."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/467c22b72058cb70"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 561,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-07",
+                        "sceneId": "shot-7",
+                        "sceneNumber": 7,
+                        "heading": "Close-up · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They closed that café last winter.",
+                        "startFrame": 561,
+                        "durationFrames": 66,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-mara",
+                        "action": "A gust moves the hanging station sign.",
+                        "audio": "/media/voices/0e987083c227864fa6f87c2eaab99319a49a503ce014c5312a9920097cbf9b2a.mp3",
+                        "audioDuration": 1.776,
+                        "deliveryNotes": [
+                          "Softly, surprised.",
+                          "pace=slow"
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/daf966ae5cec6e0e"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 562,
+                  "durationFrames": 52,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-07",
+                        "sceneId": "shot-7",
+                        "sceneNumber": 7,
+                        "heading": "Close-up · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They closed that café last winter.",
+                        "startFrame": 561,
+                        "durationFrames": 66,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-mara",
+                        "action": "A gust moves the hanging station sign.",
+                        "audio": "/media/voices/0e987083c227864fa6f87c2eaab99319a49a503ce014c5312a9920097cbf9b2a.mp3",
+                        "audioDuration": 1.776,
+                        "deliveryNotes": [
+                          "Softly, surprised.",
+                          "pace=slow"
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/467c22b72058cb70"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 614,
+                  "durationFrames": 13,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-07",
+                        "sceneId": "shot-7",
+                        "sceneNumber": 7,
+                        "heading": "Close-up · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They closed that café last winter.",
+                        "startFrame": 561,
+                        "durationFrames": 66,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-mara",
+                        "action": "A gust moves the hanging station sign.",
+                        "audio": "/media/voices/0e987083c227864fa6f87c2eaab99319a49a503ce014c5312a9920097cbf9b2a.mp3",
+                        "audioDuration": 1.776,
+                        "deliveryNotes": [
+                          "Softly, surprised.",
+                          "pace=slow"
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/5937ac61bc105354"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 627,
+                  "durationFrames": 2,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-08",
+                        "sceneId": "shot-8",
+                        "sceneNumber": 8,
+                        "heading": "Close-up · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "I know. My sister used to play there. I promised I would keep it in tune.",
+                        "startFrame": 627,
+                        "durationFrames": 154,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-eli",
+                        "action": "He looks toward the dark café windows.",
+                        "audio": "/media/voices/846c54c35c900b6677c1a531851dcf46795b5e71463bb55600c11c6e4c811bd8.mp3",
+                        "audioDuration": 4.728,
+                        "deliveryNotes": [
+                          "Hushed and intimate; pause after I know.",
+                          "pace=slow vol=x-soft"
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f48940c2730cbb8d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 629,
+                  "durationFrames": 140,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-08",
+                        "sceneId": "shot-8",
+                        "sceneNumber": 8,
+                        "heading": "Close-up · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "I know. My sister used to play there. I promised I would keep it in tune.",
+                        "startFrame": 627,
+                        "durationFrames": 154,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-eli",
+                        "action": "He looks toward the dark café windows.",
+                        "audio": "/media/voices/846c54c35c900b6677c1a531851dcf46795b5e71463bb55600c11c6e4c811bd8.mp3",
+                        "audioDuration": 4.728,
+                        "deliveryNotes": [
+                          "Hushed and intimate; pause after I know.",
+                          "pace=slow vol=x-soft"
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/5937ac61bc105354"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 769,
+                  "durationFrames": 12,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-08",
+                        "sceneId": "shot-8",
+                        "sceneNumber": 8,
+                        "heading": "Close-up · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "I know. My sister used to play there. I promised I would keep it in tune.",
+                        "startFrame": 627,
+                        "durationFrames": 154,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-eli",
+                        "action": "He looks toward the dark café windows.",
+                        "audio": "/media/voices/846c54c35c900b6677c1a531851dcf46795b5e71463bb55600c11c6e4c811bd8.mp3",
+                        "audioDuration": 4.728,
+                        "deliveryNotes": [
+                          "Hushed and intimate; pause after I know.",
+                          "pace=slow vol=x-soft"
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/b09fea7b476e89ec"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 781,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-09",
+                        "sceneId": "shot-9",
+                        "sceneNumber": 9,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They should have left you a light.",
+                        "startFrame": 781,
+                        "durationFrames": 53,
+                        "expressions": {
+                          "mara": "angry",
+                          "eli": "surprised"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Mara looks toward the locked office, angry on his behalf.",
+                        "audio": "/media/voices/09320205419668bd2feb8f9852b1d69b71859b338acd989be17a62c70a8ac17c.mp3",
+                        "audioDuration": 1.344,
+                        "deliveryNotes": [
+                          "Quiet anger on his behalf, controlled.",
+                          "pace=slow"
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/ae31ce4c2ea91043"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 782,
+                  "durationFrames": 39,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-09",
+                        "sceneId": "shot-9",
+                        "sceneNumber": 9,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They should have left you a light.",
+                        "startFrame": 781,
+                        "durationFrames": 53,
+                        "expressions": {
+                          "mara": "angry",
+                          "eli": "surprised"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Mara looks toward the locked office, angry on his behalf.",
+                        "audio": "/media/voices/09320205419668bd2feb8f9852b1d69b71859b338acd989be17a62c70a8ac17c.mp3",
+                        "audioDuration": 1.344,
+                        "deliveryNotes": [
+                          "Quiet anger on his behalf, controlled.",
+                          "pace=slow"
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/b09fea7b476e89ec"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 821,
+                  "durationFrames": 13,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-09",
+                        "sceneId": "shot-9",
+                        "sceneNumber": 9,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They should have left you a light.",
+                        "startFrame": 781,
+                        "durationFrames": 53,
+                        "expressions": {
+                          "mara": "angry",
+                          "eli": "surprised"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Mara looks toward the locked office, angry on his behalf.",
+                        "audio": "/media/voices/09320205419668bd2feb8f9852b1d69b71859b338acd989be17a62c70a8ac17c.mp3",
+                        "audioDuration": 1.344,
+                        "deliveryNotes": [
+                          "Quiet anger on his behalf, controlled.",
+                          "pace=slow"
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/7815a40ea921137b"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 834,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-10",
+                        "sceneId": "shot-10",
+                        "sceneNumber": 10,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "There was enough moonlight. Not enough coffee.",
+                        "startFrame": 834,
+                        "durationFrames": 92,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He lifts his shoulders; she lets out a small laugh.",
+                        "audio": "/media/voices/0b3ef439ec1ac66683f2079b7beed752dd059e6597a38329a2d244d6e2429f4c.mp3",
+                        "audioDuration": 2.664,
+                        "deliveryNotes": [
+                          "Warm dry humor; pause before coffee."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/b2003e291ad4cf89"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 835,
+                  "durationFrames": 79,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-10",
+                        "sceneId": "shot-10",
+                        "sceneNumber": 10,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "There was enough moonlight. Not enough coffee.",
+                        "startFrame": 834,
+                        "durationFrames": 92,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He lifts his shoulders; she lets out a small laugh.",
+                        "audio": "/media/voices/0b3ef439ec1ac66683f2079b7beed752dd059e6597a38329a2d244d6e2429f4c.mp3",
+                        "audioDuration": 2.664,
+                        "deliveryNotes": [
+                          "Warm dry humor; pause before coffee."
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/7815a40ea921137b"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 914,
+                  "durationFrames": 12,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-10",
+                        "sceneId": "shot-10",
+                        "sceneNumber": 10,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "There was enough moonlight. Not enough coffee.",
+                        "startFrame": 834,
+                        "durationFrames": 92,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He lifts his shoulders; she lets out a small laugh.",
+                        "audio": "/media/voices/0b3ef439ec1ac66683f2079b7beed752dd059e6597a38329a2d244d6e2429f4c.mp3",
+                        "audioDuration": 2.664,
+                        "deliveryNotes": [
+                          "Warm dry humor; pause before coffee."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/26aa4c1c8b06126f"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 926,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-11",
+                        "sceneId": "shot-11",
+                        "sceneNumber": 11,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Come inside. I have coffee, and the morning timetable.",
+                        "startFrame": 926,
+                        "durationFrames": 97,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "surprised"
+                        },
+                        "shot": "wide",
+                        "action": "She unlocks the warm-lit office door.",
+                        "audio": "/media/voices/53aa3ff6ea952bdc366e681e59bd5e30490994d309c52b05909aa1e51f293a38.mp3",
+                        "audioDuration": 2.832,
+                        "deliveryNotes": [
+                          "Warmly inviting, with a small smile."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/a3e1394abcba7191"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 927,
+                  "durationFrames": 84,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-11",
+                        "sceneId": "shot-11",
+                        "sceneNumber": 11,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Come inside. I have coffee, and the morning timetable.",
+                        "startFrame": 926,
+                        "durationFrames": 97,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "surprised"
+                        },
+                        "shot": "wide",
+                        "action": "She unlocks the warm-lit office door.",
+                        "audio": "/media/voices/53aa3ff6ea952bdc366e681e59bd5e30490994d309c52b05909aa1e51f293a38.mp3",
+                        "audioDuration": 2.832,
+                        "deliveryNotes": [
+                          "Warmly inviting, with a small smile."
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/26aa4c1c8b06126f"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1011,
+                  "durationFrames": 12,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-11",
+                        "sceneId": "shot-11",
+                        "sceneNumber": 11,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Come inside. I have coffee, and the morning timetable.",
+                        "startFrame": 926,
+                        "durationFrames": 97,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "surprised"
+                        },
+                        "shot": "wide",
+                        "action": "She unlocks the warm-lit office door.",
+                        "audio": "/media/voices/53aa3ff6ea952bdc366e681e59bd5e30490994d309c52b05909aa1e51f293a38.mp3",
+                        "audioDuration": 2.832,
+                        "deliveryNotes": [
+                          "Warmly inviting, with a small smile."
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/162ab35c1a9f4951"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1023,
+                  "durationFrames": 1,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-12",
+                        "sceneId": "shot-12",
+                        "sceneNumber": 12,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then perhaps this is the right ticket after all.",
+                        "startFrame": 1023,
+                        "durationFrames": 86,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide",
+                        "action": "They turn toward the light together.",
+                        "audio": "/media/voices/ae07c4fddbe386949d957581d4e70709d001c7327b5063b426ca8e355c2df5c4.mp3",
+                        "audioDuration": 2.448,
+                        "deliveryNotes": [
+                          "Grateful, quietly amused.",
+                          "pace=slow"
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/7e34d1238270b4d5"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1024,
+                  "durationFrames": 72,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-12",
+                        "sceneId": "shot-12",
+                        "sceneNumber": 12,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then perhaps this is the right ticket after all.",
+                        "startFrame": 1023,
+                        "durationFrames": 86,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide",
+                        "action": "They turn toward the light together.",
+                        "audio": "/media/voices/ae07c4fddbe386949d957581d4e70709d001c7327b5063b426ca8e355c2df5c4.mp3",
+                        "audioDuration": 2.448,
+                        "deliveryNotes": [
+                          "Grateful, quietly amused.",
+                          "pace=slow"
+                        ],
+                        "mouth": "speaking"
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/162ab35c1a9f4951"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1096,
+                  "durationFrames": 13,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-12",
+                        "sceneId": "shot-12",
+                        "sceneNumber": 12,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then perhaps this is the right ticket after all.",
+                        "startFrame": 1023,
+                        "durationFrames": 86,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide",
+                        "action": "They turn toward the light together.",
+                        "audio": "/media/voices/ae07c4fddbe386949d957581d4e70709d001c7327b5063b426ca8e355c2df5c4.mp3",
+                        "audioDuration": 2.448,
+                        "deliveryNotes": [
+                          "Grateful, quietly amused.",
+                          "pace=slow"
+                        ],
+                        "mouth": "rest"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Subtitles",
+              "kind": "Video",
+              "durationFrames": 1109,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 0,
+                  "durationFrames": 94,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Mara Vale: The last train was supposed to leave eight minutes ago.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-01",
+                        "sceneId": "shot-1",
+                        "sceneNumber": 1,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "The last train was supposed to leave eight minutes ago.",
+                        "startFrame": 0,
+                        "durationFrames": 94,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "wide",
+                        "action": "Mara checks the empty platform.",
+                        "audio": "/media/voices/1fa50e25bad58b4658c529f8cd8fa51f296743c1d3ccdb94f63c1047fdb96004.mp3",
+                        "audioDuration": 2.712,
+                        "deliveryNotes": [
+                          "Matter-of-fact, with quiet concern."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 94,
+                  "durationFrames": 87,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Eli Rowan: Then I am either very late or unexpectedly lucky.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-02",
+                        "sceneId": "shot-2",
+                        "sceneNumber": 2,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then I am either very late or unexpectedly lucky.",
+                        "startFrame": 94,
+                        "durationFrames": 87,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "Eli rests his instrument case beside the bench.",
+                        "audio": "/media/voices/a1a6353a1907b4f38ef745b6d17e5a5edcb46cb3348df0b6e3eb43247e30dfbd.mp3",
+                        "audioDuration": 2.472,
+                        "deliveryNotes": [
+                          "Dry humor, lightly amused."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 181,
+                  "durationFrames": 67,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Mara Vale: You are holding a ticket for yesterday.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-03",
+                        "sceneId": "shot-3",
+                        "sceneNumber": 3,
+                        "heading": "Insert · ticket in Eli’s hand",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "You are holding a ticket for yesterday.",
+                        "startFrame": 181,
+                        "durationFrames": 67,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "surprised"
+                        },
+                        "shot": "ticket",
+                        "action": "She points at the date, without taking the ticket.",
+                        "audio": "/media/voices/3e6ee143f1a8f91422eae9ccfd789077ac371f7f051cd869aa32932befd02c4d.mp3",
+                        "audioDuration": 1.824,
+                        "deliveryNotes": [
+                          "Pointedly, with a raised eyebrow."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 248,
+                  "durationFrames": 95,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Eli Rowan: That would explain the unusually quiet carriage.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-04",
+                        "sceneId": "shot-4",
+                        "sceneNumber": 4,
+                        "heading": "Wide · Eli on the bench",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "That would explain the unusually quiet carriage.",
+                        "startFrame": 248,
+                        "durationFrames": 95,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide-sitting",
+                        "action": "He turns the ticket over, then admits the joke with a smile.",
+                        "audio": "/media/voices/24750b0ad5e4fa385aca1611a4778815e29a645f431d9994a10885134f4f6cc3.mp3",
+                        "audioDuration": 2.736,
+                        "deliveryNotes": [
+                          "A gentle self-deprecating joke."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 343,
+                  "durationFrames": 108,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Mara Vale: Please tell me you did not spend the night on a parked train.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-05",
+                        "sceneId": "shot-5",
+                        "sceneNumber": 5,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Please tell me you did not spend the night on a parked train.",
+                        "startFrame": 343,
+                        "durationFrames": 108,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Her smile fades; she studies his face.",
+                        "audio": "/media/voices/5b3ed3dd61c70e73be9b6e7c505a25b66cdb4fb85d93982cc20fe30ba069833a.mp3",
+                        "audioDuration": 3.192,
+                        "deliveryNotes": [
+                          "Concerned, speaking directly to him."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 451,
+                  "durationFrames": 110,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Eli Rowan: Only the evening. I was tuning the piano in the station café.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-06",
+                        "sceneId": "shot-6",
+                        "sceneNumber": 6,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Only the evening. I was tuning the piano in the station café.",
+                        "startFrame": 451,
+                        "durationFrames": 110,
+                        "expressions": {
+                          "mara": "surprised",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He taps the small case: tools, not luggage.",
+                        "audio": "/media/voices/69a31e721bc2e53f717871f6573681edff16bda917b242a606fc9a873a5d55b4.mp3",
+                        "audioDuration": 3.24,
+                        "deliveryNotes": [
+                          "Reassuring, unhurried."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 561,
+                  "durationFrames": 66,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Mara Vale: They closed that café last winter.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-07",
+                        "sceneId": "shot-7",
+                        "sceneNumber": 7,
+                        "heading": "Close-up · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They closed that café last winter.",
+                        "startFrame": 561,
+                        "durationFrames": 66,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-mara",
+                        "action": "A gust moves the hanging station sign.",
+                        "audio": "/media/voices/0e987083c227864fa6f87c2eaab99319a49a503ce014c5312a9920097cbf9b2a.mp3",
+                        "audioDuration": 1.776,
+                        "deliveryNotes": [
+                          "Softly, surprised.",
+                          "pace=slow"
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 627,
+                  "durationFrames": 154,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Eli Rowan: I know. My sister used to play there. I promised I would keep it in tune.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-08",
+                        "sceneId": "shot-8",
+                        "sceneNumber": 8,
+                        "heading": "Close-up · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "I know. My sister used to play there. I promised I would keep it in tune.",
+                        "startFrame": 627,
+                        "durationFrames": 154,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-eli",
+                        "action": "He looks toward the dark café windows.",
+                        "audio": "/media/voices/846c54c35c900b6677c1a531851dcf46795b5e71463bb55600c11c6e4c811bd8.mp3",
+                        "audioDuration": 4.728,
+                        "deliveryNotes": [
+                          "Hushed and intimate; pause after I know.",
+                          "pace=slow vol=x-soft"
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 781,
+                  "durationFrames": 53,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Mara Vale: They should have left you a light.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-09",
+                        "sceneId": "shot-9",
+                        "sceneNumber": 9,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They should have left you a light.",
+                        "startFrame": 781,
+                        "durationFrames": 53,
+                        "expressions": {
+                          "mara": "angry",
+                          "eli": "surprised"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Mara looks toward the locked office, angry on his behalf.",
+                        "audio": "/media/voices/09320205419668bd2feb8f9852b1d69b71859b338acd989be17a62c70a8ac17c.mp3",
+                        "audioDuration": 1.344,
+                        "deliveryNotes": [
+                          "Quiet anger on his behalf, controlled.",
+                          "pace=slow"
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 834,
+                  "durationFrames": 92,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Eli Rowan: There was enough moonlight. Not enough coffee.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-10",
+                        "sceneId": "shot-10",
+                        "sceneNumber": 10,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "There was enough moonlight. Not enough coffee.",
+                        "startFrame": 834,
+                        "durationFrames": 92,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He lifts his shoulders; she lets out a small laugh.",
+                        "audio": "/media/voices/0b3ef439ec1ac66683f2079b7beed752dd059e6597a38329a2d244d6e2429f4c.mp3",
+                        "audioDuration": 2.664,
+                        "deliveryNotes": [
+                          "Warm dry humor; pause before coffee."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 926,
+                  "durationFrames": 97,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Mara Vale: Come inside. I have coffee, and the morning timetable.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-11",
+                        "sceneId": "shot-11",
+                        "sceneNumber": 11,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Come inside. I have coffee, and the morning timetable.",
+                        "startFrame": 926,
+                        "durationFrames": 97,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "surprised"
+                        },
+                        "shot": "wide",
+                        "action": "She unlocks the warm-lit office door.",
+                        "audio": "/media/voices/53aa3ff6ea952bdc366e681e59bd5e30490994d309c52b05909aa1e51f293a38.mp3",
+                        "audioDuration": 2.832,
+                        "deliveryNotes": [
+                          "Warmly inviting, with a small smile."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/f2765c35c507276d"
+                      }
+                    ]
+                  },
+                  "name": "",
+                  "startFrame": 1023,
+                  "durationFrames": 86,
+                  "sourceStartFrame": 0,
+                  "presentation": {
+                    "caption": "Eli Rowan: Then perhaps this is the right ticket after all.",
+                    "eyebrow": ""
+                  },
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-12",
+                        "sceneId": "shot-12",
+                        "sceneNumber": 12,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then perhaps this is the right ticket after all.",
+                        "startFrame": 1023,
+                        "durationFrames": 86,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide",
+                        "action": "They turn toward the light together.",
+                        "audio": "/media/voices/ae07c4fddbe386949d957581d4e70709d001c7327b5063b426ca8e355c2df5c4.mp3",
+                        "audioDuration": 2.448,
+                        "deliveryNotes": [
+                          "Grateful, quietly amused.",
+                          "pace=slow"
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Voices",
+              "kind": "Audio",
+              "durationFrames": 1109,
+              "clips": [
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/3798f24767c8f290"
+                      }
+                    ]
+                  },
+                  "name": "Mara Vale",
+                  "startFrame": 0,
+                  "durationFrames": 82,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-01",
+                        "sceneId": "shot-1",
+                        "sceneNumber": 1,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "The last train was supposed to leave eight minutes ago.",
+                        "startFrame": 0,
+                        "durationFrames": 94,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "wide",
+                        "action": "Mara checks the empty platform.",
+                        "audio": "/media/voices/1fa50e25bad58b4658c529f8cd8fa51f296743c1d3ccdb94f63c1047fdb96004.mp3",
+                        "audioDuration": 2.712,
+                        "deliveryNotes": [
+                          "Matter-of-fact, with quiet concern."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/222410fbd5c08d14"
+                      }
+                    ]
+                  },
+                  "name": "Eli Rowan",
+                  "startFrame": 94,
+                  "durationFrames": 75,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-02",
+                        "sceneId": "shot-2",
+                        "sceneNumber": 2,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then I am either very late or unexpectedly lucky.",
+                        "startFrame": 94,
+                        "durationFrames": 87,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "Eli rests his instrument case beside the bench.",
+                        "audio": "/media/voices/a1a6353a1907b4f38ef745b6d17e5a5edcb46cb3348df0b6e3eb43247e30dfbd.mp3",
+                        "audioDuration": 2.472,
+                        "deliveryNotes": [
+                          "Dry humor, lightly amused."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/a044ec86f8d0154c"
+                      }
+                    ]
+                  },
+                  "name": "Mara Vale",
+                  "startFrame": 181,
+                  "durationFrames": 55,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-03",
+                        "sceneId": "shot-3",
+                        "sceneNumber": 3,
+                        "heading": "Insert · ticket in Eli’s hand",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "You are holding a ticket for yesterday.",
+                        "startFrame": 181,
+                        "durationFrames": 67,
+                        "expressions": {
+                          "mara": "skeptical",
+                          "eli": "surprised"
+                        },
+                        "shot": "ticket",
+                        "action": "She points at the date, without taking the ticket.",
+                        "audio": "/media/voices/3e6ee143f1a8f91422eae9ccfd789077ac371f7f051cd869aa32932befd02c4d.mp3",
+                        "audioDuration": 1.824,
+                        "deliveryNotes": [
+                          "Pointedly, with a raised eyebrow."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/130ea51064983e63"
+                      }
+                    ]
+                  },
+                  "name": "Eli Rowan",
+                  "startFrame": 248,
+                  "durationFrames": 83,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-04",
+                        "sceneId": "shot-4",
+                        "sceneNumber": 4,
+                        "heading": "Wide · Eli on the bench",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "That would explain the unusually quiet carriage.",
+                        "startFrame": 248,
+                        "durationFrames": 95,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide-sitting",
+                        "action": "He turns the ticket over, then admits the joke with a smile.",
+                        "audio": "/media/voices/24750b0ad5e4fa385aca1611a4778815e29a645f431d9994a10885134f4f6cc3.mp3",
+                        "audioDuration": 2.736,
+                        "deliveryNotes": [
+                          "A gentle self-deprecating joke."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/1eddaf06c2103e71"
+                      }
+                    ]
+                  },
+                  "name": "Mara Vale",
+                  "startFrame": 343,
+                  "durationFrames": 96,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-05",
+                        "sceneId": "shot-5",
+                        "sceneNumber": 5,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Please tell me you did not spend the night on a parked train.",
+                        "startFrame": 343,
+                        "durationFrames": 108,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Her smile fades; she studies his face.",
+                        "audio": "/media/voices/5b3ed3dd61c70e73be9b6e7c505a25b66cdb4fb85d93982cc20fe30ba069833a.mp3",
+                        "audioDuration": 3.192,
+                        "deliveryNotes": [
+                          "Concerned, speaking directly to him."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/ea58c155adc44e2a"
+                      }
+                    ]
+                  },
+                  "name": "Eli Rowan",
+                  "startFrame": 451,
+                  "durationFrames": 98,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-06",
+                        "sceneId": "shot-6",
+                        "sceneNumber": 6,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Only the evening. I was tuning the piano in the station café.",
+                        "startFrame": 451,
+                        "durationFrames": 110,
+                        "expressions": {
+                          "mara": "surprised",
+                          "eli": "neutral"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He taps the small case: tools, not luggage.",
+                        "audio": "/media/voices/69a31e721bc2e53f717871f6573681edff16bda917b242a606fc9a873a5d55b4.mp3",
+                        "audioDuration": 3.24,
+                        "deliveryNotes": [
+                          "Reassuring, unhurried."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/983f866792e9dcc8"
+                      }
+                    ]
+                  },
+                  "name": "Mara Vale",
+                  "startFrame": 561,
+                  "durationFrames": 54,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-07",
+                        "sceneId": "shot-7",
+                        "sceneNumber": 7,
+                        "heading": "Close-up · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They closed that café last winter.",
+                        "startFrame": 561,
+                        "durationFrames": 66,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-mara",
+                        "action": "A gust moves the hanging station sign.",
+                        "audio": "/media/voices/0e987083c227864fa6f87c2eaab99319a49a503ce014c5312a9920097cbf9b2a.mp3",
+                        "audioDuration": 1.776,
+                        "deliveryNotes": [
+                          "Softly, surprised.",
+                          "pace=slow"
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/03030811b5885aa0"
+                      }
+                    ]
+                  },
+                  "name": "Eli Rowan",
+                  "startFrame": 627,
+                  "durationFrames": 142,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-08",
+                        "sceneId": "shot-8",
+                        "sceneNumber": 8,
+                        "heading": "Close-up · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "I know. My sister used to play there. I promised I would keep it in tune.",
+                        "startFrame": 627,
+                        "durationFrames": 154,
+                        "expressions": {
+                          "mara": "concerned",
+                          "eli": "concerned"
+                        },
+                        "shot": "closeup-eli",
+                        "action": "He looks toward the dark café windows.",
+                        "audio": "/media/voices/846c54c35c900b6677c1a531851dcf46795b5e71463bb55600c11c6e4c811bd8.mp3",
+                        "audioDuration": 4.728,
+                        "deliveryNotes": [
+                          "Hushed and intimate; pause after I know.",
+                          "pace=slow vol=x-soft"
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/55eb2f77d4980b29"
+                      }
+                    ]
+                  },
+                  "name": "Mara Vale",
+                  "startFrame": 781,
+                  "durationFrames": 41,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-09",
+                        "sceneId": "shot-9",
+                        "sceneNumber": 9,
+                        "heading": "Over shoulder · mara",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "They should have left you a light.",
+                        "startFrame": 781,
+                        "durationFrames": 53,
+                        "expressions": {
+                          "mara": "angry",
+                          "eli": "surprised"
+                        },
+                        "shot": "ots-mara",
+                        "action": "Mara looks toward the locked office, angry on his behalf.",
+                        "audio": "/media/voices/09320205419668bd2feb8f9852b1d69b71859b338acd989be17a62c70a8ac17c.mp3",
+                        "audioDuration": 1.344,
+                        "deliveryNotes": [
+                          "Quiet anger on his behalf, controlled.",
+                          "pace=slow"
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/bd3a4846d463b507"
+                      }
+                    ]
+                  },
+                  "name": "Eli Rowan",
+                  "startFrame": 834,
+                  "durationFrames": 80,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-10",
+                        "sceneId": "shot-10",
+                        "sceneNumber": 10,
+                        "heading": "Over shoulder · eli",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "There was enough moonlight. Not enough coffee.",
+                        "startFrame": 834,
+                        "durationFrames": 92,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "ots-eli",
+                        "action": "He lifts his shoulders; she lets out a small laugh.",
+                        "audio": "/media/voices/0b3ef439ec1ac66683f2079b7beed752dd059e6597a38329a2d244d6e2429f4c.mp3",
+                        "audioDuration": 2.664,
+                        "deliveryNotes": [
+                          "Warm dry humor; pause before coffee."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/323eacdb0372b1b3"
+                      }
+                    ]
+                  },
+                  "name": "Mara Vale",
+                  "startFrame": 926,
+                  "durationFrames": 85,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-11",
+                        "sceneId": "shot-11",
+                        "sceneNumber": 11,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Mara Vale",
+                        "text": "Come inside. I have coffee, and the morning timetable.",
+                        "startFrame": 926,
+                        "durationFrames": 97,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "surprised"
+                        },
+                        "shot": "wide",
+                        "action": "She unlocks the warm-lit office door.",
+                        "audio": "/media/voices/53aa3ff6ea952bdc366e681e59bd5e30490994d309c52b05909aa1e51f293a38.mp3",
+                        "audioDuration": 2.832,
+                        "deliveryNotes": [
+                          "Warmly inviting, with a small smile."
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "asset": {
+                    "identifier": [
+                      {
+                        "identifierScope": "rph:last-train",
+                        "identifierValue": "media/2df848b943a46bce"
+                      }
+                    ]
+                  },
+                  "name": "Eli Rowan",
+                  "startFrame": 1023,
+                  "durationFrames": 74,
+                  "sourceStartFrame": 0,
+                  "presentation": [],
+                  "extras": {
+                    "metadata": {
+                      "rph": {
+                        "id": "cue-12",
+                        "sceneId": "shot-12",
+                        "sceneNumber": 12,
+                        "heading": "Wide two-shot",
+                        "type": "dialogue",
+                        "speaker": "Eli Rowan",
+                        "text": "Then perhaps this is the right ticket after all.",
+                        "startFrame": 1023,
+                        "durationFrames": 86,
+                        "expressions": {
+                          "mara": "amused",
+                          "eli": "amused"
+                        },
+                        "shot": "wide",
+                        "action": "They turn toward the light together.",
+                        "audio": "/media/voices/ae07c4fddbe386949d957581d4e70709d001c7327b5063b426ca8e355c2df5c4.mp3",
+                        "audioDuration": 2.448,
+                        "deliveryNotes": [
+                          "Grateful, quietly amused.",
+                          "pace=slow"
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "presentation": {
+            "version": 1,
+            "fps": 30,
+            "width": 1280,
+            "height": 720
+          },
+          "extras": {
+            "sourceTimeline": "data/timelines/last-train.otio",
+            "legacyReview": {
+              "script": "last-train",
+              "mode": "animatic",
+              "scenes": [
+                {
+                  "id": "shot-1",
+                  "sequence": 1,
+                  "heading": "Wide two-shot",
+                  "startFrame": 0,
+                  "durationFrames": 94,
+                  "image": "/media/generated/last-train/shot-1-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "Mara checks the empty platform.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-2",
+                  "sequence": 2,
+                  "heading": "Over shoulder · eli",
+                  "startFrame": 94,
+                  "durationFrames": 87,
+                  "image": "/media/generated/last-train/shot-2-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "Eli rests his instrument case beside the bench.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-3",
+                  "sequence": 3,
+                  "heading": "Insert · ticket in Eli’s hand",
+                  "startFrame": 181,
+                  "durationFrames": 67,
+                  "image": "/media/generated/last-train/shot-3-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "She points at the date, without taking the ticket.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-4",
+                  "sequence": 4,
+                  "heading": "Wide · Eli on the bench",
+                  "startFrame": 248,
+                  "durationFrames": 95,
+                  "image": "/media/generated/last-train/shot-4-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "He turns the ticket over, then admits the joke with a smile.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-5",
+                  "sequence": 5,
+                  "heading": "Over shoulder · mara",
+                  "startFrame": 343,
+                  "durationFrames": 108,
+                  "image": "/media/generated/last-train/shot-5-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "Her smile fades; she studies his face.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-6",
+                  "sequence": 6,
+                  "heading": "Over shoulder · eli",
+                  "startFrame": 451,
+                  "durationFrames": 110,
+                  "image": "/media/generated/last-train/shot-6-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "He taps the small case: tools, not luggage.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-7",
+                  "sequence": 7,
+                  "heading": "Close-up · mara",
+                  "startFrame": 561,
+                  "durationFrames": 66,
+                  "image": "/media/generated/last-train/shot-7-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "A gust moves the hanging station sign.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-8",
+                  "sequence": 8,
+                  "heading": "Close-up · eli",
+                  "startFrame": 627,
+                  "durationFrames": 154,
+                  "image": "/media/generated/last-train/shot-8-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "He looks toward the dark café windows.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-9",
+                  "sequence": 9,
+                  "heading": "Over shoulder · mara",
+                  "startFrame": 781,
+                  "durationFrames": 53,
+                  "image": "/media/generated/last-train/shot-9-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "Mara looks toward the locked office, angry on his behalf.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-10",
+                  "sequence": 10,
+                  "heading": "Over shoulder · eli",
+                  "startFrame": 834,
+                  "durationFrames": 92,
+                  "image": "/media/generated/last-train/shot-10-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "He lifts his shoulders; she lets out a small laugh.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-11",
+                  "sequence": 11,
+                  "heading": "Wide two-shot",
+                  "startFrame": 926,
+                  "durationFrames": 97,
+                  "image": "/media/generated/last-train/shot-11-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "She unlocks the warm-lit office door.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                },
+                {
+                  "id": "shot-12",
+                  "sequence": 12,
+                  "heading": "Wide two-shot",
+                  "startFrame": 1023,
+                  "durationFrames": 86,
+                  "image": "/media/generated/last-train/shot-12-rest.svg",
+                  "placeholder": true,
+                  "artwork": {
+                    "placeholderDescription": "They turn toward the light together.",
+                    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+                    "specUrl": "/scripts/last-train/animatic.otio"
+                  }
+                }
+              ],
+              "cues": [
+                {
+                  "id": "cue-01",
+                  "sceneId": "shot-1",
+                  "sceneNumber": 1,
+                  "heading": "Wide two-shot",
+                  "type": "dialogue",
+                  "speaker": "Mara Vale",
+                  "text": "The last train was supposed to leave eight minutes ago.",
+                  "startFrame": 0,
+                  "durationFrames": 94,
+                  "expressions": {
+                    "mara": "concerned",
+                    "eli": "neutral"
+                  },
+                  "shot": "wide",
+                  "action": "Mara checks the empty platform.",
+                  "audio": "/media/voices/1fa50e25bad58b4658c529f8cd8fa51f296743c1d3ccdb94f63c1047fdb96004.mp3",
+                  "audioDuration": 2.712,
+                  "deliveryNotes": [
+                    "Matter-of-fact, with quiet concern."
+                  ]
+                },
+                {
+                  "id": "cue-02",
+                  "sceneId": "shot-2",
+                  "sceneNumber": 2,
+                  "heading": "Over shoulder · eli",
+                  "type": "dialogue",
+                  "speaker": "Eli Rowan",
+                  "text": "Then I am either very late or unexpectedly lucky.",
+                  "startFrame": 94,
+                  "durationFrames": 87,
+                  "expressions": {
+                    "mara": "skeptical",
+                    "eli": "amused"
+                  },
+                  "shot": "ots-eli",
+                  "action": "Eli rests his instrument case beside the bench.",
+                  "audio": "/media/voices/a1a6353a1907b4f38ef745b6d17e5a5edcb46cb3348df0b6e3eb43247e30dfbd.mp3",
+                  "audioDuration": 2.472,
+                  "deliveryNotes": [
+                    "Dry humor, lightly amused."
+                  ]
+                },
+                {
+                  "id": "cue-03",
+                  "sceneId": "shot-3",
+                  "sceneNumber": 3,
+                  "heading": "Insert · ticket in Eli’s hand",
+                  "type": "dialogue",
+                  "speaker": "Mara Vale",
+                  "text": "You are holding a ticket for yesterday.",
+                  "startFrame": 181,
+                  "durationFrames": 67,
+                  "expressions": {
+                    "mara": "skeptical",
+                    "eli": "surprised"
+                  },
+                  "shot": "ticket",
+                  "action": "She points at the date, without taking the ticket.",
+                  "audio": "/media/voices/3e6ee143f1a8f91422eae9ccfd789077ac371f7f051cd869aa32932befd02c4d.mp3",
+                  "audioDuration": 1.824,
+                  "deliveryNotes": [
+                    "Pointedly, with a raised eyebrow."
+                  ]
+                },
+                {
+                  "id": "cue-04",
+                  "sceneId": "shot-4",
+                  "sceneNumber": 4,
+                  "heading": "Wide · Eli on the bench",
+                  "type": "dialogue",
+                  "speaker": "Eli Rowan",
+                  "text": "That would explain the unusually quiet carriage.",
+                  "startFrame": 248,
+                  "durationFrames": 95,
+                  "expressions": {
+                    "mara": "amused",
+                    "eli": "amused"
+                  },
+                  "shot": "wide-sitting",
+                  "action": "He turns the ticket over, then admits the joke with a smile.",
+                  "audio": "/media/voices/24750b0ad5e4fa385aca1611a4778815e29a645f431d9994a10885134f4f6cc3.mp3",
+                  "audioDuration": 2.736,
+                  "deliveryNotes": [
+                    "A gentle self-deprecating joke."
+                  ]
+                },
+                {
+                  "id": "cue-05",
+                  "sceneId": "shot-5",
+                  "sceneNumber": 5,
+                  "heading": "Over shoulder · mara",
+                  "type": "dialogue",
+                  "speaker": "Mara Vale",
+                  "text": "Please tell me you did not spend the night on a parked train.",
+                  "startFrame": 343,
+                  "durationFrames": 108,
+                  "expressions": {
+                    "mara": "concerned",
+                    "eli": "neutral"
+                  },
+                  "shot": "ots-mara",
+                  "action": "Her smile fades; she studies his face.",
+                  "audio": "/media/voices/5b3ed3dd61c70e73be9b6e7c505a25b66cdb4fb85d93982cc20fe30ba069833a.mp3",
+                  "audioDuration": 3.192,
+                  "deliveryNotes": [
+                    "Concerned, speaking directly to him."
+                  ]
+                },
+                {
+                  "id": "cue-06",
+                  "sceneId": "shot-6",
+                  "sceneNumber": 6,
+                  "heading": "Over shoulder · eli",
+                  "type": "dialogue",
+                  "speaker": "Eli Rowan",
+                  "text": "Only the evening. I was tuning the piano in the station café.",
+                  "startFrame": 451,
+                  "durationFrames": 110,
+                  "expressions": {
+                    "mara": "surprised",
+                    "eli": "neutral"
+                  },
+                  "shot": "ots-eli",
+                  "action": "He taps the small case: tools, not luggage.",
+                  "audio": "/media/voices/69a31e721bc2e53f717871f6573681edff16bda917b242a606fc9a873a5d55b4.mp3",
+                  "audioDuration": 3.24,
+                  "deliveryNotes": [
+                    "Reassuring, unhurried."
+                  ]
+                },
+                {
+                  "id": "cue-07",
+                  "sceneId": "shot-7",
+                  "sceneNumber": 7,
+                  "heading": "Close-up · mara",
+                  "type": "dialogue",
+                  "speaker": "Mara Vale",
+                  "text": "They closed that café last winter.",
+                  "startFrame": 561,
+                  "durationFrames": 66,
+                  "expressions": {
+                    "mara": "concerned",
+                    "eli": "concerned"
+                  },
+                  "shot": "closeup-mara",
+                  "action": "A gust moves the hanging station sign.",
+                  "audio": "/media/voices/0e987083c227864fa6f87c2eaab99319a49a503ce014c5312a9920097cbf9b2a.mp3",
+                  "audioDuration": 1.776,
+                  "deliveryNotes": [
+                    "Softly, surprised.",
+                    "pace=slow"
+                  ]
+                },
+                {
+                  "id": "cue-08",
+                  "sceneId": "shot-8",
+                  "sceneNumber": 8,
+                  "heading": "Close-up · eli",
+                  "type": "dialogue",
+                  "speaker": "Eli Rowan",
+                  "text": "I know. My sister used to play there. I promised I would keep it in tune.",
+                  "startFrame": 627,
+                  "durationFrames": 154,
+                  "expressions": {
+                    "mara": "concerned",
+                    "eli": "concerned"
+                  },
+                  "shot": "closeup-eli",
+                  "action": "He looks toward the dark café windows.",
+                  "audio": "/media/voices/846c54c35c900b6677c1a531851dcf46795b5e71463bb55600c11c6e4c811bd8.mp3",
+                  "audioDuration": 4.728,
+                  "deliveryNotes": [
+                    "Hushed and intimate; pause after I know.",
+                    "pace=slow vol=x-soft"
+                  ]
+                },
+                {
+                  "id": "cue-09",
+                  "sceneId": "shot-9",
+                  "sceneNumber": 9,
+                  "heading": "Over shoulder · mara",
+                  "type": "dialogue",
+                  "speaker": "Mara Vale",
+                  "text": "They should have left you a light.",
+                  "startFrame": 781,
+                  "durationFrames": 53,
+                  "expressions": {
+                    "mara": "angry",
+                    "eli": "surprised"
+                  },
+                  "shot": "ots-mara",
+                  "action": "Mara looks toward the locked office, angry on his behalf.",
+                  "audio": "/media/voices/09320205419668bd2feb8f9852b1d69b71859b338acd989be17a62c70a8ac17c.mp3",
+                  "audioDuration": 1.344,
+                  "deliveryNotes": [
+                    "Quiet anger on his behalf, controlled.",
+                    "pace=slow"
+                  ]
+                },
+                {
+                  "id": "cue-10",
+                  "sceneId": "shot-10",
+                  "sceneNumber": 10,
+                  "heading": "Over shoulder · eli",
+                  "type": "dialogue",
+                  "speaker": "Eli Rowan",
+                  "text": "There was enough moonlight. Not enough coffee.",
+                  "startFrame": 834,
+                  "durationFrames": 92,
+                  "expressions": {
+                    "mara": "amused",
+                    "eli": "amused"
+                  },
+                  "shot": "ots-eli",
+                  "action": "He lifts his shoulders; she lets out a small laugh.",
+                  "audio": "/media/voices/0b3ef439ec1ac66683f2079b7beed752dd059e6597a38329a2d244d6e2429f4c.mp3",
+                  "audioDuration": 2.664,
+                  "deliveryNotes": [
+                    "Warm dry humor; pause before coffee."
+                  ]
+                },
+                {
+                  "id": "cue-11",
+                  "sceneId": "shot-11",
+                  "sceneNumber": 11,
+                  "heading": "Wide two-shot",
+                  "type": "dialogue",
+                  "speaker": "Mara Vale",
+                  "text": "Come inside. I have coffee, and the morning timetable.",
+                  "startFrame": 926,
+                  "durationFrames": 97,
+                  "expressions": {
+                    "mara": "amused",
+                    "eli": "surprised"
+                  },
+                  "shot": "wide",
+                  "action": "She unlocks the warm-lit office door.",
+                  "audio": "/media/voices/53aa3ff6ea952bdc366e681e59bd5e30490994d309c52b05909aa1e51f293a38.mp3",
+                  "audioDuration": 2.832,
+                  "deliveryNotes": [
+                    "Warmly inviting, with a small smile."
+                  ]
+                },
+                {
+                  "id": "cue-12",
+                  "sceneId": "shot-12",
+                  "sceneNumber": 12,
+                  "heading": "Wide two-shot",
+                  "type": "dialogue",
+                  "speaker": "Eli Rowan",
+                  "text": "Then perhaps this is the right ticket after all.",
+                  "startFrame": 1023,
+                  "durationFrames": 86,
+                  "expressions": {
+                    "mara": "amused",
+                    "eli": "amused"
+                  },
+                  "shot": "wide",
+                  "action": "They turn toward the light together.",
+                  "audio": "/media/voices/ae07c4fddbe386949d957581d4e70709d001c7327b5063b426ca8e355c2df5c4.mp3",
+                  "audioDuration": 2.448,
+                  "deliveryNotes": [
+                    "Grateful, quietly amused.",
+                    "pace=slow"
+                  ]
+                }
+              ],
+              "setBrief": {
+                "name": "North Platform",
+                "location": "A small railway platform at blue hour. Warm station windows, a wooden bench, quiet rails and violet hills. No other people.",
+                "timeOfDay": "Blue hour",
+                "mood": "Quiet, initially lonely, becoming welcoming.",
+                "architecture": "Small old railway station with a café and a warm-lit office.",
+                "requiredProps": [
+                  "wooden bench",
+                  "station sign",
+                  "railway tracks",
+                  "ticket",
+                  "Eli’s instrument case"
+                ],
+                "lighting": "Warm ochre station windows against cool indigo evening light.",
+                "layout": "Station building and office on the left; bench to the right; open foreground for two characters; distant tracks and hills.",
+                "continuity": "Keep doors, bench and station geography consistent across camera views.",
+                "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones."
+              },
+              "renderer": "StickyFig"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

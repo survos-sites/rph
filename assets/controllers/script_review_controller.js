@@ -71,7 +71,9 @@ export default class extends Controller {
             this.transcriptTarget.append(row);
             this.rows.push(row);
             const segment = this.button('', cue.startFrame, `rph-track-block ${kind}`);
-            segment.style.flexGrow = cue.durationFrames;
+            segment.style.flex = '0 0 auto';
+            segment.style.width = `${100 * cue.durationFrames / this.projection.durationFrames}%`;
+            segment.style.marginLeft = `${100 * Math.max(0, cue.startFrame - (this.cues[this.segments.length - 1]?.startFrame + this.cues[this.segments.length - 1]?.durationFrames || 0)) / this.projection.durationFrames}%`;
             segment.title = `${cue.sceneNumber} · ${cue.speaker || cue.type}: ${cue.text}`;
             segment.setAttribute('aria-label', segment.title);
             this.trackTarget.append(segment);
@@ -83,24 +85,29 @@ export default class extends Controller {
     update(frame) {
         this.currentFrame = frame;
         this.seekTarget.value = frame;
-        const index = this.cues.findLastIndex(cue => cue.startFrame <= frame);
-        const cue = this.cues[Math.max(0, index)];
-        this.statusTarget.textContent = `${this.time(frame)} / ${this.time(this.projection.durationFrames)} · Scene ${cue.sceneNumber} · ${cue.speaker || cue.type}`;
-        if (index === this.cueIndex) return;
-        if (this.cueIndex >= 0) {
-            this.rows[this.cueIndex].classList.remove('active');
-            this.segments[this.cueIndex].classList.remove('active');
+        const index = this.cues.findIndex(cue => cue.startFrame <= frame && frame < cue.startFrame + cue.durationFrames);
+        const cue = this.cues[index];
+        const scene = this.scenes.find(s => frame >= s.startFrame && frame < s.startFrame + s.durationFrames) || this.scenes[0];
+        const shotMode = ['source-shots', 'animatic'].includes(this.projection.review.mode);
+        this.statusTarget.textContent = `${this.time(frame)} / ${this.time(this.projection.durationFrames)} · ${shotMode ? 'Shot' : 'Scene'} ${scene.sequence}${cue?.speaker ? ' · ' + cue.speaker : ''}`;
+        if (index !== this.cueIndex) {
+            if (this.cueIndex >= 0) {
+                this.rows[this.cueIndex].classList.remove('active');
+                this.segments[this.cueIndex].classList.remove('active');
+            }
+            this.cueIndex = index;
+            if (index >= 0) {
+                this.rows[index].classList.add('active');
+                this.segments[index].classList.add('active');
+                const row = this.rows[index];
+                this.transcriptTarget.scrollTop = Math.max(0, row.offsetTop - this.transcriptTarget.offsetTop - this.transcriptTarget.clientHeight / 3);
+            }
         }
-        this.cueIndex = Math.max(0, index);
-        this.rows[this.cueIndex].classList.add('active');
-        this.segments[this.cueIndex].classList.add('active');
-        const row = this.rows[this.cueIndex];
-        this.transcriptTarget.scrollTop = Math.max(0, row.offsetTop - this.transcriptTarget.offsetTop - this.transcriptTarget.clientHeight / 3);
-        this.previousTarget.disabled = this.cueIndex === 0;
-        this.nextTarget.disabled = this.cueIndex === this.cues.length - 1;
-        this.sceneTarget.value = cue.sceneId;
-        this.sceneButtons.forEach(button => button.classList.toggle('active', button.dataset.scene === cue.sceneId));
-        const scene = this.scenes.find(scene => scene.id === cue.sceneId);
+        this.sceneIndex = this.scenes.indexOf(scene);
+        this.previousTarget.disabled = shotMode ? this.sceneIndex === 0 : index <= 0;
+        this.nextTarget.disabled = shotMode ? this.sceneIndex === this.scenes.length - 1 : index === this.cues.length - 1;
+        this.sceneTarget.value = scene.id;
+        this.sceneButtons.forEach(button => button.classList.toggle('active', button.dataset.scene === scene.id));
         this.descriptionTarget.textContent = scene.artwork.placeholderDescription;
         this.promptTarget.textContent = scene.artwork.imagePrompt;
         this.specTarget.href = scene.artwork.specUrl;
@@ -111,8 +118,8 @@ export default class extends Controller {
     jump(event) { this.go(Number(event.currentTarget.dataset.frame)); }
     seek(event) { this.go(Number(event.currentTarget.value)); }
     sceneChanged(event) { const scene = this.scenes.find(scene => scene.id === event.currentTarget.value); if (scene) this.go(scene.startFrame); }
-    previous() { if (this.cueIndex > 0) this.go(this.cues[this.cueIndex - 1].startFrame); }
-    next() { if (this.cueIndex < this.cues.length - 1) this.go(this.cues[this.cueIndex + 1].startFrame); }
+    previous() { const items = ['source-shots', 'animatic'].includes(this.projection.review.mode) ? this.scenes : this.cues; const i = items === this.scenes ? this.sceneIndex : this.cueIndex; if (i > 0) this.go(items[i - 1].startFrame); }
+    next() { const items = ['source-shots', 'animatic'].includes(this.projection.review.mode) ? this.scenes : this.cues; const i = items === this.scenes ? this.sceneIndex : this.cueIndex; if (i < items.length - 1) this.go(items[i + 1].startFrame); }
     keyboard(event) {
         if (!this.player || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.target.closest('input,textarea,select,[contenteditable="true"]')) return;
         if (event.key === 'ArrowRight') { event.preventDefault(); this.next(); }

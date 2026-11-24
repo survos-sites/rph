@@ -1,0 +1,734 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-1"
+      }
+    ],
+    "name": "Wide two-shot",
+    "description": "Mara checks the empty platform.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-01",
+          "sequence": 1,
+          "framing": "Wide two-shot",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 0,
+          "durationFrames": 94,
+          "extras": {
+            "id": "shot-1",
+            "sequence": 1,
+            "heading": "Wide two-shot",
+            "startFrame": 0,
+            "durationFrames": 94,
+            "image": "/media/generated/last-train/shot-1-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "Mara checks the empty platform.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-2"
+      }
+    ],
+    "name": "Over shoulder · eli",
+    "description": "Eli rests his instrument case beside the bench.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-02",
+          "sequence": 2,
+          "framing": "Over shoulder · eli",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 94,
+          "durationFrames": 87,
+          "extras": {
+            "id": "shot-2",
+            "sequence": 2,
+            "heading": "Over shoulder · eli",
+            "startFrame": 94,
+            "durationFrames": 87,
+            "image": "/media/generated/last-train/shot-2-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "Eli rests his instrument case beside the bench.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-3"
+      }
+    ],
+    "name": "Insert · ticket in Eli’s hand",
+    "description": "She points at the date, without taking the ticket.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-03",
+          "sequence": 3,
+          "framing": "Insert · ticket in Eli’s hand",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 181,
+          "durationFrames": 67,
+          "extras": {
+            "id": "shot-3",
+            "sequence": 3,
+            "heading": "Insert · ticket in Eli’s hand",
+            "startFrame": 181,
+            "durationFrames": 67,
+            "image": "/media/generated/last-train/shot-3-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "She points at the date, without taking the ticket.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-4"
+      }
+    ],
+    "name": "Wide · Eli on the bench",
+    "description": "He turns the ticket over, then admits the joke with a smile.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-04",
+          "sequence": 4,
+          "framing": "Wide · Eli on the bench",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 248,
+          "durationFrames": 95,
+          "extras": {
+            "id": "shot-4",
+            "sequence": 4,
+            "heading": "Wide · Eli on the bench",
+            "startFrame": 248,
+            "durationFrames": 95,
+            "image": "/media/generated/last-train/shot-4-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "He turns the ticket over, then admits the joke with a smile.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-5"
+      }
+    ],
+    "name": "Over shoulder · mara",
+    "description": "Her smile fades; she studies his face.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-05",
+          "sequence": 5,
+          "framing": "Over shoulder · mara",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 343,
+          "durationFrames": 108,
+          "extras": {
+            "id": "shot-5",
+            "sequence": 5,
+            "heading": "Over shoulder · mara",
+            "startFrame": 343,
+            "durationFrames": 108,
+            "image": "/media/generated/last-train/shot-5-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "Her smile fades; she studies his face.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-6"
+      }
+    ],
+    "name": "Over shoulder · eli",
+    "description": "He taps the small case: tools, not luggage.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-06",
+          "sequence": 6,
+          "framing": "Over shoulder · eli",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 451,
+          "durationFrames": 110,
+          "extras": {
+            "id": "shot-6",
+            "sequence": 6,
+            "heading": "Over shoulder · eli",
+            "startFrame": 451,
+            "durationFrames": 110,
+            "image": "/media/generated/last-train/shot-6-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "He taps the small case: tools, not luggage.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-7"
+      }
+    ],
+    "name": "Close-up · mara",
+    "description": "A gust moves the hanging station sign.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-07",
+          "sequence": 7,
+          "framing": "Close-up · mara",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 561,
+          "durationFrames": 66,
+          "extras": {
+            "id": "shot-7",
+            "sequence": 7,
+            "heading": "Close-up · mara",
+            "startFrame": 561,
+            "durationFrames": 66,
+            "image": "/media/generated/last-train/shot-7-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "A gust moves the hanging station sign.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-8"
+      }
+    ],
+    "name": "Close-up · eli",
+    "description": "He looks toward the dark café windows.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-08",
+          "sequence": 8,
+          "framing": "Close-up · eli",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 627,
+          "durationFrames": 154,
+          "extras": {
+            "id": "shot-8",
+            "sequence": 8,
+            "heading": "Close-up · eli",
+            "startFrame": 627,
+            "durationFrames": 154,
+            "image": "/media/generated/last-train/shot-8-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "He looks toward the dark café windows.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-9"
+      }
+    ],
+    "name": "Over shoulder · mara",
+    "description": "Mara looks toward the locked office, angry on his behalf.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-09",
+          "sequence": 9,
+          "framing": "Over shoulder · mara",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 781,
+          "durationFrames": 53,
+          "extras": {
+            "id": "shot-9",
+            "sequence": 9,
+            "heading": "Over shoulder · mara",
+            "startFrame": 781,
+            "durationFrames": 53,
+            "image": "/media/generated/last-train/shot-9-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "Mara looks toward the locked office, angry on his behalf.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-10"
+      }
+    ],
+    "name": "Over shoulder · eli",
+    "description": "He lifts his shoulders; she lets out a small laugh.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-10",
+          "sequence": 10,
+          "framing": "Over shoulder · eli",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 834,
+          "durationFrames": 92,
+          "extras": {
+            "id": "shot-10",
+            "sequence": 10,
+            "heading": "Over shoulder · eli",
+            "startFrame": 834,
+            "durationFrames": 92,
+            "image": "/media/generated/last-train/shot-10-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "He lifts his shoulders; she lets out a small laugh.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-11"
+      }
+    ],
+    "name": "Wide two-shot",
+    "description": "She unlocks the warm-lit office door.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-11",
+          "sequence": 11,
+          "framing": "Wide two-shot",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 926,
+          "durationFrames": 97,
+          "extras": {
+            "id": "shot-11",
+            "sequence": 11,
+            "heading": "Wide two-shot",
+            "startFrame": 926,
+            "durationFrames": 97,
+            "image": "/media/generated/last-train/shot-11-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "She unlocks the warm-lit office door.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "shot/shot-12"
+      }
+    ],
+    "name": "Wide two-shot",
+    "description": "They turn toward the light together.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:last-train",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "cue-12",
+          "sequence": 12,
+          "framing": "Wide two-shot",
+          "promptTemplate": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+          "startFrame": 1023,
+          "durationFrames": 86,
+          "extras": {
+            "id": "shot-12",
+            "sequence": 12,
+            "heading": "Wide two-shot",
+            "startFrame": 1023,
+            "durationFrames": 86,
+            "image": "/media/generated/last-train/shot-12-rest.svg",
+            "placeholder": true,
+            "artwork": {
+              "placeholderDescription": "They turn toward the light together.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones.",
+              "specUrl": "/scripts/last-train/animatic.otio"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

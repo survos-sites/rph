@@ -1,0 +1,288 @@
+[
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/phone"
+            }
+        ],
+        "name": "Jess’s phone",
+        "narrativeType": "narrativeProp",
+        "description": "Smartphone; work call on dashboard, turned face-down."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/laptop"
+            }
+        ],
+        "name": "Laptop",
+        "narrativeType": "narrativeProp",
+        "description": "Office laptop, screen glow."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/snowman"
+            }
+        ],
+        "name": "Inflatable snowman",
+        "narrativeType": "narrativeProp",
+        "description": "Half-deflated in the snowy yard."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/ladder"
+            }
+        ],
+        "name": "Ladder",
+        "narrativeType": "narrativeProp",
+        "description": "Fallen aluminum ladder."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/recliner"
+            }
+        ],
+        "name": "Linda’s recliner",
+        "narrativeType": "narrativeProp",
+        "description": "Living-room recliner supporting Linda and her injured ankle."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/walking-boot"
+            }
+        ],
+        "name": "White leg cast",
+        "narrativeType": "narrativeProp",
+        "description": "Linda's white leg cast, propped on a footstool when she welcomes Jess home."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/casseroles"
+            }
+        ],
+        "name": "Casserole dishes",
+        "narrativeType": "narrativeProp",
+        "description": "Foil-covered dishes brought by neighbors."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/tv"
+            }
+        ],
+        "name": "Television",
+        "narrativeType": "narrativeProp",
+        "description": "Glowing off-screen; low indistinct sound."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/sedan"
+            }
+        ],
+        "name": "Jess’s electric sedan",
+        "narrativeType": "narrativeVehicle",
+        "description": "White electric sedan; low battery leads to a charging stop. Rear suspension damaged in the snowplow collision."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/plow-truck"
+            }
+        ],
+        "name": "Plow truck",
+        "narrativeType": "narrativeVehicle",
+        "description": "Old pickup with yellow steel plow blade."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/coffee"
+            }
+        ],
+        "name": "Coffee cups",
+        "narrativeType": "narrativeProp",
+        "description": "Paper cups; one becomes two during the doorway montage."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/heater"
+            }
+        ],
+        "name": "Space heater",
+        "narrativeType": "narrativeProp",
+        "description": "Orange glowing heater in the garage."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/radio"
+            }
+        ],
+        "name": "Shop radio",
+        "narrativeType": "narrativeProp",
+        "description": "Radio on a garage shelf."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/creeper"
+            }
+        ],
+        "name": "Mechanic’s creeper",
+        "narrativeType": "narrativeProp",
+        "description": "Rolls out from under the car."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/rag"
+            }
+        ],
+        "name": "Shop rag",
+        "narrativeType": "narrativeProp",
+        "description": "Red rag used by Ben to wipe his hands."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/sensor"
+            }
+        ],
+        "name": "Bent rear suspension arm",
+        "narrativeType": "narrativeProp",
+        "description": "Collision-damaged suspension arm shown by Ben; replacement arrives December 26."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/suitcase"
+            }
+        ],
+        "name": "Roller suitcase",
+        "narrativeType": "narrativeProp",
+        "description": "Black suitcase, later on Jess’s childhood bed."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/ben-truck"
+            }
+        ],
+        "name": "Ben’s pickup",
+        "narrativeType": "narrativeVehicle",
+        "description": "Bench seat; dashboard; parked facing sunset, later empty at the square."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/coffee-tray"
+            }
+        ],
+        "name": "Coffee tray",
+        "narrativeType": "narrativeProp",
+        "description": "Cardboard tray with two coffees, crushed in Jess’s hand."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/landline"
+            }
+        ],
+        "name": "Landline phone",
+        "narrativeType": "narrativeProp",
+        "description": "Garage office phone; Linda also uses a corded house phone."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/tree"
+            }
+        ],
+        "name": "Town Christmas tree",
+        "narrativeType": "narrativeProp",
+        "description": "Initially dark; later lights appear as warm bokeh."
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeObject",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "prop/pie"
+            }
+        ],
+        "name": "Pie tin",
+        "narrativeType": "narrativeProp",
+        "description": "Linda eats pie directly from the tin."
+    }
+]

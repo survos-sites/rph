@@ -1,0 +1,400 @@
+[
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "Character",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "character/jess"
+            }
+        ],
+        "name": "JESS",
+        "characterName": {
+            "scriptName": "JESS"
+        },
+        "profile": {
+            "physicalCharacteristics": {
+                "species": "Human",
+                "hairColor": "Dark brown",
+                "hairLength": "Long, worn in a loose updo",
+                "eyeColor": "Brown"
+            },
+            "background": [
+                {
+                    "title": "Casting brief",
+                    "text": "Late 20s. Bright, articulate, slightly breathless. Speeds up when defensive, slows down when honest."
+                }
+            ],
+            "gender": {
+                "gender": "female"
+            }
+        },
+        "description": "Late 20s. Bright, articulate, slightly breathless. Speeds up when defensive, slows down when honest.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.character/1",
+                "value": {
+                    "voice": {
+                        "voice": "Samantha",
+                        "color": "#b35a41",
+                        "description": "Late 20s. Bright, articulate, slightly breathless. Speeds up when defensive, slows down when honest.",
+                        "voicestudio": {
+                            "model": "omnivoice",
+                            "voice": "default",
+                            "design": "female, young adult, moderate pitch, american accent",
+                            "seed": 1201
+                        }
+                    },
+                    "visualDescription": "Jess, 28: an appealing romantic-comedy lead with warm brown eyes, rosy cheeks, a soft oval face, and chestnut hair in a loose updo with face-framing wisps. A tailored camel coat and Christmas-red knitted scarf suggest New York polish; her easy, slightly shy smile reveals the small-town girl underneath. Frustration reads as flustered or vulnerable, never a permanent scowl.",
+                    "extras": {
+                        "source": "data/cast/christmas-facing-west.json"
+                    },
+                    "appearance": {
+                        "skin": "#e2b99a",
+                        "hair": "#594038",
+                        "clothing": "#bd956f",
+                        "faceShape": "oval",
+                        "glasses": false,
+                        "provisional": true,
+                        "faceStyle": "soft",
+                        "hairStyle": "loose-updo",
+                        "scarf": "#b84949"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "Character",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "character/ben"
+            }
+        ],
+        "name": "BEN",
+        "characterName": {
+            "scriptName": "BEN"
+        },
+        "profile": {
+            "physicalCharacteristics": {
+                "species": "Human",
+                "hairColor": "Brown",
+                "hairLength": "Short, tousled curls"
+            },
+            "background": [
+                {
+                    "title": "Casting brief",
+                    "text": "About 30. Low-to-mid voice, unhurried, dry. Never pushes a joke; wins by waiting."
+                }
+            ],
+            "gender": {
+                "gender": "male"
+            }
+        },
+        "description": "About 30. Low-to-mid voice, unhurried, dry. Never pushes a joke; wins by waiting.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.character/1",
+                "value": {
+                    "voice": {
+                        "voice": "Alex",
+                        "color": "#527c96",
+                        "description": "About 30. Low-to-mid voice, unhurried, dry. Never pushes a joke; wins by waiting.",
+                        "voicestudio": {
+                            "model": "omnivoice",
+                            "voice": "default",
+                            "design": "male, young adult, low pitch, american accent",
+                            "seed": 1202
+                        }
+                    },
+                    "visualDescription": "a handsome man about 30 with tousled curly brown hair and stubble, a grease-smudged blue denim work shirt with rolled sleeves, a shop rag in hand",
+                    "extras": {
+                        "source": "data/cast/christmas-facing-west.json"
+                    },
+                    "appearance": {
+                        "skin": "#bc8f6f",
+                        "hair": "#574438",
+                        "clothing": "#567c94",
+                        "faceShape": "oval",
+                        "glasses": false,
+                        "provisional": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "Character",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "character/linda"
+            }
+        ],
+        "name": "LINDA",
+        "characterName": {
+            "scriptName": "LINDA"
+        },
+        "profile": {
+            "physicalCharacteristics": {
+                "species": "Human",
+                "hairColor": "Silver-blonde",
+                "hairLength": "Short bob"
+            },
+            "background": [
+                {
+                    "title": "Casting brief",
+                    "text": "Late 50s. Warm, unflappable; delivers bombshells like a weather report."
+                }
+            ],
+            "gender": {
+                "gender": "female"
+            }
+        },
+        "description": "Late 50s. Warm, unflappable; delivers bombshells like a weather report.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.character/1",
+                "value": {
+                    "voice": {
+                        "voice": "Victoria",
+                        "color": "#8a6d3b",
+                        "description": "Late 50s. Warm, unflappable; delivers bombshells like a weather report.",
+                        "voicestudio": {
+                            "model": "omnivoice",
+                            "voice": "default",
+                            "design": "female, middle-aged, moderate pitch, american accent",
+                            "seed": 1203
+                        }
+                    },
+                    "visualDescription": "a warm woman of 58 with a short silver-blonde bob, reading glasses on a beaded chain, a red cardigan",
+                    "extras": {
+                        "source": "data/cast/christmas-facing-west.json"
+                    },
+                    "appearance": {
+                        "skin": "#e1b99a",
+                        "hair": "#b7b1a5",
+                        "clothing": "#9b646f",
+                        "faceShape": "round",
+                        "glasses": true,
+                        "provisional": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "Character",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "character/dot"
+            }
+        ],
+        "name": "DOT",
+        "characterName": {
+            "scriptName": "DOT"
+        },
+        "profile": {
+            "physicalCharacteristics": {
+                "species": "Human"
+            },
+            "background": [
+                {
+                    "title": "Casting brief",
+                    "text": "70s. Gravel and deadpan."
+                }
+            ],
+            "gender": {
+                "gender": "female"
+            }
+        },
+        "description": "70s. Gravel and deadpan.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.character/1",
+                "value": {
+                    "voice": {
+                        "voice": "Kathy",
+                        "color": "#c26a1b",
+                        "description": "70s. Gravel and deadpan.",
+                        "voicestudio": {
+                            "model": "omnivoice",
+                            "voice": "default",
+                            "design": "female, elderly, low pitch, american accent",
+                            "seed": 1204
+                        }
+                    },
+                    "visualDescription": "a woman in her mid-seventies with a weathered face, a blaze-orange hunting cap and a brown canvas barn coat",
+                    "extras": {
+                        "source": "data/cast/christmas-facing-west.json"
+                    },
+                    "appearance": {
+                        "skin": "#c2987c",
+                        "hair": "#d1c4ad",
+                        "clothing": "#d87b37",
+                        "faceShape": "round",
+                        "glasses": true,
+                        "provisional": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "Character",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "character/pa-volunteer"
+            }
+        ],
+        "name": "PA VOLUNTEER",
+        "characterName": {
+            "scriptName": "PA VOLUNTEER"
+        },
+        "profile": {
+            "physicalCharacteristics": {},
+            "background": [
+                {
+                    "title": "Casting brief",
+                    "text": "Small-town civic dad, mic too close."
+                }
+            ],
+            "gender": {
+                "gender": "male"
+            }
+        },
+        "description": "Small-town civic dad, mic too close.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.character/1",
+                "value": {
+                    "voice": {
+                        "voice": "Fred",
+                        "color": "#5b7f3a",
+                        "description": "Small-town civic dad, mic too close.",
+                        "voicestudio": {
+                            "model": "omnivoice",
+                            "voice": "default",
+                            "design": "male, middle-aged, moderate pitch, american accent",
+                            "seed": 1205
+                        }
+                    },
+                    "visualDescription": null,
+                    "extras": {
+                        "source": "data/cast/christmas-facing-west.json"
+                    },
+                    "appearance": {
+                        "skin": "#c9a88b",
+                        "hair": "#554b49",
+                        "clothing": "#6c8e89",
+                        "faceShape": "round",
+                        "glasses": false,
+                        "provisional": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "Character",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "character/crowd"
+            }
+        ],
+        "name": "CROWD",
+        "characterName": {
+            "scriptName": "CROWD"
+        },
+        "profile": {
+            "physicalCharacteristics": {},
+            "background": [
+                {
+                    "title": "Casting brief",
+                    "text": "Placeholder: one voice standing in for a recorded crowd countdown."
+                }
+            ]
+        },
+        "description": "Placeholder: one voice standing in for a recorded crowd countdown.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.character/1",
+                "value": {
+                    "voice": {
+                        "voice": "Ralph",
+                        "color": "#777777",
+                        "description": "Placeholder: one voice standing in for a recorded crowd countdown.",
+                        "voicestudio": {
+                            "model": "omnivoice",
+                            "voice": "default",
+                            "design": "male, middle-aged, moderate pitch, american accent",
+                            "seed": 1206
+                        }
+                    },
+                    "visualDescription": null,
+                    "extras": {
+                        "source": "data/cast/christmas-facing-west.json"
+                    },
+                    "appearance": {
+                        "skin": "#c9a88b",
+                        "hair": "#554b49",
+                        "clothing": "#6c8e89",
+                        "faceShape": "round",
+                        "glasses": false,
+                        "provisional": true
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "Character",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "character/uncle"
+            }
+        ],
+        "name": "Ben’s uncle",
+        "characterName": {
+            "scriptName": "UNCLE"
+        },
+        "description": "Off-screen addressee in scene 09; no dialogue or appearance specified.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.character/1",
+                "value": {
+                    "extras": {
+                        "sourceElement": "09b",
+                        "status": "definition-needed"
+                    },
+                    "appearance": {
+                        "skin": "#c9a88b",
+                        "hair": "#554b49",
+                        "clothing": "#6c8e89",
+                        "faceShape": "round",
+                        "glasses": false,
+                        "provisional": true
+                    }
+                }
+            }
+        ]
+    }
+]

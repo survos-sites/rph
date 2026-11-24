@@ -1,0 +1,42 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "NarrativeLocation",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "location/platform"
+      }
+    ],
+    "name": "Railway platform",
+    "description": "A small railway platform at blue hour. Warm station windows, a wooden bench, quiet rails and violet hills. No other people.",
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.location/1",
+        "value": {
+          "extras": {
+            "setBrief": {
+              "name": "North Platform",
+              "location": "A small railway platform at blue hour. Warm station windows, a wooden bench, quiet rails and violet hills. No other people.",
+              "timeOfDay": "Blue hour",
+              "mood": "Quiet, initially lonely, becoming welcoming.",
+              "architecture": "Small old railway station with a café and a warm-lit office.",
+              "requiredProps": [
+                "wooden bench",
+                "station sign",
+                "railway tracks",
+                "ticket",
+                "Eli’s instrument case"
+              ],
+              "lighting": "Warm ochre station windows against cool indigo evening light.",
+              "layout": "Station building and office on the left; bench to the right; open foreground for two characters; distant tracks and hills.",
+              "continuity": "Keep doors, bench and station geography consistent across camera views.",
+              "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones."
+            }
+          }
+        }
+      }
+    ]
+  }
+]

@@ -70,6 +70,8 @@ final class FountainTimeline
                 $a = $this->annotations->attributes($element->notes);
                 $c += (float) ($a['pre'] ?? 0);
                 if (ElementType::Dialogue === $element->type) {
+                    // Sound cues on a line (typing stops, the band cuts out) fire as the line starts.
+                    $this->soundEvents($scriptId, $a, $c, $sounds, $beds, $missing);
                     $parenthetical = $previous && ElementType::Parenthetical === $previous->type && $previous->speaker === $element->speaker ? $previous->text : null;
                     $voice = $this->lines->spec($profiles[$element->speaker ?? ''] ?? [], $parenthetical, $element->notes);
                     $key = $voice->key($element->text);

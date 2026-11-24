@@ -1,0 +1,3849 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/eeae6f59bfdedff7"
+      }
+    ],
+    "name": "img:black",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/placeholder/black-08d00123.png",
+          "kind": "image",
+          "credit": "Placeholder",
+          "extras": {
+            "legacyMediaId": "img:black"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/0442a0b2a7beeaf7"
+      }
+    ],
+    "name": "img:office-airshaft",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/8cbf87098a0d85a8c307e0c4.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:office-airshaft",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/img/office-airshaft.png",
+              "credit": "Generated · Z-Image-Turbo (local)",
+              "source": "mflux",
+              "model": "z-image-turbo",
+              "seed": 3001
+            },
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/img/office-airshaft.png",
+              "kind": "image",
+              "credit": "Generated · Z-Image-Turbo (local)"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/335619953e261dd1"
+      }
+    ],
+    "name": "img:tesla-422-sleet",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/motion/bd4128dd9624cb44cdd71530.mp4",
+          "kind": "video",
+          "credit": "",
+          "extras": {
+            "legacyMediaId": "img:tesla-422-sleet",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/img/tesla-422-sleet.png",
+              "credit": "Generated · Z-Image-Turbo (local)",
+              "source": "mflux",
+              "model": "z-image-turbo",
+              "seed": 3002
+            },
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/img/tesla-422-sleet.png",
+              "kind": "image",
+              "credit": "Generated · Z-Image-Turbo (local)"
+            }
+          },
+          "renderer": "svg-layer-motion/1",
+          "poster": "/media/generated/xmas/motion/bd4128dd9624cb44cdd71530.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/8ad857b6c5a6287a"
+      }
+    ],
+    "name": "img:annville-main-street",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/imported/xmas/annville-arrival-451f.mp4",
+          "kind": "video",
+          "credit": "Annville Unity scene · stylized, compressed geography",
+          "extras": {
+            "legacyMediaId": "img:annville-main-street",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/img/annville-main-street.png",
+              "credit": "Generated · Z-Image-Turbo (local)",
+              "source": "mflux",
+              "model": "z-image-turbo",
+              "seed": 3003
+            },
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/img/annville-main-street.png",
+              "kind": "image",
+              "credit": "Generated · Z-Image-Turbo (local)"
+            },
+            "source": {
+              "name": "Annville comic arrival",
+              "version": 2,
+              "description": "Custom Unity meshes; companion to CityGen3D OSM study, not an automatic OSM reconstruction. Fictional house.",
+              "geographicReference": "https://www.openstreetmap.org/copyright"
+            },
+            "uncutSourceUrl": "/media/imported/xmas/annville-comic-arrival.mp4"
+          },
+          "renderer": "unity/1",
+          "poster": "/media/imported/xmas/annville-arrival-edit.jpg",
+          "durationSeconds": 15.033333333333333
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/c112f21de33d868a"
+      }
+    ],
+    "name": "img:yard-snowman-ladder",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/703b8bb8820cc0e77d41080e.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:yard-snowman-ladder",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/img/yard-snowman-ladder.png",
+              "credit": "Generated · Z-Image-Turbo (local)",
+              "source": "mflux",
+              "model": "z-image-turbo",
+              "seed": 3004
+            },
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/img/yard-snowman-ladder.png",
+              "kind": "image",
+              "credit": "Generated · Z-Image-Turbo (local)"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/8ba62523fd0f776a"
+      }
+    ],
+    "name": "img:linda-recliner",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/9b7fc4145aca1443ade2973d.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:linda-recliner",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/linda-recliner-01c24db8.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/bf712fbe806a60d2"
+      }
+    ],
+    "name": "img:hand-on-cheek",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/5e76c4fcd109605ea95b8303.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:hand-on-cheek",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/hand-on-cheek-c57f03e1.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/3d66d129cb57d157"
+      }
+    ],
+    "name": "img:turkey-hill-dawn",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/3182011b27d97e7b1c3b5cde.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:turkey-hill-dawn",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/turkey-hill-dawn-3b0359b6.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/48ce02db1577d9e8"
+      }
+    ],
+    "name": "img:jess-backing-out",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/motion/8c4f1f73d8f28968ab62a604.mp4",
+          "kind": "video",
+          "credit": "",
+          "extras": {
+            "legacyMediaId": "img:jess-backing-out",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-backing-out-b734ac53.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "svg-layer-motion/1",
+          "poster": "/media/generated/xmas/motion/8c4f1f73d8f28968ab62a604.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/722718b9e646cf86"
+      }
+    ],
+    "name": "img:bumper-plow",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/f129ab6118927078f65a1c6b.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:bumper-plow",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/bumper-plow-f6c38673.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/d89c41cf8ed60ee9"
+      }
+    ],
+    "name": "img:dot-blaze-cap",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/motion/816c9546e001dfe2e2ff698a.mp4",
+          "kind": "video",
+          "credit": "",
+          "extras": {
+            "legacyMediaId": "img:dot-blaze-cap",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/dot-blaze-cap-2e23f06f.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "svg-layer-motion/1",
+          "poster": "/media/generated/xmas/motion/816c9546e001dfe2e2ff698a.jpg"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/003bffb7e2eaf107"
+      }
+    ],
+    "name": "img:garage-boots",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/ebc12f756197364d5c2f46ab.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:garage-boots",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/garage-boots-f3429244.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/b5951b32709ae1e4"
+      }
+    ],
+    "name": "img:jess-thin-coat",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/38a9f3ec7534c7bd40bfa201.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-thin-coat",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-thin-coat-fee36846.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/c747a1fd0eb72c52"
+      }
+    ],
+    "name": "img:ben-wiping-hands",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/38a9f3ec7534c7bd40bfa201.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:ben-wiping-hands",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/ben-wiping-hands-e0f32c44.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/e3f6ddfeab228b58"
+      }
+    ],
+    "name": "img:cracked-sensor",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/c45ec8a72722da259f4f1a97.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:cracked-sensor",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/cracked-sensor-e325631d.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/6f3e132791d6d578"
+      }
+    ],
+    "name": "img:bag-on-bed",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/71ef6d0e11208df488c2523d.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:bag-on-bed",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/bag-on-bed-2e05effb.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/d235af14453f60e5"
+      }
+    ],
+    "name": "img:doorway-1",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/fb948f2f835c3b5c27992b5b.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:doorway-1",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/doorway-1-f4e12231.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/e56f00ce2780e573"
+      }
+    ],
+    "name": "img:doorway-2",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/6b3c1e3282f173c3ba6efb1e.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:doorway-2",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/doorway-2-e964f130.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/7b2c808e7a6645a4"
+      }
+    ],
+    "name": "img:doorway-3",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/546c58615e7522ff23b5cddd.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:doorway-3",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/doorway-3-2f57fba2.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/90a89ff59b12022e"
+      }
+    ],
+    "name": "img:truck-rear-window",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/c54ca9a86fc0ae5920ab20cb.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:truck-rear-window",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/truck-rear-window-442b42cf.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/ae98478fab7e2185"
+      }
+    ],
+    "name": "img:jess-profile-sunset",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/88d98bd58a072f1c5a5fa244.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-profile-sunset",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-profile-sunset-85d0547f.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/93a8cea1907c51ba"
+      }
+    ],
+    "name": "img:phone-tyler",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/0f7e930b6a83403a91369e25.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:phone-tyler",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/phone-tyler-1632ab28.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/66bb9a3bd4615e90"
+      }
+    ],
+    "name": "img:jess-coffee-tray",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/93fec483811d42b799a1e46c.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-coffee-tray",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-coffee-tray-faacc27d.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/02b53a51b213acaa"
+      }
+    ],
+    "name": "img:jess-tray-crunch",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/6fe829561e688c3b4892c7b7.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-tray-crunch",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-tray-crunch-db435804.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/f86cb01d552ef9e1"
+      }
+    ],
+    "name": "img:ben-caught",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/68730d4c72dfa791cbc12dbd.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:ben-caught",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/ben-caught-08e22a93.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/f475321012dced89"
+      }
+    ],
+    "name": "img:square-crowd",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/41a869929cdbb688171a4857.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:square-crowd",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/square-crowd-d1773e9b.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/4c7687adabc1d1d3"
+      }
+    ],
+    "name": "img:jess-in-crowd",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/86ca15208c516bfe526ca768.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-in-crowd",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-in-crowd-130a6f37.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/7a94590e453f1298"
+      }
+    ],
+    "name": "img:truck-empty",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/7fdcea61bdd801dfd7582b69.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:truck-empty",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/truck-empty-8d8ae791.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/d0860fa53260d712"
+      }
+    ],
+    "name": "img:field-last-light",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/3d2a6c6477500c850be688bc.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:field-last-light",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/field-last-light-6ce5096a.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/b314c352abc5ca8c"
+      }
+    ],
+    "name": "img:linda-pie-phone",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/0db96810998e1f0ce53f56e8.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:linda-pie-phone",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/linda-pie-phone-162c9c83.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/f92710bdecf12cdf"
+      }
+    ],
+    "name": "img:tree-bokeh",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/4ad7db71d3918e89bac7857c.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:tree-bokeh",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/tree-bokeh-03b4efaf.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/80101a6c7ba6526e"
+      }
+    ],
+    "name": "voice:d7aea2fdaca06c850b37576812c96a1096b6cd79f67b345a6e991a01a50f7c7e",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/d7aea2fdaca06c850b37576812c96a1096b6cd79f67b345a6e991a01a50f7c7e.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:d7aea2fdaca06c850b37576812c96a1096b6cd79f67b345a6e991a01a50f7c7e"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/d33f70516a178183"
+      }
+    ],
+    "name": "voice:5cc6a7b4a5e98c195a21c346584e490fc2ff8e52a69e076471e89e558cea2729:phone",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/fx/5cc6a7b4a5e98c195a21c346584e490fc2ff8e52a69e076471e89e558cea2729-phone.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:5cc6a7b4a5e98c195a21c346584e490fc2ff8e52a69e076471e89e558cea2729:phone"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/38d1e795aca04c7f"
+      }
+    ],
+    "name": "voice:e7294232358e1eeb72311c29d3ea4de6fc36b26241d79d53798d7e42f1dbbd92",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/e7294232358e1eeb72311c29d3ea4de6fc36b26241d79d53798d7e42f1dbbd92.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:e7294232358e1eeb72311c29d3ea4de6fc36b26241d79d53798d7e42f1dbbd92"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/aefc7f7968edea9c"
+      }
+    ],
+    "name": "voice:58720c69d9d9c746e8499af180d6257ff05c30656baf4a047e22af1d98cc806f:phone",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/fx/58720c69d9d9c746e8499af180d6257ff05c30656baf4a047e22af1d98cc806f-phone.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:58720c69d9d9c746e8499af180d6257ff05c30656baf4a047e22af1d98cc806f:phone"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/c99f3f9ffe92e535"
+      }
+    ],
+    "name": "voice:1ae12d1392910eb4bbe6fb0e9d1cf93d9c2568ed0e069a443c44fdafdb272b2e",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/1ae12d1392910eb4bbe6fb0e9d1cf93d9c2568ed0e069a443c44fdafdb272b2e.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:1ae12d1392910eb4bbe6fb0e9d1cf93d9c2568ed0e069a443c44fdafdb272b2e"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/5cdbf48540c96352"
+      }
+    ],
+    "name": "voice:216176c8f5d59cb2d5e571ec51c86be0af832d4141a2331bca0eaf98ed016b18",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/216176c8f5d59cb2d5e571ec51c86be0af832d4141a2331bca0eaf98ed016b18.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:216176c8f5d59cb2d5e571ec51c86be0af832d4141a2331bca0eaf98ed016b18"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/da44920a6548b080"
+      }
+    ],
+    "name": "voice:d80182f12a3b604698fb7ebb3c7905418a5fd6ea25738b66a60f8fa28b9f976f",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/d80182f12a3b604698fb7ebb3c7905418a5fd6ea25738b66a60f8fa28b9f976f.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:d80182f12a3b604698fb7ebb3c7905418a5fd6ea25738b66a60f8fa28b9f976f"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/a02117c2fc33c3d9"
+      }
+    ],
+    "name": "voice:bd2ea608f835bbeda0d6e2ae5f066bd1caec11eda114c75f10e342c027655ef1",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/d4abf6b6c6ff905b6dae2fa495bf143b317537395d8c21879612e0ca59e944fc.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:bd2ea608f835bbeda0d6e2ae5f066bd1caec11eda114c75f10e342c027655ef1",
+            "previousVoice": {
+              "url": "/media/voices/bd2ea608f835bbeda0d6e2ae5f066bd1caec11eda114c75f10e342c027655ef1.mp3"
+            }
+          },
+          "durationSeconds": 3.24,
+          "speech": {
+            "text": "It's just a sprain. The neighbors called an ambulance.",
+            "instructions": "female, middle-aged, moderate pitch, american accent, Direction: Warm, matter-of-fact reassurance to her worried daughter. Gentle falling cadence. No punchline..",
+            "model": "omnivoice",
+            "seed": 1203
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/d927443dfc51ebb8"
+      }
+    ],
+    "name": "voice:f82881d66e1bf243387a33cd4e11d332ac31a1fcbb0668aabc11042628c68840",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/610b3bc2ecd240d619cd168e014cdc7d2e1b99a18fe54c3d8a7d62af1a90df28.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:f82881d66e1bf243387a33cd4e11d332ac31a1fcbb0668aabc11042628c68840",
+            "previousVoice": {
+              "url": "/media/voices/f82881d66e1bf243387a33cd4e11d332ac31a1fcbb0668aabc11042628c68840.mp3"
+            }
+          },
+          "durationSeconds": 3.504,
+          "speech": {
+            "text": "I'm charging now. Send me the revisions. I'll look at them on the way.",
+            "instructions": "female, young adult, moderate pitch, american accent, Direction: Distracted work call, brisk and conversational..",
+            "model": "omnivoice",
+            "seed": 1201
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/1c9dba59312d04a4"
+      }
+    ],
+    "name": "voice:21658a3d58126ec6cb473f1517591bdf324533faf7ea480131d0fdaf91c75a6e",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/52d496df2459f3f4af20ca4b93ec1f0a9a5992c98cb5447087f2733e413cd2a7.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:21658a3d58126ec6cb473f1517591bdf324533faf7ea480131d0fdaf91c75a6e",
+            "previousVoice": {
+              "url": "/media/voices/21658a3d58126ec6cb473f1517591bdf324533faf7ea480131d0fdaf91c75a6e.mp3"
+            }
+          },
+          "durationSeconds": 1.176,
+          "speech": {
+            "text": "I'll call you back.",
+            "instructions": "female, young adult, moderate pitch, american accent, Direction: Quietly stunned after a bump. A little embarrassed..",
+            "model": "omnivoice",
+            "seed": 1201
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/eec2983b500da3c6"
+      }
+    ],
+    "name": "voice:0012446b81773e52569ee5fafc8024e2146553d9dcb922941836612cc1405b73",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/420eeb8c0d8b272581089d1f42c99acd557009dbe3f1c0c9f9471a551e16f177.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:0012446b81773e52569ee5fafc8024e2146553d9dcb922941836612cc1405b73",
+            "previousVoice": {
+              "url": "/media/voices/0012446b81773e52569ee5fafc8024e2146553d9dcb922941836612cc1405b73.mp3"
+            }
+          },
+          "durationSeconds": 1.44,
+          "speech": {
+            "text": "Please tell me you’re open.",
+            "instructions": "female, young adult, moderate pitch, american accent, Direction: Hopeful, slightly embarrassed, speaking to the mechanic in the doorway..",
+            "model": "omnivoice",
+            "seed": 1201
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/8d9beddd552c4787"
+      }
+    ],
+    "name": "voice:5fe8ca067f248328957ed2ef5c93156933625c3e54784916896208eae718d759",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/99b71cdc67d732a5351fb7c7711400619c720f659e2968d5919ab4eb4e9b8e8c.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:5fe8ca067f248328957ed2ef5c93156933625c3e54784916896208eae718d759",
+            "previousVoice": {
+              "url": "/media/voices/5fe8ca067f248328957ed2ef5c93156933625c3e54784916896208eae718d759.mp3"
+            }
+          },
+          "durationSeconds": 1.584,
+          "speech": {
+            "text": "For you, or the car?",
+            "instructions": "male, young adult, low pitch, american accent, Direction: Confident, warm, gently teasing. A small smile, not a big punchline..",
+            "model": "omnivoice",
+            "seed": 1202
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/35c1cbb74b389323"
+      }
+    ],
+    "name": "voice:9419d5f74479d6581a5fadd12e39d2c50d571b302b7716541bae69f197b04ab6",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/9542a824ab91d7842704c74bf42abb78f7ca9445c4d4a80c720516dfdfa0dbc2.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:9419d5f74479d6581a5fadd12e39d2c50d571b302b7716541bae69f197b04ab6",
+            "previousVoice": {
+              "url": "/media/voices/9419d5f74479d6581a5fadd12e39d2c50d571b302b7716541bae69f197b04ab6.mp3"
+            }
+          },
+          "durationSeconds": 3.096,
+          "speech": {
+            "text": "Ben Kreider. You borrowed my truck for the homecoming parade.",
+            "instructions": "male, young adult, low pitch, american accent, Direction: Relaxed, grounded confidence. A small amused smile, not eager or awkward..",
+            "model": "omnivoice",
+            "seed": 1202
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/943cb9fc3a986ef9"
+      }
+    ],
+    "name": "voice:364f027fa1ec78e83e19e259f2c11a2a3d763f5014bfedd41d191dc4ed37f894",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/364f027fa1ec78e83e19e259f2c11a2a3d763f5014bfedd41d191dc4ed37f894.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:364f027fa1ec78e83e19e259f2c11a2a3d763f5014bfedd41d191dc4ed37f894"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/1aa741c915936bf8"
+      }
+    ],
+    "name": "voice:0a8d675ba2bc42266b07cb1b0328d671d61c84b70f6fbb5f5f71f98aaa91ad2f",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/db79221935470c39ce20684f4c74fe61ec446a3754945d3dbb94ed467c71b6bc.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:0a8d675ba2bc42266b07cb1b0328d671d61c84b70f6fbb5f5f71f98aaa91ad2f",
+            "previousVoice": {
+              "url": "/media/voices/0a8d675ba2bc42266b07cb1b0328d671d61c84b70f6fbb5f5f71f98aaa91ad2f.mp3"
+            }
+          },
+          "durationSeconds": 3.528,
+          "speech": {
+            "text": "The plow bent your rear suspension. You can’t drive it like this.",
+            "instructions": "male, young adult, low pitch, american accent, Direction: Plain, clear explanation. Calm competent mechanic, not dramatic..",
+            "model": "omnivoice",
+            "seed": 1202
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/1027ae96e6e942af"
+      }
+    ],
+    "name": "voice:9763d77ed70b0af3764e846344be6c551bf5258f67a96b082e74e78fd7d71734",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/9763d77ed70b0af3764e846344be6c551bf5258f67a96b082e74e78fd7d71734.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:9763d77ed70b0af3764e846344be6c551bf5258f67a96b082e74e78fd7d71734"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/6f7ca61313e62fc3"
+      }
+    ],
+    "name": "voice:7126d211b2cadbd2d003de9a821e618b3c29748dcd2ce0049c8c7156813e7f7d",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/442c6391a27410b2cd121db3fc2ad225184c589e7fa167e46ca534f0d9def09f.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:7126d211b2cadbd2d003de9a821e618b3c29748dcd2ce0049c8c7156813e7f7d",
+            "previousVoice": {
+              "url": "/media/voices/7126d211b2cadbd2d003de9a821e618b3c29748dcd2ce0049c8c7156813e7f7d.mp3"
+            }
+          },
+          "durationSeconds": 2.088,
+          "speech": {
+            "text": "The part gets here December twenty-ninth.",
+            "instructions": "male, young adult, low pitch, american accent, Direction: Matter-of-fact, reassuring. Normal conversation, not a punchline..",
+            "model": "omnivoice",
+            "seed": 1202
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/fe4c2a3d01e35fe8"
+      }
+    ],
+    "name": "voice:176f0ba1682229e0643106d710fa8bd1539bb4ad9fa465834c26e2590b77645f",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/24d26e3b13cd5ac24e1b549dc38b642f29018f208653b8a435ec9072f644d42a.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:176f0ba1682229e0643106d710fa8bd1539bb4ad9fa465834c26e2590b77645f",
+            "previousVoice": {
+              "url": "/media/voices/176f0ba1682229e0643106d710fa8bd1539bb4ad9fa465834c26e2590b77645f.mp3"
+            }
+          },
+          "durationSeconds": 3.048,
+          "speech": {
+            "text": "The twenty-ninth? I promised I'd be back for New Year's Eve.",
+            "instructions": "female, young adult, moderate pitch, american accent, Direction: Brief surprise, then worried about the promise she made. Natural conversational emphasis..",
+            "model": "omnivoice",
+            "seed": 1201
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/5028bbe4afa8b312"
+      }
+    ],
+    "name": "voice:f319ee0ebc26d7631037a2f19ddc487d9545aab746a835d0b9ef02bc5ad03e24",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/b057ee95579e61c5377cff3c3584962586de603ca2ca9a8c3221ad79d6cff8dd.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:f319ee0ebc26d7631037a2f19ddc487d9545aab746a835d0b9ef02bc5ad03e24",
+            "previousVoice": {
+              "url": "/media/voices/f319ee0ebc26d7631037a2f19ddc487d9545aab746a835d0b9ef02bc5ad03e24.mp3"
+            }
+          },
+          "durationSeconds": 1.824,
+          "speech": {
+            "text": "Well, you’re not going anywhere today.",
+            "instructions": "male, young adult, low pitch, american accent, Direction: Warm, low male voice. Matter-of-fact but gently amused, not parental or patronizing..",
+            "model": "omnivoice",
+            "seed": 1202
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/6feb5eb3e3fe6c85"
+      }
+    ],
+    "name": "voice:074069fe230a985b73c351976ff96e7016c9ef55fda4a3301b2859dfddcbe5c5",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/074069fe230a985b73c351976ff96e7016c9ef55fda4a3301b2859dfddcbe5c5.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:074069fe230a985b73c351976ff96e7016c9ef55fda4a3301b2859dfddcbe5c5"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/c582fede4f9f6343"
+      }
+    ],
+    "name": "voice:8fd3dda338d964049a14c4bdfe272f7824168a630cca23587dbef6d70fd1338e",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/8fd3dda338d964049a14c4bdfe272f7824168a630cca23587dbef6d70fd1338e.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:8fd3dda338d964049a14c4bdfe272f7824168a630cca23587dbef6d70fd1338e"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/34c84a40ae719f3e"
+      }
+    ],
+    "name": "voice:16d6107d03f67baedd436d742407254ad64d806012346a5371bf090873c745d1",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/16d6107d03f67baedd436d742407254ad64d806012346a5371bf090873c745d1.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:16d6107d03f67baedd436d742407254ad64d806012346a5371bf090873c745d1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/1bbcfe3c7c30c20c"
+      }
+    ],
+    "name": "voice:f0ddd7a2a3891513daed49bc62552cb0887593124d1aba29a6b4401cdd0844b7",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/f0ddd7a2a3891513daed49bc62552cb0887593124d1aba29a6b4401cdd0844b7.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:f0ddd7a2a3891513daed49bc62552cb0887593124d1aba29a6b4401cdd0844b7"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/cfb67a4a8a051465"
+      }
+    ],
+    "name": "voice:968134df3f582f42c81f99a07acbece9f3fa1e37f9aeb3a969c37790605b0594",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/968134df3f582f42c81f99a07acbece9f3fa1e37f9aeb3a969c37790605b0594.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:968134df3f582f42c81f99a07acbece9f3fa1e37f9aeb3a969c37790605b0594"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/6ad0d605cd316f73"
+      }
+    ],
+    "name": "voice:aea72e0d0f73f87c191592aa102733c906c9a78f7ee07d237a7f71a5997c1ab5",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/aea72e0d0f73f87c191592aa102733c906c9a78f7ee07d237a7f71a5997c1ab5.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:aea72e0d0f73f87c191592aa102733c906c9a78f7ee07d237a7f71a5997c1ab5"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/c6e188ff10efaca3"
+      }
+    ],
+    "name": "voice:bf0b4d04d2dddc63309533b76f7b04adab2cce354143fbfdd6eccbfcbfdab469",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/bf0b4d04d2dddc63309533b76f7b04adab2cce354143fbfdd6eccbfcbfdab469.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:bf0b4d04d2dddc63309533b76f7b04adab2cce354143fbfdd6eccbfcbfdab469"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/428a2b30b0a0ff00"
+      }
+    ],
+    "name": "voice:0b6449c173954988243b99d442122f576494df5feb7c72c3bea9e326a6e678a1:pa",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/fx/0b6449c173954988243b99d442122f576494df5feb7c72c3bea9e326a6e678a1-pa.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:0b6449c173954988243b99d442122f576494df5feb7c72c3bea9e326a6e678a1:pa"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/e2ed626e7a6887bf"
+      }
+    ],
+    "name": "voice:4fc47b602fa917fcc95e69e539af68c3ec0212a69ffe79f21cde9b8b6357de47",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/4fc47b602fa917fcc95e69e539af68c3ec0212a69ffe79f21cde9b8b6357de47.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:4fc47b602fa917fcc95e69e539af68c3ec0212a69ffe79f21cde9b8b6357de47"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/d43ffac0c26b9f80"
+      }
+    ],
+    "name": "voice:3697243e9947a3904ae1505772095bd925b38708e0cedd5a7ea1f5742a2196ce",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/3697243e9947a3904ae1505772095bd925b38708e0cedd5a7ea1f5742a2196ce.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:3697243e9947a3904ae1505772095bd925b38708e0cedd5a7ea1f5742a2196ce"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/5d934b1a3157b0ff"
+      }
+    ],
+    "name": "voice:6fbae92a62603412fc85b2582f0c518a28d60aa8fbd03f637bac18fe82062400",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/6fbae92a62603412fc85b2582f0c518a28d60aa8fbd03f637bac18fe82062400.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:6fbae92a62603412fc85b2582f0c518a28d60aa8fbd03f637bac18fe82062400"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/142cb7a6c02be3c4"
+      }
+    ],
+    "name": "sfx:vehicle.siren-approach",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/sfx-vehicle.siren-approach.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "sfx:vehicle.siren-approach",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/sfx-vehicle.siren-approach.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "4e132c824c1ca256",
+              "name": "Emergency vehicle siren",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+              "maxSeconds": 4
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/fea2ff0240449cfd"
+      }
+    ],
+    "name": "sfx:voice.murmur-indistinct",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/sfx-voice.murmur-indistinct.mp3",
+          "kind": "audio",
+          "credit": "Generated voices, reversed and filtered",
+          "extras": {
+            "legacyMediaId": "sfx:voice.murmur-indistinct",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/sfx-voice.murmur-indistinct.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Generated voices, reversed and filtered",
+              "license": "Original (this project's generated voices)",
+              "name": "Boss on the car speaker, indistinct"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/15b7210741f1202c"
+      }
+    ],
+    "name": "sfx:door.store-chime",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/sfx-door.store-chime.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "sfx:door.store-chime",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/sfx-door.store-chime.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "54b0e998c19e209e",
+              "name": "Two tone chime",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/bd57155d53e653d6"
+      }
+    ],
+    "name": "sfx:impact.bumper-plow",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/sfx-impact.bumper-plow.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "sfx:impact.bumper-plow",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/sfx-impact.bumper-plow.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "b78a76050afa53b8",
+              "name": "Metallic Clunk Scrape",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/1ecaa51caa97c234"
+      }
+    ],
+    "name": "sfx:tool.impact-wrench",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/sfx-tool.impact-wrench.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "sfx:tool.impact-wrench",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/sfx-tool.impact-wrench.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Two bursts of hammer pings over a motor whine"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/99c21b464d970756"
+      }
+    ],
+    "name": "sfx:phone.vibrate-dash",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/score/phone-vibrate.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "legacyMediaId": "sfx:phone.vibrate-dash",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/score/phone-vibrate.mp3",
+              "kind": "audio",
+              "source": "tools/synth-cues.sh",
+              "credit": "Original placeholder cue",
+              "license": "Original; synthesized"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/59e98762c88f504c"
+      }
+    ],
+    "name": "sfx:foley.cardboard-crunch",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/sfx-foley.cardboard-crunch.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "sfx:foley.cardboard-crunch",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/sfx-foley.cardboard-crunch.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+              "sourceId": "25bf9c03abdc9766",
+              "name": "Paper crumple"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/ff4e8ca7cfd6944c"
+      }
+    ],
+    "name": "sfx:electric.relay-clunk",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/sfx-electric.relay-clunk.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "sfx:electric.relay-clunk",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/sfx-electric.relay-clunk.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "cb87077cb49ffe34",
+              "name": "Heavy mechanical click",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/d6400f4dcc7e6dcf"
+      }
+    ],
+    "name": "sfx:door.storm-door-bang",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/sfx-door.storm-door-bang.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "sfx:door.storm-door-bang",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/sfx-door.storm-door-bang.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+              "sourceId": "8d4ae3b6d7018833+bd16f054e20720fb",
+              "name": "Deep Muffled Thud with Rapid dry clatter"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/fafe7ccd3ba6fced"
+      }
+    ],
+    "name": "sfx:vehicle.ev-pedestrian-hum",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.ev-pedestrian-hum.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "sfx:vehicle.ev-pedestrian-hum",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.ev-pedestrian-hum.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "EV low-speed two-tone hum"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/5b780cd64fc4c916"
+      }
+    ],
+    "name": "sfx:foley.creeper-roll",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/sfx-foley.creeper-roll.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "sfx:foley.creeper-roll",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/sfx-foley.creeper-roll.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Creeper rolling on concrete"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/8780b9737582cfe1"
+      }
+    ],
+    "name": "sfx:vehicle.engine-off",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.engine-off.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "sfx:vehicle.engine-off",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.engine-off.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Idle slows and dies"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/64ee971f1a41d390"
+      }
+    ],
+    "name": "sfx:crowd.cheer-ooh",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/sfx-crowd.cheer-ooh.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "sfx:crowd.cheer-ooh",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/sfx-crowd.cheer-ooh.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "70894df777ac4a9c",
+              "name": "Crowd cheer",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+              "maxSeconds": 3
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/ebb4a3a87ce0dea8"
+      }
+    ],
+    "name": "sfx:debris.ice-fall",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/sfx-debris.ice-fall.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "sfx:debris.ice-fall",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/sfx-debris.ice-fall.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+              "sourceId": "d81327f4a910a146",
+              "name": "Small Objects Shifting"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/96c1572db6265975"
+      }
+    ],
+    "name": "sfx:vehicle.engine-tick",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.engine-tick.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "sfx:vehicle.engine-tick",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/sfx-vehicle.engine-tick.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Hot engine ticking"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/a0e659a46396b45b"
+      }
+    ],
+    "name": "sfx:bells.sleigh",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/sfx-bells.sleigh.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "sfx:bells.sleigh",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/sfx-bells.sleigh.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Shaken jingle bells"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/e4e2a14d32cb4683"
+      }
+    ],
+    "name": "amb:office-hvac",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/amb-office-hvac.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "amb:office-hvac",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/amb-office-hvac.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Brown-noise room tone with a faint 120 Hz hum"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/a6feb2548320938c"
+      }
+    ],
+    "name": "amb:tv-low",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/amb-tv-low.mp3",
+          "kind": "audio",
+          "credit": "Generated voices, reversed and filtered",
+          "extras": {
+            "legacyMediaId": "amb:tv-low",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/amb-tv-low.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Generated voices, reversed and filtered",
+              "license": "Original (this project's generated voices)",
+              "name": "TV voices through a small speaker"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/c9e8ffc306674815"
+      }
+    ],
+    "name": "amb:truck-idle",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/amb-truck-idle.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "amb:truck-idle",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/amb-truck-idle.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Old pickup idling: low firing pulse and rumble"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/7355684352a4b0e6"
+      }
+    ],
+    "name": "amb:wind-field",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/amb-wind-field.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "amb:wind-field",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/amb-wind-field.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "dcc590846602e641",
+              "name": "Howling wind",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/a5ede7b987cc2e17"
+      }
+    ],
+    "name": "amb:keyboard",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/amb-keyboard.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "amb:keyboard",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/amb-keyboard.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "0c447abf8c87d552",
+              "name": "Keyboard typing",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/3a28b9f63aaf75a6"
+      }
+    ],
+    "name": "amb:heater-fan",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/amb-heater-fan.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "amb:heater-fan",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/amb-heater-fan.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Truck heater fan"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/9e9c0c930d73fbd6"
+      }
+    ],
+    "name": "amb:crowd-murmur",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/amb-crowd-murmur.mp3",
+          "kind": "audio",
+          "credit": "Generated voices, reversed and filtered",
+          "extras": {
+            "legacyMediaId": "amb:crowd-murmur",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/amb-crowd-murmur.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Generated voices, reversed and filtered",
+              "license": "Original (this project's generated voices)",
+              "name": "Six layers of reversed voices plus outdoor air"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/178eb8987197cc21"
+      }
+    ],
+    "name": "amb:shop-radio",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/amb-shop-radio.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "amb:shop-radio",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/amb-shop-radio.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+              "name": "Store carol through a small radio (from mus:store-carol)"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/9c363118cf5eed03"
+      }
+    ],
+    "name": "amb:space-heater",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/amb-space-heater.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "amb:space-heater",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/amb-space-heater.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Pink-noise heater hiss with mains hum"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/2a72bcd096c012b7"
+      }
+    ],
+    "name": "amb:crows-distant",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/sfx/amb-crows-distant.mp3",
+          "kind": "audio",
+          "credit": "Synthesized placeholder",
+          "extras": {
+            "legacyMediaId": "amb:crows-distant",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/sfx/amb-crows-distant.mp3",
+              "kind": "audio",
+              "source": "tools/synth-sfx.sh",
+              "credit": "Synthesized placeholder",
+              "license": "Original (ffmpeg synthesis)",
+              "name": "Synthesized distant caws; rough, replace first"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/998bb596b2801219"
+      }
+    ],
+    "name": "mus:theme-in",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/score/theme-in.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "legacyMediaId": "mus:theme-in",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/score/theme-in.mp3",
+              "kind": "audio",
+              "source": "tools/synth-cues.sh",
+              "credit": "Original placeholder cue",
+              "license": "Original; synthesized"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/3f8470ef65cbcc60"
+      }
+    ],
+    "name": "mus:theme-play",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/score/theme-play.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "legacyMediaId": "mus:theme-play",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/score/theme-play.mp3",
+              "kind": "audio",
+              "source": "tools/synth-cues.sh",
+              "credit": "Original placeholder cue",
+              "license": "Original; synthesized"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/050fa59797947d14"
+      }
+    ],
+    "name": "mus:comedy",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/mus-comedy.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "mus:comedy",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/mus-comedy.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "428b7f1822cc4d3384b561daf212cf66",
+              "name": "Playful quirky jazz, light comedic pizzicato",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/638682e0f22cba43"
+      }
+    ],
+    "name": "mus:comedy-resolve",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/score/comedy-resolve.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "legacyMediaId": "mus:comedy-resolve",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/score/comedy-resolve.mp3",
+              "kind": "audio",
+              "source": "tools/synth-cues.sh",
+              "credit": "Original placeholder cue",
+              "license": "Original; synthesized"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/9b62b4d709b1b4cc"
+      }
+    ],
+    "name": "mus:theme-drop",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/score/theme-drop.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "legacyMediaId": "mus:theme-drop",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/score/theme-drop.mp3",
+              "kind": "audio",
+              "source": "tools/synth-cues.sh",
+              "credit": "Original placeholder cue",
+              "license": "Original; synthesized"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/601c48ab600f35bc"
+      }
+    ],
+    "name": "mus:tannenbaum",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/mus-tannenbaum.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "mus:tannenbaum",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/mus-tannenbaum.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "5b95a8fedff54bdf9d61eaf6f718d444",
+              "name": "Christmas swing, big band brass and jazz piano",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+              "note": "Stand-in for a community brass band playing O Tannenbaum."
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/252bbb12a4037d70"
+      }
+    ],
+    "name": "mus:store-carol",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/catalog/mus-store-carol.mp3",
+          "kind": "audio",
+          "credit": "HeyGen audio catalog",
+          "extras": {
+            "legacyMediaId": "mus:store-carol",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/catalog/mus-store-carol.mp3",
+              "kind": "audio",
+              "source": "heygen-catalog",
+              "sourceId": "6a453748e92c442581a39e7f7b76abac",
+              "name": "Upbeat cheerful Christmas music, festive bells",
+              "credit": "HeyGen audio catalog",
+              "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
+              "note": "Filtered to sound like a small store speaker."
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/037d002cdef8c04d"
+      }
+    ],
+    "name": "mus:comedy-sting",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/score/comedy-sting.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "legacyMediaId": "mus:comedy-sting",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/score/comedy-sting.mp3",
+              "kind": "audio",
+              "source": "tools/synth-cues.sh",
+              "credit": "Original placeholder cue",
+              "license": "Original; synthesized"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/283dfc82b43d94d2"
+      }
+    ],
+    "name": "mus:theme-hold",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/score/theme-hold.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "legacyMediaId": "mus:theme-hold",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/score/theme-hold.mp3",
+              "kind": "audio",
+              "source": "tools/synth-cues.sh",
+              "credit": "Original placeholder cue",
+              "license": "Original; synthesized"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/6d726f6d773f1331"
+      }
+    ],
+    "name": "mus:theme-resolve",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/christmas-facing-west/score/theme-resolve.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "legacyMediaId": "mus:theme-resolve",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/score/theme-resolve.mp3",
+              "kind": "audio",
+              "source": "tools/synth-cues.sh",
+              "credit": "Original placeholder cue",
+              "license": "Original; synthesized"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/linda-phone-opening"
+      }
+    ],
+    "name": "linda-phone-opening",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/3cb6399f70f9146b244483b3.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:office-airshaft",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/img/office-airshaft.png",
+              "credit": "Generated · Z-Image-Turbo (local)",
+              "source": "mflux",
+              "model": "z-image-turbo",
+              "seed": 3001
+            },
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/img/office-airshaft.png",
+              "kind": "image",
+              "credit": "Generated · Z-Image-Turbo (local)"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/jess-hears-siren"
+      }
+    ],
+    "name": "jess-hears-siren",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/35ab9c444e94f67ff44b988a.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:office-airshaft",
+            "sourceManifestEntry": {
+              "file": "/media/generated/christmas-facing-west/img/office-airshaft.png",
+              "credit": "Generated · Z-Image-Turbo (local)",
+              "source": "mflux",
+              "model": "z-image-turbo",
+              "seed": 3001
+            },
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/img/office-airshaft.png",
+              "kind": "image",
+              "credit": "Generated · Z-Image-Turbo (local)"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/dashboard-warning"
+      }
+    ],
+    "name": "dashboard-warning",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/a66a01077b9610cce9761c2e.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:dot-blaze-cap",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/dot-blaze-cap-2e23f06f.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/jess-how-long"
+      }
+    ],
+    "name": "jess-how-long",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/4a40bdba8083cbbef822206c.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-thin-coat",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-thin-coat-fee36846.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/part-arrives-december-26"
+      }
+    ],
+    "name": "part-arrives-december-26",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/d1a7422aab454604ec2e0752.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:cracked-sensor",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/cracked-sensor-e325631d.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/jess-after-christmas"
+      }
+    ],
+    "name": "jess-after-christmas",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/4a40bdba8083cbbef822206c.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-thin-coat",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-thin-coat-fee36846.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/ben-home-for-christmas"
+      }
+    ],
+    "name": "ben-home-for-christmas",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/38a9f3ec7534c7bd40bfa201.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:ben-wiping-hands",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/ben-wiping-hands-e0f32c44.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/footsteps-slush"
+      }
+    ],
+    "name": "Footsteps in slush",
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/footsteps-slush.wav",
+          "kind": "audio",
+          "credit": "",
+          "extras": {
+            "source": "data/storyboards/audio/footsteps-slush.wav",
+            "provenance": "Procedural noise and low-frequency footfalls, authored for RPH."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/voice-06recognition"
+      }
+    ],
+    "name": "voice:364f027fa1ec78e83e19e259f2c11a2a3d763f5014bfedd41d191dc4ed37f894",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/b5f30b10afdca03153d15d649c67119de917bc6556976a2693c9b1d316467257.mp3",
+          "kind": "audio",
+          "credit": "Generated voice · VoiceStudio",
+          "extras": {
+            "legacyMediaId": "voice:364f027fa1ec78e83e19e259f2c11a2a3d763f5014bfedd41d191dc4ed37f894",
+            "previousVoice": {
+              "url": "/media/voices/364f027fa1ec78e83e19e259f2c11a2a3d763f5014bfedd41d191dc4ed37f894.mp3"
+            }
+          },
+          "durationSeconds": 1.704,
+          "speech": {
+            "text": "Wait. Do I know you?",
+            "instructions": "female, young adult, moderate pitch, american accent, Direction: Sudden recognition. Curious and warm, a small pause after Wait..",
+            "model": "omnivoice",
+            "seed": 1201
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/jess-recognizes-ben"
+      }
+    ],
+    "name": "jess-how-long",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/4a40bdba8083cbbef822206c.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-thin-coat",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-thin-coat-fee36846.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/ben-remembers-the-parade"
+      }
+    ],
+    "name": "ben-home-for-christmas",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/38a9f3ec7534c7bd40bfa201.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:ben-wiping-hands",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/ben-wiping-hands-e0f32c44.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/jess-remembers"
+      }
+    ],
+    "name": "jess-how-long",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/storyboards/4a40bdba8083cbbef822206c.svg",
+          "kind": "image",
+          "credit": "RPH SVG storyboard · StickyFig",
+          "extras": {
+            "legacyMediaId": "img:jess-thin-coat",
+            "originalMedia": {
+              "url": "/media/generated/christmas-facing-west/placeholder/jess-thin-coat-fee36846.png",
+              "kind": "image",
+              "credit": "Placeholder"
+            }
+          },
+          "renderer": "stickyfig-svg/1"
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/02drive-a"
+      }
+    ],
+    "name": "Jess driving: 02drive-a",
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/2a44c5824e5cb700913a0f554a6d25abc5468b585ef835ce2aefff4567a37ccf.mp3",
+          "kind": "audio",
+          "extras": {
+            "previousVoice": {
+              "url": "/media/voices/pending-02drive-a.mp3"
+            }
+          },
+          "durationSeconds": 3.408,
+          "speech": {
+            "text": "I don't really fit here anymore. Everyone still thinks I'm seventeen.",
+            "instructions": "female, young adult, moderate pitch, american accent, Direction: Confiding, slightly self-conscious. A small rueful smile on seventeen..",
+            "model": "omnivoice",
+            "seed": 1201
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/02drive-b"
+      }
+    ],
+    "name": "Jess driving: 02drive-b",
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/voices/df385dcc1f4dc378dfd6a9f39abc60139f9591a44ae0b090adab68652bd121f0.mp3",
+          "kind": "audio",
+          "extras": {
+            "previousVoice": {
+              "url": "/media/voices/pending-02drive-b.mp3"
+            }
+          },
+          "durationSeconds": 7.728,
+          "speech": {
+            "text": "I know, but things will be better in the new year, when this project finishes. And yes, I'll be there for the New Year's Eve party.",
+            "instructions": "female, young adult, moderate pitch, american accent, Direction: Reassuring the person on the phone, trying to convince herself too. Warm, tired, conversational..",
+            "model": "omnivoice",
+            "seed": 1201
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "media/arrival-underscore"
+      }
+    ],
+    "name": "Arrival underscore",
+    "assetFC": {
+      "functionalType": "audio"
+    },
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.media/1",
+        "value": {
+          "url": "/media/generated/xmas/arrival-underscore.mp3",
+          "kind": "audio",
+          "credit": "Original placeholder cue",
+          "extras": {
+            "sourceUrl": "/media/generated/christmas-facing-west/score/theme-play.mp3",
+            "processing": "Loop existing placeholder score, with entrance and exit fades."
+          },
+          "durationSeconds": 14.8
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeWardrobe",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "wardrobe/jess-winter"
+            }
+        ],
+        "name": "jess-winter",
+        "description": "Camel wool coat and chunky red knitted scarf. Office layer beneath; coat over chair in the office.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.wardrobe/1",
+                "value": {
+                    "character": {
+                        "identifier": [
+                            {
+                                "identifierScope": "rph:christmas-facing-west",
+                                "identifierValue": "character/jess"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeWardrobe",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "wardrobe/ben-work"
+            }
+        ],
+        "name": "ben-work",
+        "description": "Grease-smudged blue denim work shirt, sleeves rolled; work boots.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.wardrobe/1",
+                "value": {
+                    "character": {
+                        "identifier": [
+                            {
+                                "identifierScope": "rph:christmas-facing-west",
+                                "identifierValue": "character/ben"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeWardrobe",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "wardrobe/linda-home"
+            }
+        ],
+        "name": "linda-home",
+        "description": "Red cardigan; reading glasses on a beaded chain.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.wardrobe/1",
+                "value": {
+                    "character": {
+                        "identifier": [
+                            {
+                                "identifierScope": "rph:christmas-facing-west",
+                                "identifierValue": "character/linda"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeWardrobe",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "wardrobe/dot-winter"
+            }
+        ],
+        "name": "dot-winter",
+        "description": "Brown canvas barn coat and blaze-orange hunting cap.",
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.wardrobe/1",
+                "value": {
+                    "character": {
+                        "identifier": [
+                            {
+                                "identifierScope": "rph:christmas-facing-west",
+                                "identifierValue": "character/dot"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+]

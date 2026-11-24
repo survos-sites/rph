@@ -1,0 +1,2952 @@
+[
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/01"
+            }
+        ],
+        "name": "INT. MANHATTAN OFFICE - NIGHT",
+        "sceneNumber": "01",
+        "description": "Jess turns down Christmas; the siren answers for her.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-01"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 1,
+                    "heading": "INT. MANHATTAN OFFICE - NIGHT",
+                    "plannedTiming": {
+                        "at": "0:00",
+                        "dur": "9"
+                    },
+                    "elements": [
+                        {
+                            "id": "01-element-01",
+                            "type": "section",
+                            "text": "Stage 1: She refuses, then she has to come home",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "01-element-02",
+                            "type": "synopsis",
+                            "text": "Jess turns down Christmas; the siren answers for her.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "01a",
+                            "type": "action",
+                            "text": "Black.",
+                            "sequence": 3,
+                            "speaker": null,
+                            "direction": {
+                                "id": "01a",
+                                "shot": "BLACK",
+                                "dur": "2"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=01a shot=BLACK dur=2"
+                                ],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "01b",
+                            "type": "action",
+                            "text": "Jess at her desk at nine at night. Her window faces a brick airshaft lit by someone else's fluorescent light.",
+                            "sequence": 4,
+                            "speaker": null,
+                            "direction": {
+                                "id": "01b",
+                                "shot": "MS(JESS)",
+                                "move": "push-in/slow",
+                                "img": "office-airshaft",
+                                "amb": "office-hvac:in,keyboard:in"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=01b shot=MS(JESS) move=push-in/slow img=office-airshaft amb=office-hvac:in,keyboard:in"
+                                ],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "01-element-05",
+                            "type": "parenthetical",
+                            "text": "(still typing, apologizing)",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "01c",
+                            "type": "dialogue",
+                            "text": "Mom, I'm sorry. I can't come home for Christmas this year. Work is crazy.",
+                            "sequence": 6,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "01c",
+                                "to": "LINDA",
+                                "emo": "worried:2,guilty:1",
+                                "act": "placate"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=01c to=LINDA emo=worried:2,guilty:1 act=placate"
+                                ],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "01-element-07",
+                            "type": "parenthetical",
+                            "text": "(on the phone; warm, unhurried, a woman who has never once raised her voice to win)",
+                            "sequence": 7,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 7
+                            }
+                        },
+                        {
+                            "id": "01d",
+                            "type": "dialogue",
+                            "text": "Oh, honey. I understand.",
+                            "sequence": 8,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "01d",
+                                "to": "JESS",
+                                "fx": "phone",
+                                "emo": "affectionate:2",
+                                "act": "disarm",
+                                "pace": "slow"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=01d to=JESS fx=phone emo=affectionate:2 act=disarm pace=slow"
+                                ],
+                                "sourceSequence": 8
+                            }
+                        },
+                        {
+                            "id": "01e",
+                            "type": "action",
+                            "text": "A siren rises on Linda's end of the line only.",
+                            "sequence": 9,
+                            "speaker": null,
+                            "direction": {
+                                "id": "01e",
+                                "sfx": "vehicle.siren-approach",
+                                "fx": "phone"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=01e sfx=vehicle.siren-approach fx=phone"
+                                ],
+                                "sourceSequence": 9
+                            }
+                        },
+                        {
+                            "id": "01-element-10",
+                            "type": "parenthetical",
+                            "text": "(typing stops)",
+                            "sequence": 10,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 10
+                            }
+                        },
+                        {
+                            "id": "01f",
+                            "type": "dialogue",
+                            "text": "Mom? Is that a siren?",
+                            "sequence": 11,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "01f",
+                                "emo": "worried:2",
+                                "act": "probe",
+                                "pre": "0.6",
+                                "amb": "keyboard:out"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=01f emo=worried:2 act=probe pre=0.6 amb=keyboard:out"
+                                ],
+                                "sourceSequence": 11
+                            }
+                        },
+                        {
+                            "id": "01-element-12",
+                            "type": "parenthetical",
+                            "text": "(pleasant, as if it's the mailman)",
+                            "sequence": 12,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 12
+                            }
+                        },
+                        {
+                            "id": "01g",
+                            "type": "dialogue",
+                            "text": "Don't worry, sweetheart. I think it's for me.",
+                            "sequence": 13,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "01g",
+                                "fx": "phone",
+                                "emo": "content:2",
+                                "act": "reassure"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=01g fx=phone emo=content:2 act=reassure"
+                                ],
+                                "sourceSequence": 13
+                            }
+                        },
+                        {
+                            "id": "01h",
+                            "type": "action",
+                            "text": "The siren bends down in pitch and becomes a single piano note.",
+                            "sequence": 14,
+                            "speaker": null,
+                            "direction": {
+                                "id": "01h",
+                                "bridge": "sfx:vehicle.siren-approach>mus:theme",
+                                "mus": "theme:in",
+                                "amb": "office-hvac:out"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=01h bridge=sfx:vehicle.siren-approach>mus:theme mus=theme:in amb=office-hvac:out"
+                                ],
+                                "sourceSequence": 14
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:00 dur=9"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/02"
+            }
+        ],
+        "name": "INT./EXT. JESS'S TESLA, ROUTE 422 - NIGHT",
+        "sceneNumber": "02",
+        "description": "She promises work: two days.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-02"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 2,
+                    "heading": "INT./EXT. JESS'S TESLA, ROUTE 422 - NIGHT",
+                    "plannedTiming": {
+                        "at": "0:09",
+                        "dur": "4"
+                    },
+                    "elements": [
+                        {
+                            "id": "02-element-01",
+                            "type": "synopsis",
+                            "text": "She promises work: two days.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "02a",
+                            "type": "action",
+                            "text": "Sleet in the headlights. Jess grips the wheel, still in her office clothes.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "02a",
+                                "shot": "MCU(JESS)",
+                                "move": "push-in/slow",
+                                "img": "tesla-422-sleet",
+                                "mus": "theme:play"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=02a shot=MCU(JESS) move=push-in/slow img=tesla-422-sleet mus=theme:play"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "02b",
+                            "type": "action",
+                            "text": "Her boss is a faint, impatient murmur over the car speaker.",
+                            "sequence": 3,
+                            "speaker": null,
+                            "direction": {
+                                "id": "02b",
+                                "sfx": "voice.murmur-indistinct",
+                                "fx": "car-speaker"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=02b sfx=voice.murmur-indistinct fx=car-speaker"
+                                ],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "02-element-04",
+                            "type": "parenthetical",
+                            "text": "(hiding the panic)",
+                            "sequence": 4,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "02c",
+                            "type": "dialogue",
+                            "text": "My mom's in the hospital. Two days. I'll be back in two days, I promise.",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "02c",
+                                "emo": "worried:2,confident:1",
+                                "act": "bargain"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=02c emo=worried:2,confident:1 act=bargain"
+                                ],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "02drive-a",
+                            "type": "dialogue",
+                            "text": "I don't really fit here anymore. Everyone still thinks I'm seventeen.",
+                            "sequence": 6,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "say": "Confiding, slightly self-conscious. A small rueful smile on seventeen."
+                            },
+                            "extras": {
+                                "phoneConversation": "Only Jess is heard; an undefined romantic possibility in New York. Not an established partner."
+                            }
+                        },
+                        {
+                            "id": "02drive-b",
+                            "type": "dialogue",
+                            "text": "I know, but things will be better in the new year, when this project finishes. And yes, I'll be there for the New Year's Eve party.",
+                            "sequence": 7,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "say": "Reassuring the person on the phone, trying to convince herself too. Warm, tired, conversational."
+                            },
+                            "extras": {
+                                "phoneConversation": "Only Jess is heard; an undefined romantic possibility in New York. Not an established partner."
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:09 dur=4"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/03"
+            }
+        ],
+        "name": "INT./EXT. HOSTETTER HOUSE, ANNVILLE - NIGHT",
+        "sceneNumber": "03",
+        "description": "She comes home. The injury is real, small and funny.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-03"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 3,
+                    "heading": "INT./EXT. HOSTETTER HOUSE, ANNVILLE - NIGHT",
+                    "plannedTiming": {
+                        "at": "0:13",
+                        "dur": "7"
+                    },
+                    "elements": [
+                        {
+                            "id": "03-element-01",
+                            "type": "synopsis",
+                            "text": "She comes home. The injury is real, small and funny.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "03a",
+                            "type": "action",
+                            "text": "Main Street, lights strung across it.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "03a",
+                                "shot": "ELS",
+                                "move": "pan-right/slow",
+                                "img": "annville-main-street"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=03a shot=ELS move=pan-right/slow img=annville-main-street"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "03b",
+                            "type": "action",
+                            "text": "ANNVILLE, PENNSYLVANIA",
+                            "sequence": 3,
+                            "speaker": null,
+                            "direction": {
+                                "id": "03b",
+                                "card": "lower-third"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=03b card=lower-third"
+                                ],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "03c",
+                            "type": "action",
+                            "text": "In the yard, an inflatable snowman lies half-deflated beside a fallen ladder.",
+                            "sequence": 4,
+                            "speaker": null,
+                            "direction": {
+                                "id": "03c",
+                                "shot": "LS",
+                                "img": "yard-snowman-ladder"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=03c shot=LS img=yard-snowman-ladder"
+                                ],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "03d",
+                            "type": "action",
+                            "text": "Linda beams from a teal recliner, her white leg cast propped on a footstool. A sparse, undecorated Christmas tree stands behind her. Jess comes in, coat on, bag in hand.",
+                            "sequence": 5,
+                            "speaker": null,
+                            "direction": {
+                                "id": "03d",
+                                "shot": "MS(LINDA)",
+                                "img": "linda-recliner",
+                                "sfx": "door.storm-door-bang",
+                                "amb": "tv-low:in"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=03d shot=MS(LINDA) img=linda-recliner sfx=door.storm-door-bang amb=tv-low:in"
+                                ],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "03-element-06",
+                            "type": "parenthetical",
+                            "text": "(lighting up, completely casual)",
+                            "sequence": 6,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "03e",
+                            "type": "dialogue",
+                            "text": "You came home!",
+                            "sequence": 7,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "03e",
+                                "to": "JESS",
+                                "emo": "happy:3",
+                                "act": "welcome",
+                                "pace": "medium"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=03e to=JESS emo=happy:3 act=welcome pace=medium"
+                                ],
+                                "sourceSequence": 7
+                            }
+                        },
+                        {
+                            "id": "03-element-08",
+                            "type": "parenthetical",
+                            "text": "(breathless, four hours of driving in her voice)",
+                            "sequence": 8,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 8
+                            }
+                        },
+                        {
+                            "id": "03f",
+                            "type": "dialogue",
+                            "text": "Mom, you were in an ambulance!",
+                            "sequence": 9,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "03f",
+                                "emo": "afraid:2,angry:1",
+                                "act": "scold",
+                                "stress": "ambulance"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=03f emo=afraid:2,angry:1 act=scold stress=ambulance"
+                                ],
+                                "sourceSequence": 9
+                            }
+                        },
+                        {
+                            "id": "03-element-10",
+                            "type": "parenthetical",
+                            "text": "(reasonable)",
+                            "sequence": 10,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 10
+                            }
+                        },
+                        {
+                            "id": "03g",
+                            "type": "dialogue",
+                            "text": "It's just a sprain. The neighbors called an ambulance.",
+                            "sequence": 11,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "03g",
+                                "emo": "content:2",
+                                "act": "dismiss",
+                                "say": "Warm, matter-of-fact reassurance to her worried daughter. Gentle falling cadence. No punchline."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=03g emo=content:2 act=dismiss"
+                                ],
+                                "sourceSequence": 11,
+                                "previousText": "It's a sprained ankle, sweetheart. They offered."
+                            }
+                        },
+                        {
+                            "id": "03h",
+                            "type": "action",
+                            "text": "Jess kneels beside Linda's cast. Linda's hand goes to her cheek.",
+                            "sequence": 12,
+                            "speaker": null,
+                            "direction": {
+                                "id": "03h",
+                                "shot": "TWO(JESS,LINDA,size=MCU)",
+                                "move": "hold",
+                                "img": "hand-on-cheek",
+                                "mus": "theme:play"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=03h shot=TWO(JESS,LINDA,size=MCU) move=hold img=hand-on-cheek mus=theme:play"
+                                ],
+                                "sourceSequence": 12
+                            }
+                        },
+                        {
+                            "id": "03-element-13",
+                            "type": "section",
+                            "text": "Stage 2: She tries to leave and gets stuck",
+                            "sequence": 13,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 13
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:13 dur=7"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/04"
+            }
+        ],
+        "name": "EXT. TURKEY HILL CHARGING AREA - DAWN",
+        "sceneNumber": "04",
+        "description": "A charging stop becomes a collision: distracted by work, Jess backs into a snowplow.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-04"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 4,
+                    "heading": "EXT. TURKEY HILL CHARGING AREA - DAWN",
+                    "plannedTiming": {
+                        "at": "0:20",
+                        "dur": "6"
+                    },
+                    "elements": [
+                        {
+                            "id": "04-element-01",
+                            "type": "synopsis",
+                            "text": "She leaves on schedule. The plow stops her.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "04a",
+                            "type": "action",
+                            "text": "Low battery. Jess pulls into Turkey Hill and spots the chargers. Her roller bag is in the back seat. A snowplow is parked behind the charging spaces.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "04a",
+                                "shot": "LS",
+                                "img": "turkey-hill-dawn",
+                                "sfx": "door.store-chime",
+                                "mus": "theme:stop,store-carol:in",
+                                "note": "Keep store signage soft-focus unless cleared."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=04a shot=LS img=turkey-hill-dawn sfx=door.store-chime mus=theme:stop,store-carol:in note=\"Keep store signage soft-focus unless cleared.\""
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "04b",
+                            "type": "action",
+                            "text": "On a work call, Jess reverses toward a charger. Her attention is on the phone, not the snowplow behind her.",
+                            "sequence": 3,
+                            "speaker": null,
+                            "direction": {
+                                "id": "04b",
+                                "shot": "MS(JESS)",
+                                "img": "jess-backing-out",
+                                "sfx": "vehicle.ev-pedestrian-hum"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=04b shot=MS(JESS) img=jess-backing-out sfx=vehicle.ev-pedestrian-hum"
+                                ],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "04-element-04",
+                            "type": "parenthetical",
+                            "text": "(on the phone, brisk, already gone in her head)",
+                            "sequence": 4,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "04c",
+                            "type": "dialogue",
+                            "text": "I'm charging now. Send me the revisions. I'll look at them on the way.",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "04c",
+                                "emo": "confident:2",
+                                "act": "assure",
+                                "end": "cutoff",
+                                "say": "Distracted work call, brisk and conversational."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=04c emo=confident:2 act=assure end=cutoff"
+                                ],
+                                "sourceSequence": 5,
+                                "previousText": "She's fine. I'll be back in the office by noon--"
+                            }
+                        },
+                        {
+                            "id": "04d",
+                            "type": "action",
+                            "text": "Crunch. Her rear wheel catches the snowplow blade. Jess stops; the car is damaged.",
+                            "sequence": 6,
+                            "speaker": null,
+                            "direction": {
+                                "id": "04d",
+                                "shot": "INSERT(bumper)",
+                                "img": "bumper-plow",
+                                "sfx": "impact.bumper-plow,debris.ice-fall",
+                                "ovl": "0.1"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=04d shot=INSERT(bumper) img=bumper-plow sfx=impact.bumper-plow,debris.ice-fall ovl=0.1"
+                                ],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "04e",
+                            "type": "action",
+                            "text": "One full second of nothing but the store carol.",
+                            "sequence": 7,
+                            "speaker": null,
+                            "direction": {
+                                "id": "04e",
+                                "dur": "1"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=04e dur=1"
+                                ],
+                                "sourceSequence": 7
+                            }
+                        },
+                        {
+                            "id": "04f",
+                            "type": "action",
+                            "text": "Dot, seventies, blaze-orange cap, coffee in hand by the door. Unmoved.",
+                            "sequence": 8,
+                            "speaker": null,
+                            "direction": {
+                                "id": "04f",
+                                "shot": "MS(DOT)",
+                                "img": "dot-blaze-cap"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=04f shot=MS(DOT) img=dot-blaze-cap"
+                                ],
+                                "sourceSequence": 8
+                            }
+                        },
+                        {
+                            "id": "04-element-09",
+                            "type": "parenthetical",
+                            "text": "(appraising, not angry)",
+                            "sequence": 9,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/dot"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 9
+                            }
+                        },
+                        {
+                            "id": "04g",
+                            "type": "dialogue",
+                            "text": "I'll call you back.",
+                            "sequence": 10,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "04g",
+                                "emo": "interested:1",
+                                "act": "appraise",
+                                "pace": "slow",
+                                "pre": "0.3",
+                                "say": "Quietly stunned after a bump. A little embarrassed."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=04g emo=interested:1 act=appraise pace=slow pre=0.3"
+                                ],
+                                "sourceSequence": 10
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:20 dur=6"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+            }
+        ],
+        "name": "EXT./INT. KREIDER’S AUTO - DAY",
+        "sceneNumber": "05",
+        "description": "The mechanic is her high-school crush. He remembers her; she pretends not to remember him.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-05"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 5,
+                    "heading": "EXT./INT. KREIDER’S AUTO - DAY",
+                    "plannedTiming": {
+                        "at": "0:26",
+                        "dur": "8"
+                    },
+                    "elements": [
+                        {
+                            "id": "05-element-01",
+                            "type": "synopsis",
+                            "text": "The mechanic is her high-school crush. He remembers her; she pretends not to remember him.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "05a",
+                            "type": "action",
+                            "text": "Wide exterior of Kreider’s Auto. Snow borders the service bays; Jess’s car waits by the open bay. Cut inside to Ben.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "05a",
+                                "shot": "WIDE · ESTABLISHING",
+                                "img": "garage-boots",
+                                "sfx": "tool.impact-wrench",
+                                "mus": "store-carol:out,comedy:in",
+                                "amb": "shop-radio:in,space-heater:in"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05a shot=LS img=garage-boots sfx=tool.impact-wrench mus=store-carol:out,comedy:in amb=shop-radio:in,space-heater:in"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "05b",
+                            "type": "action",
+                            "text": "The creeper rolls out.",
+                            "sequence": 3,
+                            "speaker": null,
+                            "direction": {
+                                "id": "05b",
+                                "sfx": "foley.creeper-roll"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05b sfx=foley.creeper-roll"
+                                ],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "05-element-04",
+                            "type": "parenthetical",
+                            "text": "(sees her; tiny pause)",
+                            "sequence": 4,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "05c",
+                            "type": "dialogue",
+                            "text": "Please tell me you’re open.",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "05c",
+                                "to": "JESS",
+                                "emo": "interested:2,amused:1",
+                                "act": "greet",
+                                "pace": "slow",
+                                "pre": "0.4",
+                                "say": "Hopeful, slightly embarrassed, speaking to the mechanic in the doorway."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05c to=JESS emo=interested:2,amused:1 act=greet pace=slow pre=0.4"
+                                ],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "05d",
+                            "type": "action",
+                            "text": "Jess, in a city coat too thin for the weather.",
+                            "sequence": 6,
+                            "speaker": null,
+                            "direction": {
+                                "id": "05d",
+                                "shot": "MCU(JESS)",
+                                "img": "jess-thin-coat"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05d shot=MCU(JESS) img=jess-thin-coat"
+                                ],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "05-element-07",
+                            "type": "parenthetical",
+                            "text": "(too bright)",
+                            "sequence": 7,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 7
+                            }
+                        },
+                        {
+                            "id": "05e",
+                            "type": "dialogue",
+                            "text": "For you, or the car?",
+                            "sequence": 8,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "05e",
+                                "emo": "embarrassed:3",
+                                "act": "deflect",
+                                "say": "Confident, warm, gently teasing. A small smile, not a big punchline."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05e emo=embarrassed:3 act=deflect"
+                                ],
+                                "sourceSequence": 8
+                            }
+                        },
+                        {
+                            "id": "05f",
+                            "type": "action",
+                            "text": "Ben wipes his hands. Not smiling yet.",
+                            "sequence": 9,
+                            "speaker": null,
+                            "direction": {
+                                "id": "05f",
+                                "shot": "MCU(BEN)",
+                                "img": "ben-wiping-hands"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05f shot=MCU(BEN) img=ben-wiping-hands"
+                                ],
+                                "sourceSequence": 9
+                            }
+                        },
+                        {
+                            "id": "05-element-10",
+                            "type": "parenthetical",
+                            "text": "(lets it sit a beat; dry)",
+                            "sequence": 10,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 10
+                            }
+                        },
+                        {
+                            "id": "05-element-12",
+                            "type": "parenthetical",
+                            "text": "(caught)",
+                            "sequence": 12,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 12
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:26 dur=8"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/06"
+            }
+        ],
+        "name": "INT. KREIDER'S AUTO / JESS'S CHILDHOOD BEDROOM - DAY",
+        "sceneNumber": "06",
+        "description": "The forced stay.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-06"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 6,
+                    "heading": "INT. KREIDER'S AUTO / JESS'S CHILDHOOD BEDROOM - DAY",
+                    "plannedTiming": {
+                        "at": "0:34",
+                        "dur": "5"
+                    },
+                    "elements": [
+                        {
+                            "id": "06-element-01",
+                            "type": "synopsis",
+                            "text": "The forced stay.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "06a",
+                            "type": "action",
+                            "text": "Ben points out a bent rear suspension arm beside the wheel.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "06a",
+                                "shot": "INSERT(suspension)",
+                                "img": "cracked-sensor"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=06a shot=INSERT(sensor) img=cracked-sensor"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "06b",
+                            "type": "dialogue",
+                            "text": "The plow bent your rear suspension. You can’t drive it like this.",
+                            "sequence": 3,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "06b",
+                                "emo": "content:1",
+                                "act": "inform",
+                                "say": "Plain, clear explanation. Calm competent mechanic, not dramatic."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=06b emo=content:1 act=inform"
+                                ],
+                                "sourceSequence": 3,
+                                "previousText": "The sensor's cracked. The part has to come from the factory."
+                            }
+                        },
+                        {
+                            "id": "06-element-04",
+                            "type": "parenthetical",
+                            "text": "(urgent)",
+                            "sequence": 4,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "06c",
+                            "type": "dialogue",
+                            "text": "How long?",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "06c",
+                                "emo": "worried:3",
+                                "act": "demand"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=06c emo=worried:3 act=demand"
+                                ],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "06d",
+                            "type": "dialogue",
+                            "text": "The part gets here December twenty-ninth.",
+                            "sequence": 6,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "06d",
+                                "emo": "content:1",
+                                "act": "inform",
+                                "say": "Matter-of-fact, reassuring. Normal conversation, not a punchline."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=06d emo=content:1 act=inform"
+                                ],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "06e",
+                            "type": "dialogue",
+                            "text": "The twenty-ninth? I promised I'd be back for New Year's Eve.",
+                            "sequence": 7,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "06e",
+                                "emo": "incredulous:3",
+                                "act": "plead",
+                                "stress": "December",
+                                "say": "Brief surprise, then worried about the promise she made. Natural conversational emphasis."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=06e emo=incredulous:3 act=plead stress=December"
+                                ],
+                                "sourceSequence": 7
+                            }
+                        },
+                        {
+                            "id": "06-element-08",
+                            "type": "parenthetical",
+                            "text": "(beat, gently)",
+                            "sequence": 8,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 8
+                            }
+                        },
+                        {
+                            "id": "06f",
+                            "type": "dialogue",
+                            "text": "Well, you’re not going anywhere today.",
+                            "sequence": 9,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "06f",
+                                "emo": "amused:1,affectionate:1",
+                                "act": "console",
+                                "pace": "slow",
+                                "pre": "0.8",
+                                "say": "Warm, low male voice. Matter-of-fact but gently amused, not parental or patronizing."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=06f emo=amused:1,affectionate:1 act=console pace=slow pre=0.8"
+                                ],
+                                "sourceSequence": 9
+                            }
+                        },
+                        {
+                            "id": "06recognition",
+                            "type": "dialogue",
+                            "text": "Wait. Do I know you?",
+                            "sequence": 10,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "say": "Sudden recognition. Curious and warm, a small pause after Wait."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05h emo=embarrassed:2 act=concede pace=slow"
+                                ],
+                                "sourceSequence": 13
+                            }
+                        },
+                        {
+                            "id": "05g",
+                            "type": "dialogue",
+                            "text": "Ben Kreider. You borrowed my truck for the homecoming parade.",
+                            "sequence": 11,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "05g",
+                                "emo": "amused:1",
+                                "act": "needle",
+                                "pre": "0.8",
+                                "say": "Relaxed, grounded confidence. A small amused smile, not eager or awkward."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05g emo=amused:1 act=needle pre=0.8"
+                                ],
+                                "sourceSequence": 11,
+                                "previousText": "Ben Kreider. We had chemistry together. You sat right behind me."
+                            }
+                        },
+                        {
+                            "id": "05h",
+                            "type": "dialogue",
+                            "text": "Ben. Of course. Hi.",
+                            "sequence": 12,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "05h",
+                                "emo": "embarrassed:2",
+                                "act": "concede",
+                                "pace": "slow"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=05h emo=embarrassed:2 act=concede pace=slow"
+                                ],
+                                "sourceSequence": 13
+                            }
+                        },
+                        {
+                            "id": "06g",
+                            "type": "action",
+                            "text": "The roller bag back on Jess's childhood bed, under a high-school pennant.",
+                            "sequence": 13,
+                            "speaker": null,
+                            "direction": {
+                                "id": "06g",
+                                "shot": "MS",
+                                "img": "bag-on-bed",
+                                "mus": "comedy:resolve"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=06g shot=MS img=bag-on-bed mus=comedy:resolve"
+                                ],
+                                "sourceSequence": 10
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:34 dur=5"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/07"
+            }
+        ],
+        "name": "INT. KREIDER'S AUTO - DAYS LATER (SERIES OF SHOTS)",
+        "sceneNumber": "07",
+        "description": "Days pass. She still asks, out of habit.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-07"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 7,
+                    "heading": "INT. KREIDER'S AUTO - DAYS LATER (SERIES OF SHOTS)",
+                    "plannedTiming": {
+                        "at": "0:39",
+                        "dur": "3"
+                    },
+                    "elements": [
+                        {
+                            "id": "07-element-01",
+                            "type": "synopsis",
+                            "text": "Days pass. She still asks, out of habit.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "07a",
+                            "type": "action",
+                            "text": "The same garage doorway three times. Her coat changes, the snow deepens, one coffee becomes two.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "07a",
+                                "shot": "MS(JESS)",
+                                "img": "doorway-1,doorway-2,doorway-3",
+                                "mus": "comedy:sting",
+                                "note": "One celesta note per still."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=07a shot=MS(JESS) img=doorway-1,doorway-2,doorway-3 mus=comedy:sting note=\"One celesta note per still.\""
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "07-element-03",
+                            "type": "parenthetical",
+                            "text": "(leaning in the doorway, by rote)",
+                            "sequence": 3,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "07b",
+                            "type": "dialogue",
+                            "text": "Any news on the part?",
+                            "sequence": 4,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "07b",
+                                "emo": "bored:2",
+                                "act": "check"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=07b emo=bored:2 act=check"
+                                ],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "07-element-05",
+                            "type": "parenthetical",
+                            "text": "(doesn't look up)",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "07c",
+                            "type": "dialogue",
+                            "text": "Not yet.",
+                            "sequence": 6,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "07c",
+                                "emo": "content:1",
+                                "act": "dismiss"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=07c emo=content:1 act=dismiss"
+                                ],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "07-element-07",
+                            "type": "section",
+                            "text": "Stage 3: She chooses to stay",
+                            "sequence": 7,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 7
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:39 dur=3"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/08"
+            }
+        ],
+        "name": "EXT. FARM LANE, EDGE OF TOWN - SUNSET",
+        "sceneNumber": "08",
+        "description": "The turn. Work calls; she lets it go.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-08"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 8,
+                    "heading": "EXT. FARM LANE, EDGE OF TOWN - SUNSET",
+                    "plannedTiming": {
+                        "at": "0:42",
+                        "dur": "9"
+                    },
+                    "elements": [
+                        {
+                            "id": "08-element-01",
+                            "type": "synopsis",
+                            "text": "The turn. Work calls; she lets it go.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "08a",
+                            "type": "action",
+                            "text": "Ben's truck faces a wide field and the low sun. Two silhouettes, a bench seat of space between them.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "08a",
+                                "shot": "TWO(BEN,JESS,size=MS)",
+                                "move": "push-in/slow",
+                                "img": "truck-rear-window",
+                                "mus": "theme:drop",
+                                "amb": "truck-idle:in,heater-fan:in,crows-distant:in",
+                                "note": "Music drops to one held string note."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=08a shot=TWO(BEN,JESS,size=MS) move=push-in/slow img=truck-rear-window mus=theme:drop amb=truck-idle:in,heater-fan:in,crows-distant:in note=\"Music drops to one held string note.\""
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "08b",
+                            "type": "action",
+                            "text": "Jess in profile, lit orange. A few flakes drift.",
+                            "sequence": 3,
+                            "speaker": null,
+                            "direction": {
+                                "id": "08b",
+                                "shot": "CU(JESS)",
+                                "move": "push-in/slow",
+                                "img": "jess-profile-sunset"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=08b shot=CU(JESS) move=push-in/slow img=jess-profile-sunset"
+                                ],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "08-element-04",
+                            "type": "parenthetical",
+                            "text": "(quiet but voiced, not whispered; half a laugh at herself)",
+                            "sequence": 4,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "08c",
+                            "type": "dialogue",
+                            "text": "In the city, I never get to see the sun go down. It's just gone by four o'clock.",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "08c",
+                                "to": "BEN",
+                                "emo": "wistful:2,amused:1",
+                                "act": "confide",
+                                "vol": "soft",
+                                "pace": "slow"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=08c to=BEN emo=wistful:2,amused:1 act=confide vol=soft pace=slow"
+                                ],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "08d",
+                            "type": "action",
+                            "text": "Her phone lights up on the dash: WORK. It buzzes. Her hand turns it face-down. The buzzing stops.",
+                            "sequence": 6,
+                            "speaker": null,
+                            "direction": {
+                                "id": "08d",
+                                "shot": "INSERT(phone)",
+                                "img": "phone-tyler",
+                                "sfx": "phone.vibrate-dash",
+                                "pre": "1.5"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=08d shot=INSERT(phone) img=phone-tyler sfx=phone.vibrate-dash pre=1.5"
+                                ],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "08e",
+                            "type": "action",
+                            "text": "Ben turns the key. The engine stops. Wind, and the engine block ticking.",
+                            "sequence": 7,
+                            "speaker": null,
+                            "direction": {
+                                "id": "08e",
+                                "sfx": "vehicle.engine-off,vehicle.engine-tick",
+                                "amb": "truck-idle:out,heater-fan:out,wind-field:in"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=08e sfx=vehicle.engine-off,vehicle.engine-tick amb=truck-idle:out,heater-fan:out,wind-field:in"
+                                ],
+                                "sourceSequence": 7
+                            }
+                        },
+                        {
+                            "id": "08-element-08",
+                            "type": "parenthetical",
+                            "text": "(low, simple)",
+                            "sequence": 8,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 8
+                            }
+                        },
+                        {
+                            "id": "08f",
+                            "type": "dialogue",
+                            "text": "Stay a while. It's worth the wait.",
+                            "sequence": 9,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "08f",
+                                "to": "JESS",
+                                "emo": "affectionate:2",
+                                "act": "invite",
+                                "vol": "soft",
+                                "pace": "slow",
+                                "pre": "1.0"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=08f to=JESS emo=affectionate:2 act=invite vol=soft pace=slow pre=1.0"
+                                ],
+                                "sourceSequence": 9
+                            }
+                        },
+                        {
+                            "id": "08g",
+                            "type": "action",
+                            "text": "The theme returns, four notes. The fifth is held back.",
+                            "sequence": 10,
+                            "speaker": null,
+                            "direction": {
+                                "id": "08g",
+                                "mus": "theme:play"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=08g mus=theme:play"
+                                ],
+                                "sourceSequence": 10
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:42 dur=9"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/09"
+            }
+        ],
+        "name": "INT. KREIDER'S AUTO, OFFICE - DAY",
+        "sceneNumber": "09",
+        "description": "The overheard remark. It hurts because she was starting to stay.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-09"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 9,
+                    "heading": "INT. KREIDER'S AUTO, OFFICE - DAY",
+                    "plannedTiming": {
+                        "at": "0:51",
+                        "dur": "5"
+                    },
+                    "elements": [
+                        {
+                            "id": "09-element-01",
+                            "type": "synopsis",
+                            "text": "The overheard remark. It hurts because she was starting to stay.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "09a",
+                            "type": "action",
+                            "text": "Jess in the office doorway with a cardboard tray of two coffees.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "09a",
+                                "shot": "MS(JESS)",
+                                "img": "jess-coffee-tray",
+                                "mus": "theme:stop",
+                                "amb": "space-heater:in"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=09a shot=MS(JESS) img=jess-coffee-tray mus=theme:stop amb=space-heater:in"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "09-element-03",
+                            "type": "parenthetical",
+                            "text": "(to his uncle, matter-of-fact)",
+                            "sequence": 3,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "09b",
+                            "type": "dialogue",
+                            "text": "Don't get attached. She'll be gone the minute that car is fixed.",
+                            "sequence": 4,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "09b",
+                                "to": "UNCLE",
+                                "emo": "content:1",
+                                "act": "assess"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=09b to=UNCLE emo=content:1 act=assess"
+                                ],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "09c",
+                            "type": "action",
+                            "text": "The cardboard tray crunches in her hand.",
+                            "sequence": 5,
+                            "speaker": null,
+                            "direction": {
+                                "id": "09c",
+                                "shot": "CU(JESS)",
+                                "img": "jess-tray-crunch",
+                                "sfx": "foley.cardboard-crunch"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=09c shot=CU(JESS) img=jess-tray-crunch sfx=foley.cardboard-crunch"
+                                ],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "09-element-06",
+                            "type": "parenthetical",
+                            "text": "(very level)",
+                            "sequence": 6,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "09d",
+                            "type": "dialogue",
+                            "text": "Is that really what you think of me?",
+                            "sequence": 7,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/jess"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "09d",
+                                "emo": "hurt:2,angry:2",
+                                "act": "challenge",
+                                "pace": "slow"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=09d emo=hurt:2,angry:2 act=challenge pace=slow"
+                                ],
+                                "sourceSequence": 7
+                            }
+                        },
+                        {
+                            "id": "09e",
+                            "type": "action",
+                            "text": "Ben turns around, caught.",
+                            "sequence": 8,
+                            "speaker": null,
+                            "direction": {
+                                "id": "09e",
+                                "shot": "MCU(BEN)",
+                                "img": "ben-caught"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=09e shot=MCU(BEN) img=ben-caught"
+                                ],
+                                "sourceSequence": 8
+                            }
+                        },
+                        {
+                            "id": "09-element-09",
+                            "type": "parenthetical",
+                            "text": "(half a second too late)",
+                            "sequence": 9,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 9
+                            }
+                        },
+                        {
+                            "id": "09f",
+                            "type": "dialogue",
+                            "text": "Jess, wait. That's not what I meant.",
+                            "sequence": 10,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/ben"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "09f",
+                                "emo": "embarrassed:2",
+                                "act": "backpedal",
+                                "pre": "0.5"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=09f emo=embarrassed:2 act=backpedal pre=0.5"
+                                ],
+                                "sourceSequence": 10
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:51 dur=5"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/10"
+            }
+        ],
+        "name": "EXT. ANNVILLE TOWN SQUARE - NIGHT",
+        "sceneNumber": "10",
+        "description": "The convention, promised and withheld.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-10"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 10,
+                    "heading": "EXT. ANNVILLE TOWN SQUARE - NIGHT",
+                    "plannedTiming": {
+                        "at": "0:56",
+                        "dur": "4"
+                    },
+                    "elements": [
+                        {
+                            "id": "10-element-01",
+                            "type": "synopsis",
+                            "text": "The convention, promised and withheld.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "10a",
+                            "type": "action",
+                            "text": "Crowd, breath steam, kids on shoulders. The tree is still dark.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "10a",
+                                "shot": "ELS",
+                                "img": "square-crowd",
+                                "mus": "tannenbaum:in",
+                                "amb": "crowd-murmur:in"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=10a shot=ELS img=square-crowd mus=tannenbaum:in amb=crowd-murmur:in"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "10b",
+                            "type": "action",
+                            "text": "Jess alone in the crowd, scanning.",
+                            "sequence": 3,
+                            "speaker": null,
+                            "direction": {
+                                "id": "10b",
+                                "shot": "MS(JESS)",
+                                "img": "jess-in-crowd"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=10b shot=MS(JESS) img=jess-in-crowd"
+                                ],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "10c",
+                            "type": "action",
+                            "text": "Ben's truck parked at the edge of the square, empty.",
+                            "sequence": 4,
+                            "speaker": null,
+                            "direction": {
+                                "id": "10c",
+                                "shot": "LS",
+                                "img": "truck-empty"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=10c shot=LS img=truck-empty"
+                                ],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "10-element-05",
+                            "type": "parenthetical",
+                            "text": "(mic too close, civic cheer)",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/pa-volunteer"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "10d",
+                            "type": "dialogue",
+                            "text": "Okay, folks! Let's light this tree!",
+                            "sequence": 6,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/pa-volunteer"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "10d",
+                                "fx": "pa",
+                                "emo": "excited:2",
+                                "act": "rally",
+                                "vol": "loud"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=10d fx=pa emo=excited:2 act=rally vol=loud"
+                                ],
+                                "sourceSequence": 6
+                            }
+                        },
+                        {
+                            "id": "10e",
+                            "type": "dialogue",
+                            "text": "Five! Four! Three! Two--",
+                            "sequence": 7,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/crowd"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "10e",
+                                "emo": "excited:3",
+                                "vol": "x-loud",
+                                "pace": "medium",
+                                "end": "cutoff",
+                                "mus": "tannenbaum:out,theme:swell"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=10e emo=excited:3 vol=x-loud pace=medium end=cutoff mus=tannenbaum:out,theme:swell"
+                                ],
+                                "sourceSequence": 7
+                            }
+                        },
+                        {
+                            "id": "10-element-08",
+                            "type": "transition",
+                            "text": "SMASH CUT TO:",
+                            "sequence": 8,
+                            "speaker": null,
+                            "direction": {
+                                "cut": "hard"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "cut=hard"
+                                ],
+                                "sourceSequence": 8
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=0:56 dur=4"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/11"
+            }
+        ],
+        "name": "BLACK",
+        "sceneNumber": "11",
+        "description": "",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-11"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 11,
+                    "heading": "BLACK",
+                    "plannedTiming": {
+                        "at": "1:00",
+                        "dur": "1"
+                    },
+                    "elements": [
+                        {
+                            "id": "11a",
+                            "type": "action",
+                            "text": "Total silence, longer than is comfortable.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": {
+                                "id": "11a",
+                                "shot": "BLACK",
+                                "dur": "1",
+                                "mus": "theme:stop",
+                                "amb": "crowd-murmur:out"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=11a shot=BLACK dur=1 mus=theme:stop amb=crowd-murmur:out"
+                                ],
+                                "sourceSequence": 1
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=1:00 dur=1"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/12"
+            }
+        ],
+        "name": "TITLE",
+        "sceneNumber": "12",
+        "description": "",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-12"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 12,
+                    "heading": "TITLE",
+                    "plannedTiming": {
+                        "at": "1:01",
+                        "dur": "3"
+                    },
+                    "elements": [
+                        {
+                            "id": "12a",
+                            "type": "action",
+                            "text": "A field at the last edge of sunset, the horizon low in the frame.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": {
+                                "id": "12a",
+                                "shot": "ELS",
+                                "move": "hold",
+                                "img": "field-last-light",
+                                "mus": "theme:hold",
+                                "note": "One piano chord on the theme's fourth note, held."
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=12a shot=ELS move=hold img=field-last-light mus=theme:hold note=\"One piano chord on the theme's fourth note, held.\""
+                                ],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "12b",
+                            "type": "action",
+                            "text": "CHRISTMAS, FACING WEST",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "12b",
+                                "card": "title"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=12b card=title"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=1:01 dur=3"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/13"
+            }
+        ],
+        "name": "INT. HOSTETTER HOUSE - NIGHT",
+        "sceneNumber": "13",
+        "description": "The button: the car has been ready for days, and she still hasn't left.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-13"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 13,
+                    "heading": "INT. HOSTETTER HOUSE - NIGHT",
+                    "plannedTiming": {
+                        "at": "1:04",
+                        "dur": "4"
+                    },
+                    "elements": [
+                        {
+                            "id": "13-element-01",
+                            "type": "synopsis",
+                            "text": "The button: the car has been ready for days, and she still hasn't left.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "13a",
+                            "type": "action",
+                            "text": "Linda in the recliner, the landline cord around one finger, eating pie straight from the tin.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "13a",
+                                "shot": "MS(LINDA)",
+                                "img": "linda-pie-phone"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=13a shot=MS(LINDA) img=linda-pie-phone"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "13-element-03",
+                            "type": "parenthetical",
+                            "text": "(low, conspiratorial, delighted)",
+                            "sequence": 3,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "13b",
+                            "type": "dialogue",
+                            "text": "Dot, her car's been ready since Tuesday.",
+                            "sequence": 4,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "13b",
+                                "to": "DOT",
+                                "emo": "mischievous:2",
+                                "act": "confide",
+                                "vol": "soft",
+                                "pace": "medium"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=13b to=DOT emo=mischievous:2 act=confide vol=soft pace=medium"
+                                ],
+                                "sourceSequence": 4
+                            }
+                        },
+                        {
+                            "id": "13-element-05",
+                            "type": "parenthetical",
+                            "text": "(beat)",
+                            "sequence": 5,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 5
+                            }
+                        },
+                        {
+                            "id": "13c",
+                            "type": "dialogue",
+                            "text": "And she still hasn't left.",
+                            "sequence": 6,
+                            "speaker": {
+                                "identifier": [
+                                    {
+                                        "identifierScope": "rph:christmas-facing-west",
+                                        "identifierValue": "character/linda"
+                                    }
+                                ]
+                            },
+                            "direction": {
+                                "id": "13c",
+                                "to": "DOT",
+                                "emo": "mischievous:3,pleased:2",
+                                "act": "reveal",
+                                "vol": "soft",
+                                "pace": "slow",
+                                "pre": "0.6"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=13c to=DOT emo=mischievous:3,pleased:2 act=reveal vol=soft pace=slow pre=0.6"
+                                ],
+                                "sourceSequence": 6
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=1:04 dur=4"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+        "entityType": "NarrativeScene",
+        "identifier": [
+            {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/14"
+            }
+        ],
+        "name": "LIGHTS",
+        "sceneNumber": "14",
+        "description": "The lighting we were denied, and the theme's fifth note.",
+        "Context": [
+            {
+                "identifier": [
+                    {
+                        "identifierScope": "rph:christmas-facing-west",
+                        "identifierValue": "context/scene-14"
+                    }
+                ]
+            }
+        ],
+        "customData": [
+            {
+                "domain": "rph",
+                "namespace": "rph.scene/1",
+                "value": {
+                    "sequence": 14,
+                    "heading": "LIGHTS",
+                    "plannedTiming": {
+                        "at": "1:08",
+                        "dur": "3.5"
+                    },
+                    "elements": [
+                        {
+                            "id": "14-element-01",
+                            "type": "synopsis",
+                            "text": "The lighting we were denied, and the theme's fifth note.",
+                            "sequence": 1,
+                            "speaker": null,
+                            "direction": [],
+                            "extras": {
+                                "fountainNotes": [],
+                                "sourceSequence": 1
+                            }
+                        },
+                        {
+                            "id": "14a",
+                            "type": "action",
+                            "text": "The heavy clunk of the tree lights switching on. The crowd goes \"Ohhh!\" and cheers. Sleigh bells.",
+                            "sequence": 2,
+                            "speaker": null,
+                            "direction": {
+                                "id": "14a",
+                                "shot": "BLACK",
+                                "dur": "0.6",
+                                "sfx": "electric.relay-clunk,crowd.cheer-ooh,bells.sleigh",
+                                "mus": "theme:resolve"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=14a shot=BLACK dur=0.6 sfx=electric.relay-clunk,crowd.cheer-ooh,bells.sleigh mus=theme:resolve"
+                                ],
+                                "sourceSequence": 2
+                            }
+                        },
+                        {
+                            "id": "14b",
+                            "type": "action",
+                            "text": "Black blooms into warm, out-of-focus tree lights. We never see the tree or the couple.",
+                            "sequence": 3,
+                            "speaker": null,
+                            "direction": {
+                                "id": "14b",
+                                "shot": "ECU(lights)",
+                                "move": "pull-out/slow",
+                                "img": "tree-bokeh"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=14b shot=ECU(lights) move=pull-out/slow img=tree-bokeh"
+                                ],
+                                "sourceSequence": 3
+                            }
+                        },
+                        {
+                            "id": "14c",
+                            "type": "action",
+                            "text": "COMING THIS CHRISTMAS",
+                            "sequence": 4,
+                            "speaker": null,
+                            "direction": {
+                                "id": "14c",
+                                "card": "title"
+                            },
+                            "extras": {
+                                "fountainNotes": [
+                                    "id=14c card=title"
+                                ],
+                                "sourceSequence": 4
+                            }
+                        }
+                    ],
+                    "extras": {
+                        "fountainNotes": [
+                            "at=1:08 dur=3.5"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+]

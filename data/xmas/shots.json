@@ -1,0 +1,3922 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/office-airshaft"
+      }
+    ],
+    "name": "office-airshaft",
+    "description": "Jess at her desk at nine at night. Her window faces a brick airshaft lit by someone else's fluorescent light.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "01b",
+          "sequence": 1,
+          "framing": "MS(JESS)",
+          "motion": "push-in/dramatic",
+          "promptTemplate": "medium shot of {JESS}, coat over her chair, alone at a desk in a dim city office at nine at night, laptop glow on her face, the window behind her faces a brick airshaft lit by cold fluorescent light from another building, cool blue-green tones",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3001,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:office-airshaft",
+            "editorialNote": "Opening title over a 1x to 2.1x push toward Jess; the city office closes in around her."
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/0442a0b2a7beeaf7"
+              }
+            ]
+          },
+          "startFrame": 60,
+          "durationFrames": 133,
+          "storyboard": {
+            "backdrop": "office",
+            "layers": [
+              {
+                "prop": "chair",
+                "box": [
+                  460,
+                  320,
+                  330,
+                  330
+                ]
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "sitting-left",
+                "box": [
+                  440,
+                  170,
+                  380,
+                  520
+                ],
+                "expression": "concerned"
+              },
+              {
+                "prop": "desk",
+                "box": [
+                  180,
+                  350,
+                  650,
+                  370
+                ]
+              }
+            ],
+            "description": "medium shot of {JESS}, coat over her chair, alone at a desk in a dim city office at nine at night, laptop glow on her face, the window behind her faces a brick airshaft lit by cold fluorescent light from another building, cool blue-green tones",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/linda-phone-opening"
+      }
+    ],
+    "name": "linda-phone-opening",
+    "description": "Jess at her desk at nine at night. Her window faces a brick airshaft lit by someone else's fluorescent light.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "01b",
+          "sequence": 2,
+          "framing": "MS(LINDA)",
+          "motion": "push-in/slow",
+          "promptTemplate": "Phone conversation: LINDA reacts to the sound of the siren.",
+          "castBindings": {
+            "LINDA": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/linda"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3001,
+            "steps": 8
+          },
+          "extras": {
+            "editorialNote": "Cutaway within opening dialogue; voice timing unchanged."
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/linda-phone-opening"
+              }
+            ]
+          },
+          "startFrame": 193,
+          "durationFrames": 86,
+          "storyboard": {
+            "backdrop": "living-room",
+            "layers": [
+              {
+                "prop": "christmas-tree-bare",
+                "box": [
+                  920,
+                  90,
+                  330,
+                  500
+                ]
+              },
+              {
+                "prop": "chair-teal",
+                "box": [
+                  370,
+                  270,
+                  490,
+                  420
+                ]
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/linda"
+                    }
+                  ]
+                },
+                "pose": "sitting-right",
+                "box": [
+                  410,
+                  110,
+                  460,
+                  600
+                ],
+                "expression": "amused"
+              },
+              {
+                "prop": "phone",
+                "box": [
+                  730,
+                  210,
+                  65,
+                  100
+                ]
+              }
+            ],
+            "description": "Phone conversation: LINDA reacts to the sound of the siren.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-hears-siren"
+      }
+    ],
+    "name": "jess-hears-siren",
+    "description": "Jess at her desk at nine at night. Her window faces a brick airshaft lit by someone else's fluorescent light.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/01"
+              }
+            ]
+          },
+          "elementId": "01b",
+          "sequence": 3,
+          "framing": "CU(JESS)",
+          "motion": "push-in/slow",
+          "promptTemplate": "Phone conversation: JESS reacts to the sound of the siren.",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3001,
+            "steps": 8
+          },
+          "extras": {
+            "editorialNote": "Cutaway within opening dialogue; voice timing unchanged."
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/jess-hears-siren"
+              }
+            ]
+          },
+          "startFrame": 279,
+          "durationFrames": 144,
+          "storyboard": {
+            "backdrop": "office",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  280,
+                  60,
+                  720,
+                  650
+                ],
+                "expression": "surprised"
+              }
+            ],
+            "description": "Phone conversation: JESS reacts to the sound of the siren.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/tesla-422-sleet"
+      }
+    ],
+    "name": "tesla-422-sleet",
+    "description": "Jess drives her Tesla, seat belt on and both hands at the wheel, bargaining with her boss over the hands-free speaker. Snowy roadside trees and an Annville — 200 miles sign pass the window.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-02"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/02"
+              }
+            ]
+          },
+          "elementId": "02a",
+          "sequence": 4,
+          "framing": "MCU(JESS, driving)",
+          "motion": "passing-roadside",
+          "promptTemplate": "Jess drives her Tesla, seat belt on and both hands at the wheel, bargaining with her boss over the hands-free speaker. Snowy roadside trees and an Annville — 200 miles sign pass the window.",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3002,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:tesla-422-sleet"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/335619953e261dd1"
+              }
+            ]
+          },
+          "startFrame": 423,
+          "durationFrames": 137,
+          "storyboard": {
+            "backdrop": "car",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  360,
+                  60,
+                  570,
+                  620
+                ],
+                "expression": "concerned"
+              }
+            ],
+            "description": "Jess drives her Tesla, seat belt on and both hands at the wheel, bargaining with her boss over the hands-free speaker. Snowy roadside trees and an Annville — 200 miles sign pass the window.",
+            "provisional": true
+          },
+          "motionLayers": {
+            "background": "data/storyboards/motion/jess-driving-cabin.svg",
+            "foreground": "data/storyboards/motion/highway-passing-sign.svg",
+            "keyframes": [
+              {
+                "frame": 0,
+                "x": -140,
+                "y": 0
+              },
+              {
+                "frame": 136,
+                "x": -390,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/annville-main-street"
+      }
+    ],
+    "name": "annville-main-street",
+    "description": "Drive through Annville: LVC, Turkey Hill, Allen Theatre and Salamander, then turn toward the Christmas house. Linda’s greeting bridges the arrival into the interior.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-03"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/03"
+              }
+            ]
+          },
+          "elementId": "03a",
+          "sequence": 5,
+          "framing": "ELS",
+          "motion": "hold",
+          "promptTemplate": "Drive through Annville: LVC, Turkey Hill, Allen Theatre and Salamander, then turn toward the Christmas house. Linda’s greeting bridges the arrival into the interior.",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3003,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:annville-main-street"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/8ad857b6c5a6287a"
+              }
+            ]
+          },
+          "startFrame": 560,
+          "durationFrames": 400,
+          "storyboard": {
+            "backdrop": "street",
+            "layers": [],
+            "description": "Drive through Annville: LVC, Turkey Hill, Allen Theatre and Salamander, then turn toward the Christmas house. Linda’s greeting bridges the arrival into the interior.",
+            "provisional": true
+          },
+          "sourceMedia": {
+            "renderer": "unity/1",
+            "sourceStartFrame": 0,
+            "durationFrames": 840,
+            "fps": 30,
+            "houseTurnFrame": 270,
+            "editorialCutsSeconds": [
+              [
+                0,
+                3
+              ],
+              [
+                7,
+                10
+              ],
+              [
+                15,
+                18
+              ],
+              [
+                23.5,
+                25.5
+              ]
+            ],
+            "visualChanges": [
+              {
+                "offsetFrame": 0,
+                "name": "LVC approach",
+                "image": "/media/imported/xmas/arrival-review-451-0.jpg"
+              },
+              {
+                "offsetFrame": 123,
+                "name": "Turkey Hill and the turn onto Main Street",
+                "image": "/media/imported/xmas/arrival-review-451-1.jpg"
+              },
+              {
+                "offsetFrame": 246,
+                "name": "Allen Theatre and Salamander",
+                "image": "/media/imported/xmas/arrival-review-451-2.jpg"
+              },
+              {
+                "offsetFrame": 369,
+                "name": "Turning toward the Christmas house",
+                "image": "/media/imported/xmas/arrival-review-451-3.jpg"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/linda-recliner"
+      }
+    ],
+    "name": "linda-recliner",
+    "description": "Linda welcomes Jess with a delighted smile from a teal recliner, her white leg cast propped on a footstool, red cardigan distinct against the chair, a lit Christmas tree behind her.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-03"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/03"
+              }
+            ]
+          },
+          "elementId": "03d",
+          "sequence": 7,
+          "framing": "MS(LINDA)",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {LINDA} sitting in a recliner in a cozy cluttered living room, one foot in a black orthopedic walking boot propped up, side tables crowded with foil-covered casserole dishes, a television glowing off screen, the storm door open behind with snow blowing in, unbothered cheerful expression",
+          "castBindings": {
+            "LINDA": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/linda"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3005,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:linda-recliner"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/8ba62523fd0f776a"
+              }
+            ]
+          },
+          "startFrame": 960,
+          "durationFrames": 219,
+          "storyboard": {
+            "backdrop": "living-room",
+            "layers": [
+              {
+                "prop": "christmas-tree-bare",
+                "box": [
+                  920,
+                  90,
+                  330,
+                  500
+                ]
+              },
+              {
+                "prop": "chair-teal",
+                "box": [
+                  370,
+                  280,
+                  490,
+                  400
+                ]
+              },
+              {
+                "prop": "footstool",
+                "box": [
+                  710,
+                  520,
+                  300,
+                  140
+                ]
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/linda"
+                    }
+                  ]
+                },
+                "pose": "sitting-right",
+                "box": [
+                  380,
+                  100,
+                  470,
+                  610
+                ],
+                "expression": "amused"
+              },
+              {
+                "prop": "leg-cast",
+                "box": [
+                  640,
+                  430,
+                  320,
+                  160
+                ]
+              }
+            ],
+            "description": "Linda welcomes Jess with a delighted smile from a teal recliner, her white leg cast propped on a footstool, red cardigan distinct against the chair, a sparse, undecorated Christmas tree behind her.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/hand-on-cheek"
+      }
+    ],
+    "name": "hand-on-cheek",
+    "description": "Jess kneels by the boot. Linda's hand goes to her cheek.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-03"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/03"
+              }
+            ]
+          },
+          "elementId": "03h",
+          "sequence": 8,
+          "framing": "TWO(JESS,LINDA,size=MCU)",
+          "motion": "hold",
+          "promptTemplate": "two-shot medium close-up in a warm living room lit by a lamp, {JESS} kneeling beside a recliner, and {LINDA} in the recliner resting her hand tenderly on her daughter's cheek, a black walking boot in the foreground, tender, eyes glistening",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            },
+            "LINDA": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/linda"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3006,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:hand-on-cheek"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/bf712fbe806a60d2"
+              }
+            ]
+          },
+          "startFrame": 1179,
+          "durationFrames": 30,
+          "storyboard": {
+            "backdrop": "living-room",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-right",
+                "box": [
+                  120,
+                  110,
+                  500,
+                  540
+                ],
+                "expression": "concerned"
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/linda"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  650,
+                  110,
+                  500,
+                  540
+                ],
+                "expression": "amused"
+              }
+            ],
+            "description": "two-shot medium close-up in a warm living room lit by a lamp, {JESS} kneeling beside a recliner, and {LINDA} in the recliner resting her hand tenderly on her daughter's cheek, a black walking boot in the foreground, tender, eyes glistening",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/turkey-hill-dawn"
+      }
+    ],
+    "name": "Turkey Hill · charging stop",
+    "description": "Sodium lights and slush. Jess's roller bag sits in the Tesla's back seat.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-04"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/04"
+              }
+            ]
+          },
+          "elementId": "04a",
+          "sequence": 9,
+          "framing": "LS",
+          "motion": "hold",
+          "promptTemplate": "long shot of a small-town convenience store parking lot before dawn, orange sodium lights, gray slush, a white electric sedan parked with a roller suitcase visible on its back seat, store windows glowing, signage out of focus and unreadable",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3007,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:turkey-hill-dawn"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/3d66d129cb57d157"
+              }
+            ]
+          },
+          "startFrame": 1209,
+          "durationFrames": 150,
+          "storyboard": {
+            "backdrop": "store",
+            "layers": [
+              {
+                "prop": "charger",
+                "box": [
+                  540,
+                  350,
+                  150,
+                  280
+                ]
+              },
+              {
+                "prop": "car",
+                "box": [
+                  650,
+                  380,
+                  450,
+                  300
+                ]
+              },
+              {
+                "prop": "plow",
+                "box": [
+                  1040,
+                  480,
+                  210,
+                  160
+                ]
+              }
+            ],
+            "description": "Turkey Hill charging stop: Jess arrives with a low battery. Chargers beside the parking spaces; a parked snowplow nearby.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-backing-out"
+      }
+    ],
+    "name": "jess-backing-out",
+    "description": "The Tesla backs out with its soft low-speed hum. Jess has a coffee in one hand, her phone at her ear.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-04"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/04"
+              }
+            ]
+          },
+          "elementId": "04b",
+          "sequence": 10,
+          "framing": "MS(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium shot through the driver's side window of a white electric sedan in a slushy convenience store lot before dawn, {JESS} in the driver's seat looking over her shoulder while reversing, a coffee cup in one hand and a phone pressed to her ear, distracted",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3008,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-backing-out"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/48ce02db1577d9e8"
+              }
+            ]
+          },
+          "startFrame": 1359,
+          "durationFrames": 339,
+          "storyboard": {
+            "backdrop": "car",
+            "layers": [
+              {
+                "prop": "charger",
+                "box": [
+                  980,
+                  160,
+                  160,
+                  280
+                ]
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-right",
+                "box": [
+                  340,
+                  80,
+                  600,
+                  600
+                ],
+                "expression": "concerned"
+              },
+              {
+                "prop": "cup",
+                "box": [
+                  880,
+                  420,
+                  130,
+                  170
+                ]
+              },
+              {
+                "prop": "phone",
+                "box": [
+                  760,
+                  220,
+                  90,
+                  150
+                ]
+              }
+            ],
+            "description": "Jess talks on the phone inside the car. The car reverses slowly across the stationary Turkey Hill forecourt, bumps the blade of a parked snowplow, recoils slightly and stops. Hold to let the impact register.",
+            "provisional": true
+          },
+          "motionLayers": {
+            "background": "data/storyboards/motion/turkey-hill-lot.svg",
+            "foreground": "data/storyboards/motion/jess-car.svg",
+            "keyframes": [
+              {
+                "frame": 0,
+                "x": 530,
+                "y": 380
+              },
+              {
+                "frame": 75,
+                "x": 530,
+                "y": 380
+              },
+              {
+                "frame": 210,
+                "x": 230,
+                "y": 380
+              },
+              {
+                "frame": 214,
+                "x": 234,
+                "y": 383
+              },
+              {
+                "frame": 220,
+                "x": 232,
+                "y": 380
+              },
+              {
+                "frame": 338,
+                "x": 232,
+                "y": 380
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/dashboard-warning"
+      }
+    ],
+    "name": "dashboard-warning",
+    "description": "Dot, seventies, blaze-orange cap, coffee in hand by the door. Unmoved.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-04"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/04"
+              }
+            ]
+          },
+          "elementId": "04f",
+          "sequence": 11,
+          "framing": "INSERT(dashboard)",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {DOT} standing beside the door of a convenience store before dawn, holding a paper coffee cup, deadpan unimpressed expression, sodium light, slush, an old pickup with a yellow plow blade behind her",
+          "castBindings": {
+            "DOT": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/dot"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3010,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:dot-blaze-cap"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/dashboard-warning"
+              }
+            ]
+          },
+          "startFrame": 1698,
+          "durationFrames": 90,
+          "storyboard": {
+            "backdrop": "car",
+            "layers": [
+              {
+                "prop": "dashboard-warning",
+                "box": [
+                  240,
+                  100,
+                  800,
+                  500
+                ]
+              }
+            ],
+            "description": "After the collision: a stylized dashboard warning establishes that the car cannot simply drive away. Provisional story device, not a real vehicle diagnostic screen.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/dot-blaze-cap"
+      }
+    ],
+    "name": "Jess walks to Kreider’s Auto",
+    "description": "Dot, seventies, blaze-orange cap, coffee in hand by the door. Unmoved.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-04"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/04"
+              }
+            ]
+          },
+          "elementId": "04f",
+          "sequence": 12,
+          "framing": "WIDE · WALK TO GARAGE",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {DOT} standing beside the door of a convenience store before dawn, holding a paper coffee cup, deadpan unimpressed expression, sodium light, slush, an old pickup with a yellow plow blade behind her",
+          "castBindings": {
+            "DOT": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/dot"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3010,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:dot-blaze-cap"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/d89c41cf8ed60ee9"
+              }
+            ]
+          },
+          "startFrame": 1788,
+          "durationFrames": 210,
+          "storyboard": {
+            "backdrop": "store",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/dot"
+                    }
+                  ]
+                },
+                "pose": "standing-left",
+                "box": [
+                  410,
+                  120,
+                  430,
+                  600
+                ],
+                "expression": "skeptical"
+              },
+              {
+                "prop": "cup",
+                "box": [
+                  640,
+                  360,
+                  100,
+                  130
+                ]
+              }
+            ],
+            "description": "Jess leaves the stopped car and walks across the shared forecourt toward Ben in the open garage doorway. Phone lowered. Footsteps in the slush.",
+            "provisional": true
+          },
+          "motionLayers": {
+            "background": "data/storyboards/motion/walk-to-garage.svg",
+            "foreground": "data/storyboards/motion/jess-walking.svg",
+            "keyframes": [
+              {
+                "frame": 0,
+                "x": 640,
+                "y": 385
+              },
+              {
+                "frame": 24,
+                "x": 640,
+                "y": 385
+              },
+              {
+                "frame": 180,
+                "x": 975,
+                "y": 310
+              },
+              {
+                "frame": 209,
+                "x": 975,
+                "y": 310
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/garage-boots"
+      }
+    ],
+    "name": "Kreider’s Auto · exterior",
+    "description": "An impact wrench rips. One bay, the space heater glowing orange. Ben's boots stick out from under the Tesla.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-05"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+              }
+            ]
+          },
+          "elementId": "05a",
+          "sequence": 13,
+          "framing": "WIDE · ESTABLISHING",
+          "motion": "hold",
+          "promptTemplate": "Wide exterior of Kreider’s Auto: snow, two service bays, warm office windows and Jess’s damaged car.",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3011,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:garage-boots"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/003bffb7e2eaf107"
+              }
+            ]
+          },
+          "startFrame": 1998,
+          "durationFrames": 112,
+          "storyboard": {
+            "backdrop": "garage-exterior",
+            "layers": [
+              {
+                "prop": "car",
+                "box": [
+                  230,
+                  365,
+                  300,
+                  260
+                ]
+              }
+            ],
+            "description": "Wide exterior of Kreider’s Auto: snow, two service bays, warm office windows and Jess’s damaged car.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-thin-coat"
+      }
+    ],
+    "name": "Ben · doorway reply",
+    "description": "Jess, in a city coat too thin for the weather.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-05"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+              }
+            ]
+          },
+          "elementId": "05d",
+          "sequence": 14,
+          "framing": "MCU(BEN)",
+          "motion": "hold",
+          "promptTemplate": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3012,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-thin-coat"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/b5951b32709ae1e4"
+              }
+            ]
+          },
+          "startFrame": 2110,
+          "durationFrames": 56,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/ben"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  320,
+                  70,
+                  650,
+                  620
+                ],
+                "expression": "amused"
+              },
+              {
+                "prop": "rag",
+                "box": [
+                  570,
+                  490,
+                  150,
+                  170
+                ]
+              }
+            ],
+            "description": "medium close-up of {BEN} in a small auto repair garage, wiping grease off his hands with a red shop rag, looking at someone off camera, dry and not smiling yet, space heater glow on one side of his face",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/cracked-sensor"
+      }
+    ],
+    "name": "Bent rear suspension",
+    "description": "Ben holds a cracked bumper sensor up to the light.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-06"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/06"
+              }
+            ]
+          },
+          "elementId": "06a",
+          "sequence": 15,
+          "framing": "INSERT(suspension)",
+          "motion": "hold",
+          "promptTemplate": "Ben shows Jess the bent rear suspension arm and the wheel it connects to. The collision damage must be repaired before she can leave.",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3014,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:cracked-sensor"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/e3f6ddfeab228b58"
+              }
+            ]
+          },
+          "startFrame": 2166,
+          "durationFrames": 114,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "prop": "bent-suspension",
+                "box": [
+                  220,
+                  110,
+                  840,
+                  560
+                ]
+              }
+            ],
+            "description": "Ben shows Jess the bent rear suspension arm and the wheel it connects to. The collision damage must be repaired before she can leave.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-how-long"
+      }
+    ],
+    "name": "jess-how-long",
+    "description": "Jess, in a city coat too thin for the weather.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-05"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+              }
+            ]
+          },
+          "elementId": "05d",
+          "sequence": 16,
+          "framing": "CU(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3012,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-thin-coat"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/jess-how-long"
+              }
+            ]
+          },
+          "startFrame": 2280,
+          "durationFrames": 39,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-right",
+                "box": [
+                  320,
+                  70,
+                  650,
+                  620
+                ],
+                "expression": "concerned"
+              }
+            ],
+            "description": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/part-arrives-december-26"
+      }
+    ],
+    "name": "part-arrives-december-29",
+    "description": "Ben holds a cracked bumper sensor up to the light.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-06"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/06"
+              }
+            ]
+          },
+          "elementId": "06a",
+          "sequence": 17,
+          "framing": "INSERT(delivery-date)",
+          "motion": "hold",
+          "promptTemplate": "close insert shot of a man's greasy fingers holding a small round cracked car bumper parking sensor up to the light of a garage window, shallow depth of field, dust in the air",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3014,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:cracked-sensor"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/part-arrives-december-26"
+              }
+            ]
+          },
+          "startFrame": 2319,
+          "durationFrames": 70,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "prop": "delivery-date",
+                "box": [
+                  330,
+                  70,
+                  620,
+                  580
+                ]
+              }
+            ],
+            "description": "Parts order: December 29. The car can be fixed before New Year’s Eve; staying afterward is Jess’s choice.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-after-christmas"
+      }
+    ],
+    "name": "jess-after-christmas",
+    "description": "Jess, in a city coat too thin for the weather.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-05"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+              }
+            ]
+          },
+          "elementId": "05d",
+          "sequence": 18,
+          "framing": "CU(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3012,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-thin-coat"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/jess-after-christmas"
+              }
+            ]
+          },
+          "startFrame": 2389,
+          "durationFrames": 124,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-right",
+                "box": [
+                  320,
+                  70,
+                  650,
+                  620
+                ],
+                "expression": "concerned"
+              }
+            ],
+            "description": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/ben-home-for-christmas"
+      }
+    ],
+    "name": "ben-home-for-christmas",
+    "description": "Ben wipes his hands. Not smiling yet.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-05"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+              }
+            ]
+          },
+          "elementId": "05f",
+          "sequence": 19,
+          "framing": "MCU(BEN)",
+          "motion": "hold",
+          "promptTemplate": "medium close-up of {BEN} in a small auto repair garage, wiping grease off his hands with a red shop rag, looking at someone off camera, dry and not smiling yet, space heater glow on one side of his face",
+          "castBindings": {
+            "BEN": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/ben"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3013,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:ben-wiping-hands"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/ben-home-for-christmas"
+              }
+            ]
+          },
+          "startFrame": 2513,
+          "durationFrames": 62,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/ben"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  320,
+                  70,
+                  650,
+                  620
+                ],
+                "expression": "amused"
+              },
+              {
+                "prop": "rag",
+                "box": [
+                  570,
+                  490,
+                  150,
+                  170
+                ]
+              }
+            ],
+            "description": "medium close-up of {BEN} in a small auto repair garage, wiping grease off his hands with a red shop rag, looking at someone off camera, dry and not smiling yet, space heater glow on one side of his face",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-recognizes-ben"
+      }
+    ],
+    "name": "Jess recognizes Ben",
+    "description": "Jess, in a city coat too thin for the weather.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-05"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+              }
+            ]
+          },
+          "elementId": "05d",
+          "sequence": 20,
+          "framing": "CU(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3012,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-thin-coat"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/jess-recognizes-ben"
+              }
+            ]
+          },
+          "startFrame": 2575,
+          "durationFrames": 60,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-right",
+                "box": [
+                  320,
+                  70,
+                  650,
+                  620
+                ],
+                "expression": "concerned"
+              }
+            ],
+            "description": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/ben-remembers-the-parade"
+      }
+    ],
+    "name": "Ben remembers the parade",
+    "description": "Ben wipes his hands. Not smiling yet.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-05"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+              }
+            ]
+          },
+          "elementId": "05f",
+          "sequence": 21,
+          "framing": "MCU(BEN)",
+          "motion": "hold",
+          "promptTemplate": "medium close-up of {BEN} in a small auto repair garage, wiping grease off his hands with a red shop rag, looking at someone off camera, dry and not smiling yet, space heater glow on one side of his face",
+          "castBindings": {
+            "BEN": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/ben"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3013,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:ben-wiping-hands"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/ben-remembers-the-parade"
+              }
+            ]
+          },
+          "startFrame": 2635,
+          "durationFrames": 101,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/ben"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  320,
+                  70,
+                  650,
+                  620
+                ],
+                "expression": "amused"
+              },
+              {
+                "prop": "rag",
+                "box": [
+                  570,
+                  490,
+                  150,
+                  170
+                ]
+              }
+            ],
+            "description": "medium close-up of {BEN} in a small auto repair garage, wiping grease off his hands with a red shop rag, looking at someone off camera, dry and not smiling yet, space heater glow on one side of his face",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-remembers"
+      }
+    ],
+    "name": "Jess remembers",
+    "description": "Jess, in a city coat too thin for the weather.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-05"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/05"
+              }
+            ]
+          },
+          "elementId": "05d",
+          "sequence": 22,
+          "framing": "CU(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3012,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-thin-coat"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/jess-remembers"
+              }
+            ]
+          },
+          "startFrame": 2736,
+          "durationFrames": 61,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-right",
+                "box": [
+                  320,
+                  70,
+                  650,
+                  620
+                ],
+                "expression": "concerned"
+              }
+            ],
+            "description": "medium close-up of {JESS} standing in the open doorway of a cold small-town auto garage, snow outside behind her, arms crossed against the cold in a coat too thin for the weather, impatient and trying to look in charge",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/bag-on-bed"
+      }
+    ],
+    "name": "bag-on-bed",
+    "description": "The roller bag back on Jess's childhood bed, under a high-school pennant.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-06"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/06"
+              }
+            ]
+          },
+          "elementId": "06g",
+          "sequence": 23,
+          "framing": "MS",
+          "motion": "hold",
+          "promptTemplate": "medium shot of a modern black roller suitcase lying on a narrow childhood bed with a quilted bedspread, a faded high-school pennant on the wallpapered wall above it, small-town bedroom, a little absurd, soft lamp light",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3015,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:bag-on-bed"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/6f3e132791d6d578"
+              }
+            ]
+          },
+          "startFrame": 2797,
+          "durationFrames": 30,
+          "storyboard": {
+            "backdrop": "bedroom",
+            "layers": [
+              {
+                "prop": "suitcase",
+                "box": [
+                  700,
+                  360,
+                  300,
+                  300
+                ]
+              }
+            ],
+            "description": "medium shot of a modern black roller suitcase lying on a narrow childhood bed with a quilted bedspread, a faded high-school pennant on the wallpapered wall above it, small-town bedroom, a little absurd, soft lamp light",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/doorway-1"
+      }
+    ],
+    "name": "doorway-1",
+    "description": "The same garage doorway three times. Her coat changes, the snow deepens, one coffee becomes two.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-07"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/07"
+              }
+            ]
+          },
+          "elementId": "07a",
+          "sequence": 24,
+          "framing": "MS(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {JESS} standing in the doorway of a small auto repair garage holding one paper coffee cup, light snow on the ground outside, morning light, polite impatience",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3016,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:doorway-1"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/d235af14453f60e5"
+              }
+            ]
+          },
+          "startFrame": 2827,
+          "durationFrames": 30,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "standing-right",
+                "box": [
+                  400,
+                  90,
+                  440,
+                  640
+                ],
+                "expression": "skeptical"
+              },
+              {
+                "prop": "cup",
+                "box": [
+                  660,
+                  370,
+                  100,
+                  130
+                ]
+              }
+            ],
+            "description": "medium shot of {JESS} standing in the doorway of a small auto repair garage holding one paper coffee cup, light snow on the ground outside, morning light, polite impatience",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/doorway-2"
+      }
+    ],
+    "name": "doorway-2",
+    "description": "The same garage doorway three times. Her coat changes, the snow deepens, one coffee becomes two.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-07"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/07"
+              }
+            ]
+          },
+          "elementId": "07a",
+          "sequence": 25,
+          "framing": "MS(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {JESS}, standing in the doorway of a small auto repair garage holding one paper coffee cup, deeper snow on the ground outside, morning light, resigned",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3016,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:doorway-2"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/e56f00ce2780e573"
+              }
+            ]
+          },
+          "startFrame": 2857,
+          "durationFrames": 30,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "standing-right",
+                "box": [
+                  400,
+                  90,
+                  440,
+                  640
+                ],
+                "expression": "concerned"
+              },
+              {
+                "prop": "cup",
+                "box": [
+                  660,
+                  370,
+                  100,
+                  130
+                ]
+              }
+            ],
+            "description": "medium shot of {JESS}, standing in the doorway of a small auto repair garage holding one paper coffee cup, deeper snow on the ground outside, morning light, resigned",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/doorway-3"
+      }
+    ],
+    "name": "doorway-3",
+    "description": "The same garage doorway three times. Her coat changes, the snow deepens, one coffee becomes two.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-07"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/07"
+              }
+            ]
+          },
+          "elementId": "07a",
+          "sequence": 26,
+          "framing": "MS(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {JESS} and a knit hat, standing in the doorway of a small auto repair garage holding two paper coffee cups, snow piled high outside, morning light, a small hopeful smile",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3016,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:doorway-3"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/7b2c808e7a6645a4"
+              }
+            ]
+          },
+          "startFrame": 2887,
+          "durationFrames": 37,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "standing-right",
+                "box": [
+                  400,
+                  90,
+                  440,
+                  640
+                ],
+                "expression": "amused"
+              },
+              {
+                "prop": "tray",
+                "box": [
+                  550,
+                  370,
+                  200,
+                  170
+                ]
+              }
+            ],
+            "description": "medium shot of {JESS} and a knit hat, standing in the doorway of a small auto repair garage holding two paper coffee cups, snow piled high outside, morning light, a small hopeful smile",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/truck-rear-window"
+      }
+    ],
+    "name": "truck-rear-window",
+    "description": "Ben's truck faces a wide field and the low sun. Two silhouettes, a bench seat of space between them.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-08"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/08"
+              }
+            ]
+          },
+          "elementId": "08a",
+          "sequence": 27,
+          "framing": "TWO(BEN,JESS,size=MS)",
+          "motion": "push-in/slow",
+          "promptTemplate": "two-shot from behind through the rear window of an old pickup truck cab, two silhouettes on the bench seat with a noticeable space between them, a wide snowy Pennsylvania farm field ahead and a low orange winter sun on the horizon, quiet and romantic",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3019,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:truck-rear-window"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/90a89ff59b12022e"
+              }
+            ]
+          },
+          "startFrame": 2924,
+          "durationFrames": 100,
+          "storyboard": {
+            "backdrop": "car",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/ben"
+                    }
+                  ]
+                },
+                "pose": "back",
+                "box": [
+                  120,
+                  170,
+                  460,
+                  620
+                ],
+                "expression": "neutral"
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "back",
+                "box": [
+                  710,
+                  170,
+                  460,
+                  620
+                ],
+                "expression": "neutral"
+              }
+            ],
+            "description": "two-shot from behind through the rear window of an old pickup truck cab, two silhouettes on the bench seat with a noticeable space between them, a wide snowy Pennsylvania farm field ahead and a low orange winter sun on the horizon, quiet and romantic",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-profile-sunset"
+      }
+    ],
+    "name": "jess-profile-sunset",
+    "description": "Jess in profile, lit orange. A few flakes drift.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-08"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/08"
+              }
+            ]
+          },
+          "elementId": "08b",
+          "sequence": 28,
+          "framing": "CU(JESS)",
+          "motion": "push-in/slow",
+          "promptTemplate": "close-up profile of {JESS} sitting in a pickup truck, lit warm orange by a low winter sunset through the windshield, a few snowflakes drifting past the glass, thoughtful, almost smiling",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3020,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-profile-sunset"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/ae98478fab7e2185"
+              }
+            ]
+          },
+          "startFrame": 3024,
+          "durationFrames": 100,
+          "storyboard": {
+            "backdrop": "car",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  320,
+                  60,
+                  650,
+                  630
+                ],
+                "expression": "amused"
+              }
+            ],
+            "description": "close-up profile of {JESS} sitting in a pickup truck, lit warm orange by a low winter sunset through the windshield, a few snowflakes drifting past the glass, thoughtful, almost smiling",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/phone-tyler"
+      }
+    ],
+    "name": "phone-tyler",
+    "description": "Her phone lights up on the dash: WORK. It buzzes. Her hand turns it face-down. The buzzing stops.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-08"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/08"
+              }
+            ]
+          },
+          "elementId": "08d",
+          "sequence": 29,
+          "framing": "INSERT(phone)",
+          "motion": "hold",
+          "promptTemplate": "close insert shot of a smartphone lying on the dashboard of an old pickup truck, screen lit with an incoming call, a woman's hand reaching to turn it face down, orange sunset light, the contact name blurred",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3021,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:phone-tyler"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/93a8cea1907c51ba"
+              }
+            ]
+          },
+          "startFrame": 3124,
+          "durationFrames": 106,
+          "storyboard": {
+            "backdrop": "car",
+            "layers": [
+              {
+                "prop": "phone",
+                "box": [
+                  460,
+                  140,
+                  350,
+                  490
+                ]
+              }
+            ],
+            "description": "close insert shot of a smartphone lying on the dashboard of an old pickup truck, screen lit with an incoming call, a woman's hand reaching to turn it face down, orange sunset light, the contact name blurred",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-coffee-tray"
+      }
+    ],
+    "name": "jess-coffee-tray",
+    "description": "Jess in the office doorway with a cardboard tray of two coffees.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-09"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/09"
+              }
+            ]
+          },
+          "elementId": "09a",
+          "sequence": 30,
+          "framing": "MS(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {JESS} standing in the doorway of a cramped garage office, holding a cardboard tray with two coffees, hopeful, a space heater glowing orange in the corner",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3022,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-coffee-tray"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/66bb9a3bd4615e90"
+              }
+            ]
+          },
+          "startFrame": 3230,
+          "durationFrames": 115,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "standing-right",
+                "box": [
+                  400,
+                  90,
+                  440,
+                  640
+                ],
+                "expression": "amused"
+              },
+              {
+                "prop": "tray",
+                "box": [
+                  520,
+                  350,
+                  240,
+                  200
+                ]
+              }
+            ],
+            "description": "medium shot of {JESS} standing in the doorway of a cramped garage office, holding a cardboard tray with two coffees, hopeful, a space heater glowing orange in the corner",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-tray-crunch"
+      }
+    ],
+    "name": "jess-tray-crunch",
+    "description": "The cardboard tray crunches in her hand.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-09"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/09"
+              }
+            ]
+          },
+          "elementId": "09c",
+          "sequence": 31,
+          "framing": "CU(JESS)",
+          "motion": "hold",
+          "promptTemplate": "close-up of {JESS}, her face falling as she overhears something, her hand crushing the cardboard coffee tray, hurt, warm office light",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3023,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-tray-crunch"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/02b53a51b213acaa"
+              }
+            ]
+          },
+          "startFrame": 3345,
+          "durationFrames": 61,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-right",
+                "box": [
+                  320,
+                  60,
+                  650,
+                  630
+                ],
+                "expression": "concerned"
+              },
+              {
+                "prop": "tray",
+                "box": [
+                  540,
+                  520,
+                  260,
+                  200
+                ]
+              }
+            ],
+            "description": "close-up of {JESS}, her face falling as she overhears something, her hand crushing the cardboard coffee tray, hurt, warm office light",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/ben-caught"
+      }
+    ],
+    "name": "ben-caught",
+    "description": "Ben turns around, caught.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-09"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/09"
+              }
+            ]
+          },
+          "elementId": "09e",
+          "sequence": 32,
+          "framing": "MCU(BEN)",
+          "motion": "hold",
+          "promptTemplate": "medium close-up of {BEN} in a cramped garage office turning around from a desk with a landline phone in hand, caught, guilty and surprised, space heater glow",
+          "castBindings": {
+            "BEN": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/ben"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3024,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:ben-caught"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/f86cb01d552ef9e1"
+              }
+            ]
+          },
+          "startFrame": 3406,
+          "durationFrames": 90,
+          "storyboard": {
+            "backdrop": "garage",
+            "layers": [
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/ben"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  320,
+                  60,
+                  650,
+                  630
+                ],
+                "expression": "surprised"
+              },
+              {
+                "prop": "phone",
+                "box": [
+                  700,
+                  410,
+                  100,
+                  160
+                ]
+              }
+            ],
+            "description": "medium close-up of {BEN} in a cramped garage office turning around from a desk with a landline phone in hand, caught, guilty and surprised, space heater glow",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/square-crowd"
+      }
+    ],
+    "name": "square-crowd",
+    "description": "Crowd, breath steam, kids on shoulders. The tree is still dark.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-10"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/10"
+              }
+            ]
+          },
+          "elementId": "10a",
+          "sequence": 33,
+          "framing": "ELS",
+          "motion": "hold",
+          "promptTemplate": "extreme long shot of a small-town square at night packed with bundled-up people waiting for a Christmas tree lighting, breath steam in the cold air, children on their parents' shoulders, a tall evergreen tree still dark, a gazebo with a brass band, string lights",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3025,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:square-crowd"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/f475321012dced89"
+              }
+            ]
+          },
+          "startFrame": 3496,
+          "durationFrames": 45,
+          "storyboard": {
+            "backdrop": "street",
+            "layers": [
+              {
+                "prop": "tree",
+                "box": [
+                  490,
+                  170,
+                  300,
+                  400
+                ]
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/dot"
+                    }
+                  ]
+                },
+                "pose": "back",
+                "box": [
+                  50,
+                  430,
+                  180,
+                  280
+                ],
+                "expression": "neutral"
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "back",
+                "box": [
+                  260,
+                  430,
+                  180,
+                  280
+                ],
+                "expression": "neutral"
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/linda"
+                    }
+                  ]
+                },
+                "pose": "back",
+                "box": [
+                  750,
+                  430,
+                  180,
+                  280
+                ],
+                "expression": "neutral"
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/ben"
+                    }
+                  ]
+                },
+                "pose": "back",
+                "box": [
+                  970,
+                  430,
+                  180,
+                  280
+                ],
+                "expression": "neutral"
+              }
+            ],
+            "description": "Anonymous bundled crowd seen from behind at the tree lighting; colors are blocking placeholders.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/jess-in-crowd"
+      }
+    ],
+    "name": "jess-in-crowd",
+    "description": "Jess alone in the crowd, scanning.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-10"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/10"
+              }
+            ]
+          },
+          "elementId": "10b",
+          "sequence": 34,
+          "framing": "MS(JESS)",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {JESS} standing alone in a crowd at a nighttime town square tree lighting, scanning the faces around her, breath steam, out of focus string lights behind her, hopeful and anxious",
+          "castBindings": {
+            "JESS": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/jess"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3026,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:jess-in-crowd"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/4c7687adabc1d1d3"
+              }
+            ]
+          },
+          "startFrame": 3541,
+          "durationFrames": 44,
+          "storyboard": {
+            "backdrop": "street",
+            "layers": [
+              {
+                "prop": "tree",
+                "box": [
+                  850,
+                  160,
+                  250,
+                  400
+                ]
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/jess"
+                    }
+                  ]
+                },
+                "pose": "closeup-left",
+                "box": [
+                  320,
+                  70,
+                  650,
+                  620
+                ],
+                "expression": "concerned"
+              }
+            ],
+            "description": "medium shot of {JESS} standing alone in a crowd at a nighttime town square tree lighting, scanning the faces around her, breath steam, out of focus string lights behind her, hopeful and anxious",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/truck-empty"
+      }
+    ],
+    "name": "truck-empty",
+    "description": "Ben's truck parked at the edge of the square, empty.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-10"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/10"
+              }
+            ]
+          },
+          "elementId": "10c",
+          "sequence": 35,
+          "framing": "LS",
+          "motion": "hold",
+          "promptTemplate": "long shot of an old pickup truck parked alone at the snowy edge of a small-town square at night, cab empty, door closed, string lights in the distance, lonely",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3027,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:truck-empty"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/7a94590e453f1298"
+              }
+            ]
+          },
+          "startFrame": 3585,
+          "durationFrames": 45,
+          "storyboard": {
+            "backdrop": "street",
+            "layers": [
+              {
+                "prop": "car",
+                "box": [
+                  370,
+                  290,
+                  580,
+                  390
+                ]
+              }
+            ],
+            "description": "long shot of an old pickup truck parked alone at the snowy edge of a small-town square at night, cab empty, door closed, string lights in the distance, lonely",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/field-last-light"
+      }
+    ],
+    "name": "field-last-light",
+    "description": "A field at the last edge of sunset, the horizon low in the frame.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-12"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/12"
+              }
+            ]
+          },
+          "elementId": "12a",
+          "sequence": 36,
+          "framing": "ELS",
+          "motion": "hold",
+          "promptTemplate": "extreme long shot of a wide snowy Pennsylvania farm field at the last edge of sunset, horizon very low in the frame, a huge pale violet sky, a distant line of bare trees and a single farmhouse light, still and quiet",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3028,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:field-last-light"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/d0860fa53260d712"
+              }
+            ]
+          },
+          "startFrame": 3666,
+          "durationFrames": 90,
+          "storyboard": {
+            "backdrop": "field",
+            "layers": [],
+            "description": "extreme long shot of a wide snowy Pennsylvania farm field at the last edge of sunset, horizon very low in the frame, a huge pale violet sky, a distant line of bare trees and a single farmhouse light, still and quiet",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/linda-pie-phone"
+      }
+    ],
+    "name": "linda-pie-phone",
+    "description": "Linda in the recliner, the landline cord around one finger, eating pie straight from the tin.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-13"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/13"
+              }
+            ]
+          },
+          "elementId": "13a",
+          "sequence": 37,
+          "framing": "MS(LINDA)",
+          "motion": "hold",
+          "promptTemplate": "medium shot of {LINDA} in a recliner in a cozy living room, a beige corded landline phone at her ear with the cord twisted around one finger, eating pie with a fork straight from the aluminum pie tin, amused knowing look, walking boot propped up",
+          "castBindings": {
+            "LINDA": {
+              "identifier": [
+                {
+                  "identifierScope": "rph:christmas-facing-west",
+                  "identifierValue": "character/linda"
+                }
+              ]
+            }
+          },
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3029,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:linda-pie-phone"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/b314c352abc5ca8c"
+              }
+            ]
+          },
+          "startFrame": 3756,
+          "durationFrames": 172,
+          "storyboard": {
+            "backdrop": "living-room",
+            "layers": [
+              {
+                "prop": "christmas-tree",
+                "box": [
+                  920,
+                  90,
+                  330,
+                  500
+                ]
+              },
+              {
+                "prop": "chair-teal",
+                "box": [
+                  370,
+                  270,
+                  490,
+                  420
+                ]
+              },
+              {
+                "character": {
+                  "identifier": [
+                    {
+                      "identifierScope": "rph:christmas-facing-west",
+                      "identifierValue": "character/linda"
+                    }
+                  ]
+                },
+                "pose": "sitting-right",
+                "box": [
+                  380,
+                  100,
+                  470,
+                  610
+                ],
+                "expression": "amused"
+              },
+              {
+                "prop": "phone",
+                "box": [
+                  710,
+                  230,
+                  65,
+                  100
+                ]
+              },
+              {
+                "prop": "pie",
+                "box": [
+                  510,
+                  470,
+                  210,
+                  130
+                ]
+              }
+            ],
+            "description": "Linda eats pie and chats with Dot. Behind her, the once-bare tree is now full, lit and decorated: Jess has brought life and Christmas back into the house.",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Asset",
+    "identifier": [
+      {
+        "identifierScope": "rph:christmas-facing-west",
+        "identifierValue": "shot/tree-bokeh"
+      }
+    ],
+    "name": "tree-bokeh",
+    "description": "Black blooms into warm, out-of-focus tree lights. We never see the tree or the couple.",
+    "assetFC": {
+      "functionalType": "artwork.storyboard.frame"
+    },
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:christmas-facing-west",
+            "identifierValue": "context/scene-14"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.shot/1",
+        "value": {
+          "scene": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "scene/14"
+              }
+            ]
+          },
+          "elementId": "14b",
+          "sequence": 38,
+          "framing": "ECU(lights)",
+          "motion": "pull-out/slow",
+          "promptTemplate": "extreme close-up of warm golden Christmas tree lights completely out of focus, large soft round bokeh circles on black, glowing, no tree shape visible, no people",
+          "castBindings": [],
+          "generation": {
+            "model": "z-image-turbo",
+            "seed": 3030,
+            "steps": 8
+          },
+          "extras": {
+            "legacyImageId": "img:tree-bokeh"
+          },
+          "media": {
+            "identifier": [
+              {
+                "identifierScope": "rph:christmas-facing-west",
+                "identifierValue": "media/f92710bdecf12cdf"
+              }
+            ]
+          },
+          "startFrame": 3946,
+          "durationFrames": 87,
+          "storyboard": {
+            "backdrop": "bokeh",
+            "layers": [],
+            "description": "extreme close-up of warm golden Christmas tree lights completely out of focus, large soft round bokeh circles on black, glowing, no tree shape visible, no people",
+            "provisional": true
+          }
+        }
+      }
+    ]
+  }
+]

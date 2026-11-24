@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#8d9eb4"/><stop offset="1" stop-color="#e1c3aa"/></linearGradient></defs>
+<rect width="1280" height="720" fill="#253746"/><path d="M80 95Q640 25 1210 95L1240 445H45Z" fill="url(#sky)"/>
+<path d="M45 350Q450 235 760 335T1240 310V455H45" fill="#c9d7d7"/><path d="M45 410Q600 350 1240 395V470H45" fill="#edf0e9"/>
+<path d="M55 453H1240V580H40Z" fill="#50616b"/><path d="M55 485H1240" stroke="#e6d9b0" stroke-width="5"/>
+<path d="M110 710V290Q130 235 240 260L430 290V710" fill="#23303b" stroke="#667481" stroke-width="8"/>
+<!-- Jess seated, belted, eyes forward; conversation is hands-free. -->
+<path d="M240 425Q365 385 475 440L535 720H185Z" fill="#b7906d" stroke="#654f43" stroke-width="6"/>
+<ellipse cx="351" cy="282" rx="107" ry="127" fill="#e4bb9c" stroke="#594139" stroke-width="5"/>
+<circle cx="266" cy="177" r="61" fill="#594139"/><path d="M247 304Q205 123 349 137Q484 139 465 300L437 232 425 185Q343 229 281 190L266 306Z" fill="#594139"/>
+<path d="M310 258Q326 246 341 257M381 253Q397 241 412 253" stroke="#674a3b" stroke-width="5" fill="none" stroke-linecap="round"/>
+<ellipse cx="329" cy="278" rx="14" ry="19" fill="#fff8ed"/><ellipse cx="399" cy="274" rx="14" ry="19" fill="#fff8ed"/><ellipse cx="334" cy="279" rx="8" ry="13" fill="#654736"/><ellipse cx="404" cy="275" rx="8" ry="13" fill="#654736"/><circle cx="337" cy="274" r="3" fill="white"/><circle cx="407" cy="270" r="3" fill="white"/>
+<path d="M367 282L359 307 372 312" stroke="#bc8d76" stroke-width="4" fill="none"/><ellipse cx="303" cy="318" rx="20" ry="9" fill="#d39384" opacity=".65"/><ellipse cx="416" cy="314" rx="18" ry="9" fill="#d39384" opacity=".65"/>
+<path d="M340 342Q366 332 390 342Q369 359 340 342" fill="#a85f65"/>
+<path d="M262 392Q354 437 442 390L449 436Q354 475 264 438Z" fill="#ac414b"/><path d="M274 433L313 445 301 626 252 615Z" fill="#ac414b"/>
+<path d="M225 431L445 705" stroke="#35444f" stroke-width="19"/>
+<path d="M251 473L294 558 467 546M448 463L493 507 614 504" stroke="#b7906d" stroke-width="37" fill="none" stroke-linecap="round"/>
+<path d="M635 545Q935 464 1280 505V720H610Z" fill="#293944"/><path d="M747 513L1045 501 1062 664H737Z" fill="#121f29" stroke="#7d8e96" stroke-width="5"/>
+<text x="895" y="548" fill="#d8e5df" font-family="sans-serif" font-size="18" text-anchor="middle">HANDS-FREE CALL</text><text x="895" y="586" fill="white" font-family="sans-serif" font-size="28" text-anchor="middle">Office</text><text x="895" y="628" fill="#94b8b0" font-family="sans-serif" font-size="16" text-anchor="middle">Connected • Audio</text>
+<ellipse cx="545" cy="577" rx="112" ry="106" fill="none" stroke="#192934" stroke-width="22"/><path d="M443 567L545 603 646 561M545 603V677" stroke="#192934" stroke-width="22" fill="none"/><rect x="496" y="561" width="98" height="49" rx="15" fill="#243744"/><text x="545" y="591" fill="#eef1ed" font-family="sans-serif" font-size="20" letter-spacing="2" text-anchor="middle">TESLA</text>
+<ellipse cx="457" cy="533" rx="20" ry="27" fill="#e4bb9c" transform="rotate(-25 457 533)"/><ellipse cx="621" cy="511" rx="20" ry="27" fill="#e4bb9c" transform="rotate(35 621 511)"/>
+<path d="M35 0H1280V80Q650 20 35 100ZM0 0H60L25 720H0M1230 0H1280V720H1260Z" fill="#24333f"/>
+</svg>

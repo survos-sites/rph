@@ -1,0 +1,72 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "Context",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "context/scene-01"
+      }
+    ],
+    "name": "Platform conversation",
+    "contextType": "narrative",
+    "ForEntity": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "scene/01"
+          }
+        ]
+      }
+    ],
+    "features": {
+      "Character": [
+        {
+          "identifier": [
+            {
+              "identifierScope": "rph:last-train",
+              "identifierValue": "character/mara"
+            }
+          ]
+        },
+        {
+          "identifier": [
+            {
+              "identifierScope": "rph:last-train",
+              "identifierValue": "character/eli"
+            }
+          ]
+        }
+      ],
+      "NarrativeLocation": [
+        {
+          "identifier": [
+            {
+              "identifierScope": "rph:last-train",
+              "identifierValue": "location/platform"
+            }
+          ]
+        }
+      ],
+      "NarrativeObject": [
+        {
+          "identifier": [
+            {
+              "identifierScope": "rph:last-train",
+              "identifierValue": "prop/ticket"
+            }
+          ]
+        },
+        {
+          "identifier": [
+            {
+              "identifierScope": "rph:last-train",
+              "identifierValue": "prop/bench"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,487 @@
+[
+  {
+    "schemaVersion": "https://movielabs.com/omc/json/schema/v2.8",
+    "entityType": "NarrativeScene",
+    "identifier": [
+      {
+        "identifierScope": "rph:last-train",
+        "identifierValue": "scene/01"
+      }
+    ],
+    "name": "EXT. PLATFORM — BLUE HOUR",
+    "sceneNumber": "01",
+    "Context": [
+      {
+        "identifier": [
+          {
+            "identifierScope": "rph:last-train",
+            "identifierValue": "context/scene-01"
+          }
+        ]
+      }
+    ],
+    "customData": [
+      {
+        "domain": "rph",
+        "namespace": "rph.scene/1",
+        "value": {
+          "sequence": 1,
+          "heading": "EXT. PLATFORM — BLUE HOUR",
+          "elements": [
+            {
+              "id": "cue-01-action",
+              "type": "action",
+              "text": "Mara checks the empty platform.",
+              "sequence": 1,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-01",
+              "type": "dialogue",
+              "text": "The last train was supposed to leave eight minutes ago.",
+              "sequence": 2,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/mara"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Matter-of-fact, with quiet concern.",
+                "expressions": {
+                  "mara": "concerned",
+                  "eli": "neutral"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5.1,
+                "voiceNotes": []
+              }
+            },
+            {
+              "id": "cue-02-action",
+              "type": "action",
+              "text": "Eli rests his instrument case beside the bench.",
+              "sequence": 3,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-02",
+              "type": "dialogue",
+              "text": "Then I am either very late or unexpectedly lucky.",
+              "sequence": 4,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/eli"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Dry humor, lightly amused.",
+                "expressions": {
+                  "mara": "skeptical",
+                  "eli": "amused"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5,
+                "voiceNotes": []
+              }
+            },
+            {
+              "id": "cue-03-action",
+              "type": "action",
+              "text": "She points at the date, without taking the ticket.",
+              "sequence": 5,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-03",
+              "type": "dialogue",
+              "text": "You are holding a ticket for yesterday.",
+              "sequence": 6,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/mara"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Pointedly, with a raised eyebrow.",
+                "expressions": {
+                  "mara": "skeptical",
+                  "eli": "surprised"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5,
+                "voiceNotes": []
+              }
+            },
+            {
+              "id": "cue-04-action",
+              "type": "action",
+              "text": "He turns the ticket over, then admits the joke with a smile.",
+              "sequence": 7,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-04",
+              "type": "dialogue",
+              "text": "That would explain the unusually quiet carriage.",
+              "sequence": 8,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/eli"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "A gentle self-deprecating joke.",
+                "expressions": {
+                  "mara": "amused",
+                  "eli": "amused"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5,
+                "voiceNotes": []
+              }
+            },
+            {
+              "id": "cue-05-action",
+              "type": "action",
+              "text": "Her smile fades; she studies his face.",
+              "sequence": 9,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-05",
+              "type": "dialogue",
+              "text": "Please tell me you did not spend the night on a parked train.",
+              "sequence": 10,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/mara"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Concerned, speaking directly to him.",
+                "expressions": {
+                  "mara": "concerned",
+                  "eli": "neutral"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 6.18,
+                "voiceNotes": []
+              }
+            },
+            {
+              "id": "cue-06-action",
+              "type": "action",
+              "text": "He taps the small case: tools, not luggage.",
+              "sequence": 11,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-06",
+              "type": "dialogue",
+              "text": "Only the evening. I was tuning the piano in the station café.",
+              "sequence": 12,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/eli"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Reassuring, unhurried.",
+                "expressions": {
+                  "mara": "surprised",
+                  "eli": "neutral"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5.82,
+                "voiceNotes": []
+              }
+            },
+            {
+              "id": "cue-07-action",
+              "type": "action",
+              "text": "A gust moves the hanging station sign.",
+              "sequence": 13,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-07",
+              "type": "dialogue",
+              "text": "They closed that café last winter.",
+              "sequence": 14,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/mara"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Softly, surprised.",
+                "expressions": {
+                  "mara": "concerned",
+                  "eli": "concerned"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5,
+                "voiceNotes": [
+                  "pace=slow"
+                ]
+              }
+            },
+            {
+              "id": "cue-08-action",
+              "type": "action",
+              "text": "He looks toward the dark café windows.",
+              "sequence": 15,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-08",
+              "type": "dialogue",
+              "text": "I know. My sister used to play there. I promised I would keep it in tune.",
+              "sequence": 16,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/eli"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Hushed and intimate; pause after I know.",
+                "expressions": {
+                  "mara": "concerned",
+                  "eli": "concerned"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 7.26,
+                "voiceNotes": [
+                  "pace=slow vol=x-soft"
+                ]
+              }
+            },
+            {
+              "id": "cue-09-action",
+              "type": "action",
+              "text": "Mara looks toward the locked office, angry on his behalf.",
+              "sequence": 17,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-09",
+              "type": "dialogue",
+              "text": "They should have left you a light.",
+              "sequence": 18,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/mara"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Quiet anger on his behalf, controlled.",
+                "expressions": {
+                  "mara": "angry",
+                  "eli": "surprised"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5,
+                "voiceNotes": [
+                  "pace=slow"
+                ]
+              }
+            },
+            {
+              "id": "cue-10-action",
+              "type": "action",
+              "text": "He lifts his shoulders; she lets out a small laugh.",
+              "sequence": 19,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-10",
+              "type": "dialogue",
+              "text": "There was enough moonlight. Not enough coffee.",
+              "sequence": 20,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/eli"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Warm dry humor; pause before coffee.",
+                "expressions": {
+                  "mara": "amused",
+                  "eli": "amused"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5,
+                "voiceNotes": []
+              }
+            },
+            {
+              "id": "cue-11-action",
+              "type": "action",
+              "text": "She unlocks the warm-lit office door.",
+              "sequence": 21,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-11",
+              "type": "dialogue",
+              "text": "Come inside. I have coffee, and the morning timetable.",
+              "sequence": 22,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/mara"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Warmly inviting, with a small smile.",
+                "expressions": {
+                  "mara": "amused",
+                  "eli": "surprised"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5,
+                "voiceNotes": []
+              }
+            },
+            {
+              "id": "cue-12-action",
+              "type": "action",
+              "text": "They turn toward the light together.",
+              "sequence": 23,
+              "speaker": null,
+              "direction": {}
+            },
+            {
+              "id": "cue-12",
+              "type": "dialogue",
+              "text": "Then perhaps this is the right ticket after all.",
+              "sequence": 24,
+              "speaker": {
+                "identifier": [
+                  {
+                    "identifierScope": "rph:last-train",
+                    "identifierValue": "character/eli"
+                  }
+                ]
+              },
+              "direction": {
+                "delivery": "Grateful, quietly amused.",
+                "expressions": {
+                  "mara": "amused",
+                  "eli": "amused"
+                }
+              },
+              "extras": {
+                "estimatedDurationSeconds": 5,
+                "voiceNotes": [
+                  "pace=slow"
+                ]
+              }
+            }
+          ],
+          "extras": {
+            "staging": {
+              "coordinateSpace": "normalized viewport, origin top-left",
+              "characters": {
+                "mara": {
+                  "anchor": [
+                    0.28,
+                    0.78
+                  ],
+                  "depth": 10
+                },
+                "eli": {
+                  "anchor": [
+                    0.72,
+                    0.78
+                  ],
+                  "depth": 10
+                }
+              },
+              "layers": [
+                {
+                  "id": "location",
+                  "kind": "background",
+                  "depth": 0,
+                  "asset": "generated/platform.png"
+                },
+                {
+                  "id": "mara",
+                  "kind": "character",
+                  "depth": 10,
+                  "expressionSource": "cue.expressions.mara"
+                },
+                {
+                  "id": "eli",
+                  "kind": "character",
+                  "depth": 10,
+                  "expressionSource": "cue.expressions.eli"
+                },
+                {
+                  "id": "captions",
+                  "kind": "dialogue",
+                  "depth": 100
+                }
+              ],
+              "implementationNote": "Renderer currently uses CSS slots for character placement; normalized anchors are a proposed portable staging contract."
+            }
+          }
+        }
+      }
+    ]
+  }
+]
