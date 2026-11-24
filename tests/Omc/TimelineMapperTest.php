@@ -55,7 +55,7 @@ final class TimelineMapperTest extends TestCase
         foreach ($shots as $asset) {
             $shot = Production::extension($asset, 'rph.shot/1');
             self::assertNotEmpty($shot['storyboard']['description']);
-            self::assertSame($shot['sourceMedia']['renderer'] ?? (isset($shot['motionLayers']) ? 'svg-layer-motion/1' : 'stickyfig-svg/1'), $p->media($shot['media'])['renderer']);
+            self::assertContains($p->media($shot['media'])['renderer'], isset($shot['sourceMedia']) ? [$shot['sourceMedia']['renderer']] : (isset($shot['motionLayers']) ? ['svg-layer-motion/1'] : ['stickyfig-svg/1', 'storyboard-blocking/1']));
         }
     }
 
@@ -67,7 +67,8 @@ final class TimelineMapperTest extends TestCase
         $seen = [];
         foreach ($p->edit()['tracks'] as $track) foreach ($track['clips'] as $clip) {
             $id = $clip['extras']['metadata']['rph']['element'] ?? null;
-            if ($track['name'] !== 'Dialogue' || !in_array($id, ['03g', '04c', '05g', '06b', '04g', '05c', '05e', '06f', '06recognition', '02drive-a', '02drive-b', '06d', '06e'], true)) continue;
+            if ($track['name'] !== 'Dialogue' || !in_array($id, ['03g', '04c', '05g', '06b', '04g', '05c', '05e', '06f', '06recognition', '02drive-a', '02drive-b', '06d', '06e', '09b', '09d', '09f'], true)) continue;
+            if (($lines[$id]['direction']['audioStatus'] ?? null)==='stale') continue;
             $media = $p->media($clip['asset']);
             self::assertSame($lines[$id]['text'], $media['speech']['text']);
             self::assertGreaterThanOrEqual((int) ceil($media['durationSeconds'] * $p->edit()['fps']), $clip['durationFrames']);
@@ -81,10 +82,31 @@ final class TimelineMapperTest extends TestCase
         foreach ($oldDialogue['children'] as $clip) if (isset($clip['metadata']['rph']['element'])) $old[$clip['metadata']['rph']['element']] = $clip['source_range'];
         foreach ($p->edit()['tracks'] as $track) if ($track['name'] === 'Dialogue') foreach ($track['clips'] as $clip) {
             $id = $clip['extras']['metadata']['rph']['element'];
-            if (in_array($id, $seen, true)) continue;
+            if (in_array($id, $seen, true) || ($lines[$id]['direction']['audioStatus'] ?? null)==='stale') continue;
             self::assertSame($old[$id]['duration']['value'], $clip['durationFrames']);
             self::assertSame($old[$id]['start_time']['value'], $clip['sourceStartFrame']);
         }
+    }
+
+    public function testStaleDialogueIsMutedButKeepsItsCaptionIdentity(): void
+    {
+        $root=sys_get_temp_dir().'/rph-draft-'.bin2hex(random_bytes(6));
+        mkdir($root.'/catalogs',0777,true);
+        copy(dirname(__DIR__,2).'/data/catalogs/xmas.sqlite',$root.'/catalogs/xmas.sqlite');
+        try {
+            $db=new \Survos\Omc\Storage\WorkingCatalog($root.'/catalogs/xmas.sqlite');
+            $row=array_values(array_filter($db->rows('element'),fn($e)=>$e['local_id']==='09d'))[0];
+            $db->revise($db->revision(),'test',fn($d)=>$d->updateElement($row['id'],'You already decided I was leaving.',(object)['audioStatus'=>'stale']));
+            $p=new Production('xmas',$root);
+            $map=(new TimelineMapper())->map($p);
+            $clips=[];foreach($map['tracks']['children'] as $track)if($track['name']==='Dialogue')$clips=$track['children'];
+            $clip=array_values(array_filter($clips,fn($c)=>($c['metadata']['rph']['element']??null)==='09d'))[0];
+            self::assertSame(0,$clip['metadata']['survos']['gain']);
+            $model=(new \App\Omc\PreviewModel($root))->get('xmas');
+            $cue=array_values(array_filter($model['dialogueCues'],fn($c)=>$c['id']==='09d'))[0];
+            self::assertSame('You already decided I was leaving.',$cue['text']);
+            self::assertSame('9.2',$cue['reference']);
+        } finally { unset($db); foreach(glob($root.'/catalogs/*') as $file)unlink($file); rmdir($root.'/catalogs');rmdir($root); }
     }
 
     public function testCarMotionAndImpactShareTheSameFrame(): void

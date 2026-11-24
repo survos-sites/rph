@@ -12,6 +12,8 @@ final readonly class TimelineMapper
         $edit = $production->edit();
         $fps = $edit['fps'];
         if (!is_int($fps) || $fps <= 0) throw new \InvalidArgumentException('Edit fps must be a positive integer.');
+        $lines=[];
+        foreach($production->all('NarrativeScene') as $scene) foreach(Production::extension($scene,'rph.scene/1')['elements'] ?? [] as $line) $lines[$line['id']]=$line;
         $tracks = [];
         foreach ($edit['tracks'] as $track) {
             $children = []; $cursor = 0;
@@ -25,6 +27,8 @@ final readonly class TimelineMapper
                 if (!isset($media['url'],$media['kind']) || !in_array($media['kind'],['image','audio','video'],true)) throw new \InvalidArgumentException('Edit references an asset without playable media.');
                 $metadata = $clip['extras']['metadata'] ?? [];
                 $metadata['survos'] = $clip['presentation'];
+                $line=$lines[$metadata['rph']['element'] ?? ''] ?? null;
+                if (($line['direction']['audioStatus'] ?? $line['delivery']['audioStatus'] ?? null)==='stale' && $media['kind']==='audio') $metadata['survos']['gain']=0;
                 $metadata['omc'] = $clip['asset'];
                 $children[] = ['OTIO_SCHEMA'=>'Clip.2','name'=>$clip['name'],'source_range'=>$this->range($clip['sourceStartFrame'],$clip['durationFrames'],$fps),'effects'=>[],'markers'=>[],'metadata'=>$metadata,
                     'media_references'=>['DEFAULT_MEDIA'=>['OTIO_SCHEMA'=>'ExternalReference.1','target_url'=>$media['url'],'metadata'=>['omc'=>$clip['asset'],'survos'=>['kind'=>$media['kind']]],'available_range'=>null]],'active_media_reference_key'=>'DEFAULT_MEDIA'];

@@ -7,11 +7,26 @@ const color = (v, fallback) => /^#[0-9a-f]{6}$/i.test(v || '') ? v : fallback;
 const skin = color(a.skin, '#c69572'), hair = color(a.hair, '#34314a');
 const pose = input.pose || 'standing-right', back = pose === 'back';
 const left = pose.endsWith('left'), close = pose.startsWith('closeup');
+// Two compatible rear poses share a hand anchor at the touching edge of their boxes.
+if (pose.startsWith('holding-hands-back-')) {
+  const leftPerson=pose.endsWith('left');
+  const coat=color(a.clothing,'#bd956f');
+  const reach=leftPerson?'M64 88 L82 111 L100 132':'M36 88 L18 111 L0 132';
+  const outer=leftPerson?'M36 88 L27 139':'M64 88 L73 139';
+  const bun=a.hairStyle==='loose-updo'?`<circle cx="35" cy="21" r="12" fill="${hair}"/>`:'';
+  process.stdout.write(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 220"><title>Holding hands, rear view</title>${bun}<ellipse cx="50" cy="47" rx="24" ry="29" fill="${hair}"/><path d="M36 82 L64 82 L70 151 L30 151Z" fill="${coat}" stroke="#283447" stroke-width="2"/><path d="M40 151 L36 207 M60 151 L66 207" stroke="#3b4551" stroke-width="8" stroke-linecap="round"/><path d="${reach} ${outer}" fill="none" stroke="${coat}" stroke-width="8" stroke-linecap="round"/><circle cx="${leftPerson?100:0}" cy="132" r="4" fill="${skin}"/></svg>`);
+  process.exit(0);
+}
 const moods = {amused:'happy', concerned:'sad', skeptical:'thinking', angry:'angry', surprised:'surprised', neutral:'neutral'};
 const mood = moods[input.expression] || 'neutral';
 EXPRESSIONS.rph = {...EXPRESSIONS[mood], ...(input.speaking ? {mouth:'o'} : {})};
 class Role extends StickFigure {
   _renderBody(x,y,hip) {
+    if(a.uniform==='mechanic') {
+      const name=String(a.namePatch||'').replace(/[^a-zA-Z -]/g,'').slice(0,14);
+      const patch=back?'':`<g ${left?`transform="translate(${2*x} 0) scale(-1 1)"`:''}><rect x="${x-11}" y="${y+12}" width="22" height="9" rx="2" fill="#eee8d5"/><text x="${x}" y="${y+18.4}" font-family="Arial" font-size="5.7" font-weight="bold" fill="#21303a" text-anchor="middle">${name}</text></g>`;
+      return [`<g data-part="mechanic-shirt"><path d="M${x-14} ${y}L${x+14} ${y}L${x+12} ${hip}L${x-12} ${hip}Z" fill="${this.stroke}" stroke="#283447" stroke-width="1.2"/><path d="M${x} ${y}V${hip}" stroke="#c0d0d8"/>${patch}</g>`];
+    }
     return [`<g data-part="torso"><path d="M${x-7} ${y+2}L${x+5} ${y-1}L${x+8} ${hip}L${x-5} ${hip}Z" fill="${this.stroke}" stroke="#283447" stroke-width="1.2"/><path d="M${x+3} ${y+3}L${x+6} ${hip-2}" stroke="#ffffff" stroke-opacity=".65"/></g>`];
   }
 
@@ -32,8 +47,18 @@ class Role extends StickFigure {
     return [bun,scarf,face,cheeks,`<g data-part="expression">${eyes}<path d="M${x+2} ${y+1}l1 4-2 1" fill="none" stroke="#bb8b75" stroke-width=".8"/>${mouth}</g>`,fringe];
   }
 
+  _naturalHead(x,y,r) {
+    const worried=['sad','angry','thinking'].includes(mood);
+    const mouth=input.speaking||mood==='surprised'?'<ellipse cx="2" cy="12" rx="2.5" ry="3" fill="#865950"/>':`<path d="M-5 11Q2 ${worried?10:16} 9 10" fill="none" stroke="#85564c" stroke-width="1.4" stroke-linecap="round"/>`;
+    const curls=`<path d="M-19 -5Q-24 -23 -10 -24Q-5 -32 5 -26Q18 -30 21 -17L18 -3L14 -14Q4 -10 -2 -16Q-10 -9 -15 -15Z" fill="${hair}"/><g fill="${hair}"><ellipse cx="-11" cy="-22" rx="9" ry="6"/><ellipse cx="3" cy="-25" rx="8" ry="6"/><ellipse cx="14" cy="-20" rx="7" ry="6"/></g>`;
+    if(back)return [`<g transform="translate(${x} ${y}) scale(${r/20})"><ellipse cy="-1" rx="19" ry="23" fill="${hair}"/>${curls}</g>`];
+    const eyes=[-7,8].map(ex=>`<ellipse cx="${ex}" cy="-2" rx="3.3" ry="3.6" fill="#fff8ef"/><ellipse cx="${ex+.6}" cy="-1.5" rx="1.8" ry="2.5" fill="#6d694c"/><circle cx="${ex+1}" cy="-2.5" r=".7" fill="#fff"/><path d="M${ex-4} -8Q${ex} ${worried?-9:-11} ${ex+4} ${worried?-11:-8}" fill="none" stroke="${hair}" stroke-width="1.8" stroke-linecap="round"/>`).join('');
+    return [`<g transform="translate(${x} ${y}) scale(${r/20})"><path d="M-18 -14Q0 -27 18 -14L19 7Q16 20 7 23H-5Q-17 18 -19 4Z" fill="${skin}" stroke="#574943" stroke-width="1.4"/><path d="M-16 9Q-10 23 5 21Q16 18 17 8Q9 15 2 16Q-7 16 -16 9Z" fill="${hair}" opacity=".17"/>${eyes}<path d="M3 -1L5 5Q3 7 1 5" fill="none" stroke="#9f715b" stroke-width="1.2" stroke-linecap="round"/>${mouth}${curls}</g>`];
+  }
+
   _renderHead(x,y) {
     const r = this.headRadius, ry = a.faceShape === 'oval' ? r*1.22 : r;
+    if (a.faceStyle === 'natural') return this._naturalHead(x,y,r);
     if (a.faceStyle === 'soft') return this._softHead(x, y, r);
     const shape = `<ellipse data-part="head" cx="${x}" cy="${y}" rx="${r}" ry="${ry}" fill="${back?hair:skin}" stroke="#283447" stroke-width="2"/>`;
     if(back) return [shape];

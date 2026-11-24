@@ -14,16 +14,18 @@ final readonly class StoryboardRenderer
     public function render(Production $production, array $shot): string
     {
         $plan = $shot['storyboard'];
-        $body = $this->template('backdrops', $plan['backdrop'], [0,0,1280,720]);
+        $body = ($plan['transparent'] ?? false) ? '' : $this->template('backdrops', $plan['backdrop'], [0,0,1280,720]);
         foreach ($plan['layers'] as $layer) {
             $box = $layer['box'];
             if (isset($layer['character'])) {
                 $character = $production->get($layer['character']);
                 $appearance = Production::extension($character, 'rph.character/1')['appearance'] ?? [];
+                $appearance = array_replace($appearance, $layer['appearance'] ?? []);
                 $svg = $this->poses->render($appearance, $layer['pose'], $layer['expression'] ?? 'neutral');
                 $body .= $this->place($svg, $box);
             } else {
-                $body .= $this->template('props', $layer['prop'], $box);
+                $placed = $this->template('props', $layer['prop'], $box);
+                $body .= ($layer['mirror'] ?? false) ? '<g transform="translate('.(2*$box[0]+$box[2]).' 0) scale(-1 1)">'.$placed.'</g>' : $placed;
             }
         }
         $description = htmlspecialchars($plan['description'], ENT_XML1 | ENT_QUOTES, 'UTF-8');

@@ -9,7 +9,16 @@ use Symfony\Component\Process\Process;
 final readonly class ProductionEditor
 {
  public function __construct(#[Autowire('%kernel.project_dir%')] private string $root,private LineVoice $voice,private VoiceStudioSynthesizer $synth) {}
- public function reviseLine(string $work,string $lineId,string $text,string $delivery,int $expectedRevision): array {
+ public function reviseSceneHeading(string $work,string $sceneId,string $heading,int $expectedRevision): array {
+  $p=new Production($work,$this->root.'/data');
+  $matches=array_values(array_filter($p->all('NarrativeScene'),fn($e)=>$e['identifier'][0]['identifierValue']===$sceneId));
+  if(count($matches)!==1 || trim($heading)==='')throw new \InvalidArgumentException('Unknown scene or empty heading.');
+  $db=new WorkingCatalog($this->root.'/data/catalogs/'.$work.'.sqlite');
+  $ids=array_values(array_filter($db->rows('identifier'),fn($i)=>$i['value']===$sceneId && $i['scope']===$matches[0]['identifier'][0]['identifierScope']));
+  $r=$db->revise($expectedRevision,'rph:mcp',fn($d)=>$d->renameEntity($ids[0]['entity_id'],$heading));
+  return ['revision'=>$r,'sceneId'=>$sceneId,'heading'=>$heading];
+ }
+ public function reviseLine(string $work,string $lineId,string $text,string $delivery,int $expectedRevision,bool $generateAudio=true): array {
   if(!preg_match('/^[a-z0-9-]+$/D',$work)||!is_file($this->root.'/data/catalogs/'.$work.'.sqlite'))throw new \InvalidArgumentException('Unknown work.');
   if(trim($text)==='')throw new \InvalidArgumentException('Text cannot be empty.');
   $db=new WorkingCatalog($this->root.'/data/catalogs/'.$work.'.sqlite');
@@ -25,6 +34,17 @@ final readonly class ProductionEditor
   $p=new Production($work,$this->root.'/data');$speaker=null;
   foreach($db->rows('identifier') as $id)if($id['entity_id']===$line['speaker_id']){$speaker=$p->get(['identifier'=>[['identifierScope'=>$id['scope'],'identifierValue'=>$id['value']]]]);break;}
   if(!$speaker)throw new \RuntimeException('Speaker missing.');
+  if (!$generateAudio) {
+   $direction->audioStatus='stale';
+   $direction->timingStatus='draft';
+   $direction->estimatedFrames=(int)ceil(max(1.5,str_word_count($text)/2.5+0.5)*$p->edit()['fps']);
+   $r=$db->revise($expectedRevision,'rph:mcp',function($d)use($line,$text,$direction,$clip,$speaker){
+    $d->updateElement($line['id'],$text,$direction);
+    $d->updateClipName($clip['id'],$speaker['name'].': '.$text);
+   });
+   return ['work'=>$work,'revision'=>$r,'lineId'=>$lineId,'text'=>$text,'audioStatus'=>'stale','audioRegenerated'=>false,'estimatedFrames'=>$direction->estimatedFrames,'currentFrames'=>$clip['duration_frames'],'timingPolicy'=>'Draft estimate only; edit timing preserved until explicit retiming.'];
+  }
+  unset($direction->audioStatus,$direction->timingStatus,$direction->estimatedFrames);
   $profile=Production::extension($speaker,'rph.character/1')['voice'];$spec=$this->voice->spec($profile,$delivery);
   $url='/media/voices/'.$spec->key($text).'.mp3';$target=$this->root.'/public'.$url;
   if(!is_file($target))$this->synth->synthesize($text,$spec,$target);
