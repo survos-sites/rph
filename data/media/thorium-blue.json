@@ -1,0 +1,11 @@
+{
+    "images": {
+        "scene-reference": {
+            "file": "/media/generated/thorium-blue/scene-reference.png",
+            "source": "imagegen",
+            "credit": "AI-generated scene reference based on THORIUM BLUE by David Bragg (CC BY 4.0)",
+            "sha256": "22d2858258a4b10979625c7ececcbc268214189fc16ce5f1e0bcb95a1ac5e327"
+        }
+    },
+    "audio": {}
+}

@@ -1,5 +1,5 @@
 Title: Christmas, Facing West
-Credit: Teaser trailer, revised draft
+Credit: Teaser trailer, plain-dialogue draft
 Draft date: 2026-11-23
 Format: Teaser, about 71 seconds
 Vocabulary: rph-annotations/1
@@ -12,9 +12,9 @@ Vocabulary: rph-annotations/1
 
 [[def mus:tannenbaum kind=diegetic "Community brass band playing O Tannenbaum. Record fresh; the composition is public domain."]]
 
-[[def char:JESS look="woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles, slim charcoal wool city coat" "Late 20s. Bright, articulate, slightly breathless. Speeds up when defensive, slows down when honest. Audition A, armored: speed as armor. Audition B, frayed: warm, tired, funny through exhaustion."]]
+[[def char:JESS look="pretty woman of 28, wavy dark brown hair in a loose messy updo, warm brown eyes, camel wool coat, chunky red knit scarf" "Late 20s. Bright, articulate, slightly breathless. Speeds up when defensive, slows down when honest. Audition A, armored: speed as armor. Audition B, frayed: warm, tired, funny through exhaustion."]]
 
-[[def char:BEN look="man about 30, short sandy-brown hair, a few days of stubble, kind tired eyes, navy work jacket over a flannel shirt" "About 30. Low-to-mid voice, unhurried, dry. Never pushes a joke; wins by waiting. Audition A, amused: enjoying her. Audition B, guarded: the humor covers a sting."]]
+[[def char:BEN look="handsome man about 30, tousled curly brown hair, stubble, grease-smudged blue denim work shirt with rolled sleeves, shop rag" "About 30. Low-to-mid voice, unhurried, dry. Never pushes a joke; wins by waiting. Audition A, amused: enjoying her. Audition B, guarded: the humor covers a sting."]]
 
 [[def char:LINDA look="woman of 58, short silver-blonde bob, reading glasses on a beaded chain, red cardigan" "Late 50s. Central Pennsylvania warmth, light regional cadence, no caricature. Unflappable, cheerful; delivers bombshells like a weather report and never sounds hurt."]]
 
@@ -33,36 +33,36 @@ Black.[[id=01a shot=BLACK dur=2]]
 Jess at her desk at nine at night. Her window faces a brick airshaft lit by someone else's fluorescent light.[[id=01b shot=MS(JESS) move=push-in/slow img=office-airshaft amb=office-hvac:in,keyboard:in]]
 
 JESS
-(fast, still typing, apologizing in advance)
-Mom, I can't do Christmas this year. If I leave, a guy named Tyler gets my accounts.[[id=01c to=LINDA emo=worried:2,guilty:1 act=placate pace=fast]]
+(still typing, apologizing)
+Mom, I'm sorry. I can't come home for Christmas this year. Work is crazy.[[id=01c to=LINDA emo=worried:2,guilty:1 act=placate]]
 
 LINDA
 (on the phone; warm, unhurried, a woman who has never once raised her voice to win)
-No, I know. I know.[[id=01d to=JESS fx=phone emo=affectionate:2 act=disarm pace=slow ovl=0.2]]
+Oh, honey. I understand.[[id=01d to=JESS fx=phone emo=affectionate:2 act=disarm pace=slow]]
 
 A siren rises on Linda's end of the line only.[[id=01e sfx=vehicle.siren-approach fx=phone]]
 
 JESS
 (typing stops)
-...What is that?[[id=01f emo=worried:1 act=probe pace=medium pre=0.6 amb=keyboard:out]]
+Mom? Is that a siren?[[id=01f emo=worried:2 act=probe pre=0.6 amb=keyboard:out]]
 
 LINDA
 (pleasant, as if it's the mailman)
-Hm? Oh. That's for me.[[id=01g fx=phone emo=content:2 act=reassure pace=medium]]
+Don't worry, sweetheart. I think it's for me.[[id=01g fx=phone emo=content:2 act=reassure]]
 
 The siren bends down in pitch and becomes a single piano note.[[id=01h bridge=sfx:vehicle.siren-approach>mus:theme mus=theme:in amb=office-hvac:out]]
 
 INT./EXT. JESS'S TESLA, ROUTE 422 - NIGHT #02#[[at=0:09 dur=4]]
 
-= She bargains with work: two days.
+= She promises work: two days.
 
 Sleet in the headlights. Jess grips the wheel, still in her office clothes.[[id=02a shot=MCU(JESS) move=push-in/slow img=tesla-422-sleet mus=theme:play]]
 
-Her boss is a faint murmur over the car speaker.[[id=02b sfx=voice.murmur-indistinct fx=car-speaker]]
+Her boss is a faint, impatient murmur over the car speaker.[[id=02b sfx=voice.murmur-indistinct fx=car-speaker]]
 
 JESS
-(clipped, negotiating, hiding the panic)
-Two days. Tyler doesn't touch anything.[[id=02c emo=worried:2,confident:1 act=bargain pace=fast]]
+(hiding the panic)
+My mom's in the hospital. Two days. I'll be back in two days, I promise.[[id=02c emo=worried:2,confident:1 act=bargain]]
 
 INT./EXT. HOSTETTER HOUSE, ANNVILLE - NIGHT #03#[[at=0:13 dur=7]]
 
@@ -78,15 +78,15 @@ The storm door bangs open and lets snow in. Linda in her recliner, walking boot 
 
 LINDA
 (lighting up, completely casual)
-You came![[id=03e to=JESS emo=happy:3 act=welcome pace=medium]]
+You came home![[id=03e to=JESS emo=happy:3 act=welcome pace=medium]]
 
 JESS
 (breathless, four hours of driving in her voice)
-You were in an ambulance.[[id=03f emo=afraid:2,angry:1 act=scold stress=ambulance pace=fast]]
+Mom, you were in an ambulance![[id=03f emo=afraid:2,angry:1 act=scold stress=ambulance]]
 
 LINDA
 (reasonable)
-They offered.[[id=03g emo=content:2 act=dismiss pace=medium]]
+It's a sprained ankle, sweetheart. They offered.[[id=03g emo=content:2 act=dismiss]]
 
 Jess kneels by the boot. Linda's hand goes to her cheek.[[id=03h shot=TWO(JESS,LINDA,size=MCU) move=hold img=hand-on-cheek mus=theme:play]]
 
@@ -102,7 +102,7 @@ The Tesla backs out with its soft low-speed hum. Jess has a coffee in one hand, 
 
 JESS
 (on the phone, brisk, already gone in her head)
-Mom's fine. I'm back by noon--[[id=04c emo=confident:2 act=assure pace=fast end=cutoff]]
+She's fine. I'll be back in the office by noon--[[id=04c emo=confident:2 act=assure end=cutoff]]
 
 Crunch. The bumper meets the yellow plow blade of an old pickup. A little ice falls.[[id=04d shot=INSERT(bumper) img=bumper-plow sfx=impact.bumper-plow,debris.ice-fall ovl=0.1]]
 
@@ -112,11 +112,11 @@ Dot, seventies, blaze-orange cap, coffee in hand by the door. Unmoved.[[id=04f s
 
 DOT
 (appraising, not angry)
-...Well. That's a Tesla.[[id=04g emo=interested:1 act=appraise pace=slow pre=0.3]]
+Well, honey. You're not going anywhere today.[[id=04g emo=interested:1 act=appraise pace=slow pre=0.3]]
 
 INT. KREIDER'S AUTO - DAY #05#[[at=0:26 dur=8]]
 
-= The mechanic is her high-school crush, and he remembers her better than she admits.
+= The mechanic is her high-school crush. He remembers her; she pretends not to remember him.
 
 An impact wrench rips. One bay, the space heater glowing orange. Ben's boots stick out from under the Tesla.[[id=05a shot=LS img=garage-boots sfx=tool.impact-wrench mus=store-carol:out,comedy:in amb=shop-radio:in,space-heater:in]]
 
@@ -124,27 +124,23 @@ The creeper rolls out.[[id=05b sfx=foley.creeper-roll]]
 
 BEN
 (sees her; tiny pause)
-...Hey, Jess.[[id=05c to=JESS emo=interested:2,amused:1 act=greet pace=slow pre=0.4]]
+Jess Hostetter. Hi.[[id=05c to=JESS emo=interested:2,amused:1 act=greet pace=slow pre=0.4]]
 
 Jess, in a city coat too thin for the weather.[[id=05d shot=MCU(JESS) img=jess-thin-coat]]
 
 JESS
-(too bright, too quick)
-Hi! Hi. Sorry--do I...?[[id=05e emo=embarrassed:3 act=deflect pace=x-fast end=trail]]
+(too bright)
+Hi! I'm sorry. Do I know you?[[id=05e emo=embarrassed:3 act=deflect]]
 
 Ben wipes his hands. Not smiling yet.[[id=05f shot=MCU(BEN) img=ben-wiping-hands]]
 
 BEN
-(lets it sit a full beat; flat)
-Chemistry. You sat behind me.[[id=05g emo=amused:1 act=needle pace=medium pre=1.0]]
+(lets it sit a beat; dry)
+Ben Kreider. We had chemistry together. You sat right behind me.[[id=05g emo=amused:1 act=needle pre=0.8]]
 
 JESS
 (caught)
-...Ben.[[id=05h emo=embarrassed:2 act=concede pace=slow]]
-
-BEN
-(amused, only slightly wounded)
-You said "do I" like it was a real question.[[id=05i emo=amused:2,hurt:1 act=tease pace=medium]]
+Ben. Of course. Hi.[[id=05h emo=embarrassed:2 act=concede pace=slow]]
 
 INT. KREIDER'S AUTO / JESS'S CHILDHOOD BEDROOM - DAY #06#[[at=0:34 dur=5]]
 
@@ -153,21 +149,21 @@ INT. KREIDER'S AUTO / JESS'S CHILDHOOD BEDROOM - DAY #06#[[at=0:34 dur=5]]
 Ben holds a cracked bumper sensor up to the light.[[id=06a shot=INSERT(sensor) img=cracked-sensor]]
 
 BEN
-Sensor's cracked. Comes from Tesla.[[id=06b emo=content:1 act=inform pace=medium]]
+The sensor's cracked. The part has to come from the factory.[[id=06b emo=content:1 act=inform]]
 
 JESS
 (urgent)
-When?[[id=06c emo=worried:3 act=demand pace=fast]]
+How long?[[id=06c emo=worried:3 act=demand]]
 
 BEN
-Twenty-sixth.[[id=06d emo=content:1 act=inform pace=medium]]
+It gets here the twenty-sixth.[[id=06d emo=content:1 act=inform]]
 
 JESS
-Of December?[[id=06e emo=incredulous:3 act=plead stress=December pace=fast]]
+Of December? That's after Christmas![[id=06e emo=incredulous:3 act=plead stress=December]]
 
 BEN
 (beat, gently)
-...That's the next one.[[id=06f emo=amused:1,affectionate:1 act=console pace=slow pre=0.8]]
+Looks like you're home for Christmas.[[id=06f emo=amused:1,affectionate:1 act=console pace=slow pre=0.8]]
 
 The roller bag back on Jess's childhood bed, under a high-school pennant.[[id=06g shot=MS img=bag-on-bed mus=comedy:resolve]]
 
@@ -179,17 +175,17 @@ The same garage doorway three times. Her coat changes, the snow deepens, one cof
 
 JESS
 (leaning in the doorway, by rote)
-Part?[[id=07b emo=bored:2 act=check pace=medium]]
+Any news on the part?[[id=07b emo=bored:2 act=check]]
 
 BEN
 (doesn't look up)
-Nope.[[id=07c emo=content:1 act=dismiss pace=fast]]
+Not yet.[[id=07c emo=content:1 act=dismiss]]
 
 # Stage 3: She chooses to stay
 
 EXT. FARM LANE, EDGE OF TOWN - SUNSET #08#[[at=0:42 dur=9]]
 
-= The turn. Tyler calls; she lets it go.
+= The turn. Work calls; she lets it go.
 
 Ben's truck faces a wide field and the low sun. Two silhouettes, a bench seat of space between them.[[id=08a shot=TWO(BEN,JESS,size=MS) move=push-in/slow img=truck-rear-window mus=theme:drop amb=truck-idle:in,heater-fan:in,crows-distant:in note="Music drops to one held string note."]]
 
@@ -197,39 +193,39 @@ Jess in profile, lit orange. A few flakes drift.[[id=08b shot=CU(JESS) move=push
 
 JESS
 (quiet but voiced, not whispered; half a laugh at herself)
-In the city, the sun goes behind a building at four. It doesn't set. It's just... over.[[id=08c to=BEN emo=wistful:2,amused:1 act=confide vol=soft pace=slow]]
+In the city, I never get to see the sun go down. It's just gone by four o'clock.[[id=08c to=BEN emo=wistful:2,amused:1 act=confide vol=soft pace=slow]]
 
-Her phone lights up on the dash: TYLER. It buzzes. Her hand turns it face-down. The buzzing stops.[[id=08d shot=INSERT(phone) img=phone-tyler sfx=phone.vibrate-dash pre=1.5]]
+Her phone lights up on the dash: WORK. It buzzes. Her hand turns it face-down. The buzzing stops.[[id=08d shot=INSERT(phone) img=phone-tyler sfx=phone.vibrate-dash pre=1.5]]
 
 Ben turns the key. The engine stops. Wind, and the engine block ticking.[[id=08e sfx=vehicle.engine-off,vehicle.engine-tick amb=truck-idle:out,heater-fan:out,wind-field:in]]
 
 BEN
 (low, simple)
-Give it a minute.[[id=08f to=JESS emo=affectionate:2 act=invite vol=soft pace=slow pre=1.0]]
+Stay a while. It's worth the wait.[[id=08f to=JESS emo=affectionate:2 act=invite vol=soft pace=slow pre=1.0]]
 
 The theme returns, four notes. The fifth is held back.[[id=08g mus=theme:play]]
 
 INT. KREIDER'S AUTO, OFFICE - DAY #09#[[at=0:51 dur=5]]
 
-= The overheard remark: about the car, accidentally true about her.
+= The overheard remark. It hurts because she was starting to stay.
 
 Jess in the office doorway with a cardboard tray of two coffees.[[id=09a shot=MS(JESS) img=jess-coffee-tray mus=theme:stop amb=space-heater:in]]
 
 BEN (O.S.)
 (to his uncle, matter-of-fact)
-Looks great. Costs a fortune. Gets cold, shuts down.[[id=09b to=UNCLE emo=content:1 act=assess pace=medium]]
+Don't get attached. She'll be gone the minute that car is fixed.[[id=09b to=UNCLE emo=content:1 act=assess]]
 
 The cardboard tray crunches in her hand.[[id=09c shot=CU(JESS) img=jess-tray-crunch sfx=foley.cardboard-crunch]]
 
 JESS
 (very level)
-Shuts down.[[id=09d emo=hurt:2,angry:2 act=challenge pace=slow vol=medium]]
+Is that really what you think of me?[[id=09d emo=hurt:2,angry:2 act=challenge pace=slow]]
 
 Ben turns around, caught.[[id=09e shot=MCU(BEN) img=ben-caught]]
 
 BEN
 (half a second too late)
-...The car.[[id=09f emo=embarrassed:2 act=backpedal pace=slow pre=0.5]]
+Jess, wait. That's not what I meant.[[id=09f emo=embarrassed:2 act=backpedal pre=0.5]]
 
 EXT. ANNVILLE TOWN SQUARE - NIGHT #10#[[at=0:56 dur=4]]
 
@@ -243,7 +239,7 @@ Ben's truck parked at the edge of the square, empty.[[id=10c shot=LS img=truck-e
 
 PA VOLUNTEER
 (mic too close, civic cheer)
-Okay, folks--couples up front![[id=10d fx=pa emo=excited:2 act=rally pace=fast vol=loud]]
+Okay, folks! Let's light this tree![[id=10d fx=pa emo=excited:2 act=rally vol=loud]]
 
 CROWD
 Five! Four! Three! Two--[[id=10e emo=excited:3 vol=x-loud pace=medium end=cutoff mus=tannenbaum:out,theme:swell]]
@@ -262,15 +258,15 @@ A field at the last edge of sunset, the horizon low in the frame.[[id=12a shot=E
 
 INT. HOSTETTER HOUSE - NIGHT #13#[[at=1:04 dur=4]]
 
-= The button: the car has been ready for days, and she knows.
+= The button: the car has been ready for days, and she still hasn't left.
 
 Linda in the recliner, the landline cord around one finger, eating pie straight from the tin.[[id=13a shot=MS(LINDA) img=linda-pie-phone]]
 
 LINDA
 (low, conspiratorial, delighted)
-Dot, the car's been ready since Tuesday.[[id=13b to=DOT emo=mischievous:2 act=confide vol=soft pace=medium]]
+Dot, her car's been ready since Tuesday.[[id=13b to=DOT emo=mischievous:2 act=confide vol=soft pace=medium]]
 (beat)
-Oh, she knows.[[id=13c to=DOT emo=mischievous:3,pleased:2 act=reveal vol=soft pace=slow pre=0.6]]
+And she still hasn't left.[[id=13c to=DOT emo=mischievous:3,pleased:2 act=reveal vol=soft pace=slow pre=0.6]]
 
 .LIGHTS #14#[[at=1:08 dur=3.5]]
 
@@ -285,23 +281,21 @@ Black blooms into warm, out-of-focus tree lights. We never see the tree or the c
 /*
 PRODUCTION NOTES
 
+Dialogue rule: every line must make sense heard once, out of context, over a phone speaker. Complete sentences, no inside references, no trailing half-lines. Medium pace unless a line says otherwise.
+
 Picture rule: never show a face in close-up while that character is speaking. Play the line over the listener, an object or a silhouette.
+
+Look: warm, saturated Christmas-movie stills. Jess always in the camel coat and red scarf; Ben in the denim work shirt with a shop rag.
 
 On-screen text: three cards only. ANNVILLE, PENNSYLVANIA; the title; COMING THIS CHRISTMAS.
 
-Dialogue is about 145 words, near the ceiling. If auditions run long, cut in this order:
-1. Linda's "They offered." Keep the hand on the cheek.
-2. "If I leave" from the cold open.
-3. Ben's "Sensor's cracked." Go straight to "When?"
-
 Payoffs to protect when cutting:
-- "Christmas" in the first line pays off in the final card.
-- Tyler appears three times: the cost of leaving, the deal, the call she turns face-down.
+- "I can't come home for Christmas" in the first line pays off in "Looks like you're home for Christmas" and the final card.
 - "Two days" and "back by noon" set up "Of December?"
-- "Part?" "Nope." sets up "Oh, she knows."
+- "Any news on the part?" "Not yet." sets up "her car's been ready since Tuesday."
 - The fifth note of the theme is held back until the last card.
 
-Withheld: whether she stays in Annville; the reconciliation; what the fight is really about; any kiss or touch between Jess and Ben; their history beyond one line.
+Withheld: whether she stays in Annville; the reconciliation; any kiss or touch between Jess and Ben.
 
-Voices: record every line on its own track. Build pauses and overlaps in the edit, not in the voice model. Record 6 to 10 takes of each line.
+Voices: record every line on its own track. Build pauses and overlaps in the edit, not in the voice model.
 */

@@ -1,0 +1,14 @@
+{
+    "EVIE": {
+        "engine": "say",
+        "voice": "Samantha",
+        "description": "A ten-year-old girl, frightened by the closet.",
+        "color": "#527c96"
+    },
+    "MOMMY": {
+        "engine": "say",
+        "voice": "Karen",
+        "description": "Evie’s mother, wearing glasses.",
+        "color": "#b35a41"
+    }
+}

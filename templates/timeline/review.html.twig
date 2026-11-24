@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ script.title }} · Script review{% endblock %}
+{% block body %}
+<main class="container-xl py-4 rph-review" data-controller="script-review" data-script-review-url-value="{{ dataUrl|default(path('script_review_json', script.rp)) }}" data-action="keydown@window->script-review#keyboard otio:frame->script-review#frame">
+    <header class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-3"><div><a href="{{ path('script_index') }}">← Script library</a><h1 class="mt-2 mb-1">{{ script.title }}</h1><p class="text-secondary mb-0">{{ animatic|default(false) ? 'SVG shot list · OTS, inserts, expressions and subtitles' : 'Whole-script review · photos, action captions and dialogue' }}</p></div><a class="btn" href="{{ path('script_show', script.rp) }}">Read script</a></header>
+    {% if script.id == 'last-train' %}<p class="small text-secondary">AI-authored demonstration script created for RPH; not an imported screenplay.</p>{% endif %}
+    <div class="row g-3">
+        <div class="col-lg-8">
+            <div class="card overflow-hidden"><div data-script-review-target="stage" class="rph-review-stage"></div>
+                <div class="card-body"><div class="d-flex flex-wrap gap-2 align-items-center mb-3">
+                    <button class="btn" data-action="script-review#previous" data-script-review-target="previous" disabled>← Previous</button>
+                    <button class="btn" data-action="script-review#next" data-script-review-target="next" disabled>Next →</button>
+                    <label class="ms-auto">Scene <select class="form-select" aria-label="Jump to scene" data-script-review-target="scene" data-action="change->script-review#sceneChanged" disabled></select></label>
+                </div>
+                <label class="w-100">Whole-script position <input class="form-range" type="range" min="0" max="1" value="0" step="1" data-script-review-target="seek" data-action="input->script-review#seek" disabled></label>
+                <div class="small text-secondary" data-script-review-target="status" role="status">Loading script timeline…</div>
+                </div>
+            </div>
+            <div class="card mt-3"><div class="card-body"><h2 class="h3">Captions track</h2><div class="rph-caption-track" data-script-review-target="track" aria-label="Script captions timeline"></div><p class="small text-secondary mt-2 mb-0">Blue: dialogue · gold: action · grey: heading or direction. Click any block to jump. ← / → move across scene boundaries.</p></div></div>
+            <div class="card mt-3"><div class="card-body"><h2 class="h3">{{ animatic|default(false) ? 'Shots' : 'Scenes' }}</h2><div class="rph-scene-strip" data-script-review-target="photos"></div></div></div>
+            <details class="card mt-3"><summary class="card-header">Storyboard description & image prompt</summary><div class="card-body"><h3 class="h4">Placeholder description</h3><p data-script-review-target="description"></p><h3 class="h4">Prompt for a future scene image</h3><p class="rph-image-prompt" data-script-review-target="prompt"></p><a data-script-review-target="spec" href="#">Download storyboard description JSON</a></div></details>
+            <p class="small text-secondary mt-3">{{ animatic|default(false) ? 'StickyFig poses over a reusable backdrop. Generated local voices set the timing for subtitles and speaking expressions. Lines awaiting audio use an estimated reading pace.' : 'Existing scene photos are used where available. Other scenes use labeled blocking sketches. Timing follows cached speech or an estimated reading pace.' }}</p>
+            {% if preview %}<p class="small text-secondary">Script by <a href="{{ preview.sourceUrl }}">{{ preview.author }}</a> · <a href="{{ preview.licenseUrl }}">{{ preview.license }}</a>. Scene artwork is illustrative.</p>{% endif %}
+            <p class="small"><a href="{{ otioUrl|default(path('script_review_otio', script.rp)) }}">Download OTIO</a> · <a href="{{ dataUrl|default(path('script_review_json', script.rp)) }}">Playback data</a> · <a href="{{ path('script_timeline', script.rp) }}">Authored production timeline</a></p>
+        </div>
+        <aside class="col-lg-4"><div class="card"><div class="card-header"><h2 class="card-title">Script navigator</h2></div><div class="rph-review-transcript" data-script-review-target="transcript"></div></div></aside>
+    </div>
+</main>
+{% endblock %}

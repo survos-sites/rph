@@ -1,0 +1,11 @@
+{
+    "images": {
+        "scene-reference": {
+            "file": "/media/generated/no-overnight-parking/scene-reference.png",
+            "source": "imagegen",
+            "credit": "AI-generated scene reference based on NO OVERNIGHT PARKING by David Bragg (CC BY 4.0)",
+            "sha256": "984eefc0377181ffa0ba2e6a223945a6f4e30eb984ff433614c4757280886c1b"
+        }
+    },
+    "audio": {}
+}

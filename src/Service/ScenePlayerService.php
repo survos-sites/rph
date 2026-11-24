@@ -77,6 +77,7 @@ final class ScenePlayerService
             'author' => $script->author, 'source' => $script->source], 'scene' => ['id' => $scene->id,
             'sequence' => $scene->sequence, 'heading' => $scene->heading], 'scenes' => $scenes,
             'cast' => array_values($cast), 'elements' => $elements,
+            'preview' => $this->preview($script->id),
             'production' => $this->production->payload($script)];
     }
 
@@ -101,6 +102,17 @@ final class ScenePlayerService
         if (!is_file($path)) { return []; }
         $manifest = json_decode((string) file_get_contents($path), true, flags: JSON_THROW_ON_ERROR);
         return $manifest['elements'] ?? [];
+    }
+
+    /** Prepared scene reference and its source credit, if the artwork is available. */
+    public function preview(string $scriptId): ?array
+    {
+        $safeId = preg_replace('/[^a-z0-9-]/', '', $scriptId);
+        $path = $this->projectDir.'/data/shots/'.$safeId.'.json';
+        if (!is_file($path)) { return null; }
+        $preview = json_decode((string) file_get_contents($path), true, flags: JSON_THROW_ON_ERROR)['preview'] ?? null;
+        if (!$preview || !is_file($this->projectDir.'/public'.$preview['image'])) { return null; }
+        return $preview;
     }
 
 }

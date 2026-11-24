@@ -24,7 +24,11 @@ final readonly class VoiceResolver
     /** @param array<string, mixed> $profile */
     public function resolve(array $profile): VoiceSpec
     {
-        if (VoiceSpec::VOICESTUDIO === $this->engine) {
+        $engine = (string) ($profile['engine'] ?? $this->engine);
+        if (!in_array($engine, [VoiceSpec::SAY, VoiceSpec::VOICESTUDIO], true)) {
+            throw new \InvalidArgumentException('Unknown voice engine: '.$engine);
+        }
+        if (VoiceSpec::VOICESTUDIO === $engine) {
             $settings = is_array($profile['voicestudio'] ?? null) ? $profile['voicestudio'] : [];
 
             return new VoiceSpec(
@@ -32,6 +36,7 @@ final readonly class VoiceResolver
                 (string) ($settings['voice'] ?? 'default'),
                 (string) ($settings['model'] ?? $this->voiceStudioModel),
                 isset($settings['instructions']) ? (string) $settings['instructions'] : null,
+                numSteps: isset($settings['numSteps']) ? (int) $settings['numSteps'] : null,
             );
         }
 

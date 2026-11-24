@@ -30,7 +30,7 @@ export default class extends Controller {
             this.shotTarget.hidden = !hasImage;
             if (hasImage) { this.shotTarget.src = item.shot; this.shotTarget.alt = `${item.speaker || 'Stage'} · ${item.text}`; }
             if (this.hasPlaceholderTarget) this.placeholderTarget.hidden = hasImage;
-            if (this.hasFramingTarget) this.framingTarget.textContent = item.type === 'dialogue' ? 'Over the shoulder · speaker' : 'Wide / action reference';
+            if (this.hasFramingTarget) this.framingTarget.textContent = this.payloadValue.preview && hasImage ? 'Illustrated scene reference' : (item.type === 'dialogue' ? 'Over the shoulder · speaker' : 'Wide / action reference');
         }
         this.speakerTarget.textContent = item.speaker || (item.type === 'parenthetical' ? 'Delivery' : 'Stage direction');
         this.textTarget.textContent = item.text;

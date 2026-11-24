@@ -10,6 +10,15 @@ use PHPUnit\Framework\TestCase;
 
 final class VoiceResolverTest extends TestCase
 {
+    public function testCastCanPinLocalSpeechWithoutChangingOtherScripts(): void
+    {
+        $resolver = new VoiceResolver('voicestudio', 'kittentts');
+        $local = $resolver->resolve(['engine' => 'say', 'voice' => 'Karen']);
+        self::assertSame(VoiceSpec::SAY, $local->engine);
+        self::assertSame('Karen', $local->voice);
+        self::assertSame(VoiceSpec::VOICESTUDIO, $resolver->resolve([])->engine);
+    }
+
     public function testSayKeyMatchesTheOriginalCacheKey(): void
     {
         $voice = (new VoiceResolver('say', 'kittentts'))->resolve(['voice' => 'Ralph', 'voicestudio' => ['voice' => 'expr-voice-2-m']]);

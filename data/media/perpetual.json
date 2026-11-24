@@ -1,0 +1,11 @@
+{
+    "images": {
+        "scene-reference": {
+            "file": "/media/generated/perpetual/scene-reference.png",
+            "source": "imagegen",
+            "credit": "AI-generated scene reference based on PERPETUAL by David Bragg (CC BY 4.0)",
+            "sha256": "df430df10efc9831ee8200555c1fb0faff6fe859ce26680f3139316c0b4356e1"
+        }
+    },
+    "audio": {}
+}

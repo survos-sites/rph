@@ -8,6 +8,7 @@ use App\Entity\Character;
 use App\Entity\Scene;
 use App\Entity\Script;
 use App\Repository\ScriptRepository;
+use App\Service\ScenePlayerService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
@@ -15,9 +16,12 @@ use Symfony\Component\Routing\Attribute\Route;
 final class ScriptController extends AbstractController
 {
     #[Route('/', name: 'script_index')]
-    public function index(ScriptRepository $scripts): Response
+    public function index(ScriptRepository $scripts, ScenePlayerService $player): Response
     {
-        return $this->render('script/index.html.twig', ['scripts' => $scripts->findForIndex()]);
+        $items = $scripts->findForIndex();
+        $previews = [];
+        foreach ($items as $script) { $previews[$script->id] = $player->preview($script->id); }
+        return $this->render('script/index.html.twig', ['scripts' => $items, 'previews' => $previews]);
     }
 
     #[Route('/scripts/{scriptId}', name: 'script_show', requirements: ['scriptId' => '[^/.]+'])]
@@ -29,11 +33,11 @@ final class ScriptController extends AbstractController
     }
 
     #[Route('/scripts/{scriptId}/overview', name: 'script_overview')]
-    public function overview(Script $script, ScriptRepository $scripts): Response
+    public function overview(Script $script, ScriptRepository $scripts, ScenePlayerService $player): Response
     {
         $script = $scripts->findWithElements($script->id) ?? throw $this->createNotFoundException();
 
-        return $this->render('script/overview.html.twig', ['script' => $script]);
+        return $this->render('script/overview.html.twig', ['script' => $script, 'preview' => $player->preview($script->id)]);
     }
 
     #[Route('/scripts/{scriptId}/scenes', name: 'script_scenes')]

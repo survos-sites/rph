@@ -19,6 +19,7 @@ final readonly class VoiceSpec
         public ?float $speed = null,
         /** Pins sampling so a designed voice stays the same voice from line to line. */
         public ?int $seed = null,
+        public ?int $numSteps = null,
     ) {}
 
     public function key(string $text): string
@@ -29,6 +30,7 @@ final readonly class VoiceSpec
             // Speed and seed join the key only when set, so lines cached before they existed keep their keys.
             default => hash('sha256', json_encode([
                 'voicestudio/v1', $this->model, $this->voice, $this->instructions, $text,
+                ...(null === $this->numSteps ? [] : [['numSteps' => $this->numSteps]]),
                 ...(null === $this->speed && null === $this->seed ? [] : [['speed' => $this->speed, 'seed' => $this->seed]]),
             ], JSON_THROW_ON_ERROR)),
         };

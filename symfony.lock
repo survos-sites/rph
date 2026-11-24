@@ -38,6 +38,18 @@
     "knplabs/knp-menu-bundle": {
         "version": "v3.7.0"
     },
+    "nyholm/psr7": {
+        "version": "1.8",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "4a8c0345442dcca1d8a2c65633dcf0285dd5a5a2"
+        },
+        "files": [
+            "config/packages/nyholm_psr7.yaml"
+        ]
+    },
     "phpunit/phpunit": {
         "version": "13.3",
         "recipe": {
@@ -59,6 +71,9 @@
     "survos/deployment-bundle": {
         "version": "2.26.9"
     },
+    "survos/fetch-bundle": {
+        "version": "2.41.9"
+    },
     "survos/field-bundle": {
         "version": "2.24.37"
     },
@@ -71,8 +86,23 @@
     "survos/otio-bundle": {
         "version": "2.42.15"
     },
+    "survos/search-bundle": {
+        "version": "2.45.39"
+    },
+    "survos/supervisor-bundle": {
+        "version": "2.45.57"
+    },
     "survos/tabler-bundle": {
         "version": "dev-main"
+    },
+    "survos/tui-extras-bundle": {
+        "version": "2.45.57"
+    },
+    "survos/workflow-extras-bundle": {
+        "version": "2.45.42"
+    },
+    "survos/workflow-messenger-bundle": {
+        "version": "2.45.56"
     },
     "symfony/asset-mapper": {
         "version": "8.1",
@@ -156,6 +186,18 @@
             "src/Controller/.gitignore",
             "src/Kernel.php",
             ".editorconfig"
+        ]
+    },
+    "symfony/lock": {
+        "version": "8.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "8.2",
+            "ref": "472277fb1c5d4445a9f474a9c2dd66c9b59a3167"
+        },
+        "files": [
+            "config/packages/lock.yaml"
         ]
     },
     "symfony/mailer": {
@@ -253,6 +295,18 @@
             "config/routes/security.yaml"
         ]
     },
+    "symfony/security-csrf": {
+        "version": "8.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "8.2",
+            "ref": "939ab3e95126f02c1d7a481abf72c40f810ea1cb"
+        },
+        "files": [
+            "config/packages/csrf_protection.yaml"
+        ]
+    },
     "symfony/stimulus-bundle": {
         "version": "3.4",
         "recipe": {
@@ -305,6 +359,32 @@
         "files": [
             "assets/icons/symfony.svg",
             "config/packages/ux_icons.yaml"
+        ]
+    },
+    "symfony/ux-live-component": {
+        "version": "3.8",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "3.7",
+            "ref": "de0ac47efb64ed383e2cd1ac5ed24fe60d12b481"
+        },
+        "files": [
+            "config/routes/ux_live_component.yaml"
+        ]
+    },
+    "symfony/ux-router": {
+        "version": "3.8",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "3.7",
+            "ref": "b03a5915775fa7baeaa12de244481fe5bf6218ac"
+        },
+        "files": [
+            "assets/router.js",
+            "config/packages/ux_router.yaml",
+            "var/routes/index.js"
         ]
     },
     "symfony/ux-turbo": {
@@ -367,6 +447,15 @@
         "files": [
             "config/packages/messenger.yaml"
         ]
+    },
+    "symfony/workflow": {
+        "version": "8.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "8.2",
+            "ref": "46c0212530169ce92351ce7d58336db04f77c2a6"
+        }
     },
     "twig/extra-bundle": {
         "version": "v3.24.0"

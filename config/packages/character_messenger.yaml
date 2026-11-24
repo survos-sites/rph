@@ -1,0 +1,6 @@
+# Dedicated pose-build queue; installed workflow-messenger requires explicit routing.
+framework:
+    messenger:
+        transports:
+            character.build:
+                dsn: 'doctrine://default?queue_name=character.build'

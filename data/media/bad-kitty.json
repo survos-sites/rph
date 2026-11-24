@@ -1,0 +1,11 @@
+{
+    "images": {
+        "scene-reference": {
+            "file": "/media/generated/bad-kitty/scene-reference.png",
+            "source": "imagegen",
+            "credit": "AI-generated scene reference based on BAD KITTY by David Bragg (CC BY 4.0)",
+            "sha256": "09cedecc27fd1e4ea304ccd906a08e3a1a3e6e83e1321d2c2a08ebd8238a5d56"
+        }
+    },
+    "audio": {}
+}

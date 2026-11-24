@@ -1,0 +1,20 @@
+{
+    "BILL": {
+        "engine": "say",
+        "voice": "Daniel",
+        "description": "Lora’s friend, early twenties.",
+        "color": "#527c96"
+    },
+    "FERNANDO": {
+        "engine": "say",
+        "voice": "Ralph",
+        "description": "An imposing stranger.",
+        "color": "#b35a41"
+    },
+    "LORA": {
+        "engine": "say",
+        "voice": "Samantha",
+        "description": "University student, early twenties.",
+        "color": "#8a6d3b"
+    }
+}

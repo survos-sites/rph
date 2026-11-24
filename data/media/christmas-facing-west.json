@@ -20,40 +20,33 @@
       "source": "heygen",
       "role": "character reference portrait"
     },
-    "jess-thin-coat": {
-      "file": "/media/generated/christmas-facing-west/img/ref-jess.png",
-      "credit": "Generated \u00b7 HeyGen nano-banana-2",
-      "source": "heygen",
-      "role": "character reference portrait",
-      "standIn": "Character portrait ref-jess until this shot is generated"
+    "office-airshaft": {
+      "file": "/media/generated/christmas-facing-west/img/office-airshaft.png",
+      "credit": "Generated \u00b7 Z-Image-Turbo (local)",
+      "source": "mflux",
+      "model": "z-image-turbo",
+      "seed": 3001
     },
-    "ben-wiping-hands": {
-      "file": "/media/generated/christmas-facing-west/img/ref-ben.png",
-      "credit": "Generated \u00b7 HeyGen nano-banana-2",
-      "source": "heygen",
-      "role": "character reference portrait",
-      "standIn": "Character portrait ref-ben until this shot is generated"
+    "tesla-422-sleet": {
+      "file": "/media/generated/christmas-facing-west/img/tesla-422-sleet.png",
+      "credit": "Generated \u00b7 Z-Image-Turbo (local)",
+      "source": "mflux",
+      "model": "z-image-turbo",
+      "seed": 3002
     },
-    "ben-caught": {
-      "file": "/media/generated/christmas-facing-west/img/ref-ben.png",
-      "credit": "Generated \u00b7 HeyGen nano-banana-2",
-      "source": "heygen",
-      "role": "character reference portrait",
-      "standIn": "Character portrait ref-ben until this shot is generated"
+    "annville-main-street": {
+      "file": "/media/generated/christmas-facing-west/img/annville-main-street.png",
+      "credit": "Generated \u00b7 Z-Image-Turbo (local)",
+      "source": "mflux",
+      "model": "z-image-turbo",
+      "seed": 3003
     },
-    "linda-recliner": {
-      "file": "/media/generated/christmas-facing-west/img/ref-linda.png",
-      "credit": "Generated \u00b7 HeyGen nano-banana-2",
-      "source": "heygen",
-      "role": "character reference portrait",
-      "standIn": "Character portrait ref-linda until this shot is generated"
-    },
-    "linda-pie-phone": {
-      "file": "/media/generated/christmas-facing-west/img/ref-linda.png",
-      "credit": "Generated \u00b7 HeyGen nano-banana-2",
-      "source": "heygen",
-      "role": "character reference portrait",
-      "standIn": "Character portrait ref-linda until this shot is generated"
+    "yard-snowman-ladder": {
+      "file": "/media/generated/christmas-facing-west/img/yard-snowman-ladder.png",
+      "credit": "Generated \u00b7 Z-Image-Turbo (local)",
+      "source": "mflux",
+      "model": "z-image-turbo",
+      "seed": 3004
     }
   },
   "audio": {
@@ -65,7 +58,7 @@
       "name": "Emergency vehicle siren",
       "credit": "HeyGen audio catalog",
       "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
-      "maxSeconds": 4.0
+      "maxSeconds": 4
     },
     "sfx:door.store-chime": {
       "file": "/media/generated/christmas-facing-west/catalog/sfx-door.store-chime.mp3",
@@ -102,7 +95,7 @@
       "name": "Crowd cheer",
       "credit": "HeyGen audio catalog",
       "license": "HeyGen catalog terms; not cleared for use outside HeyGen",
-      "maxSeconds": 3.0
+      "maxSeconds": 3
     },
     "amb:keyboard": {
       "file": "/media/generated/christmas-facing-west/catalog/amb-keyboard.mp3",

@@ -1,0 +1,11 @@
+{
+    "images": {
+        "scene-reference": {
+            "file": "/media/generated/tabula-rasa/scene-reference.png",
+            "source": "imagegen",
+            "credit": "AI-generated scene reference based on TABULA RASA by David Bragg (CC BY 4.0)",
+            "sha256": "7fdd469ccf4cefa9fb57ae43e932485540b2501b871430d45a7ab816e7334037"
+        }
+    },
+    "audio": {}
+}

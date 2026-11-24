@@ -22,6 +22,10 @@ final class Scene implements RouteParametersInterface
 {
     use RouteIdentityTrait;
 
+    #[ORM\Column(length: 32, options: ['default' => 'draft'])]
+    #[Field(sortable: true)]
+    public string $marking = 'draft';
+
     /** @var Collection<int, ScriptElement> */
     #[ORM\OneToMany(targetEntity: ScriptElement::class, mappedBy: 'scene', cascade: ['persist'], orphanRemoval: true)]
     #[ORM\OrderBy(['sequence' => 'ASC'])]

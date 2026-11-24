@@ -1,0 +1,22 @@
+{
+  "Mara Vale": {
+    "engine": "voicestudio",
+    "voicestudio": {
+      "model": "omnivoice",
+      "voice": "default",
+      "design": "female, middle-aged, moderate pitch, american accent",
+      "seed": 4201,
+      "numSteps": 32
+    }
+  },
+  "Eli Rowan": {
+    "engine": "voicestudio",
+    "voicestudio": {
+      "model": "omnivoice",
+      "voice": "default",
+      "design": "male, middle-aged, low pitch, american accent",
+      "seed": 5602,
+      "numSteps": 32
+    }
+  }
+}

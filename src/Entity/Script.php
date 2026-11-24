@@ -23,6 +23,10 @@ final class Script implements RouteParametersInterface
 {
     use RouteIdentityTrait;
 
+    #[ORM\Column(length: 32, options: ['default' => 'imported'])]
+    #[Field(sortable: true)]
+    public string $marking = 'imported';
+
     /** Source project graph, storyboard and layout data; absent for Fountain imports. */
     #[ORM\Column(type: 'json', nullable: true)]
     public ?array $projectMetadata = null;

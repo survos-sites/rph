@@ -1,0 +1,14 @@
+{
+    "FRAN": {
+        "engine": "say",
+        "voice": "Samantha",
+        "description": "A developer working late at an empty office.",
+        "color": "#527c96"
+    },
+    "PAST FRAN": {
+        "engine": "say",
+        "voice": "Samantha",
+        "description": "Fran from a few moments earlier; the same voice.",
+        "color": "#b35a41"
+    }
+}

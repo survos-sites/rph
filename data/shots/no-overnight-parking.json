@@ -1,0 +1,25 @@
+{
+    "schemaVersion": "rph.shots/1",
+    "source": "AI-generated scene reference based on the CC BY 4.0 screenplay by David Bragg. Original dialogue and directions retained.",
+    "preview": {
+        "sceneId": "no-overnight-parking-1",
+        "image": "/media/generated/no-overnight-parking/scene-reference.png",
+        "description": "Leon seeks shelter in an automated underground parking garage.",
+        "author": "David Bragg",
+        "sourceUrl": "https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "elements": {
+        "no-overnight-parking-1:1": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:2": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:3": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:4": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:5": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:6": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:7": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:8": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:9": "/media/generated/no-overnight-parking/scene-reference.png",
+        "no-overnight-parking-1:10": "/media/generated/no-overnight-parking/scene-reference.png"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "WASH": {
+        "engine": "say",
+        "voice": "Daniel",
+        "description": "Felix “Wash” Wachup, a writer in his forties.",
+        "color": "#527c96"
+    }
+}

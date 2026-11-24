@@ -85,7 +85,7 @@ final class GeneratePicturesCommand
                 '--width', (string) ($spec['width'] ?? 1280),
                 '--height', (string) ($spec['height'] ?? 720),
                 '--output', $path,
-            ], timeout: 3600);
+            ], timeout: null);
             $process->run();
             if (!$process->isSuccessful() || !is_file($path)) {
                 $io->writeln('<error>failed</error>');

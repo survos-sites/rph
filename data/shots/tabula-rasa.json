@@ -1,0 +1,28 @@
+{
+    "schemaVersion": "rph.shots/1",
+    "source": "AI-generated scene reference based on the CC BY 4.0 screenplay by David Bragg. Original dialogue and directions retained.",
+    "preview": {
+        "sceneId": "tabula-rasa-8",
+        "image": "/media/generated/tabula-rasa/scene-reference.png",
+        "description": "Wash studies the manuscript pages covering his apartment walls.",
+        "author": "David Bragg",
+        "sourceUrl": "https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "elements": {
+        "tabula-rasa-8:1": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:2": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:3": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:4": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:5": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:6": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:7": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:8": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:9": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:10": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:11": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:12": "/media/generated/tabula-rasa/scene-reference.png",
+        "tabula-rasa-8:13": "/media/generated/tabula-rasa/scene-reference.png"
+    }
+}

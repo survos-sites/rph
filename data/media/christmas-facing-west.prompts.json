@@ -1,20 +1,20 @@
 {
-  "about": "Image prompts for the trailer's pictures, one per img: slug in data/originals/christmas-facing-west.fountain. Character looks repeat the def char:* look= notes word for word so faces stay as close as text-only generation allows. No brand names or readable signage.",
+  "about": "Image prompts for the trailer's pictures, one per img: slug in the Fountain script. Look follows the Codex teaser boards (Documents/Codex/2026-11-23/cre/outputs/christmas-facing-west/assets): warm, saturated Hallmark Christmas-movie stills; the leads keep one signature outfit so they read as the same people. No brand names or readable signage.",
   "model": "z-image-turbo",
   "width": 1280,
   "height": 720,
   "steps": 8,
-  "style": "cinematic film still from a warm Christmas romance movie, 35mm, natural skin texture, shallow depth of field, soft film grain, no text, no logos",
+  "style": "Hallmark Christmas movie still, warm golden glow, rich saturated reds and greens, twinkling string lights, cozy and romantic, soft cinematic lighting, beautiful, photorealistic, no text, no logos",
   "characters": {
-    "JESS": "a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles, slim charcoal wool city coat",
-    "BEN": "a man about 30, short sandy-brown hair, a few days of stubble, kind tired eyes, navy work jacket over a flannel shirt",
-    "LINDA": "a woman of 58, short silver-blonde bob, reading glasses on a beaded chain, red cardigan",
-    "DOT": "a woman in her mid-seventies, weathered face, blaze-orange hunting cap, brown canvas barn coat"
+    "JESS": "a pretty woman of 28 with wavy dark brown hair in a loose messy updo, warm brown eyes, a camel wool coat and a chunky red knit scarf",
+    "BEN": "a handsome man about 30 with tousled curly brown hair and stubble, a grease-smudged blue denim work shirt with rolled sleeves, a shop rag in hand",
+    "LINDA": "a warm woman of 58 with a short silver-blonde bob, reading glasses on a beaded chain, a red cardigan",
+    "DOT": "a woman in her mid-seventies with a weathered face, a blaze-orange hunting cap and a brown canvas barn coat"
   },
   "shots": {
     "office-airshaft": {
       "seed": 3001,
-      "prompt": "medium shot of {JESS} without the coat, white blouse, alone at a desk in a dim city office at nine at night, laptop glow on her face, the window behind her faces a brick airshaft lit by cold fluorescent light from another building, cool blue-green tones"
+      "prompt": "medium shot of {JESS}, coat over her chair, alone at a desk in a dim city office at nine at night, laptop glow on her face, the window behind her faces a brick airshaft lit by cold fluorescent light from another building, cool blue-green tones"
     },
     "tesla-422-sleet": {
       "seed": 3002,
@@ -78,11 +78,11 @@
     },
     "doorway-2": {
       "seed": 3016,
-      "prompt": "medium shot of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles, in a borrowed puffy red parka instead of the city coat, standing in the doorway of a small auto repair garage holding one paper coffee cup, deeper snow on the ground outside, morning light, resigned"
+      "prompt": "medium shot of {JESS}, standing in the doorway of a small auto repair garage holding one paper coffee cup, deeper snow on the ground outside, morning light, resigned"
     },
     "doorway-3": {
       "seed": 3016,
-      "prompt": "medium shot of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles, in a borrowed puffy red parka and a knit hat, standing in the doorway of a small auto repair garage holding two paper coffee cups, snow piled high outside, morning light, a small hopeful smile"
+      "prompt": "medium shot of {JESS} and a knit hat, standing in the doorway of a small auto repair garage holding two paper coffee cups, snow piled high outside, morning light, a small hopeful smile"
     },
     "truck-rear-window": {
       "seed": 3019,
@@ -98,11 +98,11 @@
     },
     "jess-coffee-tray": {
       "seed": 3022,
-      "prompt": "medium shot of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles in a borrowed puffy red parka standing in the doorway of a cramped garage office, holding a cardboard tray with two coffees, hopeful, a space heater glowing orange in the corner"
+      "prompt": "medium shot of {JESS} standing in the doorway of a cramped garage office, holding a cardboard tray with two coffees, hopeful, a space heater glowing orange in the corner"
     },
     "jess-tray-crunch": {
       "seed": 3023,
-      "prompt": "close-up of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles in a red parka, her face falling as she overhears something, her hand crushing the cardboard coffee tray, hurt, warm office light"
+      "prompt": "close-up of {JESS}, her face falling as she overhears something, her hand crushing the cardboard coffee tray, hurt, warm office light"
     },
     "ben-caught": {
       "seed": 3024,
@@ -114,7 +114,7 @@
     },
     "jess-in-crowd": {
       "seed": 3026,
-      "prompt": "medium shot of a woman of 28, shoulder-length dark brown hair, expressive brown eyes, light freckles in a red parka and knit hat standing alone in a crowd at a nighttime town square tree lighting, scanning the faces around her, breath steam, out of focus string lights behind her, hopeful and anxious"
+      "prompt": "medium shot of {JESS} standing alone in a crowd at a nighttime town square tree lighting, scanning the faces around her, breath steam, out of focus string lights behind her, hopeful and anxious"
     },
     "truck-empty": {
       "seed": 3027,

@@ -31,3 +31,6 @@
 
 # Generated pictures, sound and processed voices; data/media/<script>.json records them.
 /public/media/generated/
+
+# Local proof-of-concept scratch files.
+/work/

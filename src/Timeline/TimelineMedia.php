@@ -49,6 +49,8 @@ final class TimelineMedia
         $manifest = $this->manifest($scriptId);
 
         return match ($type) {
+            'asset' => $this->reviewAsset($name),
+            'caption' => ['id' => $id, 'url' => '/media/caption-layer.svg', 'kind' => 'image'],
             'voice' => ['id' => $id, 'url' => $this->voiceUrl($scriptId, $name), 'kind' => 'audio', 'credit' => 'Generated voice · VoiceStudio'],
             'img' => isset($manifest['images'][$name]) && is_file($this->publicPath($manifest['images'][$name]['file']))
                 ? ['id' => $id, 'url' => $manifest['images'][$name]['file'], 'kind' => 'image', 'credit' => (string) ($manifest['images'][$name]['credit'] ?? '')]
@@ -58,6 +60,14 @@ final class TimelineMedia
                 : throw new \DomainException('No audio for '.$id),
             default => throw new \DomainException('Unknown media '.$id),
         };
+    }
+
+    private function reviewAsset(string $url): array
+    {
+        if (!str_starts_with($url, '/media/') || str_contains($url, '..') || !is_file($this->publicPath($url))) {
+            throw new \DomainException('Missing local review asset: '.$url);
+        }
+        return ['id' => 'asset:'.$url, 'url' => $url, 'kind' => str_ends_with($url, '.mp3') ? 'audio' : 'image'];
     }
 
     public function hasAudio(string $scriptId, string $id): bool
@@ -124,26 +134,60 @@ final class TimelineMedia
         return $url;
     }
 
-    /** A dark storyboard frame naming the shot, until a picture is generated or chosen. */
+    /**
+     * A dark storyboard frame until a picture is generated or chosen: the shot's name and, from
+     * data/media/<script>.prompts.json, what the picture will show. Named by a hash of that text, so
+     * editing a prompt redraws its card.
+     */
     private function placeholderUrl(string $scriptId, string $slug): string
     {
-        $url = sprintf('/media/generated/%s/placeholder/%s.png', $scriptId, $slug);
+        $title = strtoupper(str_replace('-', ' ', $slug));
+        $description = 'black' === $slug ? '' : $this->plannedPicture($scriptId, $slug);
+        $url = sprintf('/media/generated/%s/placeholder/%s-%s.png', $scriptId, $slug, substr(md5($title.$description), 0, 8));
         $path = $this->publicPath($url);
         if (is_file($path)) {
             return $url;
         }
         (new Filesystem())->mkdir(\dirname($path));
         $image = imagecreatetruecolor(1280, 720);
-        imagefill($image, 0, 0, imagecolorallocate($image, 'black' === $slug ? 0 : 24, 'black' === $slug ? 0 : 26, 'black' === $slug ? 0 : 32));
+        imagefill($image, 0, 0, imagecolorallocate($image, 'black' === $slug ? 0 : 22, 'black' === $slug ? 0 : 26, 'black' === $slug ? 0 : 34));
         if ('black' !== $slug) {
-            $grey = imagecolorallocate($image, 150, 150, 160);
-            $text = strtoupper(str_replace('-', ' ', $slug));
-            imagestring($image, 5, (int) (640 - strlen($text) * 4.5), 340, $text, $grey);
-            imagestring($image, 3, 590, 372, 'PLACEHOLDER', imagecolorallocate($image, 90, 90, 100));
+            $regular = '/System/Library/Fonts/Supplemental/Arial.ttf';
+            $bold = '/System/Library/Fonts/Supplemental/Arial Bold.ttf';
+            $gold = imagecolorallocate($image, 255, 218, 152);
+            $cream = imagecolorallocate($image, 236, 230, 214);
+            $dim = imagecolorallocate($image, 120, 124, 138);
+            if (is_file($regular) && is_file($bold)) {
+                $lines = '' === $description ? [] : explode("\n", wordwrap($description, 62, "\n", true));
+                $y = (int) (360 - (count($lines) * 40 + 70) / 2);
+                imagettftext($image, 15, 0, 120, $y, $dim, $bold, 'PICTURE TO COME · '.$title);
+                $y += 62;
+                foreach ($lines as $line) {
+                    imagettftext($image, 26, 0, 120, $y, $cream, $regular, $line);
+                    $y += 40;
+                }
+                imagefilledrectangle($image, 120, $y - 12, 180, $y - 9, $gold);
+            } else {
+                imagestring($image, 5, 120, 340, $title, $cream);
+            }
         }
         imagepng($image, $path);
 
         return $url;
+    }
+
+    /** The shot's prompt in plain words: characters by name, no style suffix. */
+    private function plannedPicture(string $scriptId, string $slug): string
+    {
+        $path = \dirname($this->manifestPath($scriptId)).'/'.$scriptId.'.prompts.json';
+        if (!is_file($path)) {
+            return '';
+        }
+        $prompts = json_decode((string) file_get_contents($path), true, flags: \JSON_THROW_ON_ERROR);
+        $prompt = (string) ($prompts['shots'][$slug]['prompt'] ?? '');
+        $prompt = preg_replace_callback('/\{([A-Z-]+)\}/', static fn (array $m): string => ucfirst(strtolower($m[1])), $prompt);
+
+        return ucfirst($prompt).'.';
     }
 
     public function manifestPath(string $scriptId): string

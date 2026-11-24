@@ -1,0 +1,8 @@
+{
+    "LEON": {
+        "engine": "say",
+        "voice": "Daniel",
+        "description": "A man in his forties living in his van.",
+        "color": "#527c96"
+    }
+}

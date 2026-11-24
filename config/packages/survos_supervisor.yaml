@@ -1,0 +1,8 @@
+survos_supervisor:
+    processes:
+        character.build:
+            cmd: ['php', 'bin/console', 'messenger:consume', 'character.build', '--time-limit=3600', '--memory-limit=256M']
+            restart: always
+        line_voice.generate:
+            cmd: ['php', 'bin/console', 'messenger:consume', 'line_voice.generate', '--time-limit=3600', '--memory-limit=256M']
+            restart: always

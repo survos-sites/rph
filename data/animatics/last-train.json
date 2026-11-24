@@ -1,0 +1,305 @@
+{
+  "id": "last-train",
+  "title": "The Last Train",
+  "license": "CC0-1.0",
+  "location": "A small railway platform at blue hour. Warm station windows, a wooden bench, quiet rails and violet hills. No other people.",
+  "characters": [
+    {
+      "id": "mara",
+      "name": "Mara Vale",
+      "color": "#df8756",
+      "skin": "#b87552",
+      "hair": "#34314a",
+      "description": "Mara Vale, 42, station supervisor. Broad face, warm brown skin, short charcoal curls, rust-orange work jacket over a cream shirt, dark trousers. Practical and quietly funny. Upright stance, one hand near her jacket pocket. Simplified graphic-novel figure with bold dark outlines, flat color, readable eyebrows and mouth; consistent proportions across expressions.",
+      "personality": "Practical, observant, dry humor. She hides worry by checking small details.",
+      "avatar": "RPH-mara.png",
+      "imagePrompt": "Mid-thigh-up portrait of Mara Vale, a 42-year-old station supervisor with a broad face and warm brown skin. She has short charcoal curls and wears a rust-orange work jacket over a cream shirt and dark trousers. Her expression is expressive and changes per scene, showing concern, skepticism, amusement, or anger as needed. She stands upright with one hand near her jacket pocket. The style is bold dark outlines and flat color in a hand-inked European graphic novel style with painterly gouache colors.",
+      "illustratedDescription": "Mid-thigh-up portrait of Mara Vale, a 42-year-old station supervisor with a broad face and warm brown skin. She has short charcoal curls and wears a rust-orange work jacket over a cream shirt and dark trousers. Her expression is expressive and changes per scene, showing concern, skepticism, amusement, or anger as needed. She stands upright with one hand near her jacket pocket. The style is bold dark outlines and flat color in a hand-inked European graphic novel style with painterly gouache colors.",
+      "castingBrief": {
+        "name": "Mara Vale",
+        "age": 42,
+        "occupation": "Station supervisor",
+        "dramaticRole": "Practical caretaker whose concern becomes an offer of shelter and company.",
+        "performanceNotes": "Dry humor; notices details; concern beneath professional composure.",
+        "appearance": "Mara Vale, 42, station supervisor. Broad face, warm brown skin, short charcoal curls, rust-orange work jacket over a cream shirt, dark trousers. Practical and quietly funny. Upright stance, one hand near her jacket pocket.",
+        "personality": "Practical, observant, dry humor. She hides worry by checking small details.",
+        "continuity": "Keep age, face, hairstyle, clothing colors and accessories consistent across scenes.",
+        "gender": "female"
+      },
+      "assetPrompts": {
+        "placeholder": "Mara Vale, 42, station supervisor. Broad face, warm brown skin, short charcoal curls, rust-orange work jacket over a cream shirt, dark trousers. Practical and quietly funny. Upright stance, one hand near her jacket pocket. Simplified graphic-novel figure with bold dark outlines, flat color, readable eyebrows and mouth; consistent proportions across expressions.",
+        "illustrated": "Mid-thigh-up portrait of Mara Vale, a 42-year-old station supervisor with a broad face and warm brown skin. She has short charcoal curls and wears a rust-orange work jacket over a cream shirt and dark trousers. Her expression is expressive and changes per scene, showing concern, skepticism, amusement, or anger as needed. She stands upright with one hand near her jacket pocket. The style is bold dark outlines and flat color in a hand-inked European graphic novel style with painterly gouache colors."
+      }
+    },
+    {
+      "id": "eli",
+      "name": "Eli Rowan",
+      "color": "#54aeb5",
+      "skin": "#edc5a1",
+      "hair": "#77788a",
+      "description": "Eli Rowan, 56, traveling piano tuner. Long face, light tan skin, swept silver hair, round dark glasses, teal coat over a navy shirt, dark trousers. Carries a small brown instrument case. Slightly stooped but animated hands. Simplified graphic-novel figure with bold dark outlines, flat color, readable eyebrows and mouth; consistent proportions across expressions.",
+      "personality": "Patient, gently eccentric, candid. He notices sounds before objects.",
+      "avatar": "RPH-eli.png",
+      "imagePrompt": "Mid-thigh-up portrait of Eli Rowan, a 56-year-old traveling piano tuner with a long face and light tan skin. He has swept silver hair, round dark glasses, and wears a teal coat over a navy shirt and dark trousers. He holds a small brown instrument case beside the bench. His expressions range from neutral to amused or concerned, showing his gentle eccentricity and candid nature. Drawn in a hand-inked European graphic novel style with painterly gouache colors and bold dark outlines.",
+      "illustratedDescription": "Mid-thigh-up portrait of Eli Rowan, a 56-year-old traveling piano tuner with a long face and light tan skin. He has swept silver hair, round dark glasses, and wears a teal coat over a navy shirt and dark trousers. He holds a small brown instrument case beside the bench. His expressions range from neutral to amused or concerned, showing his gentle eccentricity and candid nature. Drawn in a hand-inked European graphic novel style with painterly gouache colors and bold dark outlines.",
+      "castingBrief": {
+        "name": "Eli Rowan",
+        "age": 56,
+        "occupation": "Traveling piano tuner",
+        "dramaticRole": "A visitor honoring his sister through a small promise; his humor gradually reveals grief.",
+        "performanceNotes": "Gentle wit; measured delivery; a moment of stillness when mentioning his sister.",
+        "appearance": "Eli Rowan, 56, traveling piano tuner. Long face, light tan skin, swept silver hair, round dark glasses, teal coat over a navy shirt, dark trousers. Carries a small brown instrument case. Slightly stooped but animated hands.",
+        "personality": "Patient, gently eccentric, candid. He notices sounds before objects.",
+        "continuity": "Keep age, face, hairstyle, clothing colors and accessories consistent across scenes.",
+        "gender": "male"
+      },
+      "assetPrompts": {
+        "placeholder": "Eli Rowan, 56, traveling piano tuner. Long face, light tan skin, swept silver hair, round dark glasses, teal coat over a navy shirt, dark trousers. Carries a small brown instrument case. Slightly stooped but animated hands. Simplified graphic-novel figure with bold dark outlines, flat color, readable eyebrows and mouth; consistent proportions across expressions.",
+        "illustrated": "Mid-thigh-up portrait of Eli Rowan, a 56-year-old traveling piano tuner with a long face and light tan skin. He has swept silver hair, round dark glasses, and wears a teal coat over a navy shirt and dark trousers. He holds a small brown instrument case beside the bench. His expressions range from neutral to amused or concerned, showing his gentle eccentricity and candid nature. Drawn in a hand-inked European graphic novel style with painterly gouache colors and bold dark outlines."
+      }
+    }
+  ],
+  "cues": [
+    {
+      "id": "cue-01",
+      "speaker": "mara",
+      "text": "The last train was supposed to leave eight minutes ago.",
+      "action": "Mara checks the empty platform.",
+      "expressions": {
+        "mara": "concerned",
+        "eli": "neutral"
+      },
+      "duration": 5.1,
+      "delivery": "Matter-of-fact, with quiet concern.",
+      "voiceNotes": []
+    },
+    {
+      "id": "cue-02",
+      "speaker": "eli",
+      "text": "Then I am either very late or unexpectedly lucky.",
+      "action": "Eli rests his instrument case beside the bench.",
+      "expressions": {
+        "mara": "skeptical",
+        "eli": "amused"
+      },
+      "duration": 5,
+      "delivery": "Dry humor, lightly amused.",
+      "voiceNotes": []
+    },
+    {
+      "id": "cue-03",
+      "speaker": "mara",
+      "text": "You are holding a ticket for yesterday.",
+      "action": "She points at the date, without taking the ticket.",
+      "expressions": {
+        "mara": "skeptical",
+        "eli": "surprised"
+      },
+      "duration": 5,
+      "delivery": "Pointedly, with a raised eyebrow.",
+      "voiceNotes": []
+    },
+    {
+      "id": "cue-04",
+      "speaker": "eli",
+      "text": "That would explain the unusually quiet carriage.",
+      "action": "He turns the ticket over, then admits the joke with a smile.",
+      "expressions": {
+        "mara": "amused",
+        "eli": "amused"
+      },
+      "duration": 5,
+      "delivery": "A gentle self-deprecating joke.",
+      "voiceNotes": []
+    },
+    {
+      "id": "cue-05",
+      "speaker": "mara",
+      "text": "Please tell me you did not spend the night on a parked train.",
+      "action": "Her smile fades; she studies his face.",
+      "expressions": {
+        "mara": "concerned",
+        "eli": "neutral"
+      },
+      "duration": 6.18,
+      "delivery": "Concerned, speaking directly to him.",
+      "voiceNotes": []
+    },
+    {
+      "id": "cue-06",
+      "speaker": "eli",
+      "text": "Only the evening. I was tuning the piano in the station café.",
+      "action": "He taps the small case: tools, not luggage.",
+      "expressions": {
+        "mara": "surprised",
+        "eli": "neutral"
+      },
+      "duration": 5.82,
+      "delivery": "Reassuring, unhurried.",
+      "voiceNotes": []
+    },
+    {
+      "id": "cue-07",
+      "speaker": "mara",
+      "text": "They closed that café last winter.",
+      "action": "A gust moves the hanging station sign.",
+      "expressions": {
+        "mara": "concerned",
+        "eli": "concerned"
+      },
+      "duration": 5,
+      "delivery": "Softly, surprised.",
+      "voiceNotes": [
+        "pace=slow"
+      ]
+    },
+    {
+      "id": "cue-08",
+      "speaker": "eli",
+      "text": "I know. My sister used to play there. I promised I would keep it in tune.",
+      "action": "He looks toward the dark café windows.",
+      "expressions": {
+        "mara": "concerned",
+        "eli": "concerned"
+      },
+      "duration": 7.26,
+      "delivery": "Hushed and intimate; pause after I know.",
+      "voiceNotes": [
+        "pace=slow vol=x-soft"
+      ]
+    },
+    {
+      "id": "cue-09",
+      "speaker": "mara",
+      "text": "They should have left you a light.",
+      "action": "Mara looks toward the locked office, angry on his behalf.",
+      "expressions": {
+        "mara": "angry",
+        "eli": "surprised"
+      },
+      "duration": 5,
+      "delivery": "Quiet anger on his behalf, controlled.",
+      "voiceNotes": [
+        "pace=slow"
+      ]
+    },
+    {
+      "id": "cue-10",
+      "speaker": "eli",
+      "text": "There was enough moonlight. Not enough coffee.",
+      "action": "He lifts his shoulders; she lets out a small laugh.",
+      "expressions": {
+        "mara": "amused",
+        "eli": "amused"
+      },
+      "duration": 5,
+      "delivery": "Warm dry humor; pause before coffee.",
+      "voiceNotes": []
+    },
+    {
+      "id": "cue-11",
+      "speaker": "mara",
+      "text": "Come inside. I have coffee, and the morning timetable.",
+      "action": "She unlocks the warm-lit office door.",
+      "expressions": {
+        "mara": "amused",
+        "eli": "surprised"
+      },
+      "duration": 5,
+      "delivery": "Warmly inviting, with a small smile.",
+      "voiceNotes": []
+    },
+    {
+      "id": "cue-12",
+      "speaker": "eli",
+      "text": "Then perhaps this is the right ticket after all.",
+      "action": "They turn toward the light together.",
+      "expressions": {
+        "mara": "amused",
+        "eli": "amused"
+      },
+      "duration": 5,
+      "delivery": "Grateful, quietly amused.",
+      "voiceNotes": [
+        "pace=slow"
+      ]
+    }
+  ],
+  "groupId": "1795518383418",
+  "chatId": "1795518383418",
+  "artwork": {
+    "default": "illustrated",
+    "imageModel": "gpt-image-1.5",
+    "directionModel": "gpt-4.1-mini",
+    "generatedVia": "SillyTavern HTTP endpoints",
+    "stagingNotes": [
+      "Position Mara slightly left and Eli slightly right in the central foreground, leaving space between them to show their interaction and emotional connection.",
+      "Ensure warm ochre light from the station windows casts soft illumination on the characters' faces and clothing, contrasting with the cool dusk indigo background.",
+      "Focus on expressive facial features with clear, readable eyebrows and mouths to convey subtle emotions, maintaining consistent proportions and simplified graphic-novel figures."
+    ],
+    "backgroundPrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones."
+  },
+  "setBrief": {
+    "name": "North Platform",
+    "location": "A small railway platform at blue hour. Warm station windows, a wooden bench, quiet rails and violet hills. No other people.",
+    "timeOfDay": "Blue hour",
+    "mood": "Quiet, initially lonely, becoming welcoming.",
+    "architecture": "Small old railway station with a café and a warm-lit office.",
+    "requiredProps": [
+      "wooden bench",
+      "station sign",
+      "railway tracks",
+      "ticket",
+      "Eli’s instrument case"
+    ],
+    "lighting": "Warm ochre station windows against cool indigo evening light.",
+    "layout": "Station building and office on the left; bench to the right; open foreground for two characters; distant tracks and hills.",
+    "continuity": "Keep doors, bench and station geography consistent across camera views.",
+    "imagePrompt": "An old small railway platform at blue hour, painted in warm ochre light from the station windows contrasting with dusk indigo sky and violet hills in the distance. The wooden bench is empty, rails quiet, and the central foreground left open and uncluttered for characters. No people in the background. The style is hand-inked European graphic novel with painterly gouache color, emphasizing warm ochre versus dusk indigo tones."
+  },
+  "staging": {
+    "coordinateSpace": "normalized viewport, origin top-left",
+    "characters": {
+      "mara": {
+        "anchor": [
+          0.28,
+          0.78
+        ],
+        "depth": 10
+      },
+      "eli": {
+        "anchor": [
+          0.72,
+          0.78
+        ],
+        "depth": 10
+      }
+    },
+    "layers": [
+      {
+        "id": "location",
+        "kind": "background",
+        "depth": 0,
+        "asset": "generated/platform.png"
+      },
+      {
+        "id": "mara",
+        "kind": "character",
+        "depth": 10,
+        "expressionSource": "cue.expressions.mara"
+      },
+      {
+        "id": "eli",
+        "kind": "character",
+        "depth": 10,
+        "expressionSource": "cue.expressions.eli"
+      },
+      {
+        "id": "captions",
+        "kind": "dialogue",
+        "depth": 100
+      }
+    ],
+    "implementationNote": "Renderer currently uses CSS slots for character placement; normalized anchors are a proposed portable staging contract."
+  }
+}

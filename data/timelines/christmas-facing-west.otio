@@ -108,7 +108,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 312,
+                                "value": 363,
                                 "rate": 30
                             }
                         },
@@ -154,7 +154,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 120,
+                                "value": 137,
                                 "rate": 30
                             }
                         },
@@ -201,7 +201,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 50,
+                                "value": 69,
                                 "rate": 30
                             }
                         },
@@ -247,7 +247,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 50,
+                                "value": 68,
                                 "rate": 30
                             }
                         },
@@ -293,7 +293,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 50,
+                                "value": 69,
                                 "rate": 30
                             }
                         },
@@ -339,7 +339,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 60,
+                                "value": 30,
                                 "rate": 30
                             }
                         },
@@ -385,7 +385,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 29,
+                                "value": 44,
                                 "rate": 30
                             }
                         },
@@ -431,7 +431,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 28,
+                                "value": 44,
                                 "rate": 30
                             }
                         },
@@ -523,7 +523,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 93,
+                                "value": 114,
                                 "rate": 30
                             }
                         },
@@ -569,7 +569,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 65,
+                                "value": 71,
                                 "rate": 30
                             }
                         },
@@ -615,7 +615,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 50,
+                                "value": 63,
                                 "rate": 30
                             }
                         },
@@ -661,7 +661,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 221,
+                                "value": 204,
                                 "rate": 30
                             }
                         },
@@ -707,7 +707,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 289,
+                                "value": 364,
                                 "rate": 30
                             }
                         },
@@ -891,7 +891,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 30,
+                                "value": 37,
                                 "rate": 30
                             }
                         },
@@ -937,7 +937,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 107,
+                                "value": 100,
                                 "rate": 30
                             }
                         },
@@ -983,7 +983,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 107,
+                                "value": 100,
                                 "rate": 30
                             }
                         },
@@ -1029,7 +1029,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 67,
+                                "value": 106,
                                 "rate": 30
                             }
                         },
@@ -1075,7 +1075,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 101,
+                                "value": 115,
                                 "rate": 30
                             }
                         },
@@ -1121,7 +1121,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 53,
+                                "value": 61,
                                 "rate": 30
                             }
                         },
@@ -1167,7 +1167,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 60,
+                                "value": 90,
                                 "rate": 30
                             }
                         },
@@ -1213,7 +1213,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 41,
+                                "value": 45,
                                 "rate": 30
                             }
                         },
@@ -1259,7 +1259,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 41,
+                                "value": 44,
                                 "rate": 30
                             }
                         },
@@ -1305,7 +1305,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 42,
+                                "value": 45,
                                 "rate": 30
                             }
                         },
@@ -1444,7 +1444,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 150,
+                                "value": 172,
                                 "rate": 30
                             }
                         },
@@ -1587,7 +1587,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: Mom, I can't do Christmas this year. If I leave, a guy named Tyler gets my accounts.",
+                        "name": "JESS: Mom, I'm sorry. I can't come home for Christmas this year. Work is crazy.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -1600,12 +1600,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
+                                "value": 3,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 133,
+                                "value": 125,
                                 "rate": 30
                             }
                         },
@@ -1615,7 +1615,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:5a560a75391882331c41f1a95cd6bfc06f20d7157701557f90cd54b57fd69df5",
+                                "target_url": "voice:d7aea2fdaca06c850b37576812c96a1096b6cd79f67b345a6e991a01a50f7c7e",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -1634,7 +1634,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
+                                "value": 8,
                                 "rate": 30
                             }
                         },
@@ -1644,7 +1644,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "LINDA: No, I know. I know.",
+                        "name": "LINDA: Oh, honey. I understand.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -1657,7 +1657,435 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 60,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:5cc6a7b4a5e98c195a21c346584e490fc2ff8e52a69e076471e89e558cea2729:phone",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 26,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Mom? Is that a siren?",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "01f"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
                                 "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 48,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:e7294232358e1eeb72311c29d3ea4de6fc36b26241d79d53798d7e42f1dbbd92",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: Don't worry, sweetheart. I think it's for me.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "01g"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 4,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 76,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:58720c69d9d9c746e8499af180d6257ff05c30656baf4a047e22af1d98cc806f:phone",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 13,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: My mom's in the hospital. Two days. I'll be back in two days, I promise.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "02c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 123,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:1ae12d1392910eb4bbe6fb0e9d1cf93d9c2568ed0e069a443c44fdafdb272b2e",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 14,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: You came home!",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "03e"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 44,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:216176c8f5d59cb2d5e571ec51c86be0af832d4141a2331bca0eaf98ed016b18",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 8,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: Mom, you were in an ambulance!",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "03f"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 55,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:d80182f12a3b604698fb7ebb3c7905418a5fd6ea25738b66a60f8fa28b9f976f",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 7,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "LINDA: It's a sprained ankle, sweetheart. They offered.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "03g"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 85,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:bd2ea608f835bbeda0d6e2ae5f066bd1caec11eda114c75f10e342c027655ef1",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 37,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "JESS: She's fine. I'll be back in the office by noon--",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "04c"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 80,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:f82881d66e1bf243387a33cd4e11d332ac31a1fcbb0668aabc11042628c68840",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
                                 "rate": 30
                             },
                             "duration": {
@@ -1668,11 +2096,39 @@
                         },
                         "effects": [],
                         "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "DOT: Well, honey. You're not going anywhere today.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "04g"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 2,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 92,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
                         "enabled": true,
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:e3457b441cea313562ff09eaedb63b54e8ea65ea68d1ebf91a5c64fac6c4e3b8:phone",
+                                "target_url": "voice:21658a3d58126ec6cb473f1517591bdf324533faf7ea480131d0fdaf91c75a6e",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -1701,463 +2157,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: ...What is that?",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "01f"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 14,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 33,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:0c64d00b9574410ded6ae52b6d9d28d65777ef067245e2e720ba084a931d7d26",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 7,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "LINDA: Hm? Oh. That's for me.",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "01g"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 51,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:99672955f236c57bf35b73900f57df195c753c0a7151bf1abe1f3e4fab2822a1:phone",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 14,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: Two days. Tyler doesn't touch anything.",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "02c"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 65,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:c4aff50ce2aa0f6a94b58f4a4c16bce45bf380fe37f10e38938a31af6408de4d",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 55,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "LINDA: You came!",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "03e"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 39,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:8b658e46a976c1870ece8071c235ed68fba074c85a3513ac2fea20a8a37b5515",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 7,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: You were in an ambulance.",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "03f"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 47,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:f70f9b7c1132acea2624e6211a4aaeb21e457060d784366bdf535991809e0208",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 8,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "LINDA: They offered.",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "03g"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 42,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:2b1152ba9a8db7f17d97742d24ef4a0da3a513eae4f76c3ff800754874e86588",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 67,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: Mom's fine. I'm back by noon--",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "04c"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 50,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:0011e3fd265355a702f627b4f2e19d9b3d21e568148955b4346df9d4adab21b6",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 46,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "DOT: ...Well. That's a Tesla.",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "04g"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 60,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:5fa6b4622a14864b566db1c8e5a048afc5e1ccfdeb93c6fed73bcfc496cd0be6",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 36,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: ...Hey, Jess.",
+                        "name": "BEN: Jess Hostetter. Hi.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2170,12 +2170,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
+                                "value": 2,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 46,
+                                "value": 52,
                                 "rate": 30
                             }
                         },
@@ -2185,7 +2185,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:b1181b066380b5e77a7d9712f7f5e6dcf05bb2efac94c2ec2b58992b6d8343c2",
+                                "target_url": "voice:0012446b81773e52569ee5fafc8024e2146553d9dcb922941836612cc1405b73",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2214,7 +2214,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: Hi! Hi. Sorry--do I...?",
+                        "name": "JESS: Hi! I'm sorry. Do I know you?",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2232,7 +2232,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 43,
+                                "value": 55,
                                 "rate": 30
                             }
                         },
@@ -2242,7 +2242,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:8784dbc8f63878912dcf0acece4173c002de7f82d277f082c10e83a018246d9e",
+                                "target_url": "voice:5fe8ca067f248328957ed2ef5c93156933625c3e54784916896208eae718d759",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2261,7 +2261,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 37,
+                                "value": 32,
                                 "rate": 30
                             }
                         },
@@ -2271,7 +2271,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: Chemistry. You sat behind me.",
+                        "name": "BEN: Ben Kreider. We had chemistry together. You sat right behind me.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2289,7 +2289,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 49,
+                                "value": 109,
                                 "rate": 30
                             }
                         },
@@ -2299,7 +2299,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:49b9ce7d85961743a5f2fe7ab79ead9658965b2bdeb7a7e7fb83deff7b768ef8",
+                                "target_url": "voice:9419d5f74479d6581a5fadd12e39d2c50d571b302b7716541bae69f197b04ab6",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2328,7 +2328,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: ...Ben.",
+                        "name": "JESS: Ben. Of course. Hi.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2341,12 +2341,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
+                                "value": 5,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 40,
+                                "value": 51,
                                 "rate": 30
                             }
                         },
@@ -2356,64 +2356,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:6b0e607bf6c81f4521723665ebec35ce764a76cf8c9573adb5f6a4151782da7a",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 8,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: You said \"do I\" like it was a real question.",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "05i"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 74,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:0072a903b475223d05d654f8a13a4f82306c0f5f7f25b586187923563ae5e052",
+                                "target_url": "voice:364f027fa1ec78e83e19e259f2c11a2a3d763f5014bfedd41d191dc4ed37f894",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2442,7 +2385,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: Sensor's cracked. Comes from Tesla.",
+                        "name": "BEN: The sensor's cracked. The part has to come from the factory.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2455,12 +2398,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
+                                "value": 2,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 62,
+                                "value": 99,
                                 "rate": 30
                             }
                         },
@@ -2470,7 +2413,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:a2aef8eaf093eff8c157fab45b22c3bc3593c9374d23ad38976de56d393b1023",
+                                "target_url": "voice:0a8d675ba2bc42266b07cb1b0328d671d61c84b70f6fbb5f5f71f98aaa91ad2f",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2499,7 +2442,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: When?",
+                        "name": "JESS: How long?",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2512,12 +2455,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
+                                "value": 9,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 32,
+                                "value": 31,
                                 "rate": 30
                             }
                         },
@@ -2527,7 +2470,64 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:23c9377e5f9384e3807fd436838822a84af36c353dbbada797de9faca2e6cad6",
+                                "target_url": "voice:9763d77ed70b0af3764e846344be6c551bf5258f67a96b082e74e78fd7d71734",
+                                "metadata": [],
+                                "available_range": null
+                            }
+                        },
+                        "active_media_reference_key": "DEFAULT_MEDIA"
+                    },
+                    {
+                        "OTIO_SCHEMA": "Gap.1",
+                        "name": "",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 0,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 8,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "metadata": []
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.2",
+                        "name": "BEN: It gets here the twenty-sixth.",
+                        "metadata": {
+                            "survos": {
+                                "gain": 1
+                            },
+                            "rph": {
+                                "element": "06d"
+                            }
+                        },
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 3,
+                                "rate": 30
+                            },
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "value": 57,
+                                "rate": 30
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "enabled": true,
+                        "media_references": {
+                            "DEFAULT_MEDIA": {
+                                "OTIO_SCHEMA": "ExternalReference.1",
+                                "target_url": "voice:7126d211b2cadbd2d003de9a821e618b3c29748dcd2ce0049c8c7156813e7f7d",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2556,64 +2556,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: Twenty-sixth.",
-                        "metadata": {
-                            "survos": {
-                                "gain": 1
-                            },
-                            "rph": {
-                                "element": "06d"
-                            }
-                        },
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 37,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "enabled": true,
-                        "media_references": {
-                            "DEFAULT_MEDIA": {
-                                "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:21e34424b8f1bd267978ab87c948ed5f89858b3a66eb8531b6cb314000fed03c",
-                                "metadata": [],
-                                "available_range": null
-                            }
-                        },
-                        "active_media_reference_key": "DEFAULT_MEDIA"
-                    },
-                    {
-                        "OTIO_SCHEMA": "Gap.1",
-                        "name": "",
-                        "source_range": {
-                            "OTIO_SCHEMA": "TimeRange.1",
-                            "start_time": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 0,
-                                "rate": 30
-                            },
-                            "duration": {
-                                "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 8,
-                                "rate": 30
-                            }
-                        },
-                        "effects": [],
-                        "markers": [],
-                        "metadata": []
-                    },
-                    {
-                        "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: Of December?",
+                        "name": "JESS: Of December? That's after Christmas!",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2631,7 +2574,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 36,
+                                "value": 63,
                                 "rate": 30
                             }
                         },
@@ -2641,7 +2584,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:04e16102d07a9a08cdeab7e22108a8d9d4433fd29e536dce645ccf0f94899588",
+                                "target_url": "voice:176f0ba1682229e0643106d710fa8bd1539bb4ad9fa465834c26e2590b77645f",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2670,7 +2613,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: ...That's the next one.",
+                        "name": "BEN: Looks like you're home for Christmas.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2688,7 +2631,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 59,
+                                "value": 52,
                                 "rate": 30
                             }
                         },
@@ -2698,7 +2641,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:14d05f4cfbe596db68c5cc20816947e266821267ed6f37131823aeedcdeb351d",
+                                "target_url": "voice:f319ee0ebc26d7631037a2f19ddc487d9545aab746a835d0b9ef02bc5ad03e24",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2717,7 +2660,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 38,
+                                "value": 37,
                                 "rate": 30
                             }
                         },
@@ -2727,7 +2670,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: Part?",
+                        "name": "JESS: Any news on the part?",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2740,12 +2683,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 10,
+                                "value": 7,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 24,
+                                "value": 47,
                                 "rate": 30
                             }
                         },
@@ -2755,7 +2698,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:30af19fd1ee93efb9539da1fccaf53fdce3755c9b3dfcc6ab9bc7e11823756f6",
+                                "target_url": "voice:074069fe230a985b73c351976ff96e7016c9ef55fda4a3301b2859dfddcbe5c5",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2784,7 +2727,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: Nope.",
+                        "name": "BEN: Not yet.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2802,7 +2745,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 21,
+                                "value": 29,
                                 "rate": 30
                             }
                         },
@@ -2812,7 +2755,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:687160bd33e949c40739e7a98cdf177c9d2ca706ae2e79a7cda4c7ab4dc59b7d",
+                                "target_url": "voice:8fd3dda338d964049a14c4bdfe272f7824168a630cca23587dbef6d70fd1338e",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2831,7 +2774,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 38,
+                                "value": 14,
                                 "rate": 30
                             }
                         },
@@ -2841,7 +2784,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: In the city, the sun goes behind a building at four. It doesn't set. It's just... over.",
+                        "name": "JESS: In the city, I never get to see the sun go down. It's just gone by four o'clock.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2854,12 +2797,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 7,
+                                "value": 6,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 162,
+                                "value": 147,
                                 "rate": 30
                             }
                         },
@@ -2869,7 +2812,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:7892bd92fa8145728be28b800fbce344ddf89601b5d09aaeb2dc8edf05b00750",
+                                "target_url": "voice:16d6107d03f67baedd436d742407254ad64d806012346a5371bf090873c745d1",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2888,7 +2831,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 82,
+                                "value": 83,
                                 "rate": 30
                             }
                         },
@@ -2898,7 +2841,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: Give it a minute.",
+                        "name": "BEN: Stay a while. It's worth the wait.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2911,12 +2854,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 2,
+                                "value": 3,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 24,
+                                "value": 63,
                                 "rate": 30
                             }
                         },
@@ -2926,7 +2869,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:a441ad8ced373187ed29a970ade01a7a7798f919156c8918fa6e4bbcce168b47",
+                                "target_url": "voice:f0ddd7a2a3891513daed49bc62552cb0887593124d1aba29a6b4401cdd0844b7",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -2955,7 +2898,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: Looks great. Costs a fortune. Gets cold, shuts down.",
+                        "name": "BEN: Don't get attached. She'll be gone the minute that car is fixed.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -2968,12 +2911,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
+                                "value": 9,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 93,
+                                "value": 107,
                                 "rate": 30
                             }
                         },
@@ -2983,7 +2926,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:f2bec8dcebf7c268ec2be361b038c1d0aea2871d5848ce0f8153282b37eb6b81",
+                                "target_url": "voice:968134df3f582f42c81f99a07acbece9f3fa1e37f9aeb3a969c37790605b0594",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -3012,7 +2955,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "JESS: Shuts down.",
+                        "name": "JESS: Is that really what you think of me?",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -3025,12 +2968,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
+                                "value": 17,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 46,
+                                "value": 54,
                                 "rate": 30
                             }
                         },
@@ -3040,7 +2983,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:a64332573f865e7b940b372634c15e2633f1194af5fa66645b2575679db0e585",
+                                "target_url": "voice:aea72e0d0f73f87c191592aa102733c906c9a78f7ee07d237a7f71a5997c1ab5",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -3069,7 +3012,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "BEN: ...The car.",
+                        "name": "BEN: Jess, wait. That's not what I meant.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -3082,12 +3025,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 15,
+                                "value": 2,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 32,
+                                "value": 62,
                                 "rate": 30
                             }
                         },
@@ -3097,7 +3040,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:2d76b6d65255bfd4b738795adc8440626f15c2f705deed8a2bbc1b5c781fb7c2",
+                                "target_url": "voice:bf0b4d04d2dddc63309533b76f7b04adab2cce354143fbfdd6eccbfcbfdab469",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -3126,7 +3069,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "PA VOLUNTEER: Okay, folks--couples up front!",
+                        "name": "PA VOLUNTEER: Okay, folks! Let's light this tree!",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -3144,7 +3087,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 51,
+                                "value": 61,
                                 "rate": 30
                             }
                         },
@@ -3154,7 +3097,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:39d1de3250c7017060fbddb5f4acea275f2801fb327ccd4668b7d1c10ba6d30b:pa",
+                                "target_url": "voice:0b6449c173954988243b99d442122f576494df5feb7c72c3bea9e326a6e678a1:pa",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -3240,7 +3183,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "LINDA: Dot, the car's been ready since Tuesday.",
+                        "name": "LINDA: Dot, her car's been ready since Tuesday.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -3253,12 +3196,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 5,
+                                "value": 2,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 67,
+                                "value": 72,
                                 "rate": 30
                             }
                         },
@@ -3268,7 +3211,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:7de42786a128931266ab45a67bb64a11f30e28218ade4391b69269779a90b90a",
+                                "target_url": "voice:3697243e9947a3904ae1505772095bd925b38708e0cedd5a7ea1f5742a2196ce",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -3297,7 +3240,7 @@
                     },
                     {
                         "OTIO_SCHEMA": "Clip.2",
-                        "name": "LINDA: Oh, she knows.",
+                        "name": "LINDA: And she still hasn't left.",
                         "metadata": {
                             "survos": {
                                 "gain": 1
@@ -3310,12 +3253,12 @@
                             "OTIO_SCHEMA": "TimeRange.1",
                             "start_time": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 6,
+                                "value": 3,
                                 "rate": 30
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 44,
+                                "value": 60,
                                 "rate": 30
                             }
                         },
@@ -3325,7 +3268,7 @@
                         "media_references": {
                             "DEFAULT_MEDIA": {
                                 "OTIO_SCHEMA": "ExternalReference.1",
-                                "target_url": "voice:0ba2d513eba19659e729cdded81ae5878535dbebb35ae7422917215e063f33eb",
+                                "target_url": "voice:6fbae92a62603412fc85b2582f0c518a28d60aa8fbd03f637bac18fe82062400",
                                 "metadata": [],
                                 "available_range": null
                             }
@@ -3355,7 +3298,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 249,
+                                "value": 261,
                                 "rate": 30
                             }
                         },
@@ -3412,7 +3355,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 3,
+                                "value": 42,
                                 "rate": 30
                             }
                         },
@@ -3467,7 +3410,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 150,
+                                "value": 193,
                                 "rate": 30
                             }
                         },
@@ -3522,7 +3465,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 35,
+                                "value": 66,
                                 "rate": 30
                             }
                         },
@@ -3577,7 +3520,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 99,
+                                "value": 120,
                                 "rate": 30
                             }
                         },
@@ -3632,7 +3575,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 899,
+                                "value": 969,
                                 "rate": 30
                             }
                         },
@@ -3687,7 +3630,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 96,
+                                "value": 149,
                                 "rate": 30
                             }
                         },
@@ -3742,7 +3685,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 477,
+                                "value": 547,
                                 "rate": 30
                             }
                         },
@@ -3808,7 +3751,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 492,
+                                "value": 560,
                                 "rate": 30
                             }
                         },
@@ -3863,7 +3806,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 155,
+                                "value": 181,
                                 "rate": 30
                             }
                         },
@@ -3918,7 +3861,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 60,
+                                "value": 112,
                                 "rate": 30
                             }
                         },
@@ -3973,7 +3916,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 911,
+                                "value": 981,
                                 "rate": 30
                             }
                         },
@@ -4028,7 +3971,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 621,
+                                "value": 744,
                                 "rate": 30
                             }
                         },
@@ -4096,7 +4039,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 759,
+                                "value": 884,
                                 "rate": 30
                             }
                         },
@@ -4151,7 +4094,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 1032,
+                                "value": 1123,
                                 "rate": 30
                             }
                         },
@@ -4206,7 +4149,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 501,
+                                "value": 624,
                                 "rate": 30
                             }
                         },
@@ -4300,7 +4243,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 306,
+                                "value": 357,
                                 "rate": 30
                             }
                         },
@@ -4329,7 +4272,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 126,
+                                "value": 143,
                                 "rate": 30
                             }
                         },
@@ -4386,7 +4329,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 235,
+                                "value": 397,
                                 "rate": 30
                             }
                         },
@@ -4414,7 +4357,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 214,
+                                "value": 200,
                                 "rate": 30
                             }
                         },
@@ -4548,7 +4491,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 25,
+                                "value": 255,
                                 "rate": 30
                             }
                         },
@@ -4576,7 +4519,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 214,
+                                "value": 200,
                                 "rate": 30
                             }
                         },
@@ -4605,7 +4548,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 281,
+                                "value": 372,
                                 "rate": 30
                             }
                         },
@@ -4633,7 +4576,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 123,
+                                "value": 134,
                                 "rate": 30
                             }
                         },
@@ -4673,7 +4616,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 882,
+                                "value": 1028,
                                 "rate": 30
                             }
                         },
@@ -4741,7 +4684,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 882,
+                                "value": 1028,
                                 "rate": 30
                             }
                         },
@@ -4809,7 +4752,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 1627,
+                                "value": 1857,
                                 "rate": 30
                             }
                         },
@@ -4877,7 +4820,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 366,
+                                "value": 417,
                                 "rate": 30
                             }
                         },
@@ -4932,7 +4875,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 168,
+                                "value": 241,
                                 "rate": 30
                             }
                         },
@@ -4987,7 +4930,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 132,
+                                "value": 154,
                                 "rate": 30
                             }
                         },
@@ -5044,7 +4987,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 115,
+                                "value": 192,
                                 "rate": 30
                             }
                         },
@@ -5099,7 +5042,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 84,
+                                "value": 91,
                                 "rate": 30
                             }
                         },
@@ -5154,7 +5097,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 95,
+                                "value": 120,
                                 "rate": 30
                             }
                         },
@@ -5209,7 +5152,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 112,
+                                "value": 164,
                                 "rate": 30
                             }
                         },
@@ -5237,7 +5180,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 505,
+                                "value": 536,
                                 "rate": 30
                             }
                         },
@@ -5277,7 +5220,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 372,
+                                "value": 423,
                                 "rate": 30
                             }
                         },
@@ -5332,7 +5275,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 222,
+                                "value": 265,
                                 "rate": 30
                             }
                         },
@@ -5360,7 +5303,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 180,
+                                "value": 232,
                                 "rate": 30
                             }
                         },
@@ -5389,7 +5332,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 655,
+                                "value": 732,
                                 "rate": 30
                             }
                         },
@@ -5444,7 +5387,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 718,
+                                "value": 812,
                                 "rate": 30
                             }
                         },
@@ -5499,7 +5442,7 @@
                             },
                             "duration": {
                                 "OTIO_SCHEMA": "RationalTime.1",
-                                "value": 150,
+                                "value": 172,
                                 "rate": 30
                             }
                         },

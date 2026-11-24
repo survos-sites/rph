@@ -34,9 +34,24 @@ final readonly class LineVoice
      */
     public function forElement(array $profile, ScriptElement $element, ?ScriptElement $previous): VoiceSpec
     {
+        $profile = array_replace_recursive($profile, $element->character?->voiceProfile ?? []);
+        if ($character = $element->character) {
+            $tags = array_filter(array_map('trim', explode(',', $profile['voicestudio']['design'] ?? '')));
+            $genderTags = ['male', 'female'];
+            $ageTags = ['child', 'teenager', 'young adult', 'middle-aged', 'elderly'];
+            $defaults = [];
+            if (!array_intersect($tags, $genderTags) && in_array($character->gender, $genderTags, true)) $defaults[] = $character->gender;
+            if (!array_intersect($tags, $ageTags) && null !== $character->age) {
+                $defaults[] = match(true) { $character->age < 13 => 'child', $character->age < 20 => 'teenager', $character->age < 40 => 'young adult', $character->age < 65 => 'middle-aged', default => 'elderly' };
+            }
+            $profile['voicestudio']['design'] = implode(', ', [...$defaults, ...$tags]);
+        }
+        if ($description = $element->character?->voiceDescription) {
+            $profile['voicestudio']['instructions'] = $description;
+        }
         $parenthetical = null !== $previous && ElementType::Parenthetical === $previous->type && $previous->character === $element->character ? $previous->text : null;
 
-        return $this->spec($profile, $parenthetical, $element->notes ?? []);
+        return $this->spec($profile, implode('. ', array_filter([$parenthetical, $element->delivery])), $element->notes ?? []);
     }
 
     /**
@@ -56,7 +71,7 @@ final readonly class LineVoice
             $design = '' === $design ? 'whisper' : $design.', whisper';
         }
         $direction = $attributes['say'] ?? $this->direction($parenthetical, $attributes);
-        $instructions = implode('. ', array_filter([$design, $voice->instructions, $direction], static fn (?string $part): bool => null !== $part && '' !== $part));
+        $instructions = implode(', ', array_filter([$design, $voice->instructions, $direction], static fn (?string $part): bool => null !== $part && '' !== $part));
 
         return new VoiceSpec(
             $voice->engine,
@@ -65,6 +80,7 @@ final readonly class LineVoice
             '' === $instructions ? null : $instructions,
             self::SPEED[$attributes['pace'] ?? 'medium'] ?? null,
             isset($settings['seed']) ? (int) $settings['seed'] : null,
+            $voice->numSteps,
         );
     }
 

@@ -20,6 +20,38 @@ final class Character implements RouteParametersInterface
 {
     use RouteIdentityTrait;
 
+    #[ORM\Column(length: 32, options: ['default' => 'new'])]
+    public string $marking = 'new';
+
+    #[ORM\Column(type: 'json', options: ['default' => '{}'])]
+    public array $appearance = [];
+
+    #[ORM\Column(type: 'json', options: ['default' => '[]'])]
+    public array $poses = ['standing-right', 'standing-left', 'closeup-right', 'closeup-left', 'back', 'sitting-right', 'sitting-left'];
+
+    /** Rendered pose/expression references, rebuilt through the workflow. */
+    #[ORM\Column(type: 'json', options: ['default' => '{}'])]
+    public array $poseAssets = [];
+
+    #[ORM\Column(nullable: true)]
+    public ?int $age = null;
+
+    #[ORM\Column(length: 40, nullable: true)]
+    public ?string $gender = null;
+
+    /** Shared character facts for every visual renderer. */
+    public function poseSpecification(): array
+    {
+        return [...$this->appearance, 'age'=>$this->age, 'gender'=>$this->gender];
+    }
+
+    #[ORM\Column(type: 'text', nullable: true)]
+    public ?string $voiceDescription = null;
+
+    /** Stable engine, model, voice identity and quality; line directions layer on top. */
+    #[ORM\Column(type: 'json', options: ['default' => '{}'])]
+    public array $voiceProfile = [];
+
     public function __construct(
         #[ORM\Id]
         #[ORM\Column(length: 255)]

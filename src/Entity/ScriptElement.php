@@ -36,6 +36,13 @@ final class ScriptElement
         public string $text,
     ) {}
 
+    #[ORM\ManyToOne(targetEntity: LineSpeech::class)]
+    #[ORM\JoinColumn(nullable: true, onDelete: 'SET NULL')]
+    public ?LineSpeech $speech = null;
+
+    #[ORM\Column(type: 'text', nullable: true)]
+    public ?string $delivery = null;
+
     /** @var list<string>|null Fountain notes (`[[...]]`) on this element; see docs/fountain-annotations.md. */
     #[ORM\Column(type: 'json', nullable: true)]
     public ?array $notes = null;

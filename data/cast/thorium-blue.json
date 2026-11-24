@@ -1,0 +1,14 @@
+{
+    "BLUE": {
+        "engine": "say",
+        "voice": "Karen",
+        "description": "A woman in her late twenties.",
+        "color": "#527c96"
+    },
+    "CAMERON": {
+        "engine": "say",
+        "voice": "Daniel",
+        "description": "A man in his late twenties.",
+        "color": "#b35a41"
+    }
+}

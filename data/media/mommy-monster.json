@@ -1,0 +1,11 @@
+{
+    "images": {
+        "scene-reference": {
+            "file": "/media/generated/mommy-monster/scene-reference.png",
+            "source": "imagegen",
+            "credit": "AI-generated scene reference based on MOMMY, THERE'S A MONSTER IN MY CLOSET by David Bragg (CC BY 4.0)",
+            "sha256": "403ffc653b5a7018a2e6e19284b0385f8049613f6b2a43fa46d9787b19f75130"
+        }
+    },
+    "audio": {}
+}

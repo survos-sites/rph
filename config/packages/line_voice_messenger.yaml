@@ -1,0 +1,9 @@
+framework:
+    messenger:
+        transports:
+            line_voice.generate:
+                dsn: 'doctrine://default?queue_name=line_voice.generate'
+                retry_strategy:
+                    max_retries: 2
+                    delay: 10000
+                    multiplier: 3

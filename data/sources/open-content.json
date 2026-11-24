@@ -1,0 +1,338 @@
+{
+  "version": 1,
+  "checkedOn": "2026-11-23",
+  "items": [
+    {
+      "id": "bad_kitty",
+      "title": "Bad Kitty",
+      "author": "David Bragg",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/bad_kitty",
+      "attribution": "Bad Kitty by David Bragg (CC-BY-4.0); source: https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/bad_kitty",
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/bad_kitty/bad_kitty.fountain",
+          "path": "bad_kitty.fountain",
+          "sha256": "ea4a70c89ceab30e0e4d65aadb0ccdfc4ecaec2aae5e9107c4b41f0d92711bce",
+          "bytes": 7310,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/bad_kitty/bad_kitty.fountain"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/bad_kitty/bad_kitty.pdf",
+          "path": "bad_kitty.pdf",
+          "sha256": "0daa93d301c1e5885daa192e4b3710db0843bccf902c810b47a41e86f2b8c567",
+          "bytes": 26780,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/bad_kitty/bad_kitty.pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/README.md",
+          "path": "LICENSE-SOURCE.md",
+          "sha256": "f06a6e7a9204a0b84be654e65e68cc8090e0a281156f338d8f01a1bd0015068c",
+          "bytes": 2645,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/README.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/bad_kitty/README.md",
+          "path": "README.md",
+          "sha256": "ea483f3d2f04227051bf4fb811a14fd958b68f4a35fd1bdfdc9eff82b6c44ebb",
+          "bytes": 585,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/bad_kitty/README.md"
+        }
+      ]
+    },
+    {
+      "id": "mommy_monster",
+      "title": "Mommy, There’s a Monster in My Closet",
+      "author": "David Bragg",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/mommy_monster",
+      "attribution": "Mommy, There’s a Monster in My Closet by David Bragg (CC-BY-4.0); source: https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/mommy_monster",
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/mommy_monster/mommy_monster.fountain",
+          "path": "mommy_monster.fountain",
+          "sha256": "a60816933f146dd3bffe0cd1befed90daa8a17e66779c909edb6a335e710ed4d",
+          "bytes": 2614,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/mommy_monster/mommy_monster.fountain"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/mommy_monster/mommy_monster.pdf",
+          "path": "mommy_monster.pdf",
+          "sha256": "58f727a132e72850380933283f1690162f71a28ab645b09a2983275c10920e45",
+          "bytes": 19142,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/mommy_monster/mommy_monster.pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/README.md",
+          "path": "LICENSE-SOURCE.md",
+          "sha256": "f06a6e7a9204a0b84be654e65e68cc8090e0a281156f338d8f01a1bd0015068c",
+          "bytes": 2645,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/README.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/mommy_monster/README.md",
+          "path": "README.md",
+          "sha256": "5621e87c8b9db111a228fc0d68455d70e67ee78cdab61516afff63c086172b5c",
+          "bytes": 434,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/mommy_monster/README.md"
+        }
+      ]
+    },
+    {
+      "id": "no_overnight_parking",
+      "title": "No Overnight Parking",
+      "author": "David Bragg",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking",
+      "attribution": "No Overnight Parking by David Bragg (CC-BY-4.0); source: https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking",
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking/no_overnight_parking.fountain",
+          "path": "no_overnight_parking.fountain",
+          "sha256": "98a3d5a2fbcca254d1e9ce181714ecbd213fbb5d24f90837c428079886d6a92f",
+          "bytes": 8399,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking/no_overnight_parking.fountain"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking/no_overnight_parking.pdf",
+          "path": "no_overnight_parking.pdf",
+          "sha256": "5a292ade00346fcf2842010982deb483aae8056bd9ec3cc116de0ca45794fe3c",
+          "bytes": 39282,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking/no_overnight_parking.pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/README.md",
+          "path": "LICENSE-SOURCE.md",
+          "sha256": "f06a6e7a9204a0b84be654e65e68cc8090e0a281156f338d8f01a1bd0015068c",
+          "bytes": 2645,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/README.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking/README.md",
+          "path": "README.md",
+          "sha256": "ea36b161375a8148160f12450cd5597f1f0fe82459e53cc4992abd2cd0430249",
+          "bytes": 472,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/no_overnight_parking/README.md"
+        }
+      ]
+    },
+    {
+      "id": "perpetual",
+      "title": "Perpetual",
+      "author": "David Bragg",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/perpetual",
+      "attribution": "Perpetual by David Bragg (CC-BY-4.0); source: https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/perpetual",
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/perpetual/perpetual.fountain",
+          "path": "perpetual.fountain",
+          "sha256": "b9b2a39479fcb09781a01af2c041255ec483556e8a83b6cddf42550d68d4f513",
+          "bytes": 4259,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/perpetual/perpetual.fountain"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/perpetual/perpetual.pdf",
+          "path": "perpetual.pdf",
+          "sha256": "5d1eb659b0e18e60b7620e6d5c7c5140adc881690681e87dc0e5f67a36d82244",
+          "bytes": 25416,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/perpetual/perpetual.pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/README.md",
+          "path": "LICENSE-SOURCE.md",
+          "sha256": "f06a6e7a9204a0b84be654e65e68cc8090e0a281156f338d8f01a1bd0015068c",
+          "bytes": 2645,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/README.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/perpetual/README.md",
+          "path": "README.md",
+          "sha256": "54acd24238b98e9af2ae704bccbda02fdd39e0fc8ba73e15efd78289a4911059",
+          "bytes": 461,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/perpetual/README.md"
+        }
+      ]
+    },
+    {
+      "id": "tabula_rasa",
+      "title": "Tabula Rasa",
+      "author": "David Bragg",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa",
+      "attribution": "Tabula Rasa by David Bragg (CC-BY-4.0); source: https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa",
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa/tabula_rasa.fountain",
+          "path": "tabula_rasa.fountain",
+          "sha256": "ff49bfff9245ebbdab1bff937260377d15e11165a7e6713070631f9ab768ac67",
+          "bytes": 6519,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa/tabula_rasa.fountain"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa/tabula_rasa.pdf",
+          "path": "tabula_rasa.pdf",
+          "sha256": "56cf93a10a3f56ca7b01499cf6ba9b88907b48410d52cd1a42bcf3c17925c54d",
+          "bytes": 22851,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa/tabula_rasa.pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/README.md",
+          "path": "LICENSE-SOURCE.md",
+          "sha256": "f06a6e7a9204a0b84be654e65e68cc8090e0a281156f338d8f01a1bd0015068c",
+          "bytes": 2645,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/README.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa/README.md",
+          "path": "README.md",
+          "sha256": "adb52b05583608467a4e3bb6888860f61e37bc70d7efb5e1bb7572627f0c34af",
+          "bytes": 603,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/tabula_rasa/README.md"
+        }
+      ]
+    },
+    {
+      "id": "thorium_blue",
+      "title": "Thorium Blue",
+      "author": "David Bragg",
+      "license": "CC-BY-4.0",
+      "sourceUrl": "https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/thorium_blue",
+      "attribution": "Thorium Blue by David Bragg (CC-BY-4.0); source: https://github.com/davidbragg/shortscollection/tree/27bfe3ca845fb83b347529e910434d035e4dbf48/thorium_blue",
+      "files": [
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/thorium_blue/thorium_blue.fountain",
+          "path": "thorium_blue.fountain",
+          "sha256": "021abcd51f6b286d4be5b33a134fb42ad4bad166e16701c0397f5b681925e286",
+          "bytes": 6888,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/thorium_blue/thorium_blue.fountain"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/thorium_blue/thorium_blue.pdf",
+          "path": "thorium_blue.pdf",
+          "sha256": "c8c0b92985c9dfed78abf2fc01908dd290a45399d50f566591c57b9f64e03f62",
+          "bytes": 93831,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/thorium_blue/thorium_blue.pdf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/README.md",
+          "path": "LICENSE-SOURCE.md",
+          "sha256": "f06a6e7a9204a0b84be654e65e68cc8090e0a281156f338d8f01a1bd0015068c",
+          "bytes": 2645,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/README.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/davidbragg/shortscollection/27bfe3ca845fb83b347529e910434d035e4dbf48/thorium_blue/README.md",
+          "path": "README.md",
+          "sha256": "1686630499c40fdd3ba05bf853a31218bd92ce8c84140cba9cedbfad54905ef3",
+          "bytes": 565,
+          "archiveUrl": "https://codeload.github.com/davidbragg/shortscollection/zip/27bfe3ca845fb83b347529e910434d035e4dbf48",
+          "archiveEntry": "shortscollection-27bfe3ca845fb83b347529e910434d035e4dbf48/thorium_blue/README.md"
+        }
+      ]
+    },
+    {
+      "id": "treasure_island",
+      "title": "Treasure Island",
+      "author": "Alex Bryant",
+      "license": "CC-BY-SA-4.0",
+      "sourceUrl": "https://www.alexbryantauthor.com/treasure-island",
+      "attribution": "Treasure Island by Alex Bryant (CC-BY-SA-4.0); source: https://www.alexbryantauthor.com/treasure-island",
+      "files": [
+        {
+          "url": "https://www.alexbryantauthor.com/s/Treasure-Island.pdf",
+          "path": "Treasure-Island.pdf",
+          "sha256": "878d30135697b9c623da95cfbfef34553adedce0185d32289ab3baa85f7e14c7",
+          "bytes": 401408
+        }
+      ]
+    },
+    {
+      "id": "xkcd_6",
+      "title": "Irony",
+      "author": "Randall Munroe",
+      "license": "CC-BY-NC-2.5",
+      "sourceUrl": "https://xkcd.com/6/",
+      "attribution": "Irony by Randall Munroe (CC-BY-NC-2.5); source: https://xkcd.com/6/",
+      "files": [
+        {
+          "url": "https://xkcd.com/6/info.0.json",
+          "path": "comic.json",
+          "sha256": "406674fe07cc0a82cd0739a497a95acdc7748d0a3dc21bd9dd0abace563ee376",
+          "bytes": 618
+        },
+        {
+          "url": "https://imgs.xkcd.com/comics/irony_color.jpg",
+          "path": "comic.jpg",
+          "sha256": "ee5d72bdc11e4a1a95dc8a46c6417498d13079f88536ac2c0470f7172d8c7742",
+          "bytes": 69060
+        },
+        {
+          "url": "https://xkcd.com/license.html",
+          "path": "LICENSE-SOURCE.html",
+          "sha256": "4b44df9262eb6483189fbf96ac37c9e25acfdf7de46eddbea2bc37500fa3d2da",
+          "bytes": 2580
+        }
+      ]
+    },
+    {
+      "id": "fkfd_139",
+      "title": "If You Can Read This Code",
+      "author": "fkfd",
+      "license": "CC-BY-NC-4.0",
+      "sourceUrl": "https://fkfd.me/comics/139/",
+      "attribution": "If You Can Read This Code by fkfd (CC-BY-NC-4.0); source: https://fkfd.me/comics/139/",
+      "files": [
+        {
+          "url": "https://fkfd.me/comics/139/",
+          "path": "LICENSE-SOURCE.html",
+          "sha256": "e01cbe67b38b79b1eb8b2573dcbf8e8208fb0ae147aad36ec78f253bf0bdd2da",
+          "bytes": 2849
+        },
+        {
+          "url": "https://fkfd.me/comics/139/if-you-can-read-this-code.png",
+          "path": "comic.png",
+          "sha256": "dfa8a9cce71a2185c94667661bab6adf34b7b47ba704d7330427e4a6274b9a0a",
+          "bytes": 284674
+        }
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "id": "peppercarrot",
+      "sourceUrl": "https://www.peppercarrot.com/en/about/index.html",
+      "license": "CC-BY-4.0",
+      "reason": "Current site also states AI derivation prohibited. Review intended movie/AI use before selecting assets."
+    },
+    {
+      "id": "adam_oster",
+      "sourceUrl": "https://fatmogul.com/plays/",
+      "license": "CC-BY-SA (version unspecified)",
+      "reason": "Full scripts require contacting the author; no public full-script download verified."
+    }
+  ]
+}
