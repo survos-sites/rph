@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{ model.title }} · Preview</title><style>body{margin:0;background:#17232b;color:#eee;font:16px system-ui}header{padding:12px 16px}#stage{aspect-ratio:16/9}button{padding:8px 14px;margin:10px;cursor:pointer}#status{padding:0 14px;color:#cbd5da}</style>
 {{ importmap('app') }}
-<header>{{ model.title }}{% if model.scene %} · Scene {{ model.scene }}{% else %} · Entire movie{% endif %}</header><div id="stage"></div><button id="restart">Play from beginning{% if model.scene %} of scene{% endif %}</button><span id="status">Loading…</span>
+<header>{{ model.title }}{% if model.scene %} · Scene {{ model.scene }}{% else %} · Entire movie{% endif %}</header><div id="stage"></div><button id="restart">Play from beginning{% if model.scene %} of scene{% endif %}</button><p id="scene-label"></p><span id="status">Loading…</span>
 <script type="module">
 import {mountOtioPlayer} from '@survos/otio-bundle/player';
 const model={{ model|json_encode(constant('JSON_HEX_TAG'))|raw }};
@@ -11,6 +11,8 @@ try {
  let initialized=false;
  stage.addEventListener('otio:frame',event=>{
   const frame=event.detail.frame;
+  const label=model.sceneLabels.find(s=>s.start<=frame && frame<s.end);
+  document.getElementById('scene-label').textContent='Revision '+model.revision+(label ? ' · Scene '+label.scene+' · '+label.heading+' · '+label.shot : ' · Transition');
   if(model.scene && frame>=model.endFrame)player.pause();
   status.textContent=((Math.max(0,frame-model.startFrame))/model.fps).toFixed(1)+' / '+model.durationSeconds.toFixed(1)+'s';
  });

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Omc;
 
-/** Application mapping over OMC JSON; no database or source-format parser involved. */
+/** Resolved production view loaded from authoritative SQLite working rows. */
 final class Production
 {
     /** @var array<string,array> */
@@ -13,14 +13,10 @@ final class Production
     public function __construct(public readonly string $slug, string $directory)
     {
         if (!preg_match('/^[a-z0-9-]+$/D', $slug)) throw new \InvalidArgumentException('Invalid production slug.');
-        $project = $directory.'/'.$slug.'/project.json';
-        if (!is_file($project)) throw new \InvalidArgumentException('Unknown OMC production.');
-        $documents = json_decode(file_get_contents($project), true, flags: JSON_THROW_ON_ERROR);
-        $index = self::extension($documents[0], 'rph.project/1');
-        foreach ($index['files'] as $filename) {
-            if (!preg_match('/^[a-z-]+\.json$/D', $filename)) throw new \InvalidArgumentException('Invalid catalog filename.');
-            $documents = [...$documents, ...json_decode(file_get_contents($directory.'/'.$slug.'/'.$filename), true, flags: JSON_THROW_ON_ERROR)];
-        }
+        $database = $directory.'/catalogs/'.$slug.'.sqlite';
+        if (!is_file($database)) throw new \InvalidArgumentException('Unknown working catalog; import the work first.');
+        $store = new \Survos\Omc\Storage\WorkingCatalog($database);
+        $documents = json_decode(json_encode($store->entities(), JSON_THROW_ON_ERROR), true, flags: JSON_THROW_ON_ERROR);
         foreach ($documents as $entity) {
             $key = self::key($entity);
             if (isset($this->entities[$key])) throw new \InvalidArgumentException('Duplicate OMC identifier: '.$key);

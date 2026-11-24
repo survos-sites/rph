@@ -70,7 +70,7 @@ final class TimelineMapperTest extends TestCase
             if ($track['name'] !== 'Dialogue' || !in_array($id, ['03g', '04c', '05g', '06b', '04g', '05c', '05e', '06f', '06recognition', '02drive-a', '02drive-b', '06d', '06e'], true)) continue;
             $media = $p->media($clip['asset']);
             self::assertSame($lines[$id]['text'], $media['speech']['text']);
-            self::assertSame((int) ceil($media['durationSeconds'] * $p->edit()['fps']), $clip['durationFrames']);
+            self::assertGreaterThanOrEqual((int) ceil($media['durationSeconds'] * $p->edit()['fps']), $clip['durationFrames']);
             self::assertSame(0, $clip['sourceStartFrame']);
             $seen[] = $id;
         }

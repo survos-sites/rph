@@ -63,7 +63,7 @@ final class OmcController extends AbstractController
     }
     private function production(string $slug): Production
     {
-        if (!is_file($this->data.'/'.$slug.'/project.json')) throw $this->createNotFoundException('Unknown OMC production.');
+        if (!is_file($this->data.'/catalogs/'.$slug.'.sqlite')) throw $this->createNotFoundException('Unknown OMC production.');
         return new Production($slug,$this->data);
     }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3667877894adc3f5a4db677cae4a4a06",
+    "content-hash": "547335dd10ddc1bd3303c60e3f8747be",
     "packages": [
         {
             "name": "composer/semver",
@@ -3656,6 +3656,46 @@
             ],
             "time": "2026-10-17T10:33:47+00:00",
             "published-time": "2026-10-17T11:29:44+00:00"
+        },
+        {
+            "name": "survos/omc",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../mono/lib/omc",
+                "reference": "3335b2bc69e7ede5cd5dff61f0ff3ce6c0c6bb53"
+            },
+            "require": {
+                "ext-json": "*",
+                "opis/json-schema": "^2.6",
+                "php": "^8.5",
+                "symfony/validator": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^13.4"
+            },
+            "suggest": {
+                "ext-pdo": "Required for optional SQLite catalog snapshots.",
+                "ext-pdo_sqlite": "Required for optional SQLite catalog snapshots."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Survos\\Omc\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Survos\\Omc\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "MovieLabs OMC 2.8 DTOs, schema validation and production catalog JSON.",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "survos/otio",
@@ -13998,6 +14038,7 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
+        "survos/omc": 20,
         "survos/otio": 20,
         "survos/tabler-bundle": 20
     },

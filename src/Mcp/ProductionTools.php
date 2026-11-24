@@ -7,7 +7,7 @@ use Mcp\Schema\ToolAnnotations;
 use Mcp\Server\RequestContext;
 final readonly class ProductionTools
 {
-    public function __construct(private WorkQueries $queries) {}
+    public function __construct(private WorkQueries $queries, private \App\Production\ProductionEditor $editor) {}
     #[McpTool(name:'list_works',description:'List available production works and their slugs.',annotations:new ToolAnnotations(readOnlyHint:true))]
     public function listWorks(): array { return $this->queries->works(); }
     #[McpTool(name:'set_work',description:'Select a work such as xmas for this MCP session. Does not edit production data. Pass work explicitly on queries for stateless clients.')]
@@ -25,6 +25,11 @@ final readonly class ProductionTools
     public function characterLines(string $character,RequestContext $context,?string $work=null): array { return $this->queries->characterLines($this->work($context,$work),$character); }
     #[McpTool(name:'get_screenplay',description:'Read the complete work as Fountain: scene headings, action, dialogue, delivery notes and stable line IDs. Use for story-level feedback before proposing edits.',annotations:new ToolAnnotations(readOnlyHint:true))]
     public function screenplay(RequestContext $context,?string $work=null): array { return $this->queries->screenplay($this->work($context,$work)); }
+    #[McpTool(name:'revise_line',description:'Revise a stable script element ID in the selected work with an expected revision. Dialogue regenerates and selects a versioned local voice take atomically, preserving its existing time slot. Rejects excessive compression. Action edits update text only.')]
+    public function reviseLine(string $lineId,string $text,string $delivery,int $expectedRevision,RequestContext $context,?string $work=null): array
+    {
+        return $this->editor->reviseLine($this->work($context,$work),$lineId,$text,$delivery,$expectedRevision);
+    }
     private function work(RequestContext $context,?string $work): string
     {
         $work ??= $context->getSession()->get('rph_work');

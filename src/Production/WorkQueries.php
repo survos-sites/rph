@@ -23,12 +23,12 @@ final readonly class WorkQueries
             if(count($ids)===1 && isset($scenes[$ids[0]])) $scenes[$ids[0]]['pictureFrames']+=$c['durationFrames']; else $unassigned+=$c['durationFrames'];
         }
         foreach($scenes as &$s) $s['pictureSeconds']=$s['pictureFrames']/($edit['fps']??30);unset($s);
-        return ['work'=>$work,'sceneCount'=>count($scenes),'scenes'=>array_values($scenes),'durationBasis'=>'Sum of selected picture clips assigned to each scene; excludes ambiguous or unassigned clips. Includes title/card scenes. Catalog scene assignments may need editorial correction.','unassignedPictureFrames'=>$unassigned];
+        return ['revision'=>$this->catalog->revision($work),'work'=>$work,'sceneCount'=>count($scenes),'scenes'=>array_values($scenes),'durationBasis'=>'Sum of selected picture clips assigned to each scene; excludes ambiguous or unassigned clips. Includes title/card scenes. Catalog scene assignments may need editorial correction.','unassignedPictureFrames'=>$unassigned];
     }
     public function longestScene(string $work): array
     {
         $r=$this->scenes($work);$scenes=$r['scenes'];usort($scenes,fn($a,$b)=>$b['pictureFrames']<=>$a['pictureFrames']);
-        return ['work'=>$work,'scene'=>$scenes[0]??null,'durationBasis'=>$r['durationBasis'],'unassignedPictureFrames'=>$r['unassignedPictureFrames']];
+        return ['revision'=>$this->catalog->revision($work),'work'=>$work,'scene'=>$scenes[0]??null,'durationBasis'=>$r['durationBasis'],'unassignedPictureFrames'=>$r['unassignedPictureFrames']];
     }
     public function screenplay(string $work): array
     {
@@ -48,7 +48,7 @@ final readonly class WorkQueries
                 } elseif($line['type']==='action') $text.=$line['text']."\n\n";
             }
         }
-        return ['work'=>$work,'format'=>'fountain','basis'=>'Script scene order, not final edit order. Inline notes preserve IDs. Describes authored action, not verified image content.','text'=>$text];
+        return ['revision'=>$this->catalog->revision($work),'work'=>$work,'format'=>'fountain','basis'=>'Script scene order, not final edit order. Inline notes preserve IDs. Describes authored action, not verified image content.','text'=>$text];
     }
     public function characterLines(string $work,string $character): array
     {
@@ -73,6 +73,6 @@ final readonly class WorkQueries
                 $result[]=['id'=>$l['id'],'audioReference'=>ltrim((string)$e['sceneNumber'],'0').'.'.$number,'scene'=>$e['sceneNumber'],'heading'=>$e['name'],'text'=>$l['text'],'delivery'=>$l['direction']??[],'context'=>$context,'selectedAudioClip'=>$audio[$l['id']]??null];
             }
         }
-        return ['work'=>$work,'character'=>$cast,'lineCount'=>count($result),'countBasis'=>'Dialogue elements, not sentences or screen-wrapped lines.','lines'=>$result,'reviewGuidance'=>'Review the complete character arc, warmth, agency and response to others before proposing changes. Preserve stable line IDs. These tools do not mutate the work.'];
+        return ['revision'=>$this->catalog->revision($work),'work'=>$work,'character'=>$cast,'lineCount'=>count($result),'countBasis'=>'Dialogue elements, not sentences or screen-wrapped lines.','lines'=>$result,'reviewGuidance'=>'Review the complete character arc, warmth, agency and response to others before proposing changes. Preserve stable line IDs. These tools do not mutate the work.'];
     }
 }

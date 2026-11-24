@@ -17,6 +17,7 @@ final readonly class RenderOmcVoicesCommand
     public function __construct(private LineVoice $voices, private VoiceStudioSynthesizer $synth, #[Autowire('%kernel.project_dir%')] private string $dir) {}
     public function __invoke(SymfonyStyle $io, #[Argument] string $slug, #[Option('Comma-separated element IDs (required for selective generation)')] string $only = ''): int
     {
+        throw new \LogicException('Legacy JSON writer disabled. Use catalog editing services for SQLite-backed works.');
         if (trim($only) === '') throw new \InvalidArgumentException('Specify --only with dialogue element IDs.');
         $production = new Production($slug, $this->dir.'/data');
         if ($reason = $this->synth->unavailableReason()) throw new \RuntimeException($reason);

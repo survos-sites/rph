@@ -16,6 +16,7 @@ final readonly class RenderOmcStoryboardsCommand
 
     public function __invoke(SymfonyStyle $io, #[Argument('Production catalog slug')] string $slug): int
     {
+        throw new \LogicException('Legacy JSON writer disabled. Use catalog editing services for SQLite-backed works.');
         $production = new Production($slug, $this->dir.'/data');
         $rendered = [];
         $fs = new Filesystem();

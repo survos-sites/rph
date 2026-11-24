@@ -16,6 +16,7 @@ final readonly class RenderOmcMotionCommand
     public function __construct(#[Autowire('%kernel.project_dir%')] private string $dir) {}
     public function __invoke(SymfonyStyle $io, #[Argument] string $slug): int
     {
+        throw new \LogicException('Legacy JSON writer disabled. Use catalog editing services for SQLite-backed works.');
         $p = new Production($slug, $this->dir.'/data'); $fs = new Filesystem(); $updates = [];
         foreach ($p->all('Asset') as $asset) {
             $shot = Production::extension($asset,'rph.shot/1');

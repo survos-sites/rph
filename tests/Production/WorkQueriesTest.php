@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 namespace App\Tests\Production;
-use App\Production\{JsonWorkCatalog,WorkQueries};
+use App\Production\{SqliteWorkCatalog,WorkQueries};
 use PHPUnit\Framework\TestCase;
 final class WorkQueriesTest extends TestCase
 {
     public function testCompleteCharacterContextAndScreenplay(): void
     {
-        $q=new WorkQueries(new JsonWorkCatalog(dirname(__DIR__,2).'/data'));
+        $q=new WorkQueries(new SqliteWorkCatalog(dirname(__DIR__,2).'/data'));
         self::assertSame(14,$q->scenes('xmas')['sceneCount']);
         $jess=$q->characterLines('xmas','jess');self::assertGreaterThan(10,$jess['lineCount']);
         self::assertSame(count($jess['lines']),$jess['lineCount']);
@@ -18,7 +18,7 @@ final class WorkQueriesTest extends TestCase
     }
     public function testUnknownCharacterFailsRatherThanReturningZero(): void
     {
-        $q=new WorkQueries(new JsonWorkCatalog(dirname(__DIR__,2).'/data'));
+        $q=new WorkQueries(new SqliteWorkCatalog(dirname(__DIR__,2).'/data'));
         $this->expectException(\InvalidArgumentException::class);$q->characterLines('xmas','nobody');
     }
 }
