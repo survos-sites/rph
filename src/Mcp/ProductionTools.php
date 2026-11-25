@@ -7,7 +7,7 @@ use Mcp\Schema\ToolAnnotations;
 use Mcp\Server\RequestContext;
 final readonly class ProductionTools
 {
-    public function __construct(private WorkQueries $queries, private \App\Production\ProductionEditor $editor, private \App\Production\ShotEditor $shots, private \App\Production\CharacterEditor $characters, private \App\Production\EditPresentation $presentation, private \App\Production\SequenceEditor $sequence, private \App\Production\MessageCards $cards) {}
+    public function __construct(private WorkQueries $queries, private \App\Production\ProductionEditor $editor, private \App\Production\ShotEditor $shots, private \App\Production\CharacterEditor $characters, private \App\Production\EditPresentation $presentation, private \App\Production\SequenceEditor $sequence, private \App\Production\MessageCards $cards, private \App\Production\VoiceTakeEditor $takes, private \App\Production\SoundCueEditor $sounds) {}
     #[McpTool(name:'list_works',description:'List available production works and their slugs.',annotations:new ToolAnnotations(readOnlyHint:true))]
     public function listWorks(): array { return $this->queries->works(); }
     #[McpTool(name:'set_work',description:'Select a work such as xmas for this MCP session. Does not edit production data. Pass work explicitly on queries for stateless clients.')]
@@ -57,6 +57,15 @@ final readonly class ProductionTools
     #[McpTool(name:'style_inspiration_chat', description:'Present the existing inspiration messages as a wide family chat, preserving all text and timings, with sender bubbles and previous-message context.')]
     public function styleInspirationChat(int $expectedRevision,RequestContext $context,?string $work=null): array
     { return $this->cards->styleChat($this->work($context,$work),$expectedRevision); }
+    #[McpTool(name:'select_voice_takes', description:'Select rendered voice candidates by lineId, text, content-addressed local url, model and voice. Rejects stale text. Measures audio and extends/ripples the timeline to preserve natural delivery; clears stale voice flags.')]
+    public function selectVoiceTakes(string $takesJson,int $expectedRevision,RequestContext $context,?string $work=null): array
+    { return $this->takes->select($this->work($context,$work),$takesJson,$expectedRevision); }
+    #[McpTool(name:'revise_motion', description:'Render and select a versioned SVG layered motion shot with explicit ordered keyframes, preserving current shot duration. Used to synchronize action beats after dialogue retiming.')]
+    public function reviseMotion(string $shotId,string $planJson,int $expectedRevision,RequestContext $context,?string $work=null): array
+    { return $this->shots->reviseMotion($this->work($context,$work),$shotId,$planJson,$expectedRevision); }
+    #[McpTool(name:'select_sound_cue', description:'Select a content-addressed WAV for an existing uniquely named sound cue; verifies duration and saves a version with its description. Preserves timeline timing.')]
+    public function selectSoundCue(string $cueName,string $url,string $description,int $expectedRevision,RequestContext $context,?string $work=null):array
+    {return $this->sounds->select($this->work($context,$work),$cueName,$url,$description,$expectedRevision);}
     private function work(RequestContext $context,?string $work): string
     {
         $work ??= $context->getSession()->get('rph_work');

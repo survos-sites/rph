@@ -7,6 +7,14 @@ const color = (v, fallback) => /^#[0-9a-f]{6}$/i.test(v || '') ? v : fallback;
 const skin = color(a.skin, '#c69572'), hair = color(a.hair, '#34314a');
 const pose = input.pose || 'standing-right', back = pose === 'back';
 const left = pose.endsWith('left'), close = pose.startsWith('closeup');
+// Reusable side-profile gait, eight phases; phase 8 is the planted arrival pose.
+if (/^walk-[0-8]-(left|right)$/.test(pose)) {
+  const phase=Number(pose.split('-')[1]), swing=phase===8?0:Math.sin(phase*Math.PI/4), lift=phase===8?0:Math.abs(Math.cos(phase*Math.PI/4))*2;
+  const coat=color(a.clothing,'#bd956f'), scarf=color(a.scarf,'#b84949');
+  const leg=(sign,shade)=>{const dx=swing*sign*20;return `<path d="M50 143L${50+dx*.45} ${171-Math.max(0,-sign*swing)*7}L${50+dx} ${205-Math.max(0,-sign*swing)*12}" stroke="${shade}" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M${48+dx} ${207-Math.max(0,-sign*swing)*12}h12" stroke="#37404b" stroke-width="7" stroke-linecap="round"/>`;};
+  process.stdout.write(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 220"><title>Side-profile walking pose</title><g ${left?'transform="translate(100 0) scale(-1 1)"':''}>${leg(-1,'#796a60')}<g transform="translate(0 ${-lift})"><path d="M39 80L59 80L67 148H34Z" fill="${coat}" stroke="#534944" stroke-width="1.5"/><path d="M48 89L${49-swing*13} 114L${51-swing*22} 137" stroke="${coat}" stroke-width="8" fill="none" stroke-linecap="round"/><ellipse cx="46" cy="49" rx="22" ry="29" fill="${hair}"/><circle cx="29" cy="25" r="12" fill="${hair}"/><path d="M45 26Q68 27 67 47L72 54L66 57Q67 75 51 77Q38 75 36 60L36 40Z" fill="${skin}"/><path d="M34 28Q48 20 65 30L57 42L43 36L35 58Z" fill="${hair}"/><ellipse cx="61" cy="46" rx="2" ry="3" fill="#493a3c"/><path d="M56 39Q60 36 64 39M60 63h6" stroke="#654735" fill="none" stroke-width="1.5"/><path d="M35 76Q49 82 62 76L62 86L46 88L40 119L32 117L36 86Z" fill="${scarf}"/></g>${leg(1,'#a18b76')}</g></svg>`);
+  process.exit(0);
+}
 // Two compatible rear poses share a hand anchor at the touching edge of their boxes.
 if (pose.startsWith('holding-hands-back-')) {
   const leftPerson=pose.endsWith('left');

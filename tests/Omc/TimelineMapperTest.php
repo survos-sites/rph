@@ -41,8 +41,8 @@ final class TimelineMapperTest extends TestCase
         $p = new Production('xmas', dirname(__DIR__, 2).'/data');
         $tracks = $p->edit()['tracks'];
         $pictures = $tracks[0]['clips'];
-        self::assertSame([0, 60, 193, 279, 423], array_column(array_slice($pictures, 0, 5), 'startFrame'));
-        self::assertSame([60, 133, 86, 144], array_column(array_slice($pictures, 0, 4), 'durationFrames'));
+        self::assertSame(0, $pictures[0]['startFrame']);
+        foreach(array_slice($pictures,1,4) as $i=>$picture)self::assertSame($pictures[$i]['startFrame']+$pictures[$i]['durationFrames'],$picture['startFrame']);
         $dialogue = array_values(array_filter($tracks, fn($t) => $t['name'] === 'Dialogue'))[0]['clips'];
         $siren = array_values(array_filter($dialogue, fn($c) => str_contains($c['name'], 'Is that a siren?')))[0];
         foreach ($tracks as $track) foreach ($track['clips'] as $clip) {
@@ -67,7 +67,7 @@ final class TimelineMapperTest extends TestCase
         $seen = [];
         foreach ($p->edit()['tracks'] as $track) foreach ($track['clips'] as $clip) {
             $id = $clip['extras']['metadata']['rph']['element'] ?? null;
-            if ($track['name'] !== 'Dialogue' || !in_array($id, ['03g', '04c', '05g', '06b', '04g', '05c', '05e', '06f', '06recognition', '02drive-a', '02drive-b', '06d', '06e', '09b', '09d', '09f'], true)) continue;
+            if ($track['name'] !== 'Dialogue' || ($p->media($clip['asset'])['speech']['provider'] ?? null)!=='openai') continue;
             if (($lines[$id]['direction']['audioStatus'] ?? null)==='stale') continue;
             $media = $p->media($clip['asset']);
             self::assertSame($lines[$id]['text'], $media['speech']['text']);
@@ -75,7 +75,7 @@ final class TimelineMapperTest extends TestCase
             self::assertSame(0, $clip['sourceStartFrame']);
             $seen[] = $id;
         }
-        self::assertCount(13, $seen);
+        self::assertCount(29, $seen);
         $original = json_decode(file_get_contents(dirname(__DIR__, 2).'/data/timelines/christmas-facing-west.otio'), true);
         $oldDialogue = array_values(array_filter($original['tracks']['children'], fn($t) => $t['name'] === 'Dialogue'))[0];
         $old = [];
@@ -113,7 +113,7 @@ final class TimelineMapperTest extends TestCase
     {
         $p = new Production('xmas', dirname(__DIR__, 2).'/data');
         $shots = array_values(array_filter(array_map(fn($a) => Production::extension($a, 'rph.shot/1'), $p->all('Asset')), fn($s) => isset($s['motionLayers'])));
-        self::assertCount(3, $shots);
+        self::assertCount(2, $shots);
         $shot = array_values(array_filter($shots, fn($s) => str_ends_with($s['motionLayers']['foreground'], '/jess-car.svg')))[0];
         self::assertGreaterThanOrEqual(300, $shot['durationFrames']);
         self::assertSame($shot['durationFrames']-1, $shot['motionLayers']['keyframes'][array_key_last($shot['motionLayers']['keyframes'])]['frame']);
@@ -121,7 +121,7 @@ final class TimelineMapperTest extends TestCase
         $impact = [];
         foreach ($p->edit()['tracks'] as $track) foreach ($track['clips'] as $clip) if ($clip['name'] === 'sfx:impact.bumper-plow') $impact[] = $clip;
         self::assertCount(1, $impact);
-        self::assertSame($shot['startFrame'] + 210, $impact[0]['startFrame']);
+        self::assertSame($shot['startFrame'] + $shot['motionLayers']['keyframes'][2]['frame'], $impact[0]['startFrame']);
     }
 
     public function testTwoDaysCallStaysInsideDrivingShot(): void
