@@ -2,7 +2,7 @@
 declare(strict_types=1);
 namespace App\Mcp;
 use App\Production\WorkQueries;
-use Mcp\Capability\Attribute\McpTool;
+use Mcp\Server\Capability\Attribute\McpTool;
 use Mcp\Schema\ToolAnnotations;
 use Mcp\Server\RequestContext;
 final readonly class ProductionTools
