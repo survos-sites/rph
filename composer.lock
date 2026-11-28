@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c15037c2065edcd2d93465215a51ef48",
+    "content-hash": "6e2b93d2d242a07dd9a59fe963ac05be",
     "packages": [
         {
             "name": "composer/semver",
@@ -1699,26 +1699,25 @@
         },
         {
             "name": "mcp/sdk",
-            "version": "v0.9.0",
+            "version": "v0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modelcontextprotocol/php-sdk.git",
-                "reference": "be71c78bc3bce25f50d6a7e592017b8af6a2120f"
+                "reference": "5701e69b3f8dcbaf481f8d1ee28a8796a0b7807f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modelcontextprotocol/php-sdk/zipball/be71c78bc3bce25f50d6a7e592017b8af6a2120f",
-                "reference": "be71c78bc3bce25f50d6a7e592017b8af6a2120f",
+                "url": "https://api.github.com/repos/modelcontextprotocol/php-sdk/zipball/5701e69b3f8dcbaf481f8d1ee28a8796a0b7807f",
+                "reference": "5701e69b3f8dcbaf481f8d1ee28a8796a0b7807f",
                 "shasum": ""
             },
             "require": {
-                "ext-fileinfo": "*",
                 "opis/json-schema": "^2.4",
-                "php": "^8.1",
+                "php": "^8.2",
                 "php-http/discovery": "^1.20",
-                "phpdocumentor/reflection-docblock": "^5.6 || ^6.0",
+                "phpdocumentor/reflection-docblock": "^6.0",
                 "psr/clock": "^1.0",
-                "psr/container": "^1.0 || ^2.0",
+                "psr/container": "^1.1 || ^2.0",
                 "psr/event-dispatcher": "^1.0",
                 "psr/http-client": "^1.0",
                 "psr/http-factory": "^1.1",
@@ -1733,7 +1732,10 @@
                 "phpstan/phpstan": "2.3.0"
             },
             "require-dev": {
+                "amphp/amp": "^3.0",
+                "amphp/http-server": "^3.3",
                 "composer/semver": "^3.0",
+                "deptrac/deptrac": "^3.0",
                 "ext-openssl": "*",
                 "firebase/php-jwt": "^6.10 || ^7.0",
                 "laminas/laminas-httphandlerrunner": "^2.12",
@@ -1746,18 +1748,16 @@
                 "phpunit/phpunit": "^10.5",
                 "psr/cache": "^1.0 || ^2.0 || ^3.0",
                 "psr/simple-cache": "^2.0 || ^3.0",
+                "react/async": "^4.3",
+                "react/http": "^1.11",
+                "react/promise": "^3.0",
+                "revolt/event-loop": "^1.0",
                 "symfony/cache": "^5.4 || ^6.4 || ^7.3 || ^8.0",
                 "symfony/console": "^5.4 || ^6.4 || ^7.3 || ^8.0",
                 "symfony/finder": "^5.4 || ^6.4 || ^7.3 || ^8.0",
                 "symfony/http-client": "^5.4 || ^6.4 || ^7.3 || ^8.0",
                 "symfony/lock": "^5.4 || ^6.4 || ^7.3 || ^8.0",
                 "symfony/process": "^5.4 || ^6.4 || ^7.3 || ^8.0"
-            },
-            "suggest": {
-                "firebase/php-jwt": "Required for the JwtTokenValidator.",
-                "psr/cache-implementation": "Required for JwtTokenValidator::fromIssuer() to cache metadata and keys.",
-                "symfony/finder": "Required for file-based discovery.",
-                "symfony/lock": "Required for the SymfonyLockSessionLock."
             },
             "type": "library",
             "autoload": {
@@ -1786,10 +1786,10 @@
             "description": "Model Context Protocol SDK for Client and Server applications in PHP",
             "support": {
                 "issues": "https://github.com/modelcontextprotocol/php-sdk/issues",
-                "source": "https://github.com/modelcontextprotocol/php-sdk/tree/v0.9.0"
+                "source": "https://github.com/modelcontextprotocol/php-sdk/tree/v0.10.0"
             },
-            "time": "2026-10-18T14:29:29+00:00",
-            "published-time": "2026-10-18T14:45:02+00:00"
+            "time": "2026-11-10T17:11:02+00:00",
+            "published-time": "2026-11-10T17:17:23+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -3285,6 +3285,58 @@
             "published-time": "2024-09-11T13:21:14+00:00"
         },
         {
+            "name": "psr/simple-cache",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
+            },
+            "time": "2021-10-29T13:26:27+00:00",
+            "published-time": "2021-10-29T13:27:19+00:00"
+        },
+        {
             "name": "revolt/event-loop",
             "version": "v1.1.0",
             "source": {
@@ -3760,7 +3812,7 @@
         },
         {
             "name": "survos/otio",
-            "version": "dev-main",
+            "version": "2.41.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/survos/otio.git",
@@ -3778,7 +3830,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^13.4"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -3797,7 +3848,7 @@
             ],
             "support": {
                 "issues": "https://github.com/survos/otio/issues",
-                "source": "https://github.com/survos/otio/tree/main"
+                "source": "https://github.com/survos/otio/tree/2.41.9"
             },
             "funding": [
                 {
@@ -3806,30 +3857,33 @@
                 }
             ],
             "time": "2026-10-13T13:10:29+00:00",
-            "published-time": "2026-10-13T13:10:34+00:00"
+            "published-time": "2026-10-13T13:45:40+00:00"
         },
         {
             "name": "survos/otio-bundle",
-            "version": "2.42.15",
+            "version": "2.45.89",
             "source": {
                 "type": "git",
                 "url": "https://github.com/survos/otio-bundle.git",
-                "reference": "e1ea195fea4d24e8ab5bf3aae0e72db5aaab1ba8"
+                "reference": "856ea86241357686d7ed1ac2460cc09e28a48ec3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/survos/otio-bundle/zipball/e1ea195fea4d24e8ab5bf3aae0e72db5aaab1ba8",
-                "reference": "e1ea195fea4d24e8ab5bf3aae0e72db5aaab1ba8",
+                "url": "https://api.github.com/repos/survos/otio-bundle/zipball/856ea86241357686d7ed1ac2460cc09e28a48ec3",
+                "reference": "856ea86241357686d7ed1ac2460cc09e28a48ec3",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.5",
                 "survos/kit-bundle": "^2.36",
-                "survos/otio": "dev-main",
+                "survos/otio": "^2.41.9",
                 "symfony/asset-mapper": "^8.1",
                 "symfony/config": "^8.1",
+                "symfony/console": "^8.1",
                 "symfony/dependency-injection": "^8.1",
+                "symfony/filesystem": "^8.1",
                 "symfony/http-kernel": "^8.1",
+                "symfony/process": "^8.1",
                 "symfony/stimulus-bundle": "^3.3"
             },
             "require-dev": {
@@ -3859,7 +3913,7 @@
             ],
             "support": {
                 "issues": "https://github.com/survos/otio-bundle/issues",
-                "source": "https://github.com/survos/otio-bundle/tree/2.42.15"
+                "source": "https://github.com/survos/otio-bundle/tree/2.45.89"
             },
             "funding": [
                 {
@@ -3867,8 +3921,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-15T11:03:17+00:00",
-            "published-time": "2026-10-15T11:29:18+00:00"
+            "time": "2026-11-24T16:59:43+00:00",
+            "published-time": "2026-11-25T11:25:47+00:00"
         },
         {
             "name": "survos/search-bundle",
@@ -7066,30 +7120,32 @@
         },
         {
             "name": "symfony/mcp-bundle",
-            "version": "v0.15.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mcp-bundle.git",
-                "reference": "0ab9d115aea774c93b8629c4a0ccc6751b8326f8"
+                "reference": "512518a511934d5a73ce6aeab96dc0189d55a239"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mcp-bundle/zipball/0ab9d115aea774c93b8629c4a0ccc6751b8326f8",
-                "reference": "0ab9d115aea774c93b8629c4a0ccc6751b8326f8",
+                "url": "https://api.github.com/repos/symfony/mcp-bundle/zipball/512518a511934d5a73ce6aeab96dc0189d55a239",
+                "reference": "512518a511934d5a73ce6aeab96dc0189d55a239",
                 "shasum": ""
             },
             "require": {
-                "mcp/sdk": "^0.9",
+                "mcp/sdk": "^0.10",
                 "php-http/discovery": "^1.20",
-                "symfony/config": "^7.3|^8.0",
-                "symfony/console": "^7.3|^8.0",
-                "symfony/dependency-injection": "^7.3|^8.0",
-                "symfony/finder": "^7.3|^8.0",
-                "symfony/framework-bundle": "^7.3|^8.0",
-                "symfony/http-foundation": "^7.3|^8.0",
-                "symfony/http-kernel": "^7.3|^8.0",
-                "symfony/psr-http-message-bridge": "^7.3|^8.0",
-                "symfony/routing": "^7.3|^8.0",
+                "psr/http-factory-implementation": "*",
+                "psr/simple-cache": "^1.0|^2.0|^3.0",
+                "symfony/config": "^7.4|^8.0",
+                "symfony/console": "^7.4|^8.0",
+                "symfony/dependency-injection": "^7.4|^8.0",
+                "symfony/finder": "^7.4|^8.0",
+                "symfony/framework-bundle": "^7.4|^8.0",
+                "symfony/http-foundation": "^7.4|^8.0",
+                "symfony/http-kernel": "^7.4|^8.0",
+                "symfony/psr-http-message-bridge": "^7.4|^8.0",
+                "symfony/routing": "^7.4|^8.0",
                 "symfony/service-contracts": "^2.5|^3"
             },
             "require-dev": {
@@ -7098,12 +7154,15 @@
                 "phpstan/phpstan-phpunit": "^2.0",
                 "phpstan/phpstan-strict-rules": "^2.0",
                 "phpunit/phpunit": "^11.5.53",
+                "symfony/http-client": "^7.4|^8.0",
                 "symfony/monolog-bundle": "^3.10 || ^4.0",
-                "symfony/twig-bundle": "^7.3|^8.0"
+                "symfony/security-core": "^7.4|^8.0",
+                "symfony/twig-bundle": "^7.4|^8.0"
             },
             "suggest": {
                 "symfony/lock": "Required for a session lock with any store but \"file\"."
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "extra": {
                 "thanks": {
@@ -7132,7 +7191,7 @@
             ],
             "description": "Symfony integration bundle for Model Context Protocol (via official mcp/sdk)",
             "support": {
-                "source": "https://github.com/symfony/mcp-bundle/tree/v0.15.0"
+                "source": "https://github.com/symfony/mcp-bundle/tree/main"
             },
             "funding": [
                 {
@@ -7152,8 +7211,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-22T23:42:24+00:00",
-            "published-time": "2026-10-23T07:55:31+00:00"
+            "time": "2026-11-18T23:01:07+00:00",
+            "published-time": "2026-11-18T23:01:32+00:00"
         },
         {
             "name": "symfony/messenger",
@@ -14352,10 +14411,10 @@
     "minimum-stability": "beta",
     "stability-flags": {
         "survos/omc": 20,
-        "survos/otio": 20,
         "survos/tabler-bundle": 20,
         "symfony/ai-generic-platform": 20,
-        "symfony/ai-platform": 20
+        "symfony/ai-platform": 20,
+        "symfony/mcp-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
